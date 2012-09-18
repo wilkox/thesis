@@ -1,0 +1,4 @@
+#!/bin/sh
+bibtex compile;
+pdflatex compile.tex;
+open compile.pdf;
