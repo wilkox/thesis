@@ -5,6 +5,10 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%for nice author-year citations
+\usepackage[round,authoryear]{natbib}
+\renewcommand\cite{\citep} %citep is default (Author et al., Year)
+
 \begin{document}
 
 \title{My PhD thesis}
@@ -34,7 +38,7 @@
 \chapter{Conclusions}
 \label{ch:conc}
 
-\bibliographystyle{plain}
+\bibliographystyle{mybibstyle}
 \bibliography{thesis}
 
 \end{document}
