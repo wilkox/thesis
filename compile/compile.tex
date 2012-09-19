@@ -1,4 +1,4 @@
-\documentclass[a4paper]{report}
+\documentclass[a4paper]{book}
 
 %\includeonly{method,results}
 % NOTE
@@ -12,6 +12,10 @@
 %for 1.5 spacing
 \usepackage{setspace}
 \onehalfspacing
+
+%set font to Palatino
+\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 
@@ -28,8 +32,7 @@
 
 \chapter*{Acknowledgements}
 
-\begin{abstract}
-\end{abstract}
+\chapter*{Abstract}
 
 \pagenumbering{arabic}
 
@@ -42,6 +45,7 @@
 \chapter{Conclusions}
 \label{ch:conc}
 
+\singlespacing
 \bibliographystyle{mybibstyle}
 \bibliography{thesis}
 
