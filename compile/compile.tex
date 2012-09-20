@@ -7,7 +7,7 @@
 
 %for nice author-year citations
 \usepackage[round,authoryear]{natbib}
-\renewcommand\cite{\citep} %citep is default (Author et al., Year)
+\renewcommand{\cite}{\citep} %citep is default (Author et al., Year)
 
 %for 1.5 spacing
 \usepackage{setspace}
@@ -28,7 +28,7 @@
 
 %clever references for figures
 \usepackage{hyperref}
-\renewcommand\ref{\autoref}
+\newcommand{\figref}[1]{(\autoref{#1})}
 
 \begin{document}
 
