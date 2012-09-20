@@ -1,7 +1,5 @@
 #!/bin/sh
-latex compile;
 bibtex compile;
 bibtex compile;
-latex compile;
 pdflatex compile.tex;
 open compile.pdf;
