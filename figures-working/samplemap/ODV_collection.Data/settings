@@ -48,5 +48,6 @@ Variable with fCO2, pCO2 or pH input temperature values = -1
 
 [Recent]
 GObjectDir = /Users/wilkox/Dropbox/thesis/figures-working/samplemap/
+ImageFile = /Users/wilkox/Dropbox/thesis/figures-working/samplemap/samplemap.png
 MapProperties_Page = 2
-View = DefaultView.xview
+View = ~886193320~DefaultView.xview
