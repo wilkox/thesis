@@ -59,7 +59,6 @@ ENTRY
     issn
     journal
     key
-    month
     note
     number
     organization
@@ -420,12 +419,6 @@ FUNCTION {format.date}
        pop$ "" }
     'skip$
   if$
-  month empty$
-    'skip$
-    { month
-      " " * swap$ *
-    }
-  if$
   extra.label *
 }
 
@@ -603,7 +596,7 @@ FUNCTION {format.in.ed.booktitle}
 
 FUNCTION {empty.misc.check}
 { author empty$ title empty$ howpublished empty$
-  month empty$ year empty$ note empty$
+  year empty$ note empty$
   and and and and and
   key empty$ not and
     { "all relevant fields are empty in " cite$ * warning$ }
@@ -719,8 +712,6 @@ FUNCTION {article}
     }
   if$
   format.issn output
-  format.doi output
-  format.url output
   new.block
   note output
   fin.entry
