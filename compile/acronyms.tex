@@ -1,0 +1,10 @@
+%define a new command, adef, for easy acronym definition
+\newcommand{\adef}[2]{\newacronym{#1}{#1}{#2}}
+
+%redefine acronym calls for ease
+\newcommand{\ac}[1]{\gls{#1}}
+\newcommand{\acp}[1]{\glspl{#1}}
+
+%the actual list of acronyms
+
+\adef{UFO}{Unidentified Flying Object}
