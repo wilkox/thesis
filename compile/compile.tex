@@ -5,6 +5,9 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%declarative formatting for software names
+\newcommand{\softwarename}[1]{\textsc{#1}}
+
 %for nice author-year citations
 \usepackage[round,authoryear]{natbib}
 \renewcommand{\cite}{\citep} %citep is default (Author et al., Year)
@@ -55,6 +58,9 @@
 
 %for tables that wrap nicely to size
 \usepackage{tabularx}
+
+%to wrap long urls
+\usepackage[vertfit]{breakurl}
 
 \begin{document}
 
