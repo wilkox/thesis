@@ -1,4 +1,6 @@
 #!/bin/sh
-bibtex thesis.bib;
-pdflatex compile.tex;
+pdflatex compile;
+bibtex compile;
+pdflatex compile;
+pdflatex compile;
 open compile.pdf;
