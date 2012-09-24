@@ -34,10 +34,24 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
+\subsubsection{\softwarename{blast} analysis}
+
 A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2012 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \cite{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
+
+\subsubsection{Identification of minimal species sets with \softwarename{minspec}}
+
+A computational method to minimise false \ac{OTU} identifications and increase the accuracy of \ac{OTU} abundance estimates (\softwarename{minspec}) was developed and implemented in \softwarename{perl}.
+Following the approach of \citet{Ye:2009bl} to the parsimonious reconstruction of biochemical pathways (\softwarename{MinPath}), \softwarename{minspec} computes the smallest set of OTUs sufficient to explain a set of observed high-quality hits against RefSeq (or any other sequence database).
+The minimal set computation is framed as a linear programming problem and solved with the \ac{GLPK} tool \ac{GLPSOL} (Free Software Foundation, Boston).
+This approach eliminates many of the spurious \ac{OTU} identifications which result from reads with strong identity to more than one \ac{OTU}. 
+The ``minimal species set'' is liable to exclude some low-abundance \acp{OTU}, but gives more faithful abundance estimates and eliminates many false positives.
+
+To validate this approach and estimate error rates, an assemblage of hypothetical taxa was simulated with varying degrees of overlapping genomic identity and a logarithmic rank-abundance curve. 
+A simulated metagenomic sampling and \softwarename{blast} search was performed on this set, and the results processed with \softwarename{minspec}.
+The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal sets were removed.
 
 TODO HERE 
 
@@ -48,6 +62,7 @@ TODO HERE
 \section{Results}
 \subsection{Metagenomic sequencing}
 \subsection{Phylogenetic analysis of metagenomic data}
+\subsubsection{Validation of \softwarename{minspec}}
 \subsection{Functional analysis of metagenomic data}
 
 \section{Discussion}
