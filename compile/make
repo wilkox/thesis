@@ -1,6 +1,9 @@
 #!/bin/sh
+
 #fix characters in the bibtex db
-sed -i 's/º/\\textdegree\{\}/g' thesis.bib;
+sed 's/º/\\textdegree\{\}/g' thesis.bib >> TMPBIB;
+mv TMPBIB thesis.bib;
+
 pdflatex compile;
 makeglossaries compile;
 bibtex compile;

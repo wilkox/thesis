@@ -26,7 +26,7 @@ The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} re
 
 At each station, $\sim$ 250--560 L of seawater was pumped from $\sim$ 1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
 In the case of deep samples, $\sim$ 225--230 L of seawater was collected from Niskin bottles attached to a \ac{CTD} (SeaBird, Bellevue, USA).
-Seawater samples were prefiltered through a 20 \textmu{}m plankton net, then filtrate was captured on sequential 3.0 \textmu{}m, 0.8 \textmu{}m and 0.1 \textmu{}m polyethersulfone membrane filters (Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
+Seawater samples were prefiltered through a 20 \textmu{}m plankton net, then filtrate was captured on sequential 3.0 \textmu{}m, 0.8 \textmu{}m and 0.1 \textmu{}m 293 mm polyethersulfone membrane filters (Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
 
 DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J. Craig Venter Institute} was performed at the J. Craig Venter Institute (Rockville, USA) as described in \citet{Rusch:2007ez}.
 Pyrosequencing was performed on a GS20 FLX Titanium instrument (Roche, Branford, USA) also at the J. Craig Venter Institute as described in \citet{Lauro:2010jna}.
@@ -52,6 +52,18 @@ The ``minimal species set'' is liable to exclude some low-abundance \acp{OTU}, b
 To validate this approach and estimate error rates, an assemblage of hypothetical taxa was simulated with varying degrees of overlapping genomic identity and a logarithmic rank-abundance curve. 
 A simulated metagenomic sampling and \softwarename{blast} search was performed on this set, and the results processed with \softwarename{minspec}.
 The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal sets were removed.
+
+\subsubsection{\ac{OTU} abundances and variance between zones}
+
+The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
+Briefly, \ac{GAAS} estimates the relative abundance of OTUs from the number and quality of BLAST hits to each species, taking into account differences in genome size. 
+\ac{GAAS} was run with the default settings. 
+To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
+An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
+
+To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles with \softwarename{PRIMER 6}.
+\ac{SIMPER} analysis was performed with \softwarename{PRIMER 6} to identify the contribution of individual \acp{OTU} to differences between the zones. 
+All statistical procedures using \softwarename{PRIMER 6} were performed as described by \citet{Clarke:2001ut}.
 
 TODO HERE 
 
