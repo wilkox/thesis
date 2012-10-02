@@ -686,7 +686,7 @@ FUNCTION {article}
   format.authors "author" output.check
   author format.key output
   new.block
-  format.date "year" output.check
+  " (" * year * ")" *
   new.block
   format.title "title" output.check
   new.block
