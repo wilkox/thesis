@@ -34,7 +34,7 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
-\subsubsection{\softwarename{blast} analysis}
+\subsubsection{\softwarename{blast} comparison to RefSeq database}
 
 A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2012 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \cite{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
@@ -65,12 +65,28 @@ To test the hypothesis that the oceanic zones harbour significantly different co
 \ac{SIMPER} analysis was performed with \softwarename{PRIMER 6} to identify the contribution of individual \acp{OTU} to differences between the zones. 
 All statistical procedures using \softwarename{PRIMER 6} were performed as described by \citet{Clarke:2001ut}.
 
-TODO HERE 
-
-
-
 \subsection{Functional analysis of metagenomic data}
 
+\subsubsection{\softwarename{blast} comparison to \ac{KEGG} database}
+
+In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved July 2 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
+
+\subsubsection{Analysis of functional potential}
+
+Genes identified by \softwarename{blastx} were aggregated to \ac{KEGG} ortholog groups according to the \ac{KEGG} Orthology schema (\url{ftp://ftp.genome.jp/pub/kegg/genes/ko}, retrieved Mar 29 2011), and ortholog group abundances calculated for each sample. 
+Following \citet{Coleman:2010jj}, a read was considered a hit to a given ortholog group if the top three hits for that read (or all hits if fewer than three total hits) were to genes from the same ortholog group, and had bit scores \textgreater{} 40. 
+If the bit score difference between any two top hits was greater than 30, only the hits above this difference were considered.
+
+Ortholog group counts were then used to calculate the abundance of KEGG modules.
+Because many ortholog groups are members of more than one module, the abundance $a_m$ of each module $m$ was calculated as 
+
+\[
+a_{m}=\sum_{K=1}^{n}\frac{C_{K}}{M_K}
+\]
+
+, where $n$ is 
+
+TODO HERE 
 \section{Results}
 \subsection{Metagenomic sequencing}
 \subsection{Phylogenetic analysis of metagenomic data}
