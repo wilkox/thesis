@@ -26,7 +26,7 @@ The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} re
 
 At each station, $\sim$ 250--560 L of seawater was pumped from $\sim$ 1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
 In the case of deep samples, $\sim$ 225--230 L of seawater was collected from Niskin bottles attached to a \ac{CTD} (SeaBird, Bellevue, USA).
-Seawater samples were prefiltered through a 20 \textmu{}m plankton net, then filtrate was captured on sequential 3.0 \textmu{}m, 0.8 \textmu{}m and 0.1 \textmu{}m 293 mm polyethersulfone membrane filters (Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
+Seawater samples were prefiltered through a 20 \micron plankton net, then filtrate was captured on sequential 3.0 \micron 0.8 \micron and 0.1 \micron 293 mm polyethersulfone membrane filters (Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
 
 DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J. Craig Venter Institute} was performed at the J. Craig Venter Institute (Rockville, USA) as described in \citet{Rusch:2007ez}.
 Pyrosequencing was performed on a GS20 FLX Titanium instrument (Roche, Branford, USA) also at the J. Craig Venter Institute as described in \citet{Lauro:2010jna}.
@@ -56,7 +56,7 @@ The outputs of all \softwarename{tblastx} searches against RefSeq were processed
 \subsubsection{\ac{OTU} abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
-Briefly, \ac{GAAS} estimates the relative abundance of OTUs from the number and quality of BLAST hits to each species, taking into account differences in genome size. 
+Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of BLAST hits to each species, taking into account differences in genome size. 
 \ac{GAAS} was run with the default settings. 
 To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
@@ -84,12 +84,37 @@ Because many ortholog groups are members of more than one module, the abundance 
 a_{m}=\sum_{K=1}^{n}\frac{C_{K}}{M_K}
 \]
 
-, where $n$ is 
+where $n$ is the number of ortholog groups $K$ belonging to module $m$, $C_{K}$ is the number of hits to ortholog group $K$, and $M_{K}$ is the total number of modules to which $K$ belongs.
+To account for differences in sequencing depth between samples, module abundances were scaled to 500,000 reads per sample. 
+To test the hypothesis that the \ac{NZ} and \ac{SZ} harbour significantly different functional potential, one-way \ac{ANOSIM} with 999 permutations was performed as above on a standardised, log-transformed Bray-Curtis distance resemblance matrix of the module and ortholog group profiles. 
+A functional profile was generated for each sample by summing the scaled abundances of each module from all size fractions, and \ac{SIMPER} performed as above to identify modules which contributed highly to the variation in functional potential between the two zones. 
+Modules with a high contribution to variance or otherwise of interest were then linked to taxonomy (``taxonomic decomposition'') by noting the genus of the organism associated with each gene in the \ac{KEGG} GENES database and thus calculating the relative contribution of each genus to each module's abundance. 
+This allowed functional contributions to be putatively assigned to genera which were not identified in our taxonomic analysis, as the database included gene sequences for organisms for which a full genome was not available.
+
+\section{Results}
+
+\subsection{Metagenomic sequencing}
+6.6 Gbp of 454 sequence data representing picoplankton in the size range 0.1 -- 3.0 \micron was obtained from 16 samples. 
+After removal of low-quality reads, 454 sequencing yielded 157,507 -- 597,689 reads per sample (mean 354,399) of lengths ranging from 100 to 606 bp (mean 378).
+
+\subsection{Phylogenetic analysis of metagenomic data}
+
+TODO WORKING ON THIS SECTION
+
+The proportion of reads in each sample which yielded matches to RefSeq ranged from 25\% to 85\% (mean 62\%).
+
+The most abundant \acp{OTU} in each sample are given in TODO NEED A TABLE HERETable 1 and a full list of \ac{OTU}
+104 abundances in TODO TODO Table S2. 
+
+\ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.451, p < 0.004). 
+\ac{SIMPER} was performed in order to identify the contribution of individual \acp{OTU} to the differences between the zones. 
+The \ac{SIMPER} analysis found that no single \ac{OTU} contributed more than 2.9\% of variance TODO FIGURE, and 74\% of variance was contributed by \acp{OTU} with a contribution less than 1\%. 
+There was also a large difference in the contribution to variance of the three size fractions, with approximately 52\% of all variance contributed by \acp{OTU} from the 3.0 \micron fraction, 37\% by the 0.8 \micron fraction, and 9\% by the 0.1 \micron fraction TODO TABLE (Table S3, supporting information).
+Notably, \acp{OTU} within several taxonomic groups that had high contribution to variance covaried in their relative representation in the \ac{NZ} and \ac{SZ}.
+For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \emph{Prochlorococcus} and \emph{Synechococcus} spp., SAR11 and SAR116 were on average more abundant in the \ac{NZ} (TODO TODO FITURE Fig. 2).
+Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
 TODO HERE 
-\section{Results}
-\subsection{Metagenomic sequencing}
-\subsection{Phylogenetic analysis of metagenomic data}
 \subsubsection{Validation of \softwarename{minspec}}
 \subsection{Functional analysis of metagenomic data}
 
