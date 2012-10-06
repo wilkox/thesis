@@ -79,11 +79,9 @@ If the bit score difference between any two top hits was greater than 30, only t
 
 Ortholog group counts were then used to calculate the abundance of KEGG modules.
 Because many ortholog groups are members of more than one module, the abundance $a_m$ of each module $m$ was calculated as 
-
 \[
 a_{m}=\sum_{K=1}^{n}\frac{C_{K}}{M_K}
 \]
-
 where $n$ is the number of ortholog groups $K$ belonging to module $m$, $C_{K}$ is the number of hits to ortholog group $K$, and $M_{K}$ is the total number of modules to which $K$ belongs.
 To account for differences in sequencing depth between samples, module abundances were scaled to 500,000 reads per sample. 
 To test the hypothesis that the \ac{NZ} and \ac{SZ} harbour significantly different functional potential, one-way \ac{ANOSIM} with 999 permutations was performed as above on a standardised, log-transformed Bray-Curtis distance resemblance matrix of the module and ortholog group profiles. 
@@ -103,8 +101,10 @@ TODO WORKING ON THIS SECTION
 
 The proportion of reads in each sample which yielded matches to RefSeq ranged from 25\% to 85\% (mean 62\%).
 
-The most abundant \acp{OTU} in each sample are given in TODO NEED A TABLE HERETable 1 and a full list of \ac{OTU}
+The most abundant \acp{OTU} in each sample are given in \tabref{tab:topotus} TODO NEED A TABLE HERETable 1 and a full list of \ac{OTU}
 104 abundances in TODO TODO Table S2. 
+
+\input{../polarfront/topotus.tex}
 
 \ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.451, p < 0.004). 
 \ac{SIMPER} was performed in order to identify the contribution of individual \acp{OTU} to the differences between the zones. 
