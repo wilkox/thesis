@@ -5,6 +5,9 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%easy prime marks
+\newcommand*{\textprime}{\ensuremath{\prime}}
+
 %allow landscape orientation
 \usepackage{pdflscape}
 
@@ -51,6 +54,7 @@
 %clever references for figures and tables
 \usepackage{hyperref}
 \newcommand{\figref}[1]{(\autoref{#1})}
+\newcommand{\figreft}[1]{\autoref{#1}}
 \newcommand{\tabref}[1]{(\autoref{#1})}
 \newcommand{\tabreft}[1]{\autoref{#1}}
 
