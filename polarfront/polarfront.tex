@@ -61,9 +61,10 @@ Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number
 To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
 
-To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles with \softwarename{PRIMER 6}.
-\ac{SIMPER} analysis was performed with \softwarename{PRIMER 6} to identify the contribution of individual \acp{OTU} to differences between the zones. 
-All statistical procedures using \softwarename{PRIMER 6} were performed as described by \citet{Clarke:2001ut}.
+To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles.
+To assess patterns and relationships between the samples and zones, \ac{nMDS} was performed on the same resemblance matrix.
+\ac{SIMPER} analysis was performed to identify the contribution of individual \acp{OTU} to differences between the zones. 
+All statistical procedures were performed in \softwarename{PRIMER 6} as described by \citet{Clarke:2001ut}.
 
 \subsection{Functional analysis of metagenomic data}
 
