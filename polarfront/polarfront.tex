@@ -51,6 +51,7 @@ The ``minimal species set'' is liable to exclude some low-abundance \acp{OTU}, b
 
 To validate this approach and estimate error rates, an assemblage of hypothetical taxa was simulated with varying degrees of overlapping genomic identity and a logarithmic rank-abundance curve. 
 A simulated metagenomic sampling and \softwarename{blast} search was performed on this set, and the results processed with \softwarename{minspec}.
+
 The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal sets were removed.
 
 \subsubsection{\ac{OTU} abundances and variance between zones}
@@ -97,8 +98,6 @@ After removal of low-quality reads, 454 sequencing yielded 157,507 -- 597,689 re
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
-TODO WORKING ON THIS SECTION
-
 The proportion of reads in each sample which yielded matches to RefSeq ranged from 25\% to 85\% (mean 62\%).
 The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.csv}.
 All samples and size fractions exhibited very low \ac{OTU} evenness \figref{fig:rankabundance}.
@@ -119,10 +118,10 @@ Notably, \acp{OTU} within several taxonomic groups that had high contribution to
 For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \emph{Prochlorococcus} and \emph{Synechococcus} spp., SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
-
-
-TODO HERE 
 \subsubsection{Validation of \softwarename{minspec}}
+TODO working on this section
+
+
 \subsection{Functional analysis of metagenomic data}
 
 \section{Discussion}
