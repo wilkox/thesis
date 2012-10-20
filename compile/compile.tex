@@ -5,6 +5,9 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%allow nice greek characters with e.g. \textmu{}
+\usepackage{textcomp}
+
 %easy prime marks
 \newcommand*{\textprime}{\ensuremath{\prime}}
 
@@ -23,6 +26,9 @@
 %for nice author-year citations
 \usepackage[round,authoryear]{natbib}
 \renewcommand{\cite}{\citep} %citep is default (Author et al., Year)
+
+%make arrows work nicely outside math mode
+\renewcommand{\textrightarrow}{\ensuremath{\rightarrow}}
 
 %easy to type micrometres
 \newcommand{\micron}{\textmu{}m}
@@ -63,9 +69,6 @@
 \makeglossaries
 \renewcommand*{\glossaryname}{List of Acronyms}
 \input{../compile/acronyms}
-
-%allow nice greek characters with e.g. \textmu{}
-\usepackage{textcomp}
 
 %for professional tables
 \usepackage{booktabs}

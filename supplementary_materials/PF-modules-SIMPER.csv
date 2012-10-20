@@ -1,0 +1,190 @@
+KEGG module,Average abundance North (standardised and log transformed),Average abundance South (standardised and log transformed),Contribution to variance (%)
+Photosystem II,0.57,0.42,2.21
+"Complex I (NADH dehydrogenase), NADH dehydrogenase I/diaphorase subunit of the bidirectional hydrogenase",0.24,0.01,1.8
+Photosystem I,0.34,0.43,1.7
+"Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP",0.66,0.51,1.16
+"Histidine degradation, histidine => N-formiminoglutamate => glutamate",0.31,0.42,1.14
+Methionine salvage pathway,0.43,0.29,1.14
+sn-Glycerol 3-phosphate transport system,0.16,0.29,1.11
+"Complex I (NADH dehydrogenase), NADH dehydrogenase I",1.05,1.08,1.06
+Branched-chain amino acid transport system,0.83,0.79,0.96
+Dipeptide transport system,0.02,0.14,0.95
+"Adenine nucleotide biosynthesis, IMP => ADP/dADP,ATP/dATP",0.74,0.62,0.95
+Glycine betaine/proline transport system,0.56,0.66,0.94
+"Sulfur reduction, sulfate => H2S",0.44,0.54,0.91
+Simple sugar transport system,0.39,0.46,0.9
+Peptides/nickel transport system,0.98,0.99,0.89
+"Ribosome, eukaryotes",0.27,0.26,0.89
+Multiple sugar transport system,0.55,0.55,0.86
+Type II general secretion system,0.21,0.21,0.82
+Sulfonate/nitrate/taurine transport system,0.37,0.45,0.82
+"Guanine nucleotide biosynthesis, IMP => GDP/dGDP,GTP/dGTP",0.82,0.72,0.81
+"RNA polymerase II, eukaryotes",0.2,0.11,0.76
+"Histidine biosynthesis, PRPP => histidine",0.86,0.94,0.76
+Putrescine transport system,0.09,0.18,0.72
+"Leucine biosynthesis, pyruvate => 2-oxoisovalerate => leucine",1.37,1.29,0.71
+"C5 isoprenoid biosynthesis, non-mevalonate pathway",0.77,0.7,0.71
+"Leucine degradation, leucine => acetoacetate + acetyl-CoA",0.59,0.64,0.71
+Thiamine transport system,0.05,0.13,0.69
+"Spliceosome, 35S U5-snRNP",0.2,0.18,0.68
+Cytochrome b6f complex,0.12,0.14,0.67
+"Menaquinone biosynthesis, chorismate => menaquinone",0.27,0.25,0.66
+"beta-Alanine biosynthesis, cytosine / uracil => beta-alanine",0.16,0.24,0.66
+"Proteasome, 19S regulatory particle (PA700)",0.16,0.14,0.66
+"Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP",1.14,1.07,0.65
+"Lysine degradation, lysine => saccharopine => acetoacetyl-CoA",0.47,0.53,0.63
+Phosphate transport system,0.2,0.16,0.63
+"beta-Carotene biosynthesis, GGAP => beta-carotene",0.44,0.4,0.63
+Putative spermidine/putrescine transport system,0.34,0.39,0.62
+Iron(III) transport system,0.46,0.48,0.6
+"Thiamine biosynthesis, AIR => thiamine-P/thiamine-2P",0.16,0.11,0.6
+"Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate",0.22,0.26,0.6
+"RNA polymerase, bacteria",1.27,1.23,0.6
+"Biotin biosynthesis, pimeloyl-CoA => biotin",0.16,0.17,0.6
+"Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate",0.15,0.21,0.59
+Polar amino acid transport system,0.2,0.23,0.59
+"Ribosome, bacteria",1.46,1.52,0.58
+"Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone",0.63,0.68,0.58
+"Pyridoxal biosynthesis, erythrose-4P => pyridoxal-5P",0.38,0.44,0.57
+Zinc transport system,0.22,0.27,0.55
+General L-amino acid transport system,0.39,0.39,0.55
+Reductive citric acid cycle (Arnon-Buchanan cycle),0.71,0.67,0.55
+"Methionine biosynthesis, apartate => homoserine => methionine",0.67,0.74,0.54
+GABA (gamma-Aminobutyrate) shunt,0.28,0.22,0.54
+indolepyruvate:ferredoxin oxidoreductase,0.09,0.15,0.53
+"Lysine biosynthesis, aspartate => lysine",0.86,0.87,0.53
+"Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine",0.3,0.25,0.53
+Triacylglycerol biosynthesis,0.29,0.23,0.53
+"C5 isoprenoid biosynthesis, mevalonate pathway",0.18,0.23,0.52
+"Fatty acid biosynthesis, elongation",0.66,0.61,0.52
+Molybdate transport system,0.1,0.15,0.52
+"Ribosome, archaea",0.94,0.98,0.51
+"Cobalamin biosynthesis, cobinamide => cobalamin",0.25,0.3,0.51
+"Complex IV (Cytochrome c oxidase), cytochrome o ubiquinol oxidase/cytochrome c oxidase/quinol oxidase polypeptide",0.75,0.81,0.51
+Hydroxypropionate-hydroxybutylate cycle,0.55,0.59,0.51
+"Spliceosome, U4/U6.U5 tri-snRNP",0.16,0.13,0.5
+Iron complex transport system,0.2,0.19,0.5
+"Malonate semialdehyde pathway, propanoyl-CoA => Acetyl-CoA",0.26,0.31,0.49
+"Threonine biosynthesis, apartate => homoserine => threonine",0.46,0.48,0.49
+Coenzyme M biosynthesis,0.04,0.1,0.48
+"C4-dicarboxylic acid cycle, NAD+ -malic enzyme type",0.27,0.22,0.47
+"GABA biosynthesis, eukaryotes, putrescine => GABA",0.46,0.49,0.47
+Zinc/manganese transport system,0.07,0.01,0.46
+"Lipopolysaccharide biosynthesis, KDO2-lipid A",0.65,0.65,0.46
+Urea transport system,0.06,0,0.46
+"Tryptophan biosynthesis, chorismate => tryptophan",0.75,0.78,0.46
+"Inosine monophosphate biosynthesis, PRPP + glutamine => IMP",1.27,1.25,0.45
+Sorbitol/mannitol transport system,0.12,0.14,0.45
+Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway),0.44,0.47,0.45
+"Lignin biosynthesis, cinnamate => lignin",0.18,0.14,0.45
+Ethylmalonyl pathway,0.28,0.3,0.45
+"Nucleotide sugar biosynthesis, prokaryotes",0.39,0.35,0.44
+"Heme biosynthesis, glutamate => protoheme/siroheme",0.63,0.67,0.44
+"Glutathione biosynthesis, glutamate => glutathione",0.27,0.33,0.44
+D-Xylose transport system,0.06,0.08,0.43
+"V-type ATPase, eukaryotes",0.09,0.12,0.43
+Octopine/nopaline transport system,0.1,0.07,0.42
+Cytochrome bd complex,0.07,0.02,0.41
+"Coenzyme A biosynthesis, pantothenate => CoA",0.41,0.39,0.41
+"Cysteine biosynthesis, serine => cysteine",0.33,0.35,0.41
+"Tetrahydrofolate biosynthesis, GTP => THF",0.53,0.51,0.4
+Methionine degradation,0.51,0.47,0.39
+Urea cycle,0.45,0.48,0.39
+3-Hydroxypropionate bicycle,0.52,0.54,0.39
+"F-type ATPase, bacteria",0.64,0.61,0.39
+ATP synthase,0.64,0.61,0.39
+MCM complex,0.1,0.07,0.39
+"DNA polymerase III complex, bacteria",1.09,1.11,0.39
+"Citrate cycle (TCA cycle, Krebs cycle)",0.76,0.72,0.39
+"V-type ATPase, prokaryotes",0.03,0.04,0.39
+Keratan sulfate degradation,0.08,0.09,0.38
+Creatine pathway,0.11,0.08,0.38
+Complex III (Cytochrome bc1 complex),0.39,0.4,0.38
+Lipopolysaccharide export system,0.28,0.27,0.38
+"Methane oxidation, methylotroph, methane => CO2",0.36,0.38,0.38
+beta-Oxidation,0.42,0.44,0.37
+Phosphonate transport system,0.14,0.14,0.37
+"Complex IV (Cytochrome c oxidase), cytochrome c oxidase, cbb3-type",0.05,0.03,0.37
+"Aminoacyl-tRNA biosynthesis, eukaryotes",1.46,1.47,0.37
+ABC-2 type transport system,0.15,0.18,0.36
+"Citrate cycle, first carbon oxidation",0.34,0.3,0.36
+"Spliceosome, U2-snRNP",0.07,0.06,0.36
+Uronic acid metabolism,0.15,0.12,0.36
+Putative ABC transport system,0.19,0.16,0.36
+"Aminoacyl-tRNA biosynthesis, prokaryotes",1.6,1.61,0.36
+"NAD biosynthesis, aspartate => NAD",0.52,0.51,0.36
+"Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate",0.79,0.77,0.35
+Glucuronate pathway (uronate pathway),0.16,0.12,0.35
+"Methanogenesis, formate => methane",0.19,0.22,0.35
+"C1-unit interconversion, prokaryotes",0.28,0.27,0.35
+Ribose transport system,0.06,0.08,0.34
+"Serine biosynthesis, glycerate-3P => serine",0.37,0.4,0.34
+"Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP",0.39,0.35,0.34
+"Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",0.56,0.56,0.34
+Histidine transport system,0,0.04,0.34
+"RNA polymerase, archaea",0.03,0.03,0.34
+Lipoprotein-releasing system,0.18,0.21,0.34
+"Pyruvate oxidation, pyruvate => acetyl-CoA",0.78,0.81,0.33
+"beta-Oxidation, acyl-CoA synthesis",0.28,0.3,0.33
+Rhamnose transport system,0.05,0.04,0.33
+"C4-dicarboxylic acid cycle, NADP+ -malic enzyme type",0.29,0.26,0.32
+Glyoxylate cycle,0.58,0.61,0.32
+Sec (secretion) system,1.25,1.26,0.32
+"Polyamine biosynthesis, arginine => ornithine => putrescine",0.11,0.08,0.31
+"Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE",0.23,0.27,0.31
+"CAM (Crassulacean acid metabolism), light",0.27,0.25,0.31
+"Tyrosine biosynthesis, chorismate => tyrosine",0.26,0.24,0.31
+Uncharacterized ABC transport system,0.47,0.45,0.3
+"Fatty acid biosynthesis, initiation",0.57,0.55,0.3
+Manganese/iron transport system,0.14,0.13,0.3
+"PRPP biosynthesis, ribose 5P => PRPP",0.21,0.19,0.3
+"Ornithine biosynthesis, glutamate => ornithine",0.51,0.55,0.3
+Antibiotic transport system,0.29,0.27,0.3
+"GABA biosynthesis, prokaryotes, putrescine => GABA",0.1,0.12,0.3
+"Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol",0.21,0.18,0.3
+"Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone",0.14,0.16,0.29
+"RNA polymerase III, eukaryotes",0.06,0.07,0.29
+"Complex I (NADH dehydrogenase), NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein",0.08,0.07,0.29
+Heme transport system,0.15,0.16,0.29
+Type VI secretion system,0.07,0.05,0.29
+"Complex IV (Cytochrome c oxidase), cytochrome c oxidase",0.23,0.24,0.29
+"Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD",0.38,0.37,0.28
+Cell division transport system,0.09,0.11,0.28
+"Pantothenate biosynthesis, valine/L-aspartate => pantothenate",0.26,0.27,0.28
+Dicarboxylate-hydroxybutyrate cycle,0.51,0.49,0.28
+Lactose/L-arabinose transport system,0.04,0,0.28
+"Citrate cycle, second carbon oxidation",0.57,0.55,0.28
+"Proline biosynthesis, glutamate => proline",0.4,0.41,0.28
+"Lysine biosynthesis, archaea, 2-aminoadipate => lysine",0.15,0.19,0.28
+"Formaldehyde assimilation, serine pathway",0.27,0.29,0.27
+Twin-arginine translocation (Tat) system,0.17,0.17,0.27
+"Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4",0.03,0.06,0.27
+Reductive pentose phosphate cycle (Calvin cycle),0.31,0.29,0.27
+Putative tungstate transport system,0.07,0.1,0.27
+"Ascorbate biosynthesis, animals, glucose-1P => ascorbate",0.13,0.1,0.26
+Sodium transport system,0.04,0.07,0.26
+"Gluconeogenesis, oxaloacetate => fructose-6P",0.48,0.51,0.26
+BRCA1-associated genome surveillance complex (BASC),0.08,0.08,0.26
+Oligosaccharyltransferase,0.05,0.05,0.26
+"C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type",0.26,0.23,0.26
+"Nucleotide sugar biosynthesis, eukaryotes",0.19,0.17,0.26
+CMP-KDO biosynthesis,0.24,0.26,0.25
+ADP-L-glycero-D-manno-heptose biosynthesis,0.08,0.06,0.24
+Lysine/arginine/ornithine transport system,0,0.03,0.24
+"Tyrosine degradation, tyrosine => homogentisate",0.05,0.07,0.24
+Acylglycerol degradation,0.04,0.01,0.24
+"RNA polymerase I, eukaryotes",0.05,0.05,0.24
+"Glycolysis, core module involving three-carbon compounds",0.4,0.41,0.24
+Spermidine/putrescine transport system,0.05,0.07,0.23
+Capsular polysaccharide transport system,0.05,0.02,0.23
+"Abscisic acid biosynthesis, beta-carotene => abscisic acid",0.03,0,0.22
+"Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P",0.15,0.16,0.22
+Holo-TFIIH complex,0.05,0.04,0.22
+"Reductive pentose phosphate cycle, RuBP + CO2 => glyceraldehyde-3P",0.09,0.08,0.22
+"Flavonoid biosynthesis, 4-coumaroyl-CoA => naringenin => apigenin",0.05,0.06,0.22
+"C1-unit interconversion, eukaryotes",0.11,0.09,0.22
+"Spliceosome, Prp19/CDC5L complex",0.06,0.04,0.2
+Type IV secretion system,0.04,0.02,0.2
+"F-type ATPase, eukaryotes",0.04,0.03,0.2
+"Proteasome, 20S core particle",0.05,0.05,0.2
+"Formaldehyde assimilation, xylulose monophosphate pathway",0.06,0.07,0.2
