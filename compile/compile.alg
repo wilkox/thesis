@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2012] (kpathsea + Thai support).
 Scanning style file ./compile.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file compile.acn....done (80 entries accepted, 0 rejected).
-Sorting entries....done (513 comparisons).
-Generating output file compile.acr....done (60 lines written, 0 warnings).
+Scanning input file compile.acn....done (83 entries accepted, 0 rejected).
+Sorting entries....done (556 comparisons).
+Generating output file compile.acr....done (62 lines written, 0 warnings).
 Output written in compile.acr.
 Transcript written in compile.alg.
