@@ -59,7 +59,7 @@ A simulated \softwarename{blast} search was then performed, in which a taxon was
 To represent a lack of species evenness, taxa were more or less likely to produce a hit according to a logarithmic relationship with their rank within the assemblage, producing a naturalistic rank-abundance curve.
 Each time a taxon was selected to produce a hit, other taxa with simulated sequence identidy were also selected to produce hits for that ``read'', again simulating the problem of a single read producing multiple hits to closely related taxa.
 
-To fully explore the limits and reliability of \softwarename{minspec}, the simulated metagenomic experiment described above was performed with all possible permutations of the following parameters: number of simulated taxa [100, 1000, 10000, 50000, 100000]; size of simulated assemblage [1, 10, 100, 300, 500, 1000, 10000]; number of simulated metagenomic reads [10, 100, 1000, 10000, 100000, 200000].
+To fully explore the limits and reliability of \softwarename{minspec}, the simulated metagenomic experiment described above was performed with all possible permutations of the following parameters: number of simulated taxa [100, 1000, 10000, 50000, 100000]; size of simulated assemblage [1, 10, 100, 300, 500, 1000, 10000]; number of simulated metagenomic reads [10, 100, 1000, 10000, 100000, 200000, 500000].
 Each permutation was repeated five times, except for those where the size of the assemblage would exceed the number of taxa simulated.
 The resulting simulated \softwarename{blast} outputs were processed with \softwarename{minspec}, and the false positive (percentage of taxa not in the assemblage which nevertheless survived \softwarename{minspec} filtering) and false negative (percentage of taxa present in the assemblage which were not present after minspec filtering) rates calculated.
 Because a high false negative rate can arise from undersampling, a problem in metagenomic studies both real and simulated, an additional ``false negative (\softwarename{minspec})'' metric was calculated, which excluded taxa which were present in the assemblage but through random chance did not generate any reads, the equivilant of ``unsampled rare taxa''.
@@ -131,6 +131,8 @@ For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more a
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
 \subsubsection{Validation of \softwarename{minspec}}
+Repeated simulated metagenomic experiments with a wide range of permutations of parameters indicated that \softwarename{minspec} was reliable and able to substantially reduce the rate of false positive \ac{OTU} identifications, although 
+
 TODO working on this section
 Here is a ref to the figure \figref{fig:minspecvalidation}.
 And for fun, the false positives only \figref{fig:minspecvalidationfalsepositive}.
