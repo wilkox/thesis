@@ -131,7 +131,25 @@ For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more a
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
 \subsubsection{Validation of \softwarename{minspec}}
-Repeated simulated metagenomic experiments with a wide range of permutations of parameters indicated that \softwarename{minspec} was reliable and able to substantially reduce the rate of false positive \ac{OTU} identifications, although 
+Repeated simulated metagenomic experiments with a wide range of permutations of parameters indicated that \softwarename{minspec} was reliable and able to substantially reduce the rate of false positive \ac{OTU} identifications, although its effectiveness varied with the parameters of the assemblage and metagenomic experiment.
+
+TODO maybe this needs to be broken out into a seperate small chapter?
+TODO at the very least this belongs in Discussion.
+
+The false negative rate, or percentage of taxa in the assemblage which were absent from the \softwarename{blast} results following \softwarename{minspec} processing, was generally high, ranging from ~ 20\% under ideal conditions (a low assemblage / all taxa ratio, and 500000-read metagenomic sample) to ~90\% in the worst case (a high assemblage / all taxa ratio and a small metagenomic sample) \figref{fig:minspecvalidationfalsenegative}.
+The assemblage / all taxa ratio indicates the proportion of a large group of simulated interrelated taxa (``all taxa'') which was chosen to form the simulated assemblage.
+A higher ratio means it is more likely on average that any randomly selected taxon is part of the assemblage, and thus that any individual failure to detect a taxon is incorrect.
+This problem is mitigated with increasing read count, as this makes it less likely that a given taxon would go undetected.
+It is worth noting that the extreme false negative rates, in some cases 100\%, represent extreme simulated scenarios (e.g. an assemblage of 1 taxon drawn from a pool of 100000), and thus are unlikely to reflect real metagenomic studies.
+
+Because the majority of false negatives are attributable to undersampling and failure of taxa to generate \softwarename{blast} hits --- properties the simulated metagenomic experiments share with real ones --- a second metric, the false negative (\softwarename{minspec}) rate, was calculated \figref{fig:minspecvalidationminspecfalsenegative}.
+This is the proportion of taxa in the assemblage which generated \softwarename{blast} hits, but were incorrectly removed by \softwarename{minspec}.
+This rate thus represents error attributable only to \softwarename{minspec}.
+The false negative (\softwarename{minspec}) rate was generally low, ranging from ~ 0--1\% for low assemblage / all taxa ratios, to 15--20\% under high ratios.
+Surprisingly, increasing read counts only slightly decreased the rate, at both low and high assemblage / all taxa ratios.
+TODO UP TO HERE
+
+
 
 TODO working on this section
 Here is a ref to the figure \figref{fig:minspecvalidation}.
