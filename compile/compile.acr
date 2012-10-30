@@ -10,7 +10,8 @@
 		\setentrycounter[]{page}\glsnumberformat{8\delimR 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16}}}%
 \glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{17}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{CEAMARC/CASO}{\glsnamefont{CEAMARC/CASO}}{Collaborative East Antarctic Marine Census/Climate of Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}%
@@ -30,7 +31,8 @@
 		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
@@ -56,7 +58,8 @@
 		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossaryentryfield{UFO}{\glsnamefont{UFO}}{Unidentified Flying Object}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}}}%
