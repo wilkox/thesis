@@ -6,6 +6,8 @@
 \glossaryentryfield{GLPSOL}{\glsnamefont{\softwarename {GLPSOL}}}{\softwarename {GLPK linear programming/MIP solver}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
+\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of SIMilarities}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8\delimR 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16}}}%
@@ -21,11 +23,17 @@
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
+\glossaryentryfield{DOC}{\glsnamefont{DOC}}{Dissolved Organic Carbon}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
+\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{23}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{GLPK}{\glsnamefont{GLPK}}{GNU Linear Programming Toolkit}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
+\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{23}}}%
 \glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
@@ -43,7 +51,7 @@
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{21\delimR 23}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
@@ -53,13 +61,15 @@
 		\setentrycounter[]{page}\glsnumberformat{10\delimR 12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{21\delimR 23}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21}}}%
 \glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{5}}}%
+\glossaryentryfield{POM}{\glsnamefont{POM}}{Particulate Organic Matter}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{23}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
@@ -68,6 +78,8 @@
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{19}}}%
+\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{22\delimN 23}}}%
 \glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}%
 \glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }{\glossaryentrynumbers{\relax 
@@ -76,8 +88,5 @@
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16\delimR 19}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}\glsgroupskip
-\glsgroupheading{U}\relax \glsresetentrylist %
-\glossaryentryfield{UFO}{\glsnamefont{UFO}}{Unidentified Flying Object}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}%
+		\setentrycounter[]{page}\glsnumberformat{21\delimR 23}}}%
 \end{theglossary}\glossarypostamble
