@@ -278,19 +278,67 @@ It is therefore possible that the populations of Alteromonadales captured on the
 
 \subsubsection{Verrucomicrobia}
 
-TODO begin pasted block
-
 Two representatives of the phylum Verrucomicrobia, \emph{Coraliomargarita akajimensis} and \emph{Akkermansia} sp. Muc-30, were moderate contributors to variance and overrepresented in the \ac{SZ} \figref{fig:taxotreemap}.
 Surprisingly given the small cell size of \emph{C. akajimensis} \cite{Yoon:2007ic}, its contribution to variance increased with size fraction.
 A global survey reported a similar fractionation pattern, and suggested marine Verrucomicrobia may be predominantly particle attached \cite{Freitas:2012jz}.
 However, little else is known about the distribution and ecological roles of marine Verrucomicrobia \cite{Freitas:2012jz}.
 
+\subsection{Functional capacities differentiating the zones}
+
+TODO begin pasted block
+
+A number of modules with transport functions (sn-glycerol 3-phosphate transport system, dipeptide transport system, peptides/nickel transport system, simple sugar transport system, sulfonate/nitrate/taurine transport system) were overrepresented in the \ac{SZ} \tabref{tab:modulessimper}.
+As the genomes of copiotrophic bacteria have evolved to have a higher number of narrow-specificity transporters relative to oligotrophic genomes \cite{Lauro:2009gx}, these differences may reflect the higher nutrient availability and thus a dominance of copiotrophs in the \ac{SZ}.
+The taxonomic contributors to these modules were varied, although members of the Rhodobacterales were prominent \figref{fig:moduledecomp}.
+TODO methods for generating this figure
+TODO does this figure belong in results?
+\input{../polarfront/moduledecomp.tex}
+The glycine betaine/proline transport module was also overrepresented in the \ac{SZ}, though this probably reflects glycine betaine’s role as an osmo- and cryoprotectant in the colder \ac{SZ} waters.
+This is supported by the major taxonomic contributor to this module, genus \emph{Psychromonas}, which includes several psychrophilic species. 
+
+One exception to this pattern was the branched-chain amino acid transport system module, overrepresented in the \ac{NZ}. The genera \emph{Pelagibacter} and \emph{Puniceispirillum} were major contributors to this module’s overabundance in the \ac{NZ} \figref{fig:moduledecomp}.
+As both SAR11 \cite{Giovannoni:2005ib} and SAR116 \cite{Grote:2011dm} representatives encode branched-chain amino acid transporters, the abundance of this module is likely to represent taxonomic differences between the zones.
+
+Biosynthesis pathways for all major nucleic acids (pyrimidine deoxyribonuleotide biosynthesis, adenine nucleotide biosynthesis, guanine nucleotide biosynthesis) were consistently high contributors to variance and overabundant in the \ac{NZ}.
+This pattern seems inconsistent with the more oligotrophic nature of the \ac{NZ}, as oligotrophic cells generally have smaller genomes \cite{Lauro:2009gx} and slower growth rates than copiotrophs, and would therefore be expected to require a lower rate of de novo nucleotide biosynthesis.
+A possible explanation for this is that \ac{SZ} cells have higher availability of extracellular DNA as a byproduct of decaying phytoplankton \cite{Lomas:2011bp}, which can be imported and salvaged for nucleic acids \cite{Paul:1988wn} thus reducing the requirement for de novo synthesis.
+No single taxonomic group contributed a large fraction of the difference in this module \figref{fig:moduledecomp}, suggesting this is a widespread adaptation.
+
+The methionine salvage pathway module had a large contribution to variance between the zones and was overrepresented north of the \ac{PF}.
+This may reflect the higher availability of \ac{DMSP} in the \ac{SZ} as a byproduct of blooming eukaryotic algae.
+\ac{DMSP} is a major carbon and sulfur source for marine microorganisms, and is commonly assimilated by bacteria through demethylation to \ac{MMPA}, followed by further catabolism to the climatically important compounds dimethylsulfide or methanethiol \citep[review in][]{Curson:2011ic}.
+However, when \ac{DMSP} is scarce, \ac{MMPA} may be derived from methionine through the alternative methionine salvage pathway \cite{Reisch:2012bb}.
+The genus \emph{Synechococcus}, a noted contributor to marine \ac{DMSP} uptake and assimilation \cite{VilaCosta:2006gt}, was a very high contributor to the abundance of this module in the \ac{NZ} \figref{fig:moduledecomp}, suggesting \emph{Synechococcus} species may use this route when \ac{DMSP} is unavailable.
+
+The sulfur reduction module was overrepresented in the \ac{SZ}, and it is likely that this result is strongly driven by taxonomic differences.
+While the taxonomic breakdown indicated a large number of genera contributed to the difference, the gammaproteobacteria were the highest-contributing class \figref{fig:moduledecomp}.
+This module also includes the assimilatory sulfate reduction pathway, which is widespread in marine bacteria, but is absent from SAR11, with known representatives reported to lack genes for assimilatory sulfate reduction (cysDNCHIJ) \cite{Tripp:2008dd}.
+The higher relative abundance of SAR11 in the \ac{NZ} may therefore contribute to the lower abundance of genes for assimilatory sulfate reduction in that zone. 
+
+The sulfur reduction module also included adenylylsulfate reductase (APS reductase, encoded by aprAB), an enzyme implicated in sulfite detoxification during heterotrophic growth on organosulfonates \cite{Meyer:2007jd} (N.B. in recent \ac{KEGG} releases, aprA is no longer included in this module).
+As the GSO-EOSA-1 representative SUP05 has been found to encode APS reductase, the overabundance of this module may reflect sulfur oxidation through the reverse dissimilatory sulfate reduction pathway \cite{Walsh:2009fja}.
+Also, Roseobacter clade bacteria are involved in the decomposition of abundant organic sulfur compounds (e.g., \ac{DMSP}, organosulfonates), and hence have been accorded an important role in marine sulfur cycling \cite{Moran:2007fs}.
+
+The photosystem II module was overrepresented in the \ac{NZ}.
+Given the underrepresentation of cyanobacterial \acp{OTU} in the \ac{SZ}, this may reflect a dominance of primary production by eukaryotic algae south of the \ac{PF} and cyanobacteria to the north.
+Decomposition of the taxonomic affiliations of ortholog groups contributing to this module found \acp{OTU} of \emph{Synechococcus} and \emph{Prochlorococcus} to be major contributors to the difference \figref{fig:moduledecomp}.
+Variation in the photosystem I module, which was marginally overrepresented in the \ac{SZ}, could largely be attributed to diatoms and other eukaryotic phytoplankton \figref{fig:moduledecomp}, again supporting a dominance of eukaryotic phytoplankton in \ac{SZ} primary production.
+Diatoms have previously been reported at higher abundance south of the \ac{PF}, and their distribution is likely to be linked to the higher concentration of dissolved silica in that region \cite{Trull:2001tg}.
+As both eukaryotic phytoplankton and cyanobacteria would be expected to encode both complete photosystems, the differences in module abundance probably reflect the degree of similarity between the photosystem I and II genes in the \ac{KEGG} database and those found in the sampled environments. 
+
+The histidine degradation to glutamate module, which comprises four ortholog groups mediating the degradation of histidine to glutamate via N-formiminoglutamate, was overrepresented in the \ac{SZ}.
+The histidine biosynthesis module was also overrepresented in the \ac{SZ}.
+While the concentration of dissolved histidine in the \ac{SO} is generally low \cite{Kawahata:2000ur}, blooming eukaryotic phytoplankton (which are more prevalent in the \ac{SZ}) may deplete nitrate while releasing \ac{DFAA}.
+As \ac{DFAA} become available, they are used by bacteria to sense the decaying bloom. 
+Histidine may therefore act as a proxy for \ac{DFAA} to regulate the expression of bacterial aminopeptidases, which are involved in lysing diatoms \cite{Bidle:2001vi}.
+The class Bacteroidetes, while a small contributor to the histidine biosynthesis module in the \ac{SZ}, was a large contributor to histidine degradation \figref{fig:moduledecomp}, supporting an association between Bacteroidetes and phytoplanktonic bloom products. 
+It is also possible that uptake and degradation of histidine to glutamate (which generates ammonia as a by-product) may function as a limited nitrogen source.
 
 TODO end pasted block
 
+
+
+
 TODO up to here
-
-\subsection{Functional capacities differentiating the zones}
-
 \section{Conclusions}
 
