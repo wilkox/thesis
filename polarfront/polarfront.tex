@@ -46,7 +46,7 @@ The outputs of all \softwarename{tblastx} searches against RefSeq were processed
 
 A computational method to minimise false \ac{OTU} identifications and increase the accuracy of \ac{OTU} abundance estimates (\softwarename{minspec}) was developed and implemented in \softwarename{perl}\footnote{\softwarename{minspec} and the associated metagenomic simulation and validation scripts are open source and available at \url{https://github.com/wilkox/minspec}; a copy has also been provided in the supplementary information.}.
 Following the approach of \citet{Ye:2009bl} to the parsimonious reconstruction of biochemical pathways (\softwarename{MinPath}), \softwarename{minspec} computes the smallest set of OTUs sufficient to explain a set of observed high-quality hits against RefSeq (or any other sequence database).
-The minimal set computation is framed as a linear programming problem and solved with the \ac{GLPK} tool \ac{GLPSOL} (Free Software Foundation, Boston).
+The minimal set computation is framed as a linear programming problem and solved with \softwarename{glpsol} (The GNU Linear Programming/MIP solver) (Free Software Foundation, Boston).
 This approach eliminates many of the spurious \ac{OTU} identifications which result from reads with strong identity to more than one \ac{OTU}. 
 The ``minimal species set'' is liable to exclude some low-abundance \acp{OTU}, but gives more faithful abundance estimates and eliminates many false positives.
 
@@ -69,9 +69,9 @@ Finally, as a measure of \softwarename{minspec}'s usefulness, the proportion of 
 
 \subsubsection{\ac{OTU} abundances and variance between zones}
 
-The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
-Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches to each species, taking into account differences in genome size. 
-\ac{GAAS} was run with the default settings. 
+The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \softwarename{gaas} (Genome relative Abundance and Average Size)\cite{Angly:2009ip}.
+Briefly, \softwarename{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches to each species, taking into account differences in genome size. 
+\softwarename{GAAS} was run with the default settings. 
 To normalise for reads which did not yield acceptable matches, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
 
@@ -181,7 +181,6 @@ There was a strong trend for ortholog groups and modules with higher contributio
 \section{Discussion}
 
 \subsection{Taxonomic groups differentiating the zones}
-TODO working on this section
 
 \subsubsection{GSO-EOSA-1}
 
@@ -285,8 +284,6 @@ However, little else is known about the distribution and ecological roles of mar
 
 \subsection{Functional capacities differentiating the zones}
 
-TODO begin pasted block
-
 A number of modules with transport functions (sn-glycerol 3-phosphate transport system, dipeptide transport system, peptides/nickel transport system, simple sugar transport system, sulfonate/nitrate/taurine transport system) were overrepresented in the \ac{SZ} \tabref{tab:modulessimper}.
 As the genomes of copiotrophic bacteria have evolved to have a higher number of narrow-specificity transporters relative to oligotrophic genomes \cite{Lauro:2009gx}, these differences may reflect the higher nutrient availability and thus a dominance of copiotrophs in the \ac{SZ}.
 The taxonomic contributors to these modules were varied, although members of the Rhodobacterales were prominent \figref{fig:moduledecomp}.
@@ -336,8 +333,6 @@ The class Bacteroidetes, while a small contributor to the histidine biosynthesis
 It is also possible that uptake and degradation of histidine to glutamate (which generates ammonia as a by-product) may function as a limited nitrogen source.
 
 \subsubsection{Conclusions: Biogeographic role of the Polar Front}
-
-TODO begin pasted block
 
 These results show that there are major taxonomic and functional differences across the \ac{PF}.
 The differences in functional potential between the \ac{NZ} and \ac{SZ} reflect both their taxonomic profiles and fundamental trophic and ecological differences.
