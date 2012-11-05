@@ -5,6 +5,10 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%support subsubsubsections
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}}
+\setcounter{tocdepth}{5}
+
 %allow captions to spill over to next page
 \usepackage{afterpage}
 \usepackage{capt-of}
@@ -73,7 +77,6 @@
 \usepackage{graphicx}
 \usepackage[labelfont=bf]{caption}
 \usepackage{subcaption}
-
 
 %clever references for figures and tables
 \usepackage{hyperref}
