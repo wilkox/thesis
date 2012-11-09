@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.16" collection="surface_oceanography">
+<GeographicMap projection_type="3">
+<MapDomain lon_max="180" lat_max="-30" lon_min="-180" lat_min="-90"/>
+<ProjectionPole lon_center="0" lat_center="-60"/>
+</GeographicMap>
+<MapWindow>
+<Symbol size="1.2" small_size="0.4" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="2" x_right="180" y_offset_bb="2.5" y_length_bb="17" y_top="-30" x_length_bb="24" x_projection="100" y_projection="100" y_bottom="-90" x_left="-180"/>
+<GraphicsObjects>
+<GObject post_data="T" own_coordinates="T" type="15" dragging="F" clipping="T">
+<CdtFile border_color="0" line_color="0" symbol_type="-1" file_name="/Users/wilkox/Downloads/southern_ocean_fronts/sthn_ocean_fronts/sthn_ocean_fronts.shp" symbol_size="0" line_style="0" fill_color="-1" border_style="0" border_width="-1" line_width="1"/>
+</GObject>
+</GraphicsObjects>
+</Window>
+</MapWindow>
+<IsoSurfaceVariables>
+<!--Temperature [degrees_Celsius] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--Salinity [psu] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--Oxygen [μmol kg-1] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+<!--Total Chlorophyll [mg m-3] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+</View>
