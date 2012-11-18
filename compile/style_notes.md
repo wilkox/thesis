@@ -13,6 +13,7 @@
 #Gene and protein names
 - Rather than futilely attempting to apply a universal style, gene names should be copied faithfully from the source, including capitalisation and italicisation or lack thereof. Where sources disagree, one should be selected as authoritative and its style consistently applied. 
 - As I'm using a custom dictionary, storing gene and protein names in aspell is fine.
+- Chlorophyll a: the word "chlorophyll" should always be in roman type; the "a" should be in italics. The abbreviated form is "chl a", with the "a" in italics.
 
 #Metagenomes and metagenomics
 - Neither term is a proper noun.
@@ -25,3 +26,6 @@
 
 #Units of measurement
 - Base pairs: bp; kbp = kilo base pairs, Mbp = mega base pairs; Gbp = giga base pairs
+
+#Quotation marks
+- Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
