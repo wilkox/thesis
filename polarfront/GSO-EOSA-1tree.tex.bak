@@ -4,7 +4,7 @@
   \caption[Tree of GSO-EOSA-1 related 16S rRNA genes]{
   Neighbour-joining tree of GSO-EOSA-1-like 16S rRNA gene sequences from the metagenomes in this study.
   Sequences labeled in black text are reads from the metagenomes.
-  Red labels are 16S rRNA gene sequences from Gammaproteobacterial Sulfur Oxidizers (GSO) and other Gammaproteobacteria.
+  Red labels are 16S rRNA gene sequences from Gammaproteobacterial Sulfur Oxidizers (GSO) and other gammoproteobacteria.
   The tree was constructed using \softwarename{arb} \cite{Ludwig:2004dg}.
   }
   \label{fig:GSO-EOSA-1tree}

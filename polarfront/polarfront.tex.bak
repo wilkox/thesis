@@ -19,7 +19,7 @@ Primary production and biomass are high in summer and very low in winter.
 Bacteria are abundant in the \ac{SO} despite the low temperatures and seasonal variability in productivity and are a major route for carbon flow \cite{Hessen:2004vq}.
 
 The \ac{SO} is composed of several zones separated by circumpolar fronts, the locations of which vary temporally and with longitude \cite{Whitworth:1980wo,Orsi:1995va,Sokolov:2002tc}.
-The fronts separate regions with different physicochemical properties, such as density, salinity, temperature and nutrient concentrations \cite{Sokolov:2002tc}.
+The fronts separate regions with different physiochemical properties, such as density, salinity, temperature and nutrient concentrations \cite{Sokolov:2002tc}.
 Hydrographic, bathythermographic and satellite altimetry data have been used to determine the frontal structure of the \ac{ACC} south of Australia \cite{Sokolov:2002tc}.
 From north to south, the major fronts are the \ac{STF}, the \ac{SAF}, the \ac{PF} and the \ac{SACCF}.
 Each of these fronts consists of multiple branches \cite{Sokolov:2002tc,Sokolov:2009wp,Sokolov:2009bd}.
@@ -31,7 +31,7 @@ Large scale metagenome surveys have not previously been performed.
 
 Recent anthropogenic climate change may be driving the warming and freshening of the \ac{ACC} \cite{Boning:2008il} and shifting it and its fronts poleward \cite{Fyfe:2005vp,Biastoch:2009fz}.
 A community-level understanding is required to effectively understand the main components and dynamics of the microbial food web in the \ac{SO} and thereby predict the effects of a shifting \ac{ACC} on the distribution and abundance of plankton.
-The oceanic changes may have global ecological significance as the \ac{SO} performs many ecosystem functions, including significant sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physicochemical processes and the ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}.
+The oceanic changes may have global ecological significance as the \ac{SO} performs many ecosystem functions, including significant sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physiochemical processes and the ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}.
 
 In the austral summer of 2006 we initiated a metagenome program based on the sampling design of the \ac{GOS} expedition \cite{Rusch:2007ez}, aimed at providing a baseline to monitor microbial communities in the Australian section of the \ac{SO}.
 To date we have sampled \ac{SO} water from 73\textdegree{} E to 150\textdegree{} E and 44\textdegree{} S to 68\textdegree{} S at depths from the surface to \textapprox{} 3700 m.
@@ -54,8 +54,8 @@ Nineteen samples (16 surface, 3 deep) were obtained along almost the entire lati
 
 \input{../polarfront/samplemap.tex}
 
-A range of data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meteorological data \tabref{tab:samplelist}.
-These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{} 1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately $-59.70$\textdegree{} of latitude, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
+A range of data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meterological data \tabref{tab:samplelist}.
+These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{} 1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately $-59.70$\textdegree{} of latitude, consistant with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
 Samples were accordingly grouped into ``North'' and ``South'' zones, while the three deep samples composed a ``Deep'' zone \tabref{tab:samplelist}.
 The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} regions, while the \ac{SZ} represents the \ac{AZ}.
 
@@ -82,7 +82,7 @@ The outputs of all \softwarename{tblastx} searches against RefSeq were processed
 \subsubsection{Identification of minimal species sets with \softwarename{minspec}}
 
 A computational method to minimise false \ac{OTU} identifications and increase the accuracy of \ac{OTU} abundance estimates (\softwarename{minspec}) was developed and implemented in \softwarename{perl}\footnote{\softwarename{minspec} and the associated metagenomic simulation and validation scripts are open source and available at \url{https://github.com/wilkox/minspec}; a copy has also been provided in the supplementary information.}.
-Following the approach of \citet{Ye:2009bl} to the parsimonious reconstruction of biochemical pathways (\softwarename{MinPath}), \softwarename{minspec} computes the smallest set of \acp{OTU} sufficient to explain a set of observed high-quality hits against RefSeq (or any other sequence database).
+Following the approach of \citet{Ye:2009bl} to the parsimonious reconstruction of biochemical pathways (\softwarename{MinPath}), \softwarename{minspec} computes the smallest set of OTUs sufficient to explain a set of observed high-quality hits against RefSeq (or any other sequence database).
 The minimal set computation is framed as a linear programming problem and solved with \softwarename{glpsol} (The GNU Linear Programming/MIP solver) (Free Software Foundation, Boston).
 This approach eliminates many of the spurious \ac{OTU} identifications which result from reads with strong identity to more than one \ac{OTU}. 
 The ``minimal species set'' is liable to exclude some low-abundance \acp{OTU}, but gives more faithful abundance estimates and eliminates many false positives.
@@ -91,7 +91,7 @@ To validate this approach and estimate error rates, simulated microbial assembla
 To simulate sequence identity between taxa, each simulated taxon went through up to fifty rounds in which another taxon was selected at random and deemed to have sequence identity with the first.
 After each round, the this process was terminated with a 10\% probability to simulate an exponential curve of interrelatedness between taxa.
 A random subset of the simulated taxa were then selected to form the simulated assemblage.
-Combined with the simulated sequence identity between taxa, this caused some taxa in the assemblage to have identity to taxa outside it.
+Combined with the simulated seqence identity between taxa, this caused some taxa in the assemblage to have identity to taxa outside it.
 A simulated metagenomic sampling was then performed, in which a taxon was selected at random to generate a read.
 To simulate a natural rank-abundance curve, the randomly selected taxon would be rejected with probability $1 - \frac{1}{ln(x)+1}$, where $x$ is the taxon's rank.
 Simulated \softwarename{blast} matches to the taxon were generated for the remaining reads.
@@ -100,9 +100,9 @@ Each time a taxon was selected to produce a read, other taxa with simulated sequ
 To fully explore the limits and reliability of \softwarename{minspec}, the simulated metagenomic experiment described above was performed with all possible permutations of the following parameters: number of simulated taxa [100; 1,000; 10,000; 50,000; 100,000]; size of simulated assemblage [1; 10; 100; 300; 500; 1,000; 10,000]; number of simulated metagenomic reads [10; 100; 1,000; 10,000; 100,000; 200,000; 500,000].
 Each permutation was repeated five times, except for those where the size of the assemblage would exceed the number of taxa simulated.
 The resulting simulated \softwarename{blast} outputs were processed with \softwarename{minspec}, and the false positive (percentage of taxa not in the assemblage which nevertheless survived \softwarename{minspec} filtering) and false negative (percentage of taxa present in the assemblage which were not present after minspec filtering) rates calculated.
-Because a high false negative rate can arise from undersampling, a problem in metagenomic studies both real and simulated, an additional ``false negative (\softwarename{minspec})'' metric was calculated, which excluded taxa which were present in the assemblage but through random chance did not generate any reads, the equivalent of ``unsampled rare taxa''.
+Because a high false negative rate can arise from undersampling, a problem in metagenomic studies both real and simulated, an additional ``false negative (\softwarename{minspec})'' metric was calculated, which excluded taxa which were present in the assemblage but through random chance did not generate any reads, the equivilant of ``unsampled rare taxa''.
 This rate thus represented only false negatives attributable to \softwarename{minspec} itself.
-Finally, as a measure of \softwarename{minspec}'s usefulness, the proportion of ``false'' taxa --- those which generated \softwarename{blast} matches but were not part of the assemblage --- that were successfully removed by \softwarename{minspec} was calculated.
+Finally, as a measure of \softwarename{minspec}'s usefulness, the proportion of ``false'' taxa --- those which generated \softwarename{blast} matches but were not part of the assemblage --- that were succesfully removed by \softwarename{minspec} was calulated.
 
 \subsubsection{\ac{OTU} abundances and variance between zones}
 

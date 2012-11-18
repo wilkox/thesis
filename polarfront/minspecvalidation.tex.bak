@@ -50,9 +50,9 @@
 \end{tabular}
 
 \caption[Results of \softwarename{minspec} validate]{Results of repeated trials of \softwarename{minspec} on simulated metagenomic studies with multiple permutations of parameters (number of reads, number of simulated taxa, size of simulated assemblage).
-The number of simulated taxa and size of simulated assemblage are represented as a ratio on the z-axis (``assemblage / all taxa'').
+The number of simulated taxa and size of simulated assemblage are representated as a ratio on the z-axis (``assemblage / all taxa'').
 Each permutation was repeated five times.
-A plane representing a linear regression has been overlaid on each plot to indicate the trend.
+A plane representing a linear regression has been overlayed on each plot to indicate the trend.
 Points have been tinted to aid the perception of depth; colour is not otherwise meaningful.
 }\label{fig:minspecvalidation}
 \end{figure}

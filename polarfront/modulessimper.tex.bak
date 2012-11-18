@@ -13,7 +13,7 @@ Abundances are zonal averages and have been standardised and log-transformed.
 Photosystem II & 0.42 & 0.57 & 2.21\\
 Complex I (NADH dehydrogenase), NADH dehydrogenase I/diaphorase subunit of the bidirectional hydrogenase & 0.01 & 0.24 & 1.80\\
 Photosystem I & 0.43 & 0.34 & 1.70\\
-Pyrimidine deoxyribonucleotide biosynthesis, CDP/CTP \textrightarrow{} dCDP/dCTP,dTDP/dTTP & 0.51 & 0.66 & 1.16\\
+Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP \textrightarrow{} dCDP/dCTP,dTDP/dTTP & 0.51 & 0.66 & 1.16\\
 Histidine degradation, histidine \textrightarrow{} N-formiminoglutamate \textrightarrow{} glutamate & 0.42 & 0.31 & 1.14\\
 Methionine salvage pathway & 0.29 & 0.43 & 1.14\\
 sn-Glycerol 3-phosphate transport system & 0.29 & 0.16 & 1.11\\

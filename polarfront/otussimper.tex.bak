@@ -3,7 +3,7 @@
 \caption[Highest-contributing \acp{OTU} to the difference between the North and South zones]{ 
 The thirty \acp{OTU} with the highest contributions to the difference between the \ac{NZ} and \ac{SZ}. 
   Abundances are zonal averages and have been standardised and log-transformed.
-  As each \ac{OTU} on each size fraction was encoded as a separate variable in the \ac{SIMPER} analysis, the size fraction is given after each \ac{OTU} name.
+  As each \ac{OTU} on each size fraction was encoded as a seperate variable in the \ac{SIMPER} analysis, the size fraction is given after each \ac{OTU} name.
   }
 \label{tab:otussimper}
 \smallskip
