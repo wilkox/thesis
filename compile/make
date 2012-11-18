@@ -4,6 +4,11 @@
 sed 's/º/\\textdegree\{\}/g' thesis.bib >> TMPBIB;
 mv TMPBIB thesis.bib;
 
+#spellcheck
+
+#tell pdflatex not to be paranoid about /includes
+export openout_any=a;
+
 pdflatex compile;
 makeglossaries compile;
 bibtex compile;
