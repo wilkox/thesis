@@ -1,4 +1,4 @@
-personal_ws-1.1 en 203 
+personal_ws-1.1 en 232 
 chemoautotrophy
 ASW
 clades
@@ -12,18 +12,26 @@ AAIW
 Electrophoresis
 oceanographically
 mesopelagic
+TonB
+Flavobacteria
 hydroxypropionate
 oligotroph
+pufM
+Puniceispirillum
 proteobacterial
+Mesoscale
 DOC
 bacteriochlorophyll
 CTD
 anthropogenic
+spp
 Deltaproteobacteria
 ammonium
 chemoautotrophic
 HNLC
 DOM
+gammaproteobacterial
+betaproteobacterial
 capsid
 STF
 Anvers
@@ -44,6 +52,7 @@ underexplored
 poleward
 planktonic
 symbionts
+marinum
 Candidatus
 specialising
 biogeographically
@@ -52,10 +61,12 @@ KEOPS
 upwelling
 polyamines
 FISH
+Polaribacter
 archaea
 Roseobacter
 hydroxybutyrate
 taxa
+EOSA
 Subantarctic
 utilise
 amino
@@ -66,9 +77,14 @@ GOS
 isopycnals
 SIMPER
 obligately
+pyrosequenced
 photochemical
+Bacteroidetes
+GSO
 Gerlache
 HMW
+gammaproteobacterium
+HTCC
 infeasible
 proteorhodopsin
 lysis
@@ -88,6 +104,7 @@ maximise
 AC
 dinoflagellates
 dimethylsulfoniopropionate
+BD
 fractionation
 vacuolated
 vitro
@@ -95,11 +112,14 @@ utilisation
 AP
 picoplankton
 clade
+Nitrosospira
+bp
 UCDW
 AZ
 photic
 BW
 metagenome
+NAC
 dehydrogenase
 cyanophage
 Genomic
@@ -115,7 +135,9 @@ Cyanobacteria
 cyanobacteria
 leucine
 phytoplankton
+KI
 psychrotolerant
+flavobacterial
 LCDW
 euryarchaeon
 taurine
@@ -131,6 +153,7 @@ metaproteome
 photoinhibition
 heterotrophic
 PF
+roseobacters
 datasets
 tricarboxylic
 photoautotrophy
@@ -160,6 +183,7 @@ CASO
 Kerguelen
 Epsilonproteobacteria
 PFZ
+agg
 D'Urville
 mesocosm
 SACCF
@@ -169,11 +193,14 @@ biogeographic
 colonisers
 ORF
 biogeographical
+Synechococcus
 Bacteroides
+deltaproteobacterial
 fosmids
 SAMW
 subunit
 SAF
+Prochlorococcus
 POM
 utilising
 DMSP
@@ -187,6 +214,7 @@ Cytophaga
 photoheterotrophs
 OTU
 CFB
+SAR
 nMDS
 photoheterotrophy
 characterised
@@ -198,6 +226,7 @@ AABW
 Gammaproteobacteria
 summarise
 Crenarchaeota
+TODO
 oligotrophic
 chemolithoautotrophy
 anoxygenic

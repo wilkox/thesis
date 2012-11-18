@@ -122,7 +122,7 @@ Nevertheless, Roseobacter clade representatives in these polar waters are metabo
 
 \subsubsubsection{SAR11}
 
-The SAR11 clade of Alphaproteobacteria is probably the most abundant class of marine microorganisms worldwide \cite{Morris:2002bn}.
+The SAR11 clade of alphaproteobacteria is probably the most abundant class of marine microorganisms worldwide \cite{Morris:2002bn}.
 \emph{Pelagibacter ubique} strain HTCC1062, the first and most intensively studied SAR11 isolate, has one of the smallest genomes and gene complements of any known free-living cell as well as a very small cell volume \cite{Giovannoni:2005ib}.
 The small cell volume, streamlined genome and high proportion of ABC nutrient-uptake transporter genes are all consistent with an oligotrophic lifestyle, scavenging a wide range of substrates using high-affinity, broad-specificity transporters \cite{Giovannoni:2005ib,Lauro:2009gx,Sowell:2008ks}.
 SAR11 cells probably preferentially utilise low over high molecular weight \ac{DOM} \cite{Malmstrom:2005el} and their relative contribution to uptake of \ac{DOM} may decrease as substrate concentration increases \cite{Alonso:2006dj}.
@@ -150,7 +150,7 @@ Alternatively, constitutive expression of proteorhodopsin for light harvesting i
 
 \subsubsubsection{SAR116}
 
-The SAR116 clade of Alphaproteobacteria have been detected throughout the world ocean, and in molecular studies of the \ac{SO} \cite{West:2008kc,Topping:2006ul}.
+The SAR116 clade of alphaproteobacteria have been detected throughout the world ocean, and in molecular studies of the \ac{SO} \cite{West:2008kc,Topping:2006ul}.
  \citet{Topping:2006ul} using \ac{FISH} estimated it composed 13.1\% $\pm 8.6$ to 31.9\% $\pm13.7$ of bacterioplankton in the West and East regions of the Scotia Sea respectively.
 
 The only isolated SAR116 representative, ``\emph{Candidatus} Puniceispirillum marinum'', has been reported to have a versatile repertoire of genes for aerobic CO fixation, C1 metabolism and dimethylsulfoniopropionate degradation, suggesting it may occupy a ``marine generalist'' niche similar to that of SAR11 and some Roseobacters \cite{Oh:2010di}.
@@ -160,11 +160,11 @@ Proteins for ABC and TRAP transport and C1 metabolism with high matches to SAR11
 
 The Betaproteobacteria are a large and cosmopolitan class with a range of ecological roles in the World Ocean \citep[reviewed in][]{Kirchman:2008wz}.
 While not found at high abundance \cite{Gentile:2006ef,Ghiglione:2011ee,Jamieson:2012up}, there is evidence that Betaproteobacteria perform significant ecological functions.
-Most known \ac{AOB} belong to the Betaproteobacteria \cite{Head:1993vt,Teske:1994wt}.
+Most known \ac{AOB} belong to the betaproteobacteria \cite{Head:1993vt,Teske:1994wt}.
 \citet{Hollibaugh:2002em} detected \emph{Nitrosospira}-like 16S rRNA sequences in Ross Sea and Antarctic Peninsula surface waters, and noted that the ribotype appeared similar to one found in the Arctic.
 Metagenomic and metaproteomic analyses of surface coastal waters off the Antarctic Peninsula show evidence of Calvin cycle carbon fixation and ammonia oxidation in winter performed by ammonia-oxidizing Betaproteobacteria \cite{Grzymski:2012ej,Williams:2012bs}.
 
-The OM43 clade of Betaproteobacteria has been associated with coastal phytoplankton blooms \cite{Morris:2006hma} and shown to be an obligate methylotroph capable of utilising methanol and formaldehyde as carbon and energy sources \cite{Giovannoni:2008kw}.
+The OM43 clade of betaproteobacteria has been associated with coastal phytoplankton blooms \cite{Morris:2006hma} and shown to be an obligate methylotroph capable of utilising methanol and formaldehyde as carbon and energy sources \cite{Giovannoni:2008kw}.
 As it has the smallest reported genome for a free-living cell, OM43 seems to be highly specialized for this unusual niche (the 'genome streamlining' hypothesis, \citet{Mira:2001ti}).
 OM43 has been detected in a 16S rDNA library in a naturally fertilised bloom in the \ac{SAZ} \cite{West:2008kc}, where it was the only betaproteobacterial representative, and in a metaproteomic survey of coastal waters on the \ac{AP}, where methanol dehydrogenase from OM43 was detected \cite{Williams:2012bs}.
 Although the source of methanol in the marine environment is not yet clear, it may be a byproduct of phytoplankton growth \cite{Heikes:2002ee} which would be consistent with OM43's observed association with coastal blooms.
@@ -201,13 +201,13 @@ It has since been reported as one of the dominant proteobacterial groups in the 
 In waters off the western Antarctic Peninsula, Ant4D3 was reported to compose 10\% of the total community and half the gammaproteobacterial community, and 68\% of cells incorporating amino acids \cite{Straza:2010io}.
 The authors also reported that the clade appears to have low diversity, based on detected rDNA sequences.
 Like SAR86, Ant4D3 cells were more active in \ac{HNLC} than bloom conditions on the Kerguelen Plateau \cite{West:2008kc}.
-However, \cite{Ghiglione:2011ee} reported that 16.5\% of tag-pyrosequenced 16S \ac{DGGE} bands from summer \ac{AP} waters were affiliated to Ant4D3, dominating the Gammaproteobacteria and outnumbering winter and Kerguelen Island waters.
+However, \cite{Ghiglione:2011ee} reported that 16.5\% of tag-pyrosequenced 16S \ac{DGGE} bands from summer \ac{AP} waters were affiliated to Ant4D3, dominating the gammaproteobacteria and outnumbering winter and Kerguelen Island waters.
 \cite{Murray:2011ib} similarly found Ant4D3 clones to be highly abundant in a 16S library from waters in the vicinity of Antarctic icebergs.
 Little is known about the group's function or ecological position, although it has been detected in Arctic waters where it appeared to occupy a \ac{DOM} utilisation niche different from that of other major heterotrophs e.g. SAR11 \cite{Nikrad:2012fa}.
 
 \subsubsubsection{GSO-EOSA-1}
 
-The GSO-EOSA-1 cluster of sulfur-oxidizing Gammaproteobacteria, which includes the uncultivated ARCTIC96BD-19 and SUP05 lineages as well as cultivated chemoautotrophic clam symbionts, has been reported in global mesopelagic waters \cite{Swan:2011hb} and oxygen minimum zones \cite{Walsh:2009fja,Canfield:2010ib}.
+The GSO-EOSA-1 cluster of sulfur-oxidizing gammaproteobacteria, which includes the uncultivated ARCTIC96BD-19 and SUP05 lineages as well as cultivated chemoautotrophic clam symbionts, has been reported in global mesopelagic waters \cite{Swan:2011hb} and oxygen minimum zones \cite{Walsh:2009fja,Canfield:2010ib}.
 Three studies have recently identified GSO-EOSA-1 representatives at high abundance in coastal and \ac{AZ} waters.
 A metagenomic survey of coastal waters at Palmer station found GSO-EOSA-1 winter bacterioplankton were dominated by Gammaproteobacteria (19.7\% of the winter library compared to 2.7\% of the summer library) falling into 5 closely-related 0.03 distance bins that were affiliated with the GSO-EOSA-1 complex.
 \cite{Grzymski:2012ej}, in a metaproteomic survey of coastal waters at Palmer station, found GSO-EOSA-1 proteins composed a large fraction of all gammaproteobacterial proteins detected and were significantly more abundant in winter than summer (20\% vs 3\%).
@@ -240,7 +240,7 @@ Two groups, the uncultured agg58 cluster and the genus \emph{Polaribacter}, appe
 
 There is some evidence that planktonic and particle-attached \ac{CFB}, rather than being an integrated population with cells opportunistically shifting between phases, may comprise at least partially distinct groups of phylotypes.
 TODO check this against published version
-In a mesocosm experiment examining colonisation of diatom detritus in \ac{SO} seawater, 16S \ac{DGGE} and sequencing analysis showed a large proportion of flavobacterial phylotypes present in the planktonic phase failed to colonise detrital particles during the course of the experiment \cite{Abell:dh}.
+In a mesocosm experiment examining colonisation of diatom detritus in \ac{SO} seawater, 16S \ac{DGGE} and sequencing analysis showed a large proportion of Flavobacterial phylotypes present in the planktonic phase failed to colonise detrital particles during the course of the experiment \cite{Abell:dh}.
 The authors suggest these phylotypes may be slower-growing, perhaps comprising a secondary group of colonisers which only come to dominate when the more accessible detrital nutrients have been exhausted and the primary colonisers have secreted useful secondary metabolites.
 Alternatively, some flavobacterial groups may not use particle attachment as a primary strategy.
 Questions around the relationship between particle-attached and free-living microbial communities emphasise the usefulness of size fractionation in molecular studies of marine microbial communities.
@@ -262,7 +262,7 @@ Cyanobacteria also appear to be at low abundance in the \ac{SAZ} \cite{Abell:200
 
 \subsubsection{Verrucomicrobia}
 
-Verrucomicrobia is a recently described phylum that is ubiquitous in the marine environment, and appears to be composed of several physiologically distinct lineages \cite{Freitas:2012jz}.
+The Verrucomicrobia is a recently described phylum that is ubiquitous in the marine environment, and appears to be composed of several physiologically distinct lineages \cite{Freitas:2012jz}.
 A small number of representatives of Verrucomicrobia have been detected in the \ac{SO} \cite{Murray:2011ib,West:2008kc,Gentile:2006ef,Murray:2007db}, and \citet{Ghiglione:2011ee} reported a higher abundance of 16S rDNA clones affiliating with the Verrucomicrobia at a Kerguelen Island site relative to a site near Palmer Station on the Antarctic Peninsula.
 Little else is known regarding their abundance, diversity or ecological role in the \ac{SO}.
 
