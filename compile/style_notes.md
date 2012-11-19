@@ -9,6 +9,7 @@
 - Regarding spelling: as I'm using a custom dictionary, storing Latin names as well as the text parts of clade names (e.g. the "SAR" from "SAR11") in aspell is acceptable, although of course the spelling should be checked before adding.
 - Giving a rank without an article refers to that rank ("Verrucomicrobia is a recently described bacterial phylum"), while adding an article indicates a representative or representatives of the rank ("The Verrucomicrobia found in the first sample were absent from the second").
 - It is acceptable to refer to members of the domains Bacteria, Archaea and Eukarya as bacteria, archaea and eukarya respectively.
+- Candidatus names: the word "Candidatus" should always be italicised. The entire name should be surrounded by quotation marks. So: "The new strain was called "*Candidatus* Pelagibacter ubique", and "*Ca*. P. ubique" soon became very popular."
 
 #Gene and protein names
 - Rather than futilely attempting to apply a universal style, gene names should be copied faithfully from the source, including capitalisation and italicisation or lack thereof. Where sources disagree, one should be selected as authoritative and its style consistently applied. 
@@ -21,15 +22,15 @@
 - There is no need to say "metagenomic dataset" or "set of metagenomic sequences" where merely "metagenome" will do.
 
 #American, British and Australian English
-- As a general rule, Australian English spellings should be used: so "oxidise" rather than "oxidize".
+- As a general rule, Australian English spellings should be used: so "oxidise" rather than "oxidize"; "sulphonate" rather than "sulfonate".
 - However, an exception can be made when the word forms part of a name already in the literature: so the GSO are the "Gammaproteobacterial Sulfur Oxidizers".
 
 #Units of measurement
-- Base pairs: bp; kbp = kilo base pairs, Mbp = mega base pairs; Gbp = giga base pairs
+- Base pairs: bp; kbp: kilo base pairs, Mbp: mega base pairs; Gbp: giga base pairs
 
 #Quotation marks
 - Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
 
 #id est and exempli gratia (i.e. and e.g.)
-- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ " and "e.g.\ ". Note the space after the "\". Do not use this with the "citep" command (e.g. "\citep[e.g]{smith2001}"), as LaTeX handles the spaces there on its own.
-- Neither should be followed by a comma.
+- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ " and "e.g.\ ". Note the space after the "\". Do not use this with the "citep" command; "\citep[e.g]{smith2001}" is fine.
+- Neither "i.e." nor "e.g." should be followed by a comma.
