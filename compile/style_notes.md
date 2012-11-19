@@ -29,3 +29,7 @@
 
 #Quotation marks
 - Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
+
+#id est and exempli gratia (i.e. and e.g.)
+- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ " and "e.g.\ ". Note the space after the "\". Do not use this with the "citep" command (e.g. "\citep[e.g]{smith2001}"), as LaTeX handles the spaces there on its own.
+- Neither should be followed by a comma.
