@@ -1,9 +1,12 @@
 \documentclass[a4paper]{book}
 
-%\includeonly{method,results}
+\includeonly{sandbox}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
+
+%support biological names
+\input{biological_names.tex}
 
 %support subsubsubsections
 \newcommand{\subsubsubsection}[1]{\paragraph{#1}}
@@ -132,6 +135,8 @@
 \chapter{Acknowledgements}
 
 \chapter{Abstract}
+
+\include{sandbox}
 
 \clearpage
 \pagenumbering{arabic}

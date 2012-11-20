@@ -1,0 +1,74 @@
+%for regular species
+\newcommand*{\speciesformat}[1]{\textit{#1}}
+\makeatletter
+\newcommand{\newspecies}[2]{%
+  \expandafter\newcommand\csname species@#1\endcsname{%
+    \expandafter\speciesMakeShort\csname species@#1\endcsname#2 \@nil{#2}%
+    #2%
+  }%
+}
+\makeatletter
+% Assumption: the first word consists of more than one letter.
+\def\speciesMakeShort#1#2 #3\@nil#4{%
+  \begingroup
+    \def\x{#3}%
+    \ifx\x\@empty
+      % one word, no spaces
+      \gdef#1{#4}%
+    \else
+      \species@MakeShort#1#2 #3\@nil
+    \fi
+  \endgroup
+}
+\def\species@MakeShort#1#2#3 #4 \@nil{%
+  \gdef#1{#2.~#4}%
+}
+\newcommand*{\species}[1]{%
+  \speciesformat{%
+    \@ifundefined{species@#1}{%
+      \latex@error{Species `#1' is undefined}\@ehc
+      [#1]%
+    }{%
+      \csname species@#1\endcsname
+    }%
+  }%
+}
+\makeatother
+
+%for candidatus species
+\newcommand*{\candidatusspeciesformat}[1]{#1}
+\makeatletter
+\newcommand{\newcandidatusspecies}[2]{%
+  \expandafter\newcommand\csname species@#1\endcsname{%
+    \expandafter\candidatusSpeciesMakeShort\csname species@#1\endcsname#2 \@nil{#2}%
+    #2%
+  }%
+}
+\makeatletter
+% Assumption: the first word consists of more than one letter.
+\def\candidatusSpeciesMakeShort#1#2 #3\@nil#4{%
+  \begingroup
+    \def\x{#3}%
+    \ifx\x\@empty
+      % one word, no spaces
+      \gdef#1{#4}%
+    \else
+      \textit{Candidatus} \candidatusspecies@MakeShort#1#2 #3\@nil
+    \fi
+  \endgroup
+}
+\def\candidatusspecies@MakeShort#1#2#3 #4 \@nil{%
+  \gdef#1{\textit{Ca.} #2.~#4}%
+}
+\newcommand*{\candidatus}[1]{%
+  \candidatusspeciesformat{%
+    \@ifundefined{species@#1}{%
+      \latex@error{Species `#1' is undefined}\@ehc
+      [#1]%
+    }{%
+      ``\csname species@#1\endcsname''}%
+  }%
+}
+\makeatother
+\newspecies{Escherichia coli}{Escherichia coli}
+\newcandidatusspecies{Pelagibacter ubique}{Pelagibacter ubique}
