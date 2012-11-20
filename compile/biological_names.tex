@@ -21,18 +21,10 @@
   \endgroup
 }
 \def\species@MakeShort#1#2#3 #4 \@nil{%
-  \gdef#1{#2.~#4}%
+  \textit{\gdef#1{#2.~#4}}%
 }
-\newcommand*{\species}[1]{%
-  \speciesformat{%
-    \@ifundefined{species@#1}{%
-      \latex@error{Species `#1' is undefined}\@ehc
-      [#1]%
-    }{%
-      \csname species@#1\endcsname
-    }%
-  }%
-}
+\newcommand*{\species}[1]{\textit{\@ifundefined{species@#1}{\newspecies{#1}{#1}}
+\speciesformat{\@ifundefined{species@#1}{\latex@error{Species `#1' is undefined}\@ehc [#1]}{\csname species@#1\endcsname}}}}
 \makeatother
 
 %for candidatus species
@@ -61,6 +53,7 @@
   \gdef#1{\textit{Ca.} #2.~#4}%
 }
 \newcommand*{\candidatus}[1]{%
+  \@ifundefined{species@#1}{\newcandidatusspecies{#1}{#1}}
   \candidatusspeciesformat{%
     \@ifundefined{species@#1}{%
       \latex@error{Species `#1' is undefined}\@ehc
@@ -70,5 +63,5 @@
   }%
 }
 \makeatother
-\newspecies{Escherichia coli}{Escherichia coli}
-\newcandidatusspecies{Pelagibacter ubique}{Pelagibacter ubique}
+%\newspecies{Escherichia coli}{Escherichia coli}
+%\newcandidatusspecies{Pelagibacter ubique}{Pelagibacter ubique}
