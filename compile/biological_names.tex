@@ -25,6 +25,7 @@
 }
 \newcommand*{\species}[1]{\textit{\@ifundefined{species@#1}{\newspecies{#1}{#1}}
 \speciesformat{\@ifundefined{species@#1}{\latex@error{Species `#1' is undefined}\@ehc [#1]}{\csname species@#1\endcsname}}}}
+\newcommand*{\speciesfull}[1]{\@ifundefined{species@#1}{\newspecies{#1}{#1}}\textit{#1}}
 \makeatother
 
 %for candidatus species
@@ -62,6 +63,5 @@
       ``\csname species@#1\endcsname''}%
   }%
 }
+\newcommand*{\candidatusfull}[1]{\@ifundefined{species@#1}{\newcandidatusspecies{#1}{#1}}``\textit{Candidatus} #1''}
 \makeatother
-%\newspecies{Escherichia coli}{Escherichia coli}
-%\newcandidatusspecies{Pelagibacter ubique}{Pelagibacter ubique}
