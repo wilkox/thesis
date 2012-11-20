@@ -34,3 +34,7 @@
 #id est and exempli gratia (i.e. and e.g.)
 - Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ " and "e.g.\ ". Note the space after the "\". Do not use this with the "citep" command; "\citep[e.g]{smith2001}" is fine.
 - Neither "i.e." nor "e.g." should be followed by a comma.
+
+#Headings (chatper, section etc.)
+- Only the first word of a heading should be capitalised.
+- Acronyms in headings should be expanded.
