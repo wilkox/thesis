@@ -14,15 +14,16 @@ Anthropogenic climate change may be driving the warming and freshening of the \a
 It may also be shifting the \ac{ACC} and associated fronts poleward; the mean path of the current has moved \textapprox{} 50 km south since the 1950s \cite{Gille:2002fr}.
 If this trend continues, by 2100 this migration will have reduced the volume of water south of the \ac{ACC} by approximately the equivalent of the entire Arctic Ocean \cite{Fyfe:2005vp}.
 
-Climate change may also be affecting the zones separated by these fronts.
+Climate change may also be changing the zones separated by these fronts.
 The major zones of the \ac{SO} are the \ac{SAZ}, between the \ac{STF} and \ac{SAF}; the \ac{PFZ}, between the \ac{SAF} and the \ac{PF}; and the \ac{AZ}, between the \ac{PF} and the Antarctic continent \figref{fig:oceanographymap}.
 These zones have different physicochemical properties, such as density, salinity, temperature and nutrient concentrations \cite{Sokolov:2002tc}, and the fronts represent stepwise transitions in these properties \cite{WhitworthIII:1987ky}.
 However, as a consequence of climate change, waters on the poleward side of the \ac{ACC} have become warmer and more saline, while those to the north cooler and fresher \cite{Boning:2008il}.
 
 The \ac{PF} has been suggested to be a major biogeographical boundary in the distribution and abundance of both zooplankton \cite{Chiba:2001un,Hunt:2001vp,Esper:2002ui,Ward:2003db} and bacterioplankton \cite{Selje:2004ka,Abell:2005ji,Giebel:2009hr,Weber:2010fi}.
-The effects of climate change on the physical oceanography of the \ac{SO} may therefore have global ecological significance, particularly as the \ac{SO} is a major site for sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physicochemical processes and the microbe-driven ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}, forming a potential feedback loop \cite{Cox:2000ko}.
-However, the microbial assemblages that inhabit the \ac{SO} are generally poorly understood, and their diversity and functional capacity poorly characterised \citep[reviewed in][]{Murray:2007db}.
-A community-level understanding is needed to predict the effects of a shifting \ac{ACC} on the distribution, abundance and ecosystem functions of plankton.
+The effects of climate change on the physical oceanography of the \ac{SO} may therefore have global ecological significance, particularly as the \ac{SO} is a major site for sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physicochemical processes and the microbe-driven ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}.
+This cyclical interaction between atmospheric \ce{CO_{2}}, physical oceanography and microbiology presents the possiblity for an accelerating carbon-cycle feedback loop \cite{Cox:2000ko}.
+However, the microbial assemblages that inhabit the \ac{SO} are generally poorly understood, and their diversity and functional capacity are poorly characterised \citep[reviewed in][]{Murray:2007db}.
+A community-level understanding is required to effectively understand the main components and dynamics of the microbial food web in the \ac{SO} and thereby predict the effects of a shifting \ac{ACC} on the distribution and abundance of plankton.
 
 Large scale metagenome surveys have not previously been performed in the \ac{SO}.
 Compared to traditional environmental microbiological methods such as culture-based or DGGE surveys, metagenomic studies are able to offer both deeper (capture of sequence from rare taxa) and broader (larger sample sizes with greater statistical significance) data on the taxonomic makeup and functional capacities of marine microbial communities \citep[e.g.][]{Rusch:2007ez,Angly:2006wf,Dinsdale:2008cd}.
@@ -31,7 +32,6 @@ Metagenome sampling is also better suited to large-scale biogeographical studies
 This project is part of a metagenomic survey of the \ac{SO} begun in the austral summer of 2006, based on the sampling design of the \ac{GOS} expedition \cite{Rusch:2007ez}.
 The \ac{GOS} sampling strategy involves size fractionation of plankton assemblages by passing seawater through a 20 \micron{} prefilter and capturing planktonic biomass on sequential 3.0 \micron{}, 0.8 \micron{} and 0.1 \micron{} filter membranes.
 As well as allowing deeper sequencing of metagenomes and thus better representation of low-abundance taxa \cite{Rusch:2007ez}, this approach allows comparison to other samples collected using the \ac{GOS} methods \citep[e.g.][]{Brown:2012gna}.
-Because of this size fractionation, this study will focus on the picoplanktonic component of the sampled microbial assemblages.
 
 \section{Methods}
 \subsection{Sampling and metagenomic sequencing}

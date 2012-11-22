@@ -17,11 +17,10 @@
 - Chlorophyll a: the word "chlorophyll" should always be in roman type; the "a" should be in italics. The abbreviated form is "chl a", with the "a" in italics.
 
 #Metagenomes and metagenomics
-- Neither term is a proper noun.
 - A metagenome is the genetic material recovered from an environmental sample.
 - There is no need to say "metagenomic dataset" or "set of metagenomic sequences" where merely "metagenome" will do.
 
-#American, British and Australian English
+#American English
 - As a general rule, Australian English spellings should be used: so "oxidise" rather than "oxidize"; "sulphonate" rather than "sulfonate".
 - However, an exception can be made when the word forms part of a name already in the literature: so the GSO are the "Gammaproteobacterial Sulfur Oxidizers".
 
@@ -29,12 +28,18 @@
 - Base pairs: bp; kbp: kilo base pairs, Mbp: mega base pairs; Gbp: giga base pairs
 
 #Quotation marks
-- Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
+- Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for all quotations, as well as use-mention distinctions etc. as described in http://en.wikipedia.org/wiki/Quotation_mark.
 
-#id est and exempli gratia (i.e. and e.g.)
-- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ " and "e.g.\ ". Note the space after the "\". Do not use this with the "citep" command; "\citep[e.g]{smith2001}" is fine.
+#id est, exempli gratia and et cetera (i.e., e.g. and etc.)
+- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ ", "e.g.\ " and "etc.\ ". Note the space after the "\". Do not use this with the "citep" command; "\citep[e.g]{smith2001}" is fine.
 - Neither "i.e." nor "e.g." should be followed by a comma.
 
-#Headings (chatper, section etc.)
+#Headings (chapter, section etc.)
 - Only the first word of a heading should be capitalised.
 - Acronyms in headings should be expanded.
+
+#Oxford comma
+- Do not use the Oxford comma.
+
+#Em dashes
+- Em dashes should be flanked by spaces.
