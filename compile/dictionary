@@ -1,4 +1,4 @@
-personal_ws-1.1 en 484 
+personal_ws-1.1 en 490 
 AOA
 AOB
 pouchetii
@@ -156,6 +156,7 @@ TonB
 dATP
 datasets
 phylotypes
+ive
 HNLC
 psychrophiles
 Mesoscale
@@ -175,12 +176,14 @@ Planctomycetes
 Crenarchaeota
 synthetase
 MGI
+ecotype
 gammaproteobacterial
 Verrucomicrobia
 euryarchaeon
 diaphorase
 MIP
 dCTP
+ribosomal
 menaquinone
 copiotrophic
 Silicibacter
@@ -330,9 +333,11 @@ Vesicomyosocius
 Marinomonas
 subclade
 anthropogenic
+unassembled
 Subantarctic
 summarise
 cyanobacteria
+GAAS
 psychrerythraea
 glutamate
 isoprenoid
@@ -405,6 +410,7 @@ underexplored
 Kerguelen
 Puniceispirillum
 NADW
+na
 Psychromonas
 Cellvibrio
 ln

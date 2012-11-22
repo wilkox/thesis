@@ -1,5 +1,9 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossaryentryfield{GAAS}{\glsnamefont{\softwarename {gaas}}}{Genome relative Abundance and Average Size}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
@@ -99,7 +103,9 @@
 		\setentrycounter[]{page}\glsnumberformat{42}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossaryentryfield{IPCC}{\glsnamefont{IPCC}}{Intergovernmental Panel on Climate Change}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{4}}}%
+\glossaryentryfield{ITS}{\glsnamefont{ITS}}{Internal Transcribed Spacer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{19}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{ii}\delimN 
@@ -139,7 +145,7 @@
 		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{10\delimN 11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{19\delimN 20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{19\delimR 22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{32\delimR 36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{39}\delimN 

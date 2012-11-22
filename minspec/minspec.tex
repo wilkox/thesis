@@ -7,6 +7,33 @@
 
 \section{Introduction}
 
+\subsection{Metagenomic analysis of microbial assemblages}
+
+The identification of the species or \acp{OTU} which compose a microbial community is a primary aim of metagenomics.
+Typically this is achieved using one of two methods.
+The first method is the identification, using a search and alignment algorithm such as \softwarename{blast} of specific marker genes or non-coding sequences which are diagnostic for a particular species or \ac{OTU}.
+Common targets in microbial ecology are the 16S or other ribosomal subunit rDNA sequences, and the \ac{ITS} regions between 16S--23S rDNA sequences \citep[e.g.][]{Brown:2012gna}.
+This method provides several advantages.
+The regions selected are usually highly conserved, and through cultivation and full-genome sequencing have been reliably associated with a particular species or strain, allowing very accurate identifications and studies of diversity down to the ecotype level \citep[e.g.][]{Brown:2012gna}
+If the copy number of the gene or region is well known, this method also allows for accurate estimations of abundance from metagenomes.
+However, a disadvantage of this method is that a very large majority of metagenomic reads which do not happen to cover the region of interest will contribute nothing to the analysis and essentially be wasted.
+Low-abundance taxa will therefore be missed, as even if they generate a small number of reads, those reads are unlikely to cover the region of interest.
+
+The second method is to attempt to match assembled or unassembled metagenomic reads to a reference database, using an algorithm such as \softwarename{blast}, then use probabilistic methods to assign identifications and abundances with varying degrees of confidence.
+Most commonly, the reads are compared to a database of full genomes \citep[e.g.][]{Lauro:2010jna,Qin:2010fl}.
+This method makes much more efficient use of metagenomic reads compared to the first, as any read can potentially yield a \softwarename{blast} match and thus contribute to the identification of a taxon.
+However, interpretation of the results, and particularly calculation of abundances, can be more complex.
+For example, the \ac{GAAS} software makes use of \softwarename{blast} match quality, number of matches and estimated genome size to estimate the relative abundances of \acp{OTU} in a sample \cite{Angly:2009ip}.
+
+Such estimations are confounded by the presence of multiple taxa which can generate high-quality \softwarename{blast} matches (``hits'') to a given read.
+Multiple high-quality hits to a single read are the norm, rather than the exception, in marine metagenomic studies for several reasons.
+A marine microbial assemblage will often include a number of closely-related \acp{OTU}, such as ecotypes of the same species, which share large sections of highly similar or identical genomic sequence.
+If several such \acp{OTU} are present in the reference database, a metagenomic read from one will yield high-quality \softwarename{blast} hits to them all.
+Further, even more distantly related \acp{OTU} are likely to share large regions of identity, and the selection of hit quality thresholds to discriminate between them (for example, a minimum bit score or maximum expectation value) is effectively arbitrary.
+Thus, while metagenomic studies using whole-genome comparisons almost always use such thresholds as the sole discriminators between \acp{OTU}, this method (hereafter the ``\naive'' after \citet{Ye:2009bl}) will almost inevitably result in the identification of taxa which are not present in the assemblage, skewing the relative abundance estimations of those which are truly present.
+
+\subsection{The maximum parsimony approach}
+
 \section{Methods}
 
 A computational method to minimise false \ac{OTU} identifications and increase the accuracy of \ac{OTU} abundance estimates (\softwarename{minspec}) was developed and implemented in \softwarename{perl}\footnote{\softwarename{minspec} and the associated metagenomic simulation and validation scripts are open source and available at \url{https://github.com/wilkox/minspec}; a copy has also been provided in the supplementary information.}.

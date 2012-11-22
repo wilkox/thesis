@@ -5,6 +5,9 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%Shortcuts for common tricky words
+\newcommand{\naive}{na\"ive}
+
 %Attractive box for "previously published..." disclaimers
 \newcommand\previouslypublished[1]{\textsf{#1}}
 
@@ -40,7 +43,7 @@
 \usepackage{pdflscape}
 
 %declarative formatting for software names
-\newcommand{\softwarename}[1]{\textnormal{\textsc{#1}}}
+\newcommand{\softwarename}[1]{\textnormal{\textsc{\textsf{#1}}}}
 
 %declarative formatting for supplementary materials
 \newcommand{\suppfile}[1]{(\textnormal{\texttt{#1}})}

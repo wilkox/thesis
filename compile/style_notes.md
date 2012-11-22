@@ -43,3 +43,8 @@
 
 #Em dashes
 - Em dashes should be flanked by spaces.
+
+#Software, programming language and algorithm names
+- All software, programming language and algorithm names should be typeset in small caps and a distinct font family, using the \softwarename macro.
+- The letters within the name should be all lowercase (i.e. all small caps, not a mix of small and large caps). The only exception should be if a definitive source (e.g. the paper first announcing the software or algorithm) gives the name typset in a mixture of small and large caps. If the name is typset in all large caps in the primary source, it should be typeset in all small caps in my thesis.
+- If a software or algorithm name is also an acronym (e.g. BLAST), the usual rules for acronyms apply. If the acronym is uncomman and needs defining, it should be defined in the acronyms list and typeset using "\ac" commands. If it is common and does not need defining (e.g. BLAST), it should be typeset using the "\softwarename" command.
