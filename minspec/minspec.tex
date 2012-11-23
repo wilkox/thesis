@@ -30,9 +30,19 @@ Multiple high-quality hits to a single read are the norm, rather than the except
 A marine microbial assemblage will often include a number of closely-related \acp{OTU}, such as ecotypes of the same species, which share large sections of highly similar or identical genomic sequence.
 If several such \acp{OTU} are present in the reference database, a metagenomic read from one will yield high-quality \softwarename{blast} hits to them all.
 Further, even more distantly related \acp{OTU} are likely to share large regions of identity, and the selection of hit quality thresholds to discriminate between them (for example, a minimum bit score or maximum expectation value) is effectively arbitrary.
-Thus, while metagenomic studies using whole-genome comparisons almost always use such thresholds as the sole discriminators between \acp{OTU}, this method (hereafter the ``\naive'' after \citet{Ye:2009bl}) will almost inevitably result in the identification of taxa which are not present in the assemblage, skewing the relative abundance estimations of those which are truly present.
+Thus, while metagenomic studies using whole-genome comparisons almost always use such thresholds as the sole discriminators between \acp{OTU}, this method (hereafter the ``\naive'' method, after \citet{Ye:2009bl}) will almost inevitably result in the identification of taxa which are not present in the assemblage, skewing the relative abundance estimations of those which are truly present.
+
+This problem is compounded by a systematic overrepresentation within databases of reference genomes towards species of interest to humans, such as human and agricultural pathogens.
+Environmental taxa are comparatively underrepresented.
+For example, \tabreft{TABLE HERE}
+
+\input{../minspec/unlikelyotus.tex}
+
+TODO example here - Yersinia pestis?
 
 \subsection{The maximum parsimony approach}
+
+
 
 \section{Methods}
 

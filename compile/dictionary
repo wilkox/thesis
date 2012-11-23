@@ -1,10 +1,11 @@
-personal_ws-1.1 en 491 
+personal_ws-1.1 en 513 
 AOA
 AOB
 pouchetii
 Aldehyde
 CFB
 CCS
+brucellosis
 situ
 CDP
 lysis
@@ -44,6 +45,7 @@ Dimethylglycine
 Deltaproteobacteria
 metagenomes
 Gerlache
+FAM
 isopycnals
 metagenomic
 interrelatedness
@@ -53,8 +55,10 @@ infeasible
 DOC
 proteorhodopsins
 CTD
+Brucella
 marinum
 benthic
+Yersinia
 specialising
 poleward
 DOM
@@ -65,6 +69,7 @@ CTP
 SeaBird
 unitless
 carboxylate
+meningitidis
 detrital
 peptides
 Gbp
@@ -109,6 +114,7 @@ mesopelagic
 Spliceosome
 oligopeptides
 dADP
+Neisseria
 taxon's
 mevalonate
 proteobacterial
@@ -155,6 +161,7 @@ utilising
 TonB
 dATP
 datasets
+ATCC
 phylotypes
 ive
 HNLC
@@ -162,6 +169,7 @@ psychrophiles
 Mesoscale
 psychrophilic
 DFAA
+suis
 mixotrophic
 temperata
 dimethylsulfide
@@ -173,6 +181,7 @@ biogeography
 colonisers
 Niskin
 Planctomycetes
+MDV
 Crenarchaeota
 synthetase
 MGI
@@ -224,6 +233,7 @@ PCR
 Muc
 dimethylsulfoniopropionate
 Ribonucleoside
+Marek's
 picoplankton
 minimise
 Sulfitobacter
@@ -241,7 +251,9 @@ chemolithoautotroph
 archaea
 RefSeq
 RCA
+parapertussis
 KEGG
+Encephalomyocarditis
 Firmicutes
 CobN
 IPCC
@@ -274,6 +286,7 @@ chemolithoautotrophic
 OTU
 heterotrophs
 SAR
+pestis
 SDF
 PpV
 SCM
@@ -291,8 +304,10 @@ characterise
 reductase
 CEAMARC
 Rhodobacterales
+subsp
 degradans
 polyethersulfone
+vitis
 THC
 LCDW
 forsetii
@@ -358,6 +373,7 @@ Lysinibacillus
 degraders
 bacteriochlorophyll
 biogeographic
+Francisella
 Akkermansia
 sphaericus
 ubique
@@ -367,12 +383,16 @@ eukaryotic
 oxoisovalerate
 sulfite
 hyodysenteriae
+philomiragia
+bubonic
 methylmercaptopropionate
 AAIW
 acetyl
+EMCV
 AC
 Australis
 BD
+Agrobacterium
 Planktomarina
 AP
 hydrocarbonoclasticus
@@ -403,6 +423,7 @@ NADH
 colonised
 dTDP
 amino
+Bordetella
 SIMPER
 KI
 trophic
@@ -482,6 +503,7 @@ putatively
 proline
 biogeographical
 bioinformatic
+Enterobacter
 Formate
 cysDNCHIJ
 eukarya

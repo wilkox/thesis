@@ -1,0 +1,27 @@
+\begin{table}
+\small
+\caption[Examples of spurious species identifications]{Selected examples of species identified in a marine metagenome using \naive identification.
+These species were identified in a single sample from the \ac{SO} (sample 346; see \ref{chp:polarfront}).
+The sample was compared to the RefSeq database of full genomes using \softwarename{tblastx} with an E-value maximum of $1.0\times{}10^{-3}$, i.e.\ only high-quality hits were included.
+Relative abundances were calculated using \softwarename{GAAS} \cite{Angly:2009ip}.
+}
+\label{tab:unlikelyotus}
+\smallskip
+\begin{tabularx}{\textwidth}{XlX}
+\toprule
+Species & Relative & Notes\\
+ & Abundance (\%) &\\
+\midrule
+Encephalomyocarditis virus & 1.98 & Human pathogen.\\
+Marek's disease virus type 1 & 1.49 & Chicken pathogen.\\
+Marek's disease virus type 2	& 0.85 & Chicken pathogen.\\
+\speciesfull{Francisella philomiragia}& 0.041 & Human and animal pathogen.\\
+\speciesfull{Agrobacterium vitis} & 0.040 & Plant and opportunistic human pathogen.\\
+\speciesfull{Brucella suis} & 0.011 & Human and swine pathogen (causes brucellosis).\\
+\genus{Enterobacter} sp. 638	& 0.0085 & Animal commensal/pathogen.\\
+\speciesfull{Bordetella parapertussis} & 0.0075 & Mammalian pathogen (causes mild form of whooping cough).\\
+\speciesfull{Neisseria meningitidis} & 0.0074 & Human pathogen.\\
+\speciesfull{Yersinia pestis} & 0.0060 & Human/animal pathogen (causes bubonic plague).\\
+\bottomrule
+\end{tabularx}
+\end{table}

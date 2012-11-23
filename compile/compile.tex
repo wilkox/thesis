@@ -1,9 +1,32 @@
 \documentclass[a4paper]{book}
 
-%\includeonly{}
+%\includeonly{../minspec/minspec}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
+
+%for sideways tables
+\usepackage{rotating}
+
+%Tables and figure captions set in sans-serif
+\makeatletter
+\renewenvironment{table}%
+  {\renewcommand{\familydefault}{\sfdefault}\selectfont
+  \@float{table}}
+  {\end@float}
+\makeatother
+\makeatletter
+\renewenvironment{caption}%
+  {\renewcommand{\familydefault}{\sfdefault}\selectfont
+  \@float{caption}}
+  {\end@float}
+\makeatother
+\makeatletter
+\renewenvironment{figure}%
+  {\renewcommand{\familydefault}{\sfdefault}\selectfont
+  \@float{figure}}
+  {\end@float}
+\makeatother
 
 %Ornaments
 \usepackage{adforn}
@@ -86,7 +109,7 @@
 
 %allow figures
 \usepackage{graphicx}
-\usepackage[labelfont=bf]{caption}
+\usepackage[labelfont=bf,sf]{caption}
 \usepackage{subcaption}
 
 %clever references for figures and tables
@@ -104,9 +127,6 @@
 
 %for professional tables
 \usepackage{booktabs}
-
-%for sideways tables
-\usepackage{rotating}
 
 %for tables that wrap nicely to size
 \usepackage{tabularx}
