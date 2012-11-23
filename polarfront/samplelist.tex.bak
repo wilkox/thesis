@@ -5,7 +5,7 @@
 \smallskip
 \begin{tabularx}{\textheight}{lllllXXXXXX}
 \toprule
-\textbf{Sample} & \textbf{Zone} & \textbf{Date} & \textbf{Latitude} & \textbf{Longitude} & \textbf{Water \linebreak Column \linebreak Depth (m)} & \textbf{Sample Depth (m)} & \textbf{Temperature (\textdegree{}C)} & \textbf{Salinity (PSU)} & \textbf{Fluorescence \linebreak (\textmu{}gL$^{-1}$)} & \textbf{Volume \linebreak filtered (L)}\\
+\textbf{Sample} & \textbf{Zone} & \textbf{Date} & \textbf{Latitude} & \textbf{Longitude} & \textbf{Water \linebreak Column \linebreak Depth (m)} & \textbf{Sample Depth (m)} & \textbf{Temperature (\textdegree{}C)} & \textbf{Salinity (PSU)} & \textbf{PFluorescence \linebreak (\textmu{}gL$^{-1}$)} & \textbf{Volume \linebreak filtered (L)}\\
 \midrule
 
 346 & North & 20/12/07 & $-59.3120$ & 142.5949 & 4294 & 2 & 2.9 & 33.75 & 0.3 & 500\\
