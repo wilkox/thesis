@@ -1,0 +1,70 @@
+\chapter{Mesoscale biogeographic drivers of planktonic diversity}
+\label{ch:biogeog}
+
+\section{Introduction}
+
+\section{Methods}
+
+\subsection{Sampling}
+
+\subsection{DNA extraction}
+
+DNA extraction was performed using a modified version of the method described in \citet{Rusch:2007ez}.
+Samples were thawed in a 37 \textdegree{}C water bath.
+Half of the storage buffer (\textapprox{} 10 mL) was decanted into a clean 50 mL centrifuge tube.
+If the volume decanted was less than 10 mL, the remainder was made with sterile water (Sigma-Aldrich, St.\ Louis, USA).
+An equal volume of 50\% sucrose lysis buffer (50 mM TRIS-HCl, 40 mM EDTA, 0.75 M Sucrose, pH 8) was added such that the final concentration was 25\% sucrose lysis buffer.
+A small pinch of lysozyme (Sigma-Aldrich, St.\ Louis, USA) (final concentration \textapprox{} 2.5 mg/mL) and 1 mL TRIS-EDTA (10 mM TRIS, 1 mM EDTA, pH 8) was added.
+
+The filter membrane was removed from the storage tube and cut in half aseptically.
+One half was returned to the storage tube, which was refrozen at $-80$ \textdegree{}C.
+The remaining half was cut in half again, and one quarter-filter placed atop the other such that the biomass (filtrand) on each piece was facing outwards.
+Keeping the filters together, they were cut into very fine (\textapprox{} 3 mm by 10 mm) strips, which were placed in the 50 mL centrifuge tube containing the buffer and lysozyme mixture.
+This tube was mixed by gentle inversion, then tapped such that all filter strips collected at the bottom of the tube and were covered by lysis buffer.
+The tube was then incubated in a 37 \textdegree{}C shaking water bath at 275 RPM for 30--60 min.
+
+200 \microlitre{} of 20 mg/mL Proteinase K (Sigma-Aldrich, St.\ Louis, USA) was added to the tube, which was mixed by gentle inversion.
+The tube was gently tapped such that all filter strips collected at the bottom covered by lysis buffer.
+The tube was then subjected to three freeze-thaw cycles, each cycle consisting of 20--30 minutes in a $-80$ \textdegree{}C freezer followed by 20--30 minutes in a 55 \textdegree{}C water bath.
+After the final complete thaw, 200 \microlitre{} of 20 mg/mL Proteinase K and 2 mL of 10\% SDS (Sigma-Aldrich, St.\ Louis, USA) were added to the tube.
+The tube was mixed by gentle inversion then gently tapped such that all filter strips collected at the bottom covered by lysis buffer.
+It was then incubated in a 55 \textdegree{}C shaking water bath at 175 RPM for two hours.
+
+The supernatant was pipetted from the tube using a genomic tip and split evenly into two new 50 mL centrifuge tubes.
+An equal volume of buffer-saturated (10 mM Tris HCl, 1 mM EDTA, pH 8) phenol (Sigma-Aldrich, St\. Louis, USA) was added to each tube, which were mixed by gentle inversion.
+The mixtures were then fractionated in a fixed-angle rotor centrifuge for 15 min at 3700 RPM at room temperature.
+The bottom layer of each tube was removed by pipette into a new 50 mL centrifuge tube.
+Each of these two tubes was then made to 50 mL with sterile water (Sigma-Aldrich, St.\ Louis, USA).
+After mixing by gentle inversion, each 50 mL mixture was then split evenly into two new 50 mL centrifuge tubes, resulting in four tubes each containing 25 mL of mixture.
+These tubes were then made to 50 mL with 1-propanol (Sigma-Aldich, St.\ Louis, USA).
+The mixtures were homogenised by gentle inversion and incubated at 4 \textdegree{}C overnight.
+
+Following incubation, the tubes were centrifuged using a fixed-angle rotor for 30 min at 7500 RPM and room temperature.
+The majority of the supernatant was removed by decanting, and the tubes left to sit until the remaining supernatant (\textapprox{} 1 mL) collected at the bottom over the precipitated pellet.
+The pellet was then resuspended by gentle pipetting with a genomic tip, and the suspension placed in a new 1.5 mL microcentrifuge tube (four tubes total).
+These tubes were then centrifuged in a microcentrifuge for 10 minutes at 13,000 RPM and room temperature.
+The supernatant was removed by pipette and the tubes placed in a 37 \textdegree{}C heat block with the lids opened and covered by a sterile KimWipe (Kimberly-Clark, Irving, USA) for 10 min, or longer if the supernatant did not evaporate completely in that time.
+93.75 \microlitre{} TRIS-EDTA was added to each tube, and the tubes were incubated at 4 \textdegree{}C for one hour to allow the DNA pellet to redissolve.
+
+After this incubation, the pellets were gently pipetted with a genomic tip to ensure complete resuspension.
+The suspensions from all four tubes were combined, and an additional 750 \microlitre{} TRIS-EDTA added.
+This was then split evenly into two new 1.5 mL microcentrifuge tubes (\textapprox{} 562.5 \microlitre{} per tube).
+
+750 \microlitre{} of buffer-saturated phenol was added to each tube, and the tubes mixed gently by inversion until a visible emulsion formed.
+Phase separation was performed by centrifugation for 5 min at 13,000 RPM and room temperature.
+The upper (aqueous) phase was removed to a new 1.5 mL microcentrifuge tube using a genomic tip.
+
+750 \microlitre{} of phenol-chloroform-isoamyl alcohol (25:24:1) mixture (Sigma-Aldrich, St.\ Louis, USA) was added to each tube, and the tubes mixed by gentle inversion until a visible emulsion formed.
+Phase separation was performed by centrifugation for 5 min at 13,000 RPM and room temperature.
+The upper (aqueous) phase was removed to a new 1.5 mL microcentrifuge tube using a genomic tip.
+
+75 \microlitre{} of 3 M sodium acetate (pH 8) and 750 \microlitre{} 1-propanol was added to each tube.
+The tubes were centrifuged at 13,000 RPM and room temperature for 30 min to precipitate the DNA.
+The supernatant was removed by pipetting, and 100 \microlitre{} of 70\% ethanol added.
+The tubes were centrifuged again at 13,000 RPM and room temperature for 5 min.
+The supernatant was removed by pipetting and the DNA pellet dried in a 37 \textdegree{}C heat block.
+The DNA was dissolved overnight in 40--200 \microlitre{} TRIS-EDTA, depending on the expected yield.
+
+\section{Results}
+
+\section{Discussion}
