@@ -100,8 +100,13 @@ where $n$ is the number of ortholog groups $K$ belonging to module $m$, $C_{K}$ 
 To account for differences in sequencing depth between samples, module abundances were scaled to 500,000 reads per sample. 
 To test the hypothesis that the \ac{NZ} and \ac{SZ} harbour significantly different functional potential, one-way \ac{ANOSIM} with 999 permutations was performed as above on a standardised, log-transformed Bray-Curtis distance resemblance matrix of the module and ortholog group profiles. 
 A functional profile was generated for each sample by summing the scaled abundances of each module from all size fractions, and \ac{SIMPER} performed as above to identify modules which contributed highly to the variation in functional potential between the two zones. 
-Modules with a high contribution to variance or otherwise of interest were then linked to taxonomy (``taxonomic decomposition'') by noting the genus of the organism associated with each gene in the \ac{KEGG} GENES database and thus calculating the relative contribution of each genus to each module's abundance. 
+
+\subsubsection{Taxonomic decomposition}
+
+To link modules with a high contribution to variance or otherwise of interest to specific taxa (``taxonomic decomposition''), a script was written which decomposed each module to its constituent ortholog groups, then each ortholog group to each representative gene sequence in the \ac{KEGG} database.
+Because each \ac{KEGG} sequence is associated with a particular organism, this allowed the abundance of each module to be decomposed into the relative contribution from each of these organisms.
 This allowed functional contributions to be putatively assigned to genera which were not identified in our taxonomic analysis, as the database included gene sequences for organisms for which a full genome was not available.
+To aid interpretation of these results, the taxonomic decompositions for some modules were aggregated to higher taxonomic ranks, such as class or family.
 
 \section{Results}
 
