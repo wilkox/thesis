@@ -54,8 +54,9 @@
 - Percentages should have no space: 45%.
 - Temperatures should be typeset as follows: 37 ºC (in LaTeX, "37 \textdegrees{}C").
 - Latitute and longitude should be typeset as follows: 40º S, 140º E.
-- Derived units should be set using scientific notation, i.e. mgmL⁻¹, rather than mg/mL or "mg per mL".
+- Derived units should be set using a slash rather than scientific notation, i.e. mg/mL, not mg.mL⁻¹.
 - Times may be written either in full (two hours) or abbreviated (2 h), but the two forms should not be mixed (i.e. 4.5 hours is incorrect). Time abbreviations (h, min, sec) do not need periods (i.e. h., min., sec are incorrect).
+- When describing amounts of regents (i.e. mass nouns), "of" should always be used: so "20 g of salt was added", not "20 g salt was added".
 
 #Materials suppliers and other companies
-- Specialist reagents and materials, particularly those with trademarked names, should be followed with the name, city and country of the manufacturer: "Proteinase K (Sigma-Aldrich, St.\ Louis, USA)".
+- Specialist reagents and materials, particularly those with trademarked names, should be followed with the name, city and country of the manufacturer: "Proteinase K (Sigma-Aldrich, St.\ Louis, USA)". This only needs to appear the first time the reagent or material is mentioned.
