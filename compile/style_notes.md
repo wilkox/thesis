@@ -60,3 +60,11 @@
 
 #Materials suppliers and other companies
 - Specialist reagents and materials, particularly those with trademarked names, should be followed with the name, city and country of the manufacturer: "Proteinase K (Sigma-Aldrich, St.\ Louis, USA)". This only needs to appear the first time the reagent or material is mentioned.
+
+#Footnotes
+- Sentences in footnotes should end in a period.
+
+#Dates
+- Dates should be writteen in the order Month, Day (ordinal), Year, with no commas: so January 5th 2008; March 2012. 
+- The ordinal indicators (st, nd, th) should not be set as superscripts.
+- Date ranges should be indicated by en dashes with no spaces: so January 5th--March 1st 2010; December 1986--April 1987. The month or year can be omitted from the start of the range if it is the same as the end: so 2nd--15th May 2013.
