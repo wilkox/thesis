@@ -46,5 +46,16 @@
 
 #Software, programming language and algorithm names
 - All software, programming language and algorithm names should be typeset in small caps and a distinct font family, using the \softwarename macro.
-- The letters within the name should be all lowercase (i.e. all small caps, not a mix of small and large caps). The only exception should be if a definitive source (e.g. the paper first announcing the software or algorithm) gives the name typset in a mixture of small and large caps. If the name is typset in all large caps in the primary source, it should be typeset in all small caps in my thesis.
+- The letters within the name should be all lowercase (i.e. all small caps, not a mix of small and large caps). The only exception should be if a definitive source (e.g. the paper first announcing the software or algorithm) gives the name typeset in a mixture of small and large caps. If the name is typeset in all large caps in the primary source, it should be typeset in all small caps in my thesis.
 - If a software or algorithm name is also an acronym (e.g. BLAST), the usual rules for acronyms apply. If the acronym is uncomman and needs defining, it should be defined in the acronyms list and typeset using "\ac" commands. If it is common and does not need defining (e.g. BLAST), it should be typeset using the "\softwarename" command.
+
+#Units of measurement, percentages and degrees
+- All standard units of measurement should be typeset with a space between the value and the unit: 10 mL.
+- Percentages should have no space: 45%.
+- Temperatures should be typeset as follows: 37 ºC (in LaTeX, "37 \textdegrees{}C").
+- Latitute and longitude should be typeset as follows: 40º S, 140º E.
+- Derived units should be set using scientific notation, i.e. mgmL⁻¹, rather than mg/mL or "mg per mL".
+- Times may be written either in full (two hours) or abbreviated (2 h), but the two forms should not be mixed (i.e. 4.5 hours is incorrect). Time abbreviations (h, min, sec) do not need periods (i.e. h., min., sec are incorrect).
+
+#Materials suppliers and other companies
+- Specialist reagents and materials, particularly those with trademarked names, should be followed with the name, city and country of the manufacturer: "Proteinase K (Sigma-Aldrich, St.\ Louis, USA)".
