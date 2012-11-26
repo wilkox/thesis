@@ -7,6 +7,19 @@
 
 \subsection{Sampling}
 
+Sampling\footnote{Sampling was performed by David Wilkins, Timothy J.\ Williams and Sheree Yau.} was conducted on board the RSV \textit{Aurora Australis} during cruise V3 from January 25th--February 12th 2012.
+This cruise occupied two latitudinal transects: one from Hobart, Australia (\textapprox{} 44\textdegree{} S) to the Mertz Glacier, Antarctica (\textapprox{} 67\textdegree{} S), within a longitudinal range of 140--150\textdegree{} E; the second from waters north of Cape Poinsett, Antarctica (\textapprox{} 66\textdegree{} S) to Freemantle, Australia (\textapprox{} 32\textdegree{} S) within a longitudinal range of 110--120\textdegree{} E.
+
+TODO need a map of samples (once sequencing results back)
+
+At each station, \textapprox{} 250--560 L of seawater was pumped from \textapprox{} 1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck.
+At some stations, an additional sample was taken from the \ac{DCM}, as determined by chlorphyll flourescence measurments taken from a \ac{CTD} (SeaBird, Bellevue, USA) cast at each sampling station.
+In the case of deep and intermediate water samples, \textapprox{} 120--240 L of seawater was collected from Niskin bottles attached to a \ac{CTD}.
+The depths were selected based on temperature, salinity and dissolved oxygen profiles established by \ac{CTD} casts at each sampling station to capture water from the targeted water mass.
+Profiles were generated on the \ac{CTD} downcast, and bottle firings (i.e.\ sample collection) on the returning upcast at the selected depths.
+
+Seawater samples were prefiltered through a 20 \micron{} plankton net, then filtrate was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
+
 \subsection{DNA extraction}
 
 DNA extraction was performed using a modified version of the method described in \citet{Rusch:2007ez}.
@@ -25,18 +38,18 @@ The tube was then incubated in a 37 \textdegree{}C shaking water bath at 275 RPM
 
 200 \microlitre{} of 20 mg/mL Proteinase K (Sigma-Aldrich, St.\ Louis, USA) was added to the tube, which was mixed by gentle inversion.
 The tube was gently tapped such that all filter strips collected at the bottom covered by lysis buffer.
-The tube was then subjected to three freeze-thaw cycles, each cycle consisting of 20--30 minutes in a $-80$ \textdegree{}C freezer followed by 20--30 minutes in a 55 \textdegree{}C water bath.
+The tube was then subjected to three freeze-thaw cycles, each cycle consisting of 20--30 min in a $-80$ \textdegree{}C freezer followed by 20--30 min in a 55 \textdegree{}C water bath.
 After the final complete thaw, 200 \microlitre{} of 20 mg/mL Proteinase K and 2 mL of 10\% SDS (Sigma-Aldrich, St.\ Louis, USA) were added to the tube.
 The tube was mixed by gentle inversion then gently tapped such that all filter strips collected at the bottom covered by lysis buffer.
 It was then incubated in a 55 \textdegree{}C shaking water bath at 175 RPM for two hours.
 
 The supernatant was pipetted from the tube using a genomic tip and split evenly into two new 50 mL centrifuge tubes.
-An equal volume of buffer-saturated (10 mM Tris HCl, 1 mM EDTA, pH 8) phenol (Sigma-Aldrich, St\. Louis, USA) was added to each tube, which were mixed by gentle inversion.
+An equal volume of buffer-saturated (10 mM TRIS HCl, 1 mM EDTA, pH 8) phenol (Sigma-Aldrich, St.\ Louis, USA) was added to each of the tubes, which were mixed by gentle inversion.
 The mixtures were then fractionated in a fixed-angle rotor centrifuge for 15 min at 3700 RPM at room temperature.
 The bottom layer of each tube was removed by pipette into a new 50 mL centrifuge tube.
 Each of these two tubes was then made to 50 mL with sterile water (Sigma-Aldrich, St.\ Louis, USA).
 After mixing by gentle inversion, each 50 mL mixture was then split evenly into two new 50 mL centrifuge tubes, resulting in four tubes each containing 25 mL of mixture.
-These tubes were then made to 50 mL with 1-propanol (Sigma-Aldich, St.\ Louis, USA).
+These tubes were then made to 50 mL with 1-propanol (Sigma-Aldrich, St.\ Louis, USA).
 The mixtures were homogenised by gentle inversion and incubated at 4 \textdegree{}C overnight.
 
 Following incubation, the tubes were centrifuged using a fixed-angle rotor for 30 min at 7500 RPM and room temperature.
@@ -44,10 +57,10 @@ The majority of the supernatant was removed by decanting, and the tubes left to 
 The pellet was then resuspended by gentle pipetting with a genomic tip, and the suspension placed in a new 1.5 mL microcentrifuge tube (four tubes total).
 These tubes were then centrifuged in a microcentrifuge for 10 minutes at 13,000 RPM and room temperature.
 The supernatant was removed by pipette and the tubes placed in a 37 \textdegree{}C heat block with the lids opened and covered by a sterile KimWipe (Kimberly-Clark, Irving, USA) for 10 min, or longer if the supernatant did not evaporate completely in that time.
-93.75 \microlitre{} TRIS-EDTA was added to each tube, and the tubes were incubated at 4 \textdegree{}C for one hour to allow the DNA pellet to redissolve.
+93.75 \microlitre{} of TRIS-EDTA was added to each tube, and the tubes were incubated at 4 \textdegree{}C for one hour to allow the DNA pellet to redissolve.
 
 After this incubation, the pellets were gently pipetted with a genomic tip to ensure complete resuspension.
-The suspensions from all four tubes were combined, and an additional 750 \microlitre{} TRIS-EDTA added.
+The suspensions from all four tubes were combined, and an additional 750 \microlitre{} of TRIS-EDTA added.
 This was then split evenly into two new 1.5 mL microcentrifuge tubes (\textapprox{} 562.5 \microlitre{} per tube).
 
 750 \microlitre{} of buffer-saturated phenol was added to each tube, and the tubes mixed gently by inversion until a visible emulsion formed.
@@ -58,12 +71,12 @@ The upper (aqueous) phase was removed to a new 1.5 mL microcentrifuge tube using
 Phase separation was performed by centrifugation for 5 min at 13,000 RPM and room temperature.
 The upper (aqueous) phase was removed to a new 1.5 mL microcentrifuge tube using a genomic tip.
 
-75 \microlitre{} of 3 M sodium acetate (pH 8) and 750 \microlitre{} 1-propanol was added to each tube.
+75 \microlitre{} of 3 M sodium acetate (pH 8) and 750 \microlitre{} of 1-propanol was added to each tube.
 The tubes were centrifuged at 13,000 RPM and room temperature for 30 min to precipitate the DNA.
 The supernatant was removed by pipetting, and 100 \microlitre{} of 70\% ethanol added.
 The tubes were centrifuged again at 13,000 RPM and room temperature for 5 min.
 The supernatant was removed by pipetting and the DNA pellet dried in a 37 \textdegree{}C heat block.
-The DNA was dissolved overnight in 40--200 \microlitre{} TRIS-EDTA, depending on the expected yield.
+The DNA was dissolved overnight in 40--200 \microlitre{} of TRIS-EDTA, depending on the expected yield.
 
 \section{Results}
 
