@@ -8,6 +8,7 @@
 <Symbol size="1.2" small_size="0.4" type="0" color="1"/>
 <Window>
 <Geometry x_offset_bb="2" x_right="156.259" y_offset_bb="2.5" y_length_bb="17" y_top="-37.3101" x_length_bb="24" x_projection="100" y_projection="100" y_bottom="-70.8102" x_left="131.458"/>
+<ColorScale palette_file_name="BlackWhiteLight"/>
 <GraphicsObjects>
 <GObject post_data="T" own_coordinates="T" type="5" dragging="T" clipping="T">
 <Symbol border_color="0" symbol_type="3" symbol_size="3" fill_color="1" x_coordinate="141.912" y_coordinate="-56.6967" border_width="0" border_type="0"/>
