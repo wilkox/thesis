@@ -79,6 +79,20 @@ To test the hypothesis that the oceanic zones harbour significantly different co
 \ac{SIMPER} analysis was performed to identify the contribution of individual \acp{OTU} to differences between the zones. 
 All statistical procedures were performed in \softwarename{PRIMER 6} as described by \citet{Clarke:2001ut}.
 
+\subsubsection{Additional samples to confirm \ac{PF} hypothesis}
+Because many samples from the \ac{SZ} were taken in the region of the Mertz Glacier polynya, an alternative hypothesis for any difference observed between the \ac{SZ} and \ac{NZ} would be that the difference represented the effect of the polyna, rather than the \ac{PF}.
+A set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown. TODO who else was on these voyages?} from waters south of the \ac{PF} at other times and in a different longidtudinal range were used for an additional test to falsify this hypothesis.
+Sampling, DNA extraction and sequencing were performed as described above, although only the 0.1--0.8 \micron{} size fraction was processed.
+The resulting metagenomic reads were compared to RefSeq and weighted relative abundances calculated with \ac{GAAS} as described above.
+
+\input{../polarfront/additionalsamples.tex}
+
+TODO note that outliers 347 and 362 were excluded
+
+Two \ac{ANOSIM} tests were performed on the standardised and log-transformed Bray-Curtis resemblence matrices of the samples' \ac{OTU} abundance profiles and similarly prepared matrices represnting only the 0.1 \micron{} fractions of the \ac{SZ} and \ac{NZ} samples.
+In the first \ac{ANOSIM} test (``polynya hypothesis''), all samples from the Mertz Glacier polynya region (i.e.\ all \ac{SZ} samples apart from 358) were grouped together, while the samples from the open ocean were placed in a seperate group.
+In the second test (``\ac{PF} hypothesis''), the additional samples were grouped with all the \ac{SZ} samples.
+
 \subsection{Functional analysis of metagenomic data}
 
 \subsubsection{\softwarename{blast} comparison to \ac{KEGG} database}
@@ -135,6 +149,10 @@ There was also a large difference in the contribution to variance of the three s
 Notably, \acp{OTU} within several taxonomic groups that had high contribution to variance covaried in their relative representation in the \ac{NZ} and \ac{SZ}.
 For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} spp., SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
+
+\subsection{Additional samples to confirm \ac{PF} hypothesis}
+The \ac{ANOSIM} analysis strongly supported the ``\ac{PF} hypothesis'' (R = 0.435, p = 0.002), i.e.\ that the \ac{PF} was primarily responsible for the difference observed between the \ac{NZ} and \ac{SZ}, over the ``polynya hypothesis'' (R = 0.29, p = 0.005) that the influence of the Mertz Glacier polynya was responsible.
+This also provides evidence that the \ac{PF} effect is robust over a longitudinal range and over time.
 
 \subsection{Functional analysis of metagenomic data}
 
@@ -257,9 +275,9 @@ However, little else is known about the distribution and ecological roles of mar
 A number of modules with transport functions (sn-glycerol 3-phosphate transport system, dipeptide transport system, peptides/nickel transport system, simple sugar transport system, sulfonate/nitrate/taurine transport system) were overrepresented in the \ac{SZ} \tabref{tab:modulessimper}.
 As the genomes of copiotrophic bacteria have evolved to have a higher number of narrow-specificity transporters relative to oligotrophic genomes \cite{Lauro:2009gx}, these differences may reflect the higher nutrient availability and thus a dominance of copiotrophs in the \ac{SZ}.
 The taxonomic contributors to these modules were varied, although members of the Rhodobacterales were prominent \figref{fig:moduledecomp}.
-TODO methods for generating this figure
-TODO does this figure belong in results?
+
 \input{../polarfront/moduledecomp.tex}
+
 The glycine betaine/proline transport module was also overrepresented in the \ac{SZ}, though this probably reflects glycine betaine's role as an osmo- and cryoprotectant in the colder \ac{SZ} waters.
 This is supported by the major taxonomic contributor to this module, genus \genus{Psychromonas}, which includes several psychrophilic species. 
 

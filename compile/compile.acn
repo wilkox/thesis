@@ -3,9 +3,11 @@
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{i}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{i}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{ii}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{ii}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{ii}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{v}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{v}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{v}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
@@ -330,6 +332,7 @@
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
@@ -343,14 +346,17 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
@@ -367,15 +373,6 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
@@ -391,39 +388,48 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
@@ -441,20 +447,20 @@
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{DOC?\glossaryentryfield{DOC}{\glsnamefont{DOC}}{Dissolved Organic Carbon}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{DOC?\glossaryentryfield{DOC}{\glsnamefont{DOC}}{Dissolved Organic Carbon}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{HMW?\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
@@ -477,12 +483,12 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
@@ -498,13 +504,13 @@
 \glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{MMPA?\glossaryentryfield{MMPA}{\glsnamefont{MMPA}}{methylmercaptopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{MMPA?\glossaryentryfield{MMPA}{\glsnamefont{MMPA}}{methylmercaptopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{MMPA?\glossaryentryfield{MMPA}{\glsnamefont{MMPA}}{methylmercaptopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
@@ -523,16 +529,16 @@
 \glossaryentry{DFAA?\glossaryentryfield{DFAA}{\glsnamefont{DFAA}}{Dissolved Free Amino Acids}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{DFAA?\glossaryentryfield{DFAA}{\glsnamefont{DFAA}}{Dissolved Free Amino Acids}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
