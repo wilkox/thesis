@@ -5,6 +5,9 @@
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
 
+%support appendices
+\usepackage[titletoc]{appendix}
+
 %for sideways tables
 \usepackage{rotating}
 
@@ -208,8 +211,16 @@
 \glsresetall
 \include{../biogeog/biogeog}
 
+%bibliography
 \singlespacing
 \bibliographystyle{mybibstyle}
 \bibliography{thesis}
+
+%Appendices
+\glsresetall
+\setcounter{secnumdepth}{1}
+\begin{appendices}
+  \include{../minspec/fullsourcecode}
+\end{appendices}
 
 \end{document}
