@@ -6,7 +6,7 @@
 \begin{subfigure}[b]{0.5\textwidth}
 \centering
 \includegraphics[width=\textwidth]{../minspec/falsenegative.png}
-\caption{False negative rate (\%) --- the percentage of taxa in the assemblage that were absent from the \softwarename{blast} results following \softwarename{minspec} processing.}
+\caption{False negative rate (\%) --- the percentage of \acp{OTU} in the assemblage that were absent from the \softwarename{blast} results following \softwarename{minspec} processing.}
 \label{fig:minspecvalidationfalsenegative}
 \end{subfigure}%
 
@@ -17,7 +17,7 @@
 \begin{subfigure}[b]{0.5\textwidth}
 \centering
 \includegraphics[width=\textwidth]{../minspec/minspecfalsenegative.png}
-\caption{\softwarename{minspec}-attributable false negative rate (\%) --- the percentage of taxa not in the assemblage that generated \softwarename{blast} hits but were incorrectly removed by \softwarename{minspec}.}
+\caption{\softwarename{minspec}-attributable false negative rate (\%) --- the percentage of \acp{OTU} not in the assemblage that generated \softwarename{blast} hits but were incorrectly removed by \softwarename{minspec}.}
 \label{fig:minspecvalidationminspecfalsenegative}
 \end{subfigure}
 \bigskip
@@ -30,7 +30,7 @@
 \begin{subfigure}[b]{0.5\textwidth}
 \centering
 \includegraphics[width=\textwidth]{../minspec/falsepositive.png}
-\caption{False positive rate (\%) --- the percentage of taxa not in the assemblage that were present in the \softwarename{blast} results following \softwarename{minspec} processing.\\}
+\caption{False positive rate (\%) --- the percentage of \acp{OTU} not in the assemblage that were present in the \softwarename{blast} results following \softwarename{minspec} processing.\\}
 \label{fig:minspecvalidationfalsepositive}
 \end{subfigure}
 
@@ -42,15 +42,15 @@
 \begin{subfigure}[b]{0.5\textwidth}
 \centering
 \includegraphics[width=\textwidth]{../minspec/falsetaxaremoved.png}
-\caption{Proportion of false taxa --- taxa that were not part of the simulated assemblage but which generated hits due to simulated sequence identity --- that were correctly identified and removed by \softwarename{minspec}.}
+\caption{Proportion of false \acp{OTU} --- \acp{OTU} that were not part of the simulated assemblage but which generated hits due to simulated sequence identity --- that were correctly identified and removed by \softwarename{minspec}.}
 \label{fig:minspecvalidationfalsetaxaremoved}
 \end{subfigure}
 \\
 
 \end{tabular}
 
-\caption[Results of \softwarename{minspec} validate]{Results of repeated trials of \softwarename{minspec} on simulated metagenomic studies with multiple permutations of parameters (number of reads, number of simulated taxa, size of simulated assemblage).
-The number of simulated taxa and size of simulated assemblage are represented as a ratio on the z-axis (``assemblage / all taxa'').
+\caption[Results of \softwarename{minspec} validate]{Results of repeated trials of \softwarename{minspec} on simulated metagenomic studies with multiple permutations of parameters (number of reads, number of simulated \acp{OTU}, size of simulated assemblage).
+The number of simulated \acp{OTU} and size of simulated assemblage are represented as a ratio on the z-axis (``assemblage / all taxa'').
 Each permutation was repeated five times.
 A plane representing a linear regression has been overlaid on each plot to indicate the trend.
 Points have been tinted to aid the perception of depth; colour is not otherwise meaningful.
