@@ -1,0 +1,1 @@
+/Users/wilkox/minspec/minspec.pl
