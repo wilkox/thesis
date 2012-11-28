@@ -3,6 +3,8 @@
 
 \section{Introduction}
 
+\cite{Teira:2006th} has great refs for ``water masses may shap microbial biogeography''
+
 \section{Methods}
 
 \subsection{Sampling}
@@ -13,7 +15,7 @@ This cruise occupied two latitudinal transects: one from Hobart, Australia (\tex
 TODO need a map of samples (once sequencing results back)
 
 At each station, \textapprox{} 250--560 L of seawater was pumped from \textapprox{} 1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck.
-At some stations, an additional sample was taken from the \ac{DCM}, as determined by chlorphyll flourescence measurments taken from a \ac{CTD} (SeaBird, Bellevue, USA) cast at each sampling station.
+At some stations, an additional sample was taken from the \ac{DCM}, as determined by chlorophyll fluorescence measurements taken from a \ac{CTD} (SeaBird, Bellevue, USA) cast at each sampling station.
 In the case of deep and intermediate water samples, \textapprox{} 120--240 L of seawater was collected from Niskin bottles attached to a \ac{CTD}.
 The depths were selected based on temperature, salinity and dissolved oxygen profiles established by \ac{CTD} casts at each sampling station to capture water from the targeted water mass.
 Profiles were generated on the \ac{CTD} downcast, and bottle firings (i.e.\ sample collection) on the returning upcast at the selected depths.
@@ -22,10 +24,10 @@ Seawater samples were prefiltered through a 20 \micron{} plankton net, then filt
 
 \subsection{DNA extraction}
 
-DNA extraction was performed using a modified version of the method described in \citet{Rusch:2007ez}.
+DNA extraction was performed using a modified version of the phenol-chloroform method described in \citet{Rusch:2007ez}.
 Samples were thawed in a 37 \textdegree{}C water bath.
 Half of the storage buffer (\textapprox{} 10 mL) was decanted into a clean 50 mL centrifuge tube.
-If the volume decanted was less than 10 mL, the remainder was made with sterile water (Sigma-Aldrich, St.\ Louis, USA).
+If the volume decanted was less than 10 mL, the difference was made with sterile water (Sigma-Aldrich, St.\ Louis, USA).
 An equal volume of 50\% sucrose lysis buffer (50 mM TRIS-HCl, 40 mM EDTA, 0.75 M Sucrose, pH 8) was added such that the final concentration was 25\% sucrose lysis buffer.
 A small pinch of lysozyme (Sigma-Aldrich, St.\ Louis, USA) (final concentration \textapprox{} 2.5 mg/mL) and 1 mL TRIS-EDTA (10 mM TRIS, 1 mM EDTA, pH 8) was added.
 

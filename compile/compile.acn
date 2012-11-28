@@ -147,13 +147,18 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{HMW?\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{POM?\glossaryentryfield{POM}{\glsnamefont{POM}}{Particulate Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{LWM?\glossaryentryfield{LWM}{\glsnamefont{LWM}}{Low Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
@@ -161,7 +166,7 @@
 \glossaryentry{AP?\glossaryentryfield{AP}{\glsnamefont{AP}}{Antarctic Peninsula}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{LWM?\glossaryentryfield{LWM}{\glsnamefont{LWM}}{Low Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{DOC?\glossaryentryfield{DOC}{\glsnamefont{DOC}}{Dissolved Organic Carbon}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{AOB?\glossaryentryfield{AOB}{\glsnamefont{AOB}}{Ammonia-Oxidizing Bacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
@@ -172,7 +177,7 @@
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{OMG?\glossaryentryfield{OMG}{\glsnamefont{OMG}}{Oligotrophic Marine Gammaproteobacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{OMG?\glossaryentryfield{OMG}{\glsnamefont{OMG}}{Oligotrophic Marine Gammaproteobacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{OMG?\glossaryentryfield{OMG}{\glsnamefont{OMG}}{Oligotrophic Marine Gammaproteobacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{KEOPS?\glossaryentryfield{KEOPS}{\glsnamefont{KEOPS}}{Kerguelen Ocean and Plateau Compared Study}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
@@ -190,7 +195,7 @@
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
@@ -227,7 +232,7 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{HMW?\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
@@ -245,7 +250,7 @@
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
