@@ -7,6 +7,7 @@
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{ii}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
+\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{nMDS?\glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
@@ -653,6 +654,7 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
@@ -681,13 +683,14 @@
 \glossaryentry{HMW?\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{61}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{61}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{61}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{nMDS?\glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{nMDS?\glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{64}

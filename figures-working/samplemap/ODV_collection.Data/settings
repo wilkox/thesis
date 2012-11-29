@@ -47,7 +47,7 @@ Variable with fCO2, pCO2 or pH input pressure values = -1
 Variable with fCO2, pCO2 or pH input temperature values = -1
 
 [Recent]
-GObjectDir = /Users/wilkox/Dropbox/thesis/figures-working/samplemap/
-ImageFile = /Users/wilkox/Dropbox/thesis/figures-working/samplemap/samplemap.png
-MapProperties_Page = 0
-View = ~541337323~DefaultView.xview
+GObjectDir = /Users/wilkox/tmp/
+ImageFile = /Users/wilkox/Dropbox/thesis/figures-working/samplemap/blackandwhite.png
+MapProperties_Page = 4
+View = ~377950804~DefaultView.xview

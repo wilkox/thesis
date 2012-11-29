@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.16" collection="ODV_collection">
+<GeographicMap projection_type="3">
+<MapDomain lon_max="160" lat_max="-40" lon_min="130" lat_min="-70"/>
+<ProjectionPole lon_center="145" lat_center="-45"/>
+</GeographicMap>
+<MapWindow>
+<Symbol size="1.2" small_size="0.4" type="0" color="1"/>
+<Window>
+<Geometry x_offset_bb="2" x_right="160" y_offset_bb="2.5" y_length_bb="17" y_top="-40" x_length_bb="24" x_projection="100" y_projection="100" y_bottom="-70" x_left="130"/>
+<ColorScale palette_file_name="BlackWhiteLight"/>
+<GraphicsObjects>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="142.738" y_coordinate="-66.0213" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="142.595" y_coordinate="-59.312" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="150.031" y_coordinate="-64.3001" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="141.309" y_coordinate="-60.0001" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="141.021" y_coordinate="-66.5817" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="144.679" y_coordinate="-67.0521" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="142.317" y_coordinate="-66.5662" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="144.136" y_coordinate="-52.0233" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="143.324" y_coordinate="-66.765" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="143.43" y_coordinate="-66.5587" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="141.878" y_coordinate="-56.6953" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="143.529" y_coordinate="-66.1903" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="145.778" y_coordinate="-44.718" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="1" symbol_size="3" fill_color="0" x_coordinate="145.903" y_coordinate="-48.2487" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="140.829" y_coordinate="-65.5367" border_width="1" border_type="0"/>
+</GObject>
+<GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
+<Symbol border_color="0" symbol_type="6" symbol_size="3" fill_color="0" x_coordinate="143.019" y_coordinate="-66.1719" border_width="1" border_type="0"/>
+</GObject>
+</GraphicsObjects>
+</Window>
+</MapWindow>
+<IsoSurfaceVariables>
+<!--Temperature [degrees_Celsius] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--Salinity [psu] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--Oxygen [μmol kg-1] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+<!--Total Chlorophyll [mg m-3] @ Pressure [decibar]=first-->
+<IsoVariable surface_var_id="0" var_id="4" surface_value="first"/>
+</IsoSurfaceVariables>
+</View>

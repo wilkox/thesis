@@ -1,0 +1,55 @@
+
+[General]
+CollectionFormat = ODVCF5
+DataField = Ocean
+DataType = Profiles
+NumberOfMetaVariables = 14
+NumberOfVariables = 27
+PrimaryVariableIndex = 1
+SampleQualityFlagSchema = ODV
+StationQualityFlagSchema = ODV
+
+[Meta Variables]
+0001 = Cruise;;TEXT;21;0;0;ARGO;METACRUISE;
+0002 = Station;;TEXT;21;0;0;ARGO;METASTATION;
+0003 = Type;;TEXT;2;0;0;ARGO;METATYPE;
+0004 = Longitude;degrees_east;FLOAT;4;3;0;ARGO;METALONGITUDE;
+0005 = Latitude;degrees_north;FLOAT;4;3;0;ARGO;METALATITUDE;
+0006 = Year;;SHORT;2;0;0;ARGO;METAYEAR;
+0007 = Month;;BYTE;1;0;0;ARGO;METAMONTH;
+0008 = Day;;BYTE;1;0;0;ARGO;METADAY;
+0009 = Hour;;BYTE;1;0;0;ARGO;METAHOUR;
+0010 = Minute;;BYTE;1;0;0;ARGO;METAMINUTE;
+0011 = Second;;FLOAT;4;0;0;ARGO;METASECOND;
+0012 = Bot. Depth;m;FLOAT;4;0;0;ARGO;METABOTDEPTH;
+0013 = PrimaryVarMin;;FLOAT;4;2;0;ARGO;METAPRIMVARMIN;
+0014 = PrimaryVarMax;;FLOAT;4;2;0;ARGO;METAPRIMVARMAX;
+
+[Variables]
+0001 = Pressure;decibar;FLOAT;4;0;0;ARGO;BASIC;
+0002 = Temperature;degrees_Celsius;FLOAT;4;2;0;ARGO;BASIC;
+0003 = Salinity;psu;FLOAT;4;3;0;ARGO;BASIC;
+0004 = Oxygen;~$m~#mol kg~^-~^1;FLOAT;4;0;0;ARGO;BASIC;
+0005 = Total Chlorophyll;mg m~^-~^3;FLOAT;4;2;0;ARGO;BASIC;
+0006 = Light Attenuation Coefficient;m~^-~^1;FLOAT;4;2;0;ARGO;BASIC;
+0007 = Turbidity;Nephelo Turb. Unit;FLOAT;4;2;0;ARGO;BASIC;
+0008 = Horizontal Current Speed;m s~^-~^1;FLOAT;4;3;0;ARGO;BASIC;
+0009 = Dir. to which Hor. Current Flows;degree;FLOAT;4;0;0;ARGO;BASIC;
+0010 = Pressure (adj.);decibar;FLOAT;4;0;0;ARGO;BASIC;
+0011 = Temperature (adj.);degrees_Celsius;FLOAT;4;2;0;ARGO;BASIC;
+0012 = Salinity (adj.);psu;FLOAT;4;3;0;ARGO;BASIC;
+0013 = Oxygen (adj.);~$m~#mol kg~^-~^1;FLOAT;4;0;0;ARGO;BASIC;
+0014 = Total Chlorophyll (adj.);mg m~^-~^3;FLOAT;4;2;0;ARGO;BASIC;
+0015 = Light Attenuation Coefficient (adj.);m~^-~^1;FLOAT;4;2;0;ARGO;BASIC;
+0016 = Turbidity (adj.);Nephelo Turb. Unit;FLOAT;4;2;0;ARGO;BASIC;
+0017 = Horizontal Current Speed (adj.);m s~^-~^1;FLOAT;4;3;0;ARGO;BASIC;
+0018 = Dir. to which Hor. Current Flows (adj.);degree;FLOAT;4;0;0;ARGO;BASIC;
+0019 = Pressure (adj. error);decibar;FLOAT;4;0;0;ARGO;BASIC;
+0020 = Temperature (adj. error);degrees_Celsius;FLOAT;4;2;0;ARGO;BASIC;
+0021 = Salinity (adj. error);psu;FLOAT;4;3;0;ARGO;BASIC;
+0022 = Oxygen (adj. error);~$m~#mol kg~^-~^1;FLOAT;4;0;0;ARGO;BASIC;
+0023 = Total Chlorophyll (adj. error);mg m~^-~^3;FLOAT;4;2;0;ARGO;BASIC;
+0024 = Light Attenuation Coefficient (adj. error);m~^-~^1;FLOAT;4;2;0;ARGO;BASIC;
+0025 = Turbidity (adj. error);Nephelo Turb. Unit;FLOAT;4;2;0;ARGO;BASIC;
+0026 = Horizontal Current Speed (adj. error);m s~^-~^1;FLOAT;4;3;0;ARGO;BASIC;
+0027 = Dir. to which Hor. Current Flows (adj. error);degree;FLOAT;4;0;0;ARGO;BASIC;
