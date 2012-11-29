@@ -38,6 +38,11 @@
 - Only the first word of a heading should be capitalised.
 - Acronyms in headings should be expanded.
 
+#Approximately, greater than, less than and plus/minus signs
+- "Approximately" should be denoted with a tilde (\textapprox), with no space between the sign and the number.
+- Greater than and less than signs should be followed by a space.
+- Plus/minus signs should not be followed by a space.
+
 #Oxford comma
 - Do not use the Oxford comma.
 

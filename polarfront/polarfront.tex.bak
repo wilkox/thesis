@@ -11,7 +11,7 @@ The \ac{SO} consists of zones separated by circumpolar fronts, the locations of 
 From north to south, the major fronts are the \ac{STF}, the \ac{SAF} and the \ac{PF} \figref{fig:oceanographymap}.
 The \ac{SAF} and \ac{PF} are associated with the \ac{ACC}, the world's largest ocean current and a defining oceanographic feature of the \ac{SO}.
 Anthropogenic climate change may be driving the warming and freshening of the \ac{ACC} \cite{Boning:2008il}.
-It may also be shifting the \ac{ACC} and associated fronts poleward; the mean path of the current has moved \textapprox{} 50 km south since the 1950s \cite{Gille:2002fr}.
+It may also be shifting the \ac{ACC} and associated fronts poleward; the mean path of the current has moved \textapprox{}50 km south since the 1950s \cite{Gille:2002fr}.
 If this trend continues, by 2100 this migration will have reduced the volume of water south of the \ac{ACC} by approximately the equivalent of the entire Arctic Ocean \cite{Fyfe:2005vp}.
 
 Climate change may also be affecting the zones separated by these fronts.
@@ -43,14 +43,14 @@ Nineteen samples (16 surface, 3 deep) were obtained along almost the entire lati
 \input{../polarfront/samplemap.tex}
 
 A range of data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meteorological data \tabref{tab:samplelist}.
-These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{} 1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately $-59.70$\textdegree{} of latitude, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
+These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{}1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately $-59.70$\textdegree{} of latitude, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
 Samples were accordingly grouped into ``North'' and ``South'' zones, while the three deep samples composed a ``Deep'' zone \tabref{tab:samplelist}.
 The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} regions, while the \ac{SZ} represents the \ac{AZ}.
 
 \input{../polarfront/samplelist.tex}
 
-At each station, \textapprox{} 250--560 L of seawater was pumped from \textapprox{} 1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
-In the case of deep samples, \textapprox{} 225--230 L of seawater was collected from Niskin bottles attached to a \ac{CTD} (SeaBird, Bellevue, USA).
+At each station, \textapprox{}250--560 L of seawater was pumped from \textapprox{}1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
+In the case of deep samples, \textapprox{}225--230 L of seawater was collected from Niskin bottles attached to a \ac{CTD} (SeaBird, Bellevue, USA).
 Seawater samples were prefiltered through a 20 \micron{} plankton net, then filtrate was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
 
 DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J. Craig Venter Institute.} was performed at the J. Craig Venter Institute (Rockville, USA) as described in \citet{Rusch:2007ez}.
