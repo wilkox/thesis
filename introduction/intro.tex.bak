@@ -7,7 +7,7 @@
 
 The \ac{SO} is large (\textapprox{}36,000,000 km\textsuperscript{2}), oceanographically complex and an important part of the world's hydro- and biospheres.
 It drives global \ac{THC}: \ac{AABW} formed off the Antarctic Coast is the major source of the World Ocean's \ac{BW} \cite{Jacobs:2004hv}, the sinking of which is one of two major engines for the \ac{THC} ``global conveyor belt'' (the other being \ac{BW} formation in the North Atlantic).
-The \ac{SO} also supports a large fraction of global marine primary production: the upwelling of \ac{CDW} south of the \ac{PF} returns nutrients transported to the deep ocean by sinking particulate matter \cite{Rath:1998wm} to the surface.
+The \ac{SO} also supports a large fraction of global marine primary production: the upwelling of \ac{CDW} south of the \ac{PF} returns nutrients transported to the deep ocean by sinking particulate matter \cite{Rath:1998wm} to the surface, and \ac{SO} phytoplankton may perform as much as 15\% of global carbon fixation \cite{Huntley:1991tg}.
 
 These important functions are closely linked to the \ac{SO}'s unique oceanography.
 Like the Arctic Ocean, the \ac{SO} is circumpolar, entailing physical features such as low surface water temperatures, strong seasonal cycles in temperature and solar irradiation, the seasonal formation of sea ice and exposure to surface sheer forces from strong high-latitude winds.
@@ -82,11 +82,14 @@ The following section gives an overview of the current state of knowledge.
 
 \section{Microbial ecology of the Southern Ocean}
 
-TODO
-  - Microbes perform key ecosystem functions
-  - Microbes are partitioned by fronts/zones (summarise here, more detail is in individual divisions)
-  - Focus only on Picoplankton (but add gloss on eukarya?)
-  - Focus only on molecular studies
+As in all the World Ocean, microorganisms perform key ecosystem functions in the \ac{SO}, driving carbon, nitrogen, sulfur and other major cycles.
+There is evidence that the \ac{PF} and other \ac{SO} fronts are biogeographical boundaries between distinct bacterioplankton communities \citep[e.g.][]{Selje:2004ka,Abell:2005ji,Giebel:2009hr,Weber:2010fi}.
+This section reviews the current state of knowlage on the abundance, biogeography and ecosystem functions of picoplankton in the \ac{SO}, with a focus on molecular studies.
+
+Eukaryotic phytoplankton and protists are a major component of the \ac{SO} microbial ecosystem.
+In particular, they perform a large proportion of primary production in coastal and continental shelf \ac{AZ} waters \citep[e.g.][]{ElSayed:2005jq}.
+Additionally, the production and deposition of biogenic silica by \ac{SO} diatoms composes a large fraction of the global silica flux \cite{Treguer:1995kz}.
+However, as the work described in this thesis is limited to the picoplanktonic fraction, eurakyotic plankton will not be considered except where relevent to bacteria, archaea or viruses (e.g.\ grazing).
 
 \subsection{Bacteria}
 
@@ -99,7 +102,7 @@ Unlike some other major proteobacterial groups that are strongly associated with
 Roseobacters are found in the planktonic fraction as well as in commensal association with phytoplankton and metazoans \citep[reviewed in][]{Buchan:2005hd}.
 
 Several 16S rDNA-based studies have identified the \ac{RCA} subgroup as ubiquitous and abundant in \ac{SO} surface waters and to a depth of at least 2200 m, composing \textapprox{}10--30\% of surface bacteria (and the majority of roseobacters) in the Subantarctic and Antarctic zones \cite{Giebel:2009hr,Murray:2007db,Ghiglione:2011ee} and a major fraction of the population in coastal waters \cite{Murray:2007db,Koh:2011ij}.
-Two major \ac{RCA} phylotypes appear to be present in the \ac{SO} and form the majority of the roseobacter population.
+Two major \ac{RCA} phylotypes appear to be present in the \ac{SO} and form the majority of the Roseobacter population.
 The phylotypes are strictly segregated by the \ac{PF}, coexisting only within the \ac{PFZ} \cite{Selje:2004ka,Giebel:2009hr} where they may outnumber even the SAR11 clade.
 There is some evidence that the \ac{AZ} \ac{RCA} phylotype originates from the North Atlantic; \citet{Giebel:2009hr} noted \ac{CDW} at 2200 m in the \ac{SZ} had an identical temperature-salinity signature to \ac{NADW}.
 \ac{NADW} is formed by the sinking of dense, saline waters from the surface north Atlantic, and is transported to the \ac{SO} via global thermohaline circulation to become \ac{CDW} \cite{Callahan:1972tk}.
@@ -127,7 +130,7 @@ Nevertheless, Roseobacter clade representatives in these polar waters are metabo
 The SAR11 clade of Alphaproteobacteria is probably the most abundant class of marine microorganisms worldwide \cite{Morris:2002bn}.
 \candidatus{Pelagibacter ubique} strain HTCC1062, the first and most intensively studied SAR11 isolate, has one of the smallest genomes and gene complements of any known free-living cell as well as a very small cell volume \cite{Giovannoni:2005ib}.
 The small volume, streamlined genome and high proportion of ABC nutrient-uptake transporter genes are all consistent with an oligotrophic lifestyle, scavenging a wide range of substrates using high-affinity, broad-specificity transporters \cite{Giovannoni:2005ib,Lauro:2009gx,Sowell:2008ks}.
-SAR11 cells probably preferentially utilise low over high molecular weight \ac{DOM} \cite{Malmstrom:2005el} and their relative contribution to uptake of \ac{DOM} may decrease as substrate concentration increases \cite{Alonso:2006dj}.
+SAR11 cells probably preferentially consume low over high molecular weight \ac{DOM} \cite{Malmstrom:2005el} and their relative contribution to uptake of \ac{DOM} may decrease as substrate concentration increases \cite{Alonso:2006dj}.
 A consequence of this oligotrophic strategy is that SAR11 members are probably unable to take advantage of sudden nutrient influxes, such as during phytoplankton blooms, to rapidly increase cell density \cite{Tripp:2008dd}.
 
 SAR11 has been consistently detected at high abundances in molecular surveys of the \ac{SO}, in all open ocean regions as well as at depth and in coastal waters, and is usually the dominant alpha-proteobacterial, if not bacterial, group \cite{Giebel:2009hr,Murray:2007db,LopezGarcia:2001vp,Straza:2010io,Jamieson:2012up,GarciaMartinez:2000fu,Ghiglione:2011ee,Murray:2011ib,Piquet:2011fj}.
@@ -166,19 +169,19 @@ While not found at high abundance \cite{Gentile:2006ef,Ghiglione:2011ee,Jamieson
 Most known \ac{AOB} belong to the Betaproteobacteria \cite{Head:1993vt,Teske:1994wt}.
 Metagenomic and metaproteomic analyses of surface coastal waters off the Antarctic Peninsula show evidence of Calvin cycle carbon fixation and ammonia oxidation in winter by Betaproteobacteria \cite{Grzymski:2012ej,Williams:2012bs}.
 
-The OM43 clade of Betaproteobacteria has been associated with coastal phytoplankton blooms \cite{Morris:2006hma} and shown to be an obligate methylotroph capable of utilising methanol and formaldehyde as carbon and energy sources \cite{Giovannoni:2008kw}.
-As it has the smallest reported genome for a free-living cell, OM43 seems to be highly specialized for this unusual niche \citet[the ``genome streamlining'' hypothesis][]{Mira:2001ti}.
+The OM43 clade of Betaproteobacteria has been associated with coastal phytoplankton blooms \cite{Morris:2006hma} and shown to be an obligate methylotroph capable of using methanol and formaldehyde as carbon and energy sources \cite{Giovannoni:2008kw}.
+As it has the smallest reported genome for a free-living cell, OM43 seems to be highly specialized for this unusual niche (the ``genome streamlining'' hypothesis, \citet{Mira:2001ti}).
 OM43 has been detected in a 16S rDNA library in a naturally fertilised bloom in the \ac{SAZ} \cite{West:2008kc}, where it was the only betaproteobacterial representative, and in a metaproteomic survey of coastal waters on the \ac{AP}, where methanol dehydrogenase from OM43 was detected \cite{Williams:2012bs}.
-Although the source of methanol in the marine environment is not yet clear, it may be a byproduct of phytoplankton growth \cite{Heikes:2002ee} which would be consistent with OM43's observed association with coastal blooms.
+Although the source of methanol in the marine environment is not yet clear, it may be a byproduct of phytoplankton growth \cite{Heikes:2002ee}, which would be consistent with OM43's observed association with coastal blooms.
 This possibility suggests OM43, and perhaps other C1 specialists, play an underexplored role in the marine microbial loop.
-Alternative sources are atmospheric deposition \cite{Sinha:2007uu} or photochemical degradation of organic material \cite{Dixon:2011er}.
+Alternative methanol sources are atmospheric deposition \cite{Sinha:2007uu} or photochemical degradation of organic material \cite{Dixon:2011er}.
 The latter is of particular interest in Antarctic waters, given the high levels of solar irradiation during the austral summer.
 
 \subsubsection{Gammaproteobacteria}
 
 \subsubsubsection{SAR86}
 
-The gammaproteobacterial SAR86 clade is an abundant group in the surface ocean, being e.g.\ the most abundant genome for an uncultured organism in the \ac{GOS} dataset \cite{Dupont:2011fk}.
+The gammaproteobacterial SAR86 clade is an abundant group in the surface ocean, being e.g.\ the most abundant genome of an uncultured organism in the \ac{GOS} dataset \cite{Dupont:2011fk}.
 While it has been detected in the Southern Ocean \cite{Abell:2005ji,Topping:2006ul,West:2008kc,Obernosterer:2011df}, little is known of its distribution or ecological role.
 \cite{Topping:2006ul} estimated on the basis of \ac{FISH} activity that SAR86 cells composed 7.8\% $\pm8.2$ and 18.3\% $\pm17.0$ of total bacterioplankton in the western and eastern Scotia Sea respectively, suggesting that at least in the SAZ it is a major component of the surface community.
 Genomic analysis of partial SAR86 genomes assembled from metagenomes found the clade have streamlined genomes and are specialized for utilizing lipids and carbohydrates, suggesting minimal competition between SAR86 and SAR11 for \ac{DOC} \cite{Dupont:2011fk}.
@@ -192,7 +195,7 @@ Nevertheless, SAR92 is associated with nutrient-rich waters with high phytoplank
 Reports of SAR92 in the \ac{SO} corroborate this ecology: both \citet{West:2008kc} and \citet{Obernosterer:2011df} found SAR92-affiliated \acp{OTU} to be far more abundant inside the \ac{KEOPS} phytoplankton bloom patch than in typically \ac{HNLC} \ac{SAZ} waters outside of it, with abundance declining as the bloom aged.
 This, combined with the observation that SAR92 growth is highly carbon-limited \cite{Stingl:2007ja}, suggests the clade plays an important role in degradation of organic carbon produced by phytoplankton blooms.
 It has also been detected in coastal \ac{AP} and Kerguelen Islands waters \cite{Ghiglione:2011ee}.
-Metaproteomic and metagenomic surveys of coastal waters at Palmer station found \ac{OMG} to me more abundant in the summer than winter \cite{Williams:2012bs}.
+Metaproteomic and metagenomic surveys of coastal waters at Palmer station found \ac{OMG} to be more abundant in the summer than winter \cite{Williams:2012bs}.
 TonB-dependent receptor systems from \ac{OMG} were highly abundant in the metaproteome, indicating that this is the preferred uptake system of ambient substrates \cite{Williams:2012bs}.
 Certain \ac{OMG} strains encode proteorhodopsin (HTCC2207, \citet{Stingl:2007ja}; HTCC2143, \citet{Oh:2010di}), also indicated in the metaproteomic study in both seasons \cite{Williams:2012bs}.
 
@@ -203,20 +206,20 @@ It has since been reported as one of the dominant proteobacterial groups in the 
 In waters off the western Antarctic Peninsula, Ant4D3 was reported to compose 10\% of the total community and half the gammaproteobacterial community, and 68\% of cells incorporating amino acids \cite{Straza:2010io}.
 The authors also reported that the clade appears to have low diversity, based on detected rDNA sequences.
 Like SAR86, Ant4D3 cells were more active in \ac{HNLC} than bloom conditions on the Kerguelen Plateau \cite{West:2008kc}.
-However, \cite{Ghiglione:2011ee} reported that 16.5\% of tag-pyrosequenced 16S \ac{DGGE} bands from summer \ac{AP} waters were affiliated to Ant4D3, dominating the Gammaproteobacteria and outnumbering winter and Kerguelen Island waters.
-\cite{Murray:2011ib} similarly found Ant4D3 clones to be highly abundant in a 16S library from waters in the vicinity of Antarctic icebergs.
+However, \citet{Ghiglione:2011ee} reported that 16.5\% of tag-pyrosequenced 16S \ac{DGGE} bands from summer \ac{AP} waters were affiliated to Ant4D3, dominating the Gammaproteobacteria and outnumbering winter and Kerguelen Island waters.
+\citet{Murray:2011ib} similarly found Ant4D3 clones to be highly abundant in a 16S library from waters in the vicinity of Antarctic icebergs.
 Little is known about the group's function or ecological position, although it has been detected in Arctic waters where it appeared to occupy a \ac{DOM} utilisation niche different from that of other major heterotrophs e.g.\ SAR11 \cite{Nikrad:2012fa}.
 
 \subsubsubsection{GSO-EOSA-1}
 
 The GSO-EOSA-1 cluster of sulfur-oxidizing Gammaproteobacteria, which includes the uncultivated ARCTIC96BD-19 and SUP05 lineages as well as cultivated chemoautotrophic clam symbionts, has been reported in global mesopelagic waters \cite{Swan:2011hb} and oxygen minimum zones \cite{Walsh:2009fja,Canfield:2010ib}.
 Three studies have recently identified GSO-EOSA-1 representatives at high abundance in coastal and \ac{AZ} waters.
-A metagenomic survey of coastal waters at Palmer station found GSO-EOSA-1 winter bacterioplankton were dominated by Gammaproteobacteria (19.7\% of the winter library compared to 2.7\% of the summer library) falling into 5 closely-related 0.03 distance bins that were affiliated with the GSO-EOSA-1 complex.
-\cite{Grzymski:2012ej}, in a metaproteomic survey of coastal waters at Palmer station, found GSO-EOSA-1 proteins composed a large fraction of all gammaproteobacterial proteins detected and were significantly more abundant in winter than summer (20\% vs 3\%).
-In a companion metaproteomic analysis of the same sites, \cite{Williams:2012bs} confirmed this high abundance and seasonal pattern, although GSO-EOSA-1 appeared to be metabolically active at the surface in both summer and winter.
+A metagenomic survey of coastal waters at Palmer station found GSO-EOSA-1 winter bacterioplankton were dominated by Gammaproteobacteria (19.7\% of the winter library compared to 2.7\% of the summer library) falling into five closely-related (0.03 distance) bins that were affiliated with the GSO-EOSA-1 complex.
+\citet{Grzymski:2012ej}, in a metaproteomic survey of coastal waters at Palmer station, found GSO-EOSA-1 proteins composed a large fraction of all gammaproteobacterial proteins detected and were significantly more abundant in winter than summer (20\% vs 3\%).
+In a companion metaproteomic analysis of the same sites, \citet{Williams:2012bs} confirmed this high abundance and seasonal pattern, although GSO-EOSA-1 appeared to be metabolically active at the surface in both summer and winter.
 
 Genomic and metaproteomic analyses of GSO-EOSA-1 representatives, particularly SUP05, have revealed the potential for carbon fixation via the Calvin cycle and sulfur oxidation, even in well-oxygenated waters \cite{Walsh:2009fja,Swan:2011hb,Grzymski:2012ej}.
-\cite{Grzymski:2012ej} estimated from rRNA abundances that between 18 and 37\% of the winter bacterioplankton community comprises \acp{OTU} with the potential for chemolithoautotrophy, including GSO-EOSA-1, suggesting winter chemolithoautotrophy may contribute significantly to \ac{SO} carbon fixation.
+\citet{Grzymski:2012ej} estimated from rRNA abundances that 18--37\% of the winter bacterioplankton community comprises \acp{OTU} with the potential for chemolithoautotrophy, including GSO-EOSA-1, suggesting winter chemolithoautotrophy may contribute significantly to \ac{SO} carbon fixation.
 
 \subsubsection{Deltaproteobacteria}
 
@@ -234,24 +237,24 @@ Isolated \ac{CFB} representatives have a well-described aptitude for the degrada
 Of the \ac{CFB}, the class Flavobacteria seem to be in the majority worldwide in both freshwater and marine environments \cite{OSullivan:2006km,Cottrell:2005bo} including the Southern Ocean \cite{Abell:2005ji}.
 
 \ac{CFB} in the \ac{SO} are strongly biogeographically partitioned.
-\citet{Abell:2005ji}, utilising \ac{DGGE} and 16S sequencing with Flavobacteria-specific primers, found significantly higher abundance and diversity of particle-attached Flavobacteria in the nutrient- and phytoplankton-rich waters south of the \ac{PF} relative to the \ac{HNLC} waters of the Subantarctic.
+\citet{Abell:2005ji}, using \ac{DGGE} and 16S sequencing with Flavobacteria-specific primers, found significantly higher abundance and diversity of particle-attached Flavobacteria in the nutrient- and phytoplankton-rich waters south of the \ac{PF} relative to the \ac{HNLC} waters of the Subantarctic.
 This difference in abundance may be largely attributable to the low iron availability in the Subantarctic, which probably limits primary production \cite{Boyd:2007ij}.
-Both natural and artificial iron fertilization events in the Subantarctic have resulted in high abundances of bacterial heterotrophs \cite{Christaki:2008el,Oliver:2004ty}; \citet{West:2008kc}, identified the \ac{CFB} as a major component of the bacterial response to blooms induced by natural iron input on the Kerguelen plateau.
+Both natural and artificial iron fertilization events in the Subantarctic have resulted in high abundances of bacterial heterotrophs \cite{Christaki:2008el,Oliver:2004ty}; \citet{West:2008kc} identified the \ac{CFB} as a major component of the bacterial response to blooms induced by natural iron input on the Kerguelen plateau.
 The higher abundance of \ac{CFB} in the \ac{AZ} may also relate to their prevalence in sea ice \cite{Brinkmeyer:2003iq,Brown:2001hh}, from which they would be released into \ac{AZ} waters during seasonal melting.
-Two groups, the uncultured agg58 cluster and the genus \genus{Polaribacter}, appear to dominate \ac{CFB} populations and activity in the \ac{SO} \cite{Murray:2007db,Abell:2005ji,Abell:dh,Obernosterer:2011df,West:2008kc,Ghiglione:2011ee,Ducklow:2011jl,Straza:2010io}.
+Two groups, the uncultured agg58 cluster and the genus \genus{Polaribacter}, appear to dominate \ac{CFB} populations and activity in the \ac{SO} \cite{Murray:2007db,Abell:2005dh,Abell:2005ji,Obernosterer:2011df,West:2008kc,Ghiglione:2011ee,Ducklow:2011jl,Straza:2010io}.
 
 There is some evidence that planktonic and particle-attached \ac{CFB}, rather than being an integrated population with cells opportunistically shifting between phases, may comprise at least partially distinct groups of phylotypes.
-In a mesocosm experiment examining colonisation of diatom detritus in \ac{SO} seawater, 16S \ac{DGGE} and sequencing analysis showed a large proportion of flavobacterial phylotypes present in the planktonic phase failed to colonise detrital particles during the course of the experiment \cite{Abell:dh}.
+In a mesocosm experiment examining colonisation of diatom detritus in \ac{SO} seawater, 16S \ac{DGGE} and sequencing analysis showed a large proportion of flavobacterial phylotypes present in the planktonic phase failed to colonise detrital particles during the course of the experiment \cite{Abell:2005dh}.
 The authors suggest these phylotypes may be slower-growing, perhaps comprising a secondary group of colonisers which only come to dominate when the more accessible detrital nutrients have been exhausted and the primary colonisers have secreted useful secondary metabolites.
 Alternatively, some flavobacterial groups may not use particle attachment as a primary strategy.
-Questions around the relationship between particle-attached and free-living microbial communities emphasise the usefulness of size fractionation in molecular studies of marine microbial communities.
 
 \citet{Kirchman:2002ub} suggests 16S clone libraries may systematically underestimate the abundance of \ac{CFB} in environmental samples, noting that in two studies where both \ac{FISH} and 16S analysis were employed at the same site there were common discrepancies in \ac{CFB} abundance estimates between the two methods \cite{Cottrell:2000iq,Eilers:2000in}.
 Additionally, both \ac{FISH} and PCR based methods may underestimate \ac{CFB} abundance relative to metagenomic surveys, due to probe specificity biased against Bacteroidetes 16S rDNA \cite{Cottrell:2005bo,OSullivan:2006km}.
 
-\genus{Polaribacter} is a gas-vacuolated, proteorhodopsin-expressing flavobacterial genus prevalent in Arctic and Antarctic seawater, and the genome indicates a preference for polymers obtained from algal detritus rather than labile exudates (e.g.\ taurine, polyamines) \cite{Gonzalez:2008tn}.
-An Antarctic Peninsula coastal metagenome found \genus{Polaribacter}-related sequences to be dominant in summer, consistent with an association with phytoplankton blooms and/or being seeded from melting sea-ice \cite{Grzymski:2012ej}.
-Flavobacterial proteins (including those with the best matches to \genus{Polaribacter} spp.) were similarly much more abundant in the summer versus winter metaproteome from the same sites, with components of TonB-dependent receptor systems predominating \cite{Williams:2012bs}. 
+\genus{Polaribacter} is a gas-vacuolated, proteorhodopsin-expressing flavobacterial genus prevalent in Arctic and Antarctic seawater.
+Its genome indicates a preference for polymers obtained from algal detritus rather than labile exudates (e.g.\ taurine, polyamines) \cite{Gonzalez:2008tn}.
+An Antarctic Peninsula coastal metagenome found \genus{Polaribacter}-related sequences to be dominant in summer, consistent with an association with phytoplankton blooms and/or input from melting sea-ice \cite{Grzymski:2012ej}.
+Flavobacterial proteins (including those with the best matches to \genus{Polaribacter} spp.) were similarly much more abundant in the summer than winter metaproteome from the same sites, with components of TonB-dependent receptor systems predominating \cite{Williams:2012bs}. 
 
 \subsubsection{Cyanobacteria}
 
@@ -263,42 +266,41 @@ Cyanobacteria also appear to be at low abundance in the \ac{SAZ} \cite{Abell:200
 
 \subsubsection{Verrucomicrobia}
 
-Verrucomicrobia is a recently described phylum that is ubiquitous in the marine environment, and appears to be composed of several physiologically distinct lineages \cite{Freitas:2012jz}.
-A small number of representatives of Verrucomicrobia have been detected in the \ac{SO} \cite{Murray:2011ib,West:2008kc,Gentile:2006ef,Murray:2007db}, and \citet{Ghiglione:2011ee} reported a higher abundance of 16S rDNA clones affiliating with the Verrucomicrobia at a Kerguelen Island site relative to a site near Palmer Station on the Antarctic Peninsula.
+Verrucomicrobia is a recently described phylum, members of which are ubiquitous in the marine environment, and which appears to be composed of several physiologically distinct lineages \cite{Freitas:2012jz}.
+A small number of Verrucomicrobia representatives have been detected in the \ac{SO} \cite{Murray:2011ib,West:2008kc,Gentile:2006ef,Murray:2007db}, and \citet{Ghiglione:2011ee} reported a higher abundance of 16S rDNA clones affiliating with the Verrucomicrobia at a Kerguelen Island site relative to a site near Palmer Station on the Antarctic Peninsula.
 Little else is known regarding their abundance, diversity or ecological role in the \ac{SO}.
 
 \subsubsection{Other bacteria}
 
-Bacteria of the phylum Planctomycetes have been detected at low abundance in \ac{SO} molecular surveys \cite{Gentile:2006ef,LopezGarcia:2001vp,Jamieson:2012up,Murray:2011ib,Abell:2005ji}.
-Planctomycetes is emerging as a group of interest in marine microbial ecology, for example as performers of \ac{anammox} \cite{Strous:1999wj}, such as indicated in the metaproteome from coastal West Antarctic waters \cite{Williams:2012bs}.
-The latter study also detected Nitrospirae proteins pertaining to nitrite oxidation and carbon fixation via the reductive tricarboxylic acid cycle.
-Members of the Nitrospirae and Planctomycetes are therefore implicated in completing nitrification using nitrite generated by AOA and AOB in Antarctic waters.
-
 Other bacterial groups have been reported at low abundance in \ac{SO} waters, including Actinobacteria \cite{Bowman:2003fa,Brinkmeyer:2003iq,Abell:2005ji,Gentile:2006ef,Murray:2007db,Murray:2011ib,Ghiglione:2011ee,Piquet:2011fj,Jamieson:2012up}, Epsilonproteobacteria \cite{Gentile:2006ef,Murray:2007db}, and Firmicutes \cite{Murray:2007db,Anonymous:2011bw,Murray:2011ib}.
 Little is known about their respective ecological roles, although Actinobacteria have been associated with marine aggregates \cite{Grossart:2006ez}; interestingly, their terrestrial counterparts have diverse \ac{HMW} substrate degradation capabilities \citep[reviewed in][]{Kirchman:2008wz}.
-A strong negative correlation has been reported between actinobacterial abundance and latitude in a global survey using 16S rDNA clone libraries \cite{Pommier:2007vz}, with higher abundances in tropical and subtropical waters, as for Cyanobacteria.
+A strong negative correlation has been reported between actinobacterial abundance and latitude in a global survey of 16S rDNA clone libraries \cite{Pommier:2007vz}, with higher abundances in tropical and subtropical waters, as for Cyanobacteria.
+
+Bacteria of the phylum Planctomycetes have been detected at low abundance in \ac{SO} molecular surveys \cite{Gentile:2006ef,LopezGarcia:2001vp,Jamieson:2012up,Murray:2011ib,Abell:2005ji}.
+The Planctomycetes are emerging as organisms of interest in marine microbial ecology, for example as performers of \ac{anammox} \cite{Strous:1999wj}.
+They have been identified in a metaproteome from West Antarctic coastal waters \cite{Williams:2012bs}, where they and members of the phylum Nitrospirae were implicated in nitrification using nitrite generated by \ac{AOA} and \ac{AOB}.
 
 \subsection{Archaea}
 
-\citet{DeLong:1994id} first reported the high abundance (up to 34\%) of archaea in Antarctic coastal surface waters, a surprising discovery at a time when archaea were generally considered a rare group of strict extremophiles.
-The majority of rDNA clones they identified were affiliated with the \ac{MGI}, while the remainder represented the Group II Euryarchaeota.
-Subsequent rRNA-based studies are likewise in agreement that \ac{MGI} are the dominant group of archaea in surface waters of coastal Antarctica, followed by Group II Euryarchaeota (Gerlache Strait, \citet{Massana:1998tn}; near Anvers Island, \citet{Murray:1998wy}1998).
-Further rRNA-based analysis showed the widespread distribution of Antarctic marine archaea both longitudinally as well north and south of the polar front \cite{Murray:1999tx,Topping:2006ul,Jamieson:2012up}, and the identification of a significant \ac{MGI} community in benthic sediments on the Antarctic coast \cite{Bowman:2003fa}.
+\citet{DeLong:1994id} first reported the high abundance (up to 34\%) of archaea in Antarctic coastal surface waters, a surprising discovery at a time when the Archaea were generally considered a rare group of strict extremophiles.
+The majority of rDNA clones they identified were affiliated with the \ac{MGI}, while the remainder represented the \ac{MGII}.
+Subsequent rRNA-based studies are likewise in agreement that \ac{MGI} are the dominant group of archaea in surface waters of coastal Antarctica, followed by \ac{MGII} (Gerlache Strait, \citet{Massana:1998tn}; near Anvers Island, \citet{Murray:1998wy}).
+Further rRNA-based analysis showed the widespread distribution of Antarctic marine archaea \cite{Murray:1999tx,Topping:2006ul,Jamieson:2012up}, and identified a significant \ac{MGI} community in benthic sediments on the Antarctic coast \cite{Bowman:2003fa}.
 
 For \ac{MGI}, ammonia-oxidizing chemolithoautotrophy is likely the dominant metabolic lifestyle \cite{Ingalls:2006kv,Berg:2007fj}, suggesting they play major roles in nitrification and carbon fixation in the \ac{SO}.
 In a winter coastal Antarctic metaproteome, \ac{MGI} proteins made up 30\% of all identified proteins from bacteria or archaea; no \ac{MGI} proteins were detected in the summer metaproteome \cite{Williams:2012bs}.
-The winter metaproteome included \ac{MGI} proteins pertaining to the 3-hydroxypropionate/4-hydroxybutyrate cycle, the pathway used by ammonia-oxidizing \ac{MGI} for carbon fixation, and for ammonium transport and oxidation, supporting a nitrification role for Southern Ocean \ac{MGI} \cite{Williams:2012bs}.
+The winter metaproteome included \ac{MGI} proteins from the 3-hydroxypropionate/4-hydroxybutyrate cycle, the pathway used by ammonia-oxidizing \ac{MGI} for carbon fixation, and for ammonium transport and oxidation, supporting a nitrification role for Southern Ocean \ac{MGI} \cite{Williams:2012bs}.
 The complementary metagenomic analysis of \citet{Grzymski:2012ej} proposed chemolithoautotrophy carried out by ammonia-oxidizing \ac{MGI} and sulfur-oxidizing Gammaproteobacteria (see GSO-EOSA-1, above) to be the major drivers of winter carbon fixation in \ac{AZ} waters.
 In summer autotrophic carbon assimilation is driven by algal-driven oxygenic photoautotrophy, consistent with high light availability and intensity, whereas in the polar winter ``dark'' chemoautotrophy by archaea and bacteria plays a major role in carbon fixation.
 
 \citet{Murray:1998wy} found that total archaeal rRNA levels decreased during summer, and noted a negative correlation between archaeal rRNA levels and chlorophyll \emph{a} concentration.
 \citet{Massana:1998tn} also observed a decline in archaeal rRNA levels during spring.
-\citet{Church:2003vt} found a significantly higher (44\% increase) abundance of \ac{MGI} in surface waters in winter compared to summer.
+\citet{Church:2003vt} found a significantly higher (44\% increase) abundance of \ac{MGI} in surface waters in winter than summer.
 Ammonia-oxidizing \ac{MGI} have been shown to be especially sensitive to photoinhibition \cite{Merbt:2011bl}, which might account for their decline during periods of extended illumination.
-It has also been speculated that the decline of archaea during spring/summer represents competition with non-archaeal microbes during phytoplankton blooming \cite{Massana:1998tn}, or that the majority of \ac{MGI} were chemoautotrophic and therefore more competitive compared to heterotrophs during carbon-scarce winter conditions \cite{Murray:1998wy}.
-However, based on genomic evidence, Marine Group II Euryarchaeota are motile, proteorhodopsin-expressing photoheterotrophs that specialize in protein and lipid degradation \cite{Iverson:2012kc}.
-This is consistent with results that this group, in contrast to \ac{MGI}, was more relatively abundant at the surface than at depth \cite{Massana:1998tn}.
-\citet{Murray:1998wy} noted an increase in Group II Euryarchaeota in autumn in waters off Anvers Island; but otherwise the seasonal distribution of this group in Antarctic waters is not well understood.
+It has also been speculated that the decline of archaea during spring/summer represents competition with non-archaeal microbes during phytoplankton blooms \cite{Massana:1998tn}, or that the majority of \ac{MGI} were chemoautotrophic and therefore more competitive than heterotrophs during carbon-scarce winter conditions \cite{Murray:1998wy}.
+Genomic evidence suggests \ac{MGII} are motile, proteorhodopsin-expressing photoheterotrophs that specialize in protein and lipid degradation \cite{Iverson:2012kc}.
+This is consistent with evidence that this group, in contrast to \ac{MGI}, was more relatively abundant at the surface than at depth \cite{Massana:1998tn}.
+\citet{Murray:1998wy} noted an increase in \ac{MGII} in autumn in waters off Anvers Island; but otherwise the seasonal distribution of this group in Antarctic waters is not well understood.
 
 The numerical dominance of \ac{MGI} over other archaeal groups in surface and photic zone waters has also become well established \citep[e.g.][]{DeLong:1994id,Massana:2000bg}, although not in aphotic waters; \citet{LopezGarcia:2001vp} detected only euryarchaeaotal sequences in a sample from 3000 m depth at the \ac{PF} in the Drake Passage, including marine groups II and III and a novel marine group IV.
 However, these studies also illustrated a potential hazard of probe-dependant methods, namely the high variability of abundance estimates depending on probe design.
@@ -310,11 +312,10 @@ This prompted the authors to design an additional five primer pairs, resulting i
 
 The ``viral shunt'', by which nutrients are released via lysis from marine microorganisms and returned to the dissolved and particulate pools, may mediate the flux of a quarter of all organic matter in the microbial loop \cite{Wilhelm:1999ds} and the viral release of iron from bacterioplankton may be crucial for phytoplanktonic growth \cite{Poorvin:2004vo}.
 Viral production, and by inference the viral shunt, has been shown to be highly active in \ac{HNLC} Subantarctic \cite{Evans:2009ex}, iron-fertilized Subantarctic \cite{Weinbauer:2009tl} and coastal waters, where viral-mediated carbon flux may account for 50--100\% of all heterotrophic production \cite{GuixaBoixereu:2002vh}.
-Despite this crucial ecosystem role, however, molecular analysis of the diversity and function of \ac{SO} virioplankton has been sparse.
+Despite this crucial ecosystem role, molecular analysis of the diversity and function of \ac{SO} virioplankton has been sparse.
 Two studies \cite{Short:2002kk,Short:2005df} used probes with specificity to algal virus and cyanophage marker genes respectively, and succeeded in detecting both in \ac{SO} waters.
-\cite{Williams:2012bs} and \cite{Grzymski:2012ej}, in complementary metaproteomic and metagenomic studies of sites near Palmer station on the Antarctic Peninsula, also detected cyanophage (cyanobacterial virus) genes and proteins as well as a single major capsid protein from \species{Phaeocystis pouchetii} virus PpV01.
+\citet{Williams:2012bs} and \citet{Grzymski:2012ej}, in complementary metaproteomic and metagenomic studies of sites near Palmer station on the Antarctic Peninsula, also detected cyanophage (cyanobacterial virus) genes and proteins as well as a single major capsid protein from \species{Phaeocystis pouchetii} virus PpV01.
 While these studies are only preliminary, they suggest that the more abundant viruses are phytoplanktonic predators.
-An extensive molecular survey of SO virioplankton \citep[in the nature of][]{Angly:2006wf} would clearly be of great value.
 
 \section{Project questions and hypotheses}
 
@@ -338,11 +339,11 @@ This project will seek to characterise those ecosystem functions, and in particu
 
 Findings flowing from the three previous questions will be useful in predicting the effects of climate change-driven change in the physical oceanography of the \ac{SO}.
 However, an underlying assumption has been that the distribution and abundance of picoplankton is determined solely by the physical properties of an environment; in other words, that ``\emph{everything is everywhere}, but, \emph{the environment selects}'' (quotation from \citet{Becking:1934um}; English translation from \citet{deWit:2006de}).
-It is possible, however, that the physical transport of picoplankton through circulation also plays a role.
+It is possible, however, that the physical transport of picoplankton through advection also plays a role.
 The final question of this project seeks to distinguish between three hypotheses:
 
 \textbf{Hypothesis 1:} The distribution of picoplankton in the \ac{SO} is determined only by the physicochemical properties of the water they inhabit; ``\emph{everything is everywhere}, but, \emph{the environment selects}''.
 
-\textbf{Hypothesis 2:} The distribution of picoplankton in the \ac{SO} is determined only by the circulation of the water they inhabit; ``wherever you go, that's where you are'' \cite{Bissett:2010wj}.
+\textbf{Hypothesis 2:} The distribution of picoplankton in the \ac{SO} is determined only by advection; ``wherever you go, that's where you are'' \cite{Bissett:2010wj}.
 
-\textbf{Hypothesis 3:} Both physical transport and environmental selection determine the distribution of \ac{SO} picoplankton.
+\textbf{Hypothesis 3:} Both advection and environmental selection determine the distribution of \ac{SO} picoplankton.
