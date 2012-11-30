@@ -1,6 +1,6 @@
 \documentclass[a4paper]{book}
 
-%\includeonly{../minspec/minspec}
+%\includeonly{../compile/originalitystatement}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -104,7 +104,7 @@
 \usepackage{bibentry}
 \nobibliography*
 
-%for 1.5 spacing
+%for line spacing
 \usepackage{setspace}
 
 %set font to Palatino
@@ -180,6 +180,10 @@
 
 \pagenumbering{roman}
 
+\include{../compile/originalitystatement}
+
+\include{../compile/abstract}
+
 \tableofcontents
 
 \listoffigures
@@ -195,8 +199,6 @@
 %\setstretch{2.5}
 
 \chapter{Acknowledgements}
-
-\chapter{Abstract}
 
 \clearpage
 \pagenumbering{arabic}
