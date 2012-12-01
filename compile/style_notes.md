@@ -73,3 +73,9 @@
 - Dates should be writteen in the order Month, Day (ordinal), Year, with no commas: so January 5th 2008; March 2012. 
 - The ordinal indicators (st, nd, th) should not be set as superscripts.
 - Date ranges should be indicated by en dashes with no spaces: so January 5th--March 1st 2010; December 1986--April 1987. The month or year can be omitted from the start of the range if it is the same as the end: so 2nd--15th May 2013.
+
+#"Biogeographic" vs "Biogeographical"
+- Prefer "Biogeographic"
+
+#Numbers
+- Integers less than or equal to twenty should be written out in full. However, any number used to quantify a unit should be written in numerals. So, "We used eleven ships and 45 helicopters to take 189 2.5 mg samples."

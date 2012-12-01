@@ -188,7 +188,7 @@
 \glossaryentry{AOB?\glossaryentryfield{AOB}{\glsnamefont{AOB}}{Ammonia-Oxidizing Bacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{AP?\glossaryentryfield{AP}{\glsnamefont{AP}}{Antarctic Peninsula}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling expedition}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{DOC?\glossaryentryfield{DOC}{\glsnamefont{DOC}}{Dissolved Organic Carbon}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{HNLC?\glossaryentryfield{HNLC}{\glsnamefont{HNLC}}{High Nutrient, Low Chlorophyll}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
@@ -414,9 +414,9 @@
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling expedition}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling expedition}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{GOS?\glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling expedition}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{AAD?\glossaryentryfield{AAD}{\glsnamefont{AAD}}{Australian Antarctic Division}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{CEAMARC?\glossaryentryfield{CEAMARC}{\glsnamefont{CEAMARC}}{Collaborative East Antarctic Marine Census}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{CASO?\glossaryentryfield{CASO}{\glsnamefont{CASO}}{Climate of Antarctica and the Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
@@ -427,6 +427,7 @@
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{AAD?\glossaryentryfield{AAD}{\glsnamefont{AAD}}{Australian Antarctic Division}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
@@ -462,6 +463,7 @@
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
@@ -645,11 +647,6 @@
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
