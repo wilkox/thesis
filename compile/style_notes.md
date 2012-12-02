@@ -17,21 +17,19 @@
 - Chlorophyll a: the word "chlorophyll" should always be in roman type; the "a" should be in italics. The abbreviated form is "chl a", with the "a" in italics.
 
 #Metagenomes and metagenomics
-- A metagenome is the genetic material recovered from an environmental sample.
+- A metagenome is the genetic material recovered from an environmental sample, and the genetic sequence(s) of that material.
 - There is no need to say "metagenomic dataset" or "set of metagenomic sequences" where merely "metagenome" will do.
 
 #American English
 - As a general rule, Australian English spellings should be used: so "oxidise" rather than "oxidize"; "sulphonate" rather than "sulfonate".
 - However, an exception can be made when the word forms part of a name already in the literature: so the GSO are the "Gammaproteobacterial Sulfur Oxidizers".
 
-#Units of measurement
-- Base pairs: bp; kbp: kilo base pairs, Mbp: mega base pairs; Gbp: giga base pairs
-
 #Quotation marks
-- Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for all quotations, as well as use-mention distinctions etc. as described in http://en.wikipedia.org/wiki/Quotation_mark.
+- Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
+- Double quotation marks should always be used for use-mention distinctions.
 
 #id est, exempli gratia and et cetera (i.e., e.g. and etc.)
-- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ ", "e.g.\ " and "etc.\ ". Note the space after the "\". Do not use this with the "citep" command; "\citep[e.g]{smith2001}" is fine.
+- Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ ", "e.g.\ " and "etc.\ ". Note the space after the "\". Do not use this with the "citep" command; LaTeX will handle correct spacing for e.g. "\citep[e.g]{smith2001}".
 - Neither "i.e." nor "e.g." should be followed by a comma.
 
 #Headings (chapter, section etc.)
@@ -56,9 +54,11 @@
 
 #Units of measurement, percentages and degrees
 - All standard units of measurement should be typeset with a space between the value and the unit: 10 mL.
+- Base pairs: bp; kbp: kilo base pairs, Mbp: mega base pairs; Gbp: giga base pairs
 - Percentages should have no space: 45%.
 - Temperatures should be typeset as follows: 37 ºC (in LaTeX, "37 \textdegrees{}C").
-- Latitute and longitude should be typeset as follows: 40º S, 140º E.
+- Latitude and longitude should be typeset as follows: 40º S, 140º E.
+- Latitude and longitude should be expressed using hemisphere rather than signed numer, i.e. "50º S" rather than "-50º" ("-50º S" is always incorrect). The exception is in a table column with the header "Latitude" or "Longitude", where e.g. "–50º" is preferred.
 - Derived units should be set using a slash rather than scientific notation, i.e. mg/mL, not mg.mL⁻¹.
 - Times may be written either in full (two hours) or abbreviated (2 h), but the two forms should not be mixed (i.e. 4.5 hours is incorrect). Time abbreviations (h, min, sec) do not need periods (i.e. h., min., sec are incorrect).
 - When describing amounts of regents (i.e. mass nouns), "of" should always be used: so "20 g of salt was added", not "20 g salt was added".
@@ -67,15 +67,15 @@
 - Specialist reagents and materials, particularly those with trademarked names, should be followed with the name, city and country of the manufacturer: "Proteinase K (Sigma-Aldrich, St.\ Louis, USA)". This only needs to appear the first time the reagent or material is mentioned.
 
 #Footnotes
-- Sentences in footnotes should end in a period.
+- Sentences in footnotes should end with a period.
 
 #Dates
-- Dates should be writteen in the order Month, Day (ordinal), Year, with no commas: so January 5th 2008; March 2012. 
+- Dates should be writteen in the order Month, Day (ordinal), Year, with no commas: so "January 5th 2008"; "March 2012".
 - The ordinal indicators (st, nd, th) should not be set as superscripts.
-- Date ranges should be indicated by en dashes with no spaces: so January 5th--March 1st 2010; December 1986--April 1987. The month or year can be omitted from the start of the range if it is the same as the end: so 2nd--15th May 2013.
+- Date ranges should be indicated by en dashes with no spaces: so "January 5th--March 1st 2010"; "December 1986--April 1987". The month or year can be omitted from the start of the range if it is the same as the end: so "2nd--15th May 2013"; "August--November 1987".
 
 #"Biogeographic" vs "Biogeographical"
-- Prefer "Biogeographic"
+- Prefer "Biogeographic".
 
-#Numbers
-- Integers less than or equal to twenty should be written out in full. However, any number used to quantify a unit should be written in numerals. So, "We used eleven ships and 45 helicopters to take 189 2.5 mg samples."
+#Counting numbers
+- Counts less than or equal to twenty should be written out in full. However, any number used to quantify a unit should be written in numerals. So, "We used eleven ships and 45 helicopters to take 189 2.5 mg samples."
