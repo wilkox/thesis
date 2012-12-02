@@ -76,7 +76,7 @@ The constraint function was constructed as follows \citep[adapted from][]{Ye:200
 \begin{equation*}
 \sum_{j=1}^{s}M_{ij}A_{j}\ge1 \; \; \; \forall i \in [1,n]
 \end{equation*}
-where $M_{ij} = 1$ if read \textit{i} has a mapping (i.e.\ a high-quality \softwarename{blast} hit) to \ac{OTU} \textit{j}, and $[1,n]$ is the set of all reads.
+where $M_{ij} = 1$ if read \textit{i} has a mapping (i.e.\ a high-quality \softwarename{blast} hit) to \ac{OTU} \textit{j}, 0 if not, and $[1,n]$ is the set of all reads.
 In other words, the constraint function fails if any read does not have at least one of its high-quality \softwarename{blast} hits represented in the assemblage.
 
 This approach eliminates many of the spurious \ac{OTU} identifications which result from reads with strong identity to more than one \ac{OTU}.
