@@ -69,7 +69,7 @@ The outputs of all \softwarename{tblastx} searches against RefSeq were processed
 \subsubsection{\ac{OTU} abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
-Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each species, taking into account differences in genome size. 
+Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
 \ac{GAAS} was run with the default settings. 
 To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
