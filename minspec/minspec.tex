@@ -151,7 +151,11 @@ This is likely because in assemblages with a higher assemblage ratio, there are 
 The high proportion of false \acp{OTU} correctly identified in simulations with a low assemblage ratio is thus a good indication that \softwarename{minspec} is effective at identifying and removing false \acp{OTU}, especially as this proportion far exceeds the false positive and false negative (\softwarename{minspec}) rates for comparable experiments.
 As expected, increasing the number of reads improved \softwarename{minspec}'s accuracy.
 
+\section{Conclusions}
+
 Overall, the simulated experiments validated both the accuracy and usefulness of \softwarename{minspec} as a tool for reducing error in metagenomic studies.
 It is worth noting that the assemblage ratio is not an inherent property of an assemblage, although it is limited by the assemblage's \ac{OTU} richness.
 Rather, it can be decreased, and thus the accuracy of the metagenomic experiment improved, by performing \softwarename{blast} searches against larger databases with finer taxonomic resolution.
 These results thus reinforce the value of both large read sets and comprehensive reference databases in obtaining high-quality metagenomic results.
+
+At the time of writing, \softwarename{minspec} has been used in two published projects: \citet{Wilkins:2012wg} and \citet{Williams:2012gsa}.

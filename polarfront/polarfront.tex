@@ -60,7 +60,7 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsubsection{\softwarename{blast} comparison to RefSeq database}
 
-A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2012 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
+A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
