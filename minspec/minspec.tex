@@ -39,6 +39,10 @@ This problem is compounded by a systematic overrepresentation within databases o
 Environmental \acp{OTU} are comparatively underrepresented.
 For example, \tabreft{tab:unlikelyotus} gives examples of terrestrial plant and animal pathogens, \textit{a priori} unlikely to be truly present, which were identified in an open ocean metagenome using the \naive{} method.
 
+One commonly used software tool to address this problem, \ac{MEGAN}, aggregates reads with hits to many \acp{OTU} to the most recent common ancestor of those \acp{OTU}, represented by a higher taxonomic rank e.g.\ family \cite{Huson:2007jl}.
+This approach increases the fidelity of the results, but comes at the cost of reduced taxonomic resolution.
+Particularly in marine assemblages where even fine genomic differences can represent distinct ecological functions \citep[e.g.][]{Brown:2012gna}, a tool which reduces spurious identifications without compromising taxonomic resolution would clearly be valuable. 
+
 \subsection{The maximum parsimony approach}
 
 \citet{Ye:2009bl} identified an analogous problem in the annotation of biochemical pathways in genomes and metagenomes.

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <View xview="0.16" collection="ODV_collection">
 <GeographicMap projection_type="3">
-<MapDomain lon_max="160" lat_max="-40" lon_min="130" lat_min="-70"/>
-<ProjectionPole lon_center="145" lat_center="-45"/>
+<MapDomain lon_max="154.563" lat_max="-63.1725" lon_min="137.395" lat_min="-68.2926"/>
+<ProjectionPole lon_center="145.979" lat_center="-66.6213"/>
 </GeographicMap>
 <MapWindow>
 <Symbol size="1.2" small_size="0.4" type="0" color="1"/>
 <Window>
-<Geometry x_offset_bb="2" x_right="160" y_offset_bb="2.5" y_length_bb="17" y_top="-40" x_length_bb="24" x_projection="100" y_projection="100" y_bottom="-70" x_left="130"/>
+<Geometry x_offset_bb="2" x_right="154.563" y_offset_bb="2.5" y_length_bb="17" y_top="-63.1725" x_length_bb="24" x_projection="100" y_projection="100" y_bottom="-68.2926" x_left="137.395"/>
 <ColorScale palette_file_name="BlackWhiteLight"/>
 <GraphicsObjects>
 <GObject post_data="T" own_coordinates="T" type="5" dragging="F" clipping="T">
