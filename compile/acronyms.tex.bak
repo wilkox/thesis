@@ -6,7 +6,7 @@
 \newcommand{\acp}[1]{\glspl{#1}}
 
 %the actual list of acronyms
-\newacronym{MEGAN}{\softwarename{megan}}{Metagenome Analyzer}
+\newacronym{MEGAN}{\softwarename{megan}}{Metagenome Analyser}
 \adef{nMDS}{Non-Metric Multidimensional Scaling}
 \adef{DCM}{Deep Chlorophyll Maximum}
 \adef{AAD}{Australian Antarctic Division}
