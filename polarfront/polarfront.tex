@@ -78,6 +78,12 @@ To test the hypothesis that the oceanic zones harbour significantly different co
 \ac{SIMPER} analysis was performed to identify the contribution of individual \acp{OTU} to differences between the zones. 
 All statistical procedures were performed in \softwarename{PRIMER 6} as described by \citet{Clarke:2001ut}.
 
+\subsubsection{Fragment recruitment to verify \ac{OTU} identification}
+To confirm that identified \acp{OTU} were truly present, and not resulting from hits to small regions of genomic identity, plots of read recruitment and coverage to reference genomes were generated using \softwarename{r} and \softwarename{perl}.
+Six samples, three from the \ac{SZ} and three from the \ac{NZ}, were randomly selected as sources of recruited reads.
+As shotgun sequencing of a metagenome should be essentially random, it was predicted that these plots would show fairly even coverage of the reference genomes.
+Genomes where all recruited reads were concentrated in a few small regions would be likely candidates for \acp{OTU} which were not present, but shared a small genomic region with an \ac{OTU} which was present.
+
 \subsubsection{Additional samples to test ``polynya hypothesis''}
 Because many samples from the \ac{SZ} were taken in the region of the Mertz Glacier polynya, an alternative hypothesis for any difference observed between the \ac{SZ} and \ac{NZ} would be that the difference represented the effect of the polynya, rather than the \ac{PF}.
 A set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown. TODO who else was on these voyages?} from waters south of the \ac{PF} on different voyages and in a different longitudinal range were used to test this hypothesis.
@@ -146,6 +152,14 @@ There was also a large difference in the contribution to variance of the three s
 Notably, \acp{OTU} within several taxonomic groups that had high contribution to variance covaried in their relative representation in the \ac{NZ} and \ac{SZ}.
 For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} species, SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
+
+\subsection{Fragment recruitment to verify \ac{OTU} identification}
+
+As predicted, read recruitment to reference genomes produced fairly even coverage, especially in the high-abundance \acp{OTU}.
+This indicates that \ac{OTU} identification was accurate and unlikely to be confounded by small regions of genomic identity.
+\figreft{fig:frps} gives examples of read recruitment plots to three high-abundance and three  low-abundance \acp{OTU}.
+
+\input{../polarfront/frps.tex}
 
 \subsection{Additional samples to test alternative ``polynya hypothesis''}
 The \ac{ANOSIM} analysis strongly supported the ``\ac{PF} hypothesis'' (R = 0.435, p = 0.002), i.e.\ that the \ac{PF} was primarily responsible for the difference observed between the \ac{NZ} and \ac{SZ}, over the ``polynya hypothesis'' (R = 0.29, p = 0.005) that the influence of the Mertz Glacier polynya was responsible.

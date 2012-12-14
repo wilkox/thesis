@@ -12,46 +12,45 @@ From north to south, the major fronts are the \ac{STF}, the \ac{SAF} and the \ac
 The \ac{SAF} and \ac{PF} are associated with the \ac{ACC}, the world's largest ocean current and a defining oceanographic feature of the \ac{SO}.
 Anthropogenic climate change may be driving the warming and freshening of the \ac{ACC} \cite{Boning:2008il}.
 It may also be shifting the \ac{ACC} and associated fronts poleward; the mean path of the current has moved \textapprox{}50 km south since the 1950s \cite{Gille:2002fr}.
-If this trend continues, by 2100 this migration will have reduced the volume of water south of the \ac{ACC} by approximately the equivalent of the entire Arctic Ocean \cite{Fyfe:2005vp}.
+If this migration continues, by 2100 it will have displaced a volume of water south of the \ac{ACC} approximately equivalent to the Arctic Ocean \cite{Fyfe:2005vp}.
 
 Climate change may also be affecting the zones separated by these fronts.
 The major zones of the \ac{SO} are the \ac{SAZ}, between the \ac{STF} and \ac{SAF}; the \ac{PFZ}, between the \ac{SAF} and the \ac{PF}; and the \ac{AZ}, between the \ac{PF} and the Antarctic continent \figref{fig:oceanographymap}.
 These zones have different physicochemical properties, such as density, salinity, temperature and nutrient concentrations \cite{Sokolov:2002tc}, and the fronts represent stepwise transitions in these properties \cite{WhitworthIII:1987ky}.
 However, as a consequence of climate change, waters on the poleward side of the \ac{ACC} have become warmer and more saline, while those to the north cooler and fresher \cite{Boning:2008il}.
 
-The \ac{PF} has been suggested to be a major biogeographical boundary in the distribution and abundance of both zooplankton \cite{Chiba:2001un,Hunt:2001vp,Esper:2002ui,Ward:2003db} and bacterioplankton \cite{Selje:2004ka,Abell:2005ji,Giebel:2009hr,Weber:2010fi}.
-The effects of climate change on the physical oceanography of the \ac{SO} may therefore have global ecological significance, particularly as the \ac{SO} is a major site for sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physicochemical processes and the microbe-driven ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}, forming a potential feedback loop \cite{Cox:2000ko}.
+The \ac{PF} has been suggested to be a major biogeographic boundary in the distribution and abundance of both zooplankton \cite{Chiba:2001un,Hunt:2001vp,Esper:2002ui,Ward:2003db} and bacterioplankton \cite{Selje:2004ka,Abell:2005ji,Giebel:2009hr,Weber:2010fi}.
+The effects of climate change on the physical oceanography of the \ac{SO} may therefore have global ecological significance, particularly as the \ac{SO} is a major site for sequestration of anthropogenic \ce{CO_{2}} \cite{Sabine:2004fz,MikaloffFletcher:2006ct} through both physicochemical processes and the microbe-driven ``biological pump'' of \ce{CO_{2}} fixation \cite{Thomalla:2011hi}, potentially forming a feedback loop \cite{Cox:2000ko}.
 However, the microbial assemblages that inhabit the \ac{SO} are generally poorly understood, and their diversity and functional capacity poorly characterised \citep[reviewed in][]{Murray:2007db}.
-A community-level understanding is needed to predict the effects of a shifting \ac{ACC} on the distribution, abundance and ecosystem functions of plankton.
+A community-level understanding is needed to predict the effects of a shifting \ac{ACC} on the distribution, abundance and ecosystem functions of microorganisms.
 
 Large scale metagenome surveys have not previously been performed in the \ac{SO}.
 Compared to traditional environmental microbiological methods such as culture-based or DGGE surveys, metagenomic studies are able to offer both deeper (capture of sequence from rare taxa) and broader (larger sample sizes with greater statistical significance) data on the taxonomic makeup and functional capacities of marine microbial communities \citep[e.g.][]{Rusch:2007ez,Angly:2006wf,Dinsdale:2008cd}.
-Metagenome sampling is also better suited to large-scale biogeographical studies, as it allows large numbers of samples to be taken across broad spatial and temporal scales with uniform sampling, storage and processing, compared to e.g.\ culture-based methods where technical replicability is more difficult.
+Metagenome sampling is also better suited to large-scale biogeographic studies, as it allows large numbers of samples to be taken across broad spatial and temporal scales with uniform sampling, storage and processing, compared to e.g.\ culture-based methods where technical replicability is more difficult.
 
-This project is part of a metagenomic survey of the \ac{SO} begun in the austral summer of 2006, based on the sampling design of the \ac{GOS} expedition \cite{Rusch:2007ez}.
-The \ac{GOS} sampling strategy involves size fractionation of plankton assemblages by passing seawater through a 20 \micron{} prefilter and capturing planktonic biomass on sequential 3.0 \micron{}, 0.8 \micron{} and 0.1 \micron{} filter membranes.
+This project is part of a metagenomic survey of the \ac{SO} begun in the austral summer of 2006, based on the sampling design of the \ac{GOS} \cite{Rusch:2007ez}.
+The \ac{GOS} sampling strategy involves size fractionation of plankton assemblages by passing seawater through a 20 \micron{} prefilter then capturing planktonic biomass on sequential 3.0 \micron{}, 0.8 \micron{} and 0.1 \micron{} filter membranes.
 As well as allowing deeper sequencing of metagenomes and thus better representation of low-abundance taxa \cite{Rusch:2007ez}, this approach allows comparison to other samples collected using the \ac{GOS} methods \citep[e.g.][]{Brown:2012gna}.
-Because of this size fractionation, this study will focus on the picoplanktonic component of the sampled microbial assemblages.
+This study will thus focus on the 0.1--20 \micron{} fraction of the sampled microbial assemblages.
 
 \section{Methods}
 \subsection{Sampling and metagenomic sequencing}
 
-Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during cruise V3 \ac{CEAMARC} / \ac{CASO} from December 13th 2007--January 26th 2008. 
+Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from December 13th 2007--January 26th 2008. 
 This cruise occupied the SR3 latitudinal transect from Hobart, Australia (44\textdegree{} S) to the Mertz Glacier, Antarctica (67\textdegree{} S) within a longitudinal range of 140--150\textdegree{} E.
-Nineteen samples (16 surface, 3 deep) were obtained along almost the entire latitudinal range \figref{fig:samplemap}.
+Sixteen samples were obtained along almost the entire latitudinal range \figref{fig:samplemap}.
 
 \input{../polarfront/samplemap.tex}
 
-A range of data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meteorological data \tabref{tab:samplelist}.
-These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{}1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately $-59.70$\textdegree{} of latitude, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
-Samples were accordingly grouped into ``North'' and ``South'' zones, while the three deep samples composed a ``Deep'' zone \tabref{tab:samplelist}.
+A range of physicochemical data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meteorological conditions \tabref{tab:samplelist}.
+These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{}1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately 59.70\textdegree{} S, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
+Samples were accordingly grouped into ``North'' and ``South'' zones \tabref{tab:samplelist}.
 The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} regions, while the \ac{SZ} represents the \ac{AZ}.
 
 \input{../polarfront/samplelist.tex}
 
 At each station, \textapprox{}250--560 L of seawater was pumped from \textapprox{}1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
-In the case of deep samples, \textapprox{}225--230 L of seawater was collected from Niskin bottles attached to a \ac{CTD} (SeaBird, Bellevue, USA).
-Seawater samples were prefiltered through a 20 \micron{} plankton net, then filtrate was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
+Seawater samples were prefiltered through a 20 \micron{} plankton net, then filtrand was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
 
 DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J. Craig Venter Institute.} was performed at the J. Craig Venter Institute (Rockville, USA) as described in \citet{Rusch:2007ez}.
 Pyrosequencing was performed on a GS20 FLX Titanium instrument (Roche, Branford, USA) also at the J. Craig Venter Institute as described in \citet{Lauro:2010jna}.
@@ -61,36 +60,40 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsubsection{\softwarename{blast} comparison to RefSeq database}
 
-A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2012 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \cite{Angly:2009ip}.
+A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
-The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal sets were removed.
+The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal \ac{OTU} sets were removed.
 
 \subsubsection{\ac{OTU} abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
-Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches to each species, taking into account differences in genome size. 
+Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
 \ac{GAAS} was run with the default settings. 
-To normalise for reads which did not yield acceptable matches, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
+To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
 
 To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles.
 \ac{SIMPER} analysis was performed to identify the contribution of individual \acp{OTU} to differences between the zones. 
 All statistical procedures were performed in \softwarename{PRIMER 6} as described by \citet{Clarke:2001ut}.
 
-\subsubsection{Additional samples to confirm \ac{PF} hypothesis}
-Because many samples from the \ac{SZ} were taken in the region of the Mertz Glacier polynya, an alternative hypothesis for any difference observed between the \ac{SZ} and \ac{NZ} would be that the difference represented the effect of the polyna, rather than the \ac{PF}.
-A set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown. TODO who else was on these voyages?} from waters south of the \ac{PF} at other times and in a different longidtudinal range were used for an additional test to falsify this hypothesis.
+\subsubsection{Fragment recruitment to verify \ac{OTU} identification}
+To confirm that identified \acp{OTU} were truly present, and not resulting from hits to small regions of genomic identity, plots of read recruitment and coverage to reference genomes were generated using \softwarename{r} and \softwarename{perl}.
+Six samples, three from the \ac{SZ} and three from the \ac{NZ}, were randomly selected as sources of recruited reads.
+As shotgun sequenincing of a metagenome should be essentially random, it was predicted that these plots would show fairly even coverage of the reference genomes.
+Genomes where all recruited reads were concentrated in a few small regions would be likely candidates for \acp{OTU} which were not present, but shared a small genomic region with an \ac{OTU} which was present.
+
+\subsubsection{Additional samples to test ``polynya hypothesis''}
+Because many samples from the \ac{SZ} were taken in the region of the Mertz Glacier polynya, an alternative hypothesis for any difference observed between the \ac{SZ} and \ac{NZ} would be that the difference represented the effect of the polynya, rather than the \ac{PF}.
+A set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown. TODO who else was on these voyages?} from waters south of the \ac{PF} on different voyages and in a different longitudinal range were used to test this hypothesis.
 Sampling, DNA extraction and sequencing were performed as described above, although only the 0.1--0.8 \micron{} size fraction was processed.
 The resulting metagenomic reads were compared to RefSeq and weighted relative abundances calculated with \ac{GAAS} as described above.
 
 \input{../polarfront/additionalsamples.tex}
 
-TODO note that outliers 347 and 362 were excluded
-
-Two \ac{ANOSIM} tests were performed on the standardised and log-transformed Bray-Curtis resemblence matrices of the samples' \ac{OTU} abundance profiles and similarly prepared matrices represnting only the 0.1 \micron{} fractions of the \ac{SZ} and \ac{NZ} samples.
-In the first \ac{ANOSIM} test (``polynya hypothesis''), all samples from the Mertz Glacier polynya region (i.e.\ all \ac{SZ} samples apart from 358) were grouped together, while the samples from the open ocean were placed in a seperate group.
+Two \ac{ANOSIM} tests were performed on the standardised and log-transformed Bray-Curtis resemblance matrices of the samples' \ac{OTU} abundance profiles and similarly prepared matrices representing only the 0.1 \micron{} fractions of the \ac{SZ} and \ac{NZ} samples.
+In the first \ac{ANOSIM} test (``polynya hypothesis''), all samples from the Mertz Glacier polynya region (i.e.\ all \ac{SZ} samples apart from 358) were grouped together, while the samples from the open ocean were placed in a separate group.
 In the second test (``\ac{PF} hypothesis''), the additional samples were grouped with all the \ac{SZ} samples.
 
 \subsection{Functional analysis of metagenomic data}
@@ -117,7 +120,7 @@ A functional profile was generated for each sample by summing the scaled abundan
 
 \subsubsection{Taxonomic decomposition}
 
-To link modules with a high contribution to variance or otherwise of interest to specific taxa (``taxonomic decomposition''), a script was written which decomposed each module to its constituent ortholog groups, then each ortholog group to each representative gene sequence in the \ac{KEGG} database.
+To link modules with a high contribution to variance or otherwise of interest to specific \acp{OTU} (``taxonomic decomposition''), a script was written which decomposed each module to its constituent ortholog groups, then each ortholog group to each representative gene sequence in the \ac{KEGG} database.
 Because each \ac{KEGG} sequence is associated with a particular organism, this allowed the abundance of each module to be decomposed into the relative contribution from each of these organisms.
 This allowed functional contributions to be putatively assigned to genera which were not identified in our taxonomic analysis, as the database included gene sequences for organisms for which a full genome was not available.
 To aid interpretation of these results, the taxonomic decompositions for some modules were aggregated to higher taxonomic ranks, such as class or family.
@@ -125,19 +128,19 @@ To aid interpretation of these results, the taxonomic decompositions for some mo
 \section{Results}
 
 \subsection{Metagenomic sequencing}
-6.6 Gbp of 454 sequence data representing picoplankton in the size range 0.1 -- 3.0 \micron{} was obtained from 16 samples. 
-After removal of low-quality reads, 454 sequencing yielded 157,507 -- 597,689 reads per sample (mean 354,399) of lengths ranging from 100 to 606 bp (mean 378).
+6.6 Gbp of 454 sequence data representing microorganisms in the size range 0.1--3.0 \micron{} was obtained from 16 samples. 
+After removal of low-quality reads, 454 sequencing yielded 157,507--597,689 reads per sample (mean 354,399) of lengths ranging from 100 to 606 bp (mean 378).
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
-The proportion of reads in each sample which yielded matches to RefSeq ranged from 25\% to 85\% (mean 62\%).
+The proportion of reads in each sample which yielded hits to RefSeq ranged from 25--85\% (mean 62\%).
 The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.csv}.
 All samples and size fractions exhibited very low \ac{OTU} evenness \figref{fig:rankabundance}.
 
 \input{../polarfront/topotus.tex}
 \input{../polarfront/rankabundance.tex}
 
-\ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.451, p < 0.004). 
+\ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.451, p = 0.004). 
 \ac{SIMPER} was performed in order to identify the contribution of individual \acp{OTU} to the difference between the \ac{NZ} and \ac{SZ}. 
 The results for the highest contributors are provided in \tabreft{tab:otussimper}, and are graphically summarised for all \acp{OTU} in \figreft{fig:taxotreemap}.
 
@@ -147,16 +150,24 @@ The results for the highest contributors are provided in \tabreft{tab:otussimper
 The \ac{SIMPER} analysis found that no single \ac{OTU} contributed more than 2.9\% of variance and 74\% of variance was contributed by \acp{OTU} with a contribution less than 1\%. 
 There was also a large difference in the contribution to variance of the three size fractions, with approximately 52\% of all variance contributed by \acp{OTU} from the 3.0 \micron{} fraction, 37\% by the 0.8 \micron{} fraction, and 9\% by the 0.1 \micron{} fraction.
 Notably, \acp{OTU} within several taxonomic groups that had high contribution to variance covaried in their relative representation in the \ac{NZ} and \ac{SZ}.
-For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} spp., SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
+For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} species, SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
-\subsection{Additional samples to confirm \ac{PF} hypothesis}
+\subsubsection{Fragment recruitment to verify \ac{OTU} identification}
+
+As predicted, read recruitment to reference genomes produced fairly even coverage, especially in the high-abundance \acp{OTU}.
+This indicates that \ac{OTU} identification was accurate and unlikely to be confounded by small regions of genomic identity.
+\figreft{fig:frps} gives examples of read recruitment plots to three high-abundance and three  low-abundance \acp{OTU}.
+
+\input{../polarfront/frps.tex}
+
+\subsection{Additional samples to test alternative ``polynya hypothesis''}
 The \ac{ANOSIM} analysis strongly supported the ``\ac{PF} hypothesis'' (R = 0.435, p = 0.002), i.e.\ that the \ac{PF} was primarily responsible for the difference observed between the \ac{NZ} and \ac{SZ}, over the ``polynya hypothesis'' (R = 0.29, p = 0.005) that the influence of the Mertz Glacier polynya was responsible.
 This also provides evidence that the \ac{PF} effect is robust over a longitudinal range and over time.
 
 \subsection{Functional analysis of metagenomic data}
 
-\ac{ANOSIM} analysis of the samples' \ac{KEGG} ortholog group and module profiles revealed that the zones had significantly different functional potential (ortholog group: R = 0.642, p < 0.001; module: R = 0.871, p < 0.001). 
+\ac{ANOSIM} analysis of the samples' \ac{KEGG} ortholog group and module profiles revealed that the zones had significantly different functional potential (ortholog group: R = 0.642, p = 0.001; module: R = 0.871, p = 0.001). 
 \ac{SIMPER} was performed on the profiles in order to identify the specific functional differences between the zones. 
 The highest-contributing modules are given in \tabreft{tab:modulessimper}, and a complete list in the supplementary material \suppfile{PF-modules-SIMPER.csv}.
 The highest-contributing ortholog groups are given in \tabreft{tab:orthologsimper}, and a complete list in the supplementary material \suppfile{PF-ortholog-groups-SIMPER.csv}.
@@ -178,14 +189,14 @@ This pattern most likely represents a small cell size and lack of association wi
 
 \candidatus{Ruthia magnifica} and \candidatus{Vesicomyosocius okutanii} are chemoautotrophic endosymbionts of deep-sea bivalves \cite{Kuwahara:2007gf,Newton:2007fu} and are thus unlikely to be present in open ocean surface waters. 
 However, GSO-EOSA-1 representative ARCTIC96BD-19 has recently been reported at high abundance in Antarctic coastal waters \cite{Ghiglione:2011ee,Grzymski:2012ej}.
-The majority of 16S rRNA genes from this metagenome with best \softwarename{blastn} matches to \candidatus{Ruthia magnifica} and \candidatus{Vesicomyosocius okutanii} clustered with ARTIC96BD-19 in a neighbour-joining phylogenetic tree \figref{fig:GSO-EOSA-1tree}, indicating this is the dominant GSO-EOSA-1 representative. 
+The majority of 16S rRNA genes from this metagenome with best \softwarename{blastn} hits to \candidatus{Ruthia magnifica} and \candidatus{Vesicomyosocius okutanii} clustered with ARTIC96BD-19 in a neighbour-joining phylogenetic tree \figref{fig:GSO-EOSA-1tree}, indicating this is the dominant GSO-EOSA-1 representative. 
 \input{../polarfront/GSO-EOSA-1tree.tex}
 Single-cell genomic analysis of ARCTIC96BD-19 from global mesopelagic waters indicates the lineage is probably mixotrophic, able to couple carbon fixation to oxidation of reduced sulphur compounds as well as assimilate organic carbon \cite{Swan:2011hb}.
 GSO-EOSA-1 cytochrome C oxidase (CoxII) has been identified in a winter metaproteome of Antarctic Peninsula coastal waters, suggesting the capacity for aerobic respiration \cite{Williams:2012bs}.
 Taken together, this evidence suggests the GSO-EOSA-1 representative in Antarctic coastal waters is a versatile chemolithoautotroph capable of aerobic respiration.
 
-It has been proposed that during the winter months, chemolithoautotrophy is dominant over photoautotrophy as the major carbon fixation input in \ac{AZ} waters due to the lack of available light, both from seasonal darkness and ice cover \cite{Grzymski:2012ej}.
-The high relative abundance of GSO-EOSA-1 we detected in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
+It has been proposed that during the winter months, chemolithoautotrophy is dominant over photoautotrophy as the major carbon fixation process in \ac{AZ} waters due to the lack of available light, both from seasonal darkness and ice shading \cite{Grzymski:2012ej}.
+The high relative abundance of GSO-EOSA-1 in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
 
 \subsubsection{Ammonia-oxidizing Crenarchaeota}
 
@@ -208,14 +219,14 @@ The mean relative abundance of cyanobacteria in samples 367 and 368, the two nor
 The high abundance of both cyanobacterial genera on the 3.0 \micron{} fraction has previously been reported \cite{Lauro:2010jna} and may be attributable to aggregation \cite{Lomas:2011bp}.
 
 Samples 367 and 368 were separated from the other samples north of the \ac{PF} by the \ac{STF}.
-While the \ac{STF} was not a significant boundary on the assemblage level, it may mark a significant biogeographical boundary for these cyanobacteria.
+While the \ac{STF} was not a significant boundary on the assemblage level, it may mark a significant biogeographic boundary for these cyanobacteria.
 \genus{Synechococcus} and \genus{Prochlorococcus} together represent a large proportion of both phytoplankton abundance and carbon fixation in temperate and tropical waters, in many regions contributing more than half of total primary production \cite{Liu:1997ub,Liu:1998tk,Andre:1999uh}.
 The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under changing climactic conditions, and warrants further investigation.
 Despite the high abundance of cyanobacteria north of the \ac{STF}, they were also a significant feature of the \ac{SAZ}; for example, \genus{Synechococcus} sp. CC9902 composed 3--5\% of the 0.8 \micron{} fraction in \ac{SAZ} samples.
 
 These results extend the latitudinal distribution of both \genus{Prochlorococcus} and \genus{Synechococcus} to include presence at very low abundance as far south as the Antarctic coast.
-\genus{Prochlorococcus} have been reported to be restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}, and to be a negligible \cite{Ghiglione:2011ee} or undetectable \cite{Grzymski:2012ej} component of marine picoplankton in Antarctic waters.
-However, these findings are consistent with findings of a logarithmic relationship of cyanobacterial numbers with temperature, where cyanobacteria were found at concentrations of 103 -- 104 cells per litre even in the coldest waters, approximately four orders of magnitude less than in waters around Tasmania \cite{Marchant:1987wv}.
+\genus{Prochlorococcus} have been reported to be restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}, and to be a negligible \cite{Ghiglione:2011ee} or undetectable \cite{Grzymski:2012ej} component of marine microorganisms in Antarctic waters.
+However, these findings are consistent with findings of a logarithmic relationship of cyanobacterial numbers with temperature, where cyanobacteria were found at concentrations of 103--104 cells per litre even in the coldest waters, approximately four orders of magnitude less than in waters around Tasmania \cite{Marchant:1987wv}.
 Cyanophage proteins have also been detected in a metaproteomic analysis of Antarctic Peninsula coastal surface waters \cite{Williams:2012bs}.
 
 \subsubsection{SAR11 and SAR116 clades}
@@ -245,7 +256,7 @@ Because deposition of marine snow is a major route for sequestration of fixed ca
 \subsubsection{Rhodobacterales}
 
 Members of the order Rhodobacterales were abundant (\ac{NZ} average: 1.2\%, 10\% and 5.5\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 1.6\%, 13\% and 7.9\%) and high contributors to variance, overrepresented in the \ac{SZ} on all size fractions.
-As several members of the Roseobacter clade have been shown to have symbiotic relationships with marine eukaryotic algae \cite{Anonymous:2005hd,WagnerDobler:2006kb}, and their abundance in the \ac{SO} has previously been linked to phytoplankton blooms \cite{West:2008kc,Obernosterer:2011df}, it is likely that their overrepresentation in the \ac{SZ} is related to the higher density of phytoplankton in the \ac{AZ}.
+As several members of the Roseobacter clade have been shown to have symbiotic relationships with marine eukaryotic algae \cite{Buchan:2005hd,WagnerDobler:2006kb}, and their abundance in the \ac{SO} has previously been linked to phytoplankton blooms \cite{West:2008kc,Obernosterer:2011df}, it is likely that their overrepresentation in the \ac{SZ} is related to the higher density of phytoplankton in the \ac{AZ}.
 
 \acp{OTU} of \species{Roseobacter denitrificans} Och114 and \species{Silicibacter pomeroyi} DSS-3 were consistently the most abundant Roseobacter clade representatives.
 \species{Roseobacter denitrificans} and \species{Silicibacter pomeroyi} fall within a subclade of \ac{AAP} members of the Roseobacter clade \cite{Swingley:2007dm}.
@@ -327,17 +338,11 @@ The differences in functional potential between the \ac{NZ} and \ac{SZ} reflect 
 In particular, they provide genomic support that the \ac{NZ} is more oligotrophic than the \ac{SZ} \cite{Pollard:2002vr,Giovannoni:2005ib,Alonso:2006dj,Lauro:2009gx}, and are consistent with the observation that primary production is higher south of the \ac{PF} \cite{Strutton:2000ta,Williams:2010jy}.
 Our findings extend previous work in defining the \ac{PF} as a strong biogeographic boundary which shapes not only the composition, but also the functional capacity of microbial communities in the \ac{SO}.
 
-A possible alternative hypothesis for the observed separation is that the samples are partitioned by the continental margin, as all but one of the \ac{SZ} samples were taken in waters over the Antarctic continental shelf and slope in the vicinity of the Mertz glacier polynya.
-However, \ac{ANOSIM} analysis of an alternative grouping of the samples into ``polynya'' and ``open ocean'' had poorer support (R = 0.309, p < 0.01) than the grouping based on the \ac{PF}.
-Additional taxonomic profiles for samples taken from the region south of the \ac{PF} in other seasons (austral summers 06/07, 08/09) and in other sectors of the \ac{SO} (70--115\textdegree{} E) also supported the \ac{PF} as the major discriminator (data not shown).
-TODO write up these results
-Taken together, this evidence strongly supports the hypothesis that the \ac{PF} is a major biogeographical boundary in the \ac{SO} independent of a latitudinal gradient or of the effect of the continental margin and Mertz polynya.
-
 These results do not exclude the possibility that other major \ac{SO} fronts, particularly the \ac{STF} and \ac{SAF}, are also significant biogeographic boundaries, as has been reported in some previous reports for specific taxonomic groups \citep[e.g.][]{Abell:2005ji}.
 While the sampling resolution in this study was not sufficient to resolve the effects of other fronts, there are some indications in the data of further structure within the zones.
 The two samples north of the \ac{STF} had significantly larger cyanobacterial populations than the remaining \ac{NZ} samples (see discussion of \genus{Prochlorococcus} and \genus{Synechococcus}, above).
 Future sampling across these fronts at higher resolution will provide the data necessary to investigate finer biogeographic patterns.
 
-The nature and function of microbial communities in the \ac{SO} are of global significance because of the large oceanic expanse that is involved and the importance of the carbon fixation and nutrient cycling that occurs there.
-Knowledge of these communities and their biogeographic drivers has relevance for understanding and predicting the long-term effects of environmental change in the region.
+The nature and function of microbial communities in the \ac{SO} are of global significance.
+Knowledge of these communities and their biogeographic drivers has relevance for understanding and predicting the long-term effects of climate change.
 These findings provide a basis for predicting how climate change-driven shifts in the \ac{SO} may affect microbial communities; in particular, the effects of changes in the nature and location of the \ac{ACC} on the ecosystem functions of \ac{SO} microorganisms.
