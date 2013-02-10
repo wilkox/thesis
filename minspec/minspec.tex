@@ -51,7 +51,7 @@ However, because many proteins are shared by multiple pathways, and databases of
 
 The authors developed a software tool, \softwarename{MinPath}, to combat this problem and increase the accuracy and fidelity of pathway annotations.
 \softwarename{MinPath} computes the smallest possible set of pathways (``maximum parsimony'') sufficient to explain a set of annotated proteins.
-As a simple example, if a genome is annotated with all the proteins which belong to pathway A, and one of those proteins also happens to belong to pathway B --- that is, it is shared by both pathways --- the \naive{} approach would annotate both pathways as present.
+As a simple example, if a genome is annotated with all the proteins that belong to pathway A, and one of those proteins also happens to belong to pathway B --- that is, it is shared by both pathways --- the \naive{} approach would annotate both pathways as present.
 However, the most parsimonious explanation is that pathway A is present, and B is not.
 
 \softwarename{MinPath} was implemented by framing the construction of a maximum parsimony pathway set as an \ac{IP} problem.
