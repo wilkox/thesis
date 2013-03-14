@@ -24,17 +24,22 @@
 - As a general rule, Australian English spellings should be used: so "oxidise" rather than "oxidize"; "sulphonate" rather than "sulfonate".
 - However, an exception can be made when the word forms part of a name already in the literature: so the GSO are the "Gammaproteobacterial Sulfur Oxidizers".
 
+#Active vs passive voice
+- Past tense constructions in the passive voice are standard in scientific writing for describing a procedure performed in the first person: so "the samples wer collected", not "we collected the samples".
+- However, this unnecessarily obfuscates meaning when in the third person: so "Smith et al. (2001) collected samples".
+
 #Quotation marks
 - Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
 - Double quotation marks should always be used for use-mention distinctions.
 
-#id est, exempli gratia and et cetera (i.e., e.g. and etc.)
+#id est, exempli gratia and et cetera
 - Because LaTeX will treat the periods in these forms as full stops, an escaped space should be added to form "i.e.\ ", "e.g.\ " and "etc.\ ". Note the space after the "\". Do not use this with the "citep" command; LaTeX will handle correct spacing for e.g. "\citep[e.g]{smith2001}".
 - Neither "i.e." nor "e.g." should be followed by a comma.
+- As these expressions have long passed into English, they should never be italicised.
 
 #Headings (chapter, section etc.)
 - Only the first word of a heading should be capitalised.
-- Acronyms in headings should be expanded.
+- Acronyms in headings should be expanded and the initialisation not given.
 
 #Approximately, greater than, less than and plus/minus signs
 - "Approximately" should be denoted with a tilde (\textapprox), with no space between the sign and the number.
@@ -58,7 +63,7 @@
 - Percentages should have no space: 45%.
 - Temperatures should be typeset as follows: 37 ºC (in LaTeX, "37 \textdegrees{}C").
 - Latitude and longitude should be typeset as follows: 40º S, 140º E.
-- Latitude and longitude should be expressed using hemisphere rather than signed numer, i.e. "50º S" rather than "-50º" ("-50º S" is always incorrect). The exception is in a table column with the header "Latitude" or "Longitude", where e.g. "–50º" is preferred.
+- Latitude and longitude should be expressed using hemisphere rather than signed number, i.e. "50º S" rather than "-50º" ("-50º S" is always incorrect). The exception is in a table column with the header "Latitude" or "Longitude", where e.g. "–50º" is preferred.
 - Derived units should be set using a slash rather than scientific notation, i.e. mg/mL, not mg.mL⁻¹.
 - Times may be written either in full (two hours) or abbreviated (2 h), but the two forms should not be mixed (i.e. 4.5 hours is incorrect). Time abbreviations (h, min, sec) do not need periods (i.e. h., min., sec are incorrect).
 - When describing amounts of regents (i.e. mass nouns), "of" should always be used: so "20 g of salt was added", not "20 g salt was added".
@@ -70,7 +75,7 @@
 - Sentences in footnotes should end with a period.
 
 #Dates
-- Dates should be writteen in the order Month, Day (ordinal), Year, with no commas: so "January 5th 2008"; "March 2012".
+- Dates should be written in the order month, day (ordinal), year, with no commas: so "January 5th 2008"; "March 2012".
 - The ordinal indicators (st, nd, th) should not be set as superscripts.
 - Date ranges should be indicated by en dashes with no spaces: so "January 5th--March 1st 2010"; "December 1986--April 1987". The month or year can be omitted from the start of the range if it is the same as the end: so "2nd--15th May 2013"; "August--November 1987".
 
