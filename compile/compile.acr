@@ -9,9 +9,8 @@
 		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{vi\delimN vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{xi}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{41}\delimN 
@@ -73,6 +72,7 @@
 		\setentrycounter[]{page}\glsnumberformat{59}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{41}}}%
 \glossaryentryfield{DFAA}{\glsnamefont{DFAA}}{Dissolved Free Amino Acids}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{39}}}%
@@ -146,11 +146,11 @@
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4}}}%
 \glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{59}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{62}}}%
 \glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23\delimR 25}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
@@ -163,9 +163,8 @@
 \glossaryentryfield{OMG}{\glsnamefont{OMG}}{Oligotrophic Marine Gammaproteobacteria}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}}}%
 \glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{vi}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{vi\delimN vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{xi}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13\delimR 18}\delimN 
@@ -176,7 +175,6 @@
 		\setentrycounter[]{page}\glsnumberformat{61}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{v}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{1\delimR 5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{10\delimN 11}\delimN 
@@ -225,8 +223,7 @@
 		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31}}}%
 \glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{v}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{1\delimR 12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{1\delimR 11}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{19\delimN 20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}\delimN 
@@ -239,7 +236,7 @@
 		\setentrycounter[]{page}\glsnumberformat{34\delimN 35}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{39}}}%
 \glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{vii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23\delimR 25}\delimN 
