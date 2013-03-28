@@ -25,8 +25,8 @@
 - However, an exception can be made when the word forms part of a name already in the literature: so the GSO are the "Gammaproteobacterial Sulfur Oxidizers".
 
 #Active vs passive voice
-- Past tense constructions in the passive voice are standard in scientific writing for describing a procedure performed in the first person: so "the samples wer collected", not "we collected the samples".
-- However, this unnecessarily obfuscates meaning when in the third person: so "Smith et al. (2001) collected samples".
+- Past tense constructions in the passive voice are standard in scientific writing for describing an action in the first person: so "the samples wer collected", not "we collected the samples".
+- However, active voice is appropriate where the alternative is confusing or wordy, and especially when describing an action in the third person: so "Smith et al. (2001) collected samples".
 
 #Quotation marks
 - Double quotation marks, typeset using LaTeX's "``" and "''" commands, should always be used for quotations.
