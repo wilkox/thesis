@@ -40,7 +40,8 @@
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
 \glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{23\delimR 25}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{29}}}%
+		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46}}}%
 \glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{34}}}%
@@ -167,6 +168,7 @@
 		\setentrycounter[]{page}\glsnumberformat{4}}}%
 \glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{61}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{64}}}%
 \glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }{\glossaryentrynumbers{\relax 

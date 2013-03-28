@@ -146,7 +146,6 @@ To generate a spatial distance matrix, pairwise ellipsoidal distances between sa
 
 \subsection{Generation of advection distance matrix}
 
-%BEGIN PASTED SECTION
 \previouslypublished{Erik van Sebille contributed to writing the following paragraph.}\smallskip\\
 Advection distances between the sites were computed using three-dimensional velocity data from a hydrodynamic numerical ocean model in combination with a Lagrangian trajectory toolset\footnote{Modelling was performed by Erik van Sebille.}.
 The ocean model used was the \ac{SOSE} \cite{Mazloff:2010et}, a numerical model of the \ac{SO} based on the \ac{ECCO} machinery \cite{Wunsch:2007iq} and constrained by a large set of in situ and remote-sensed observations.
@@ -170,7 +169,11 @@ The pairwise distance between the surface/\ac{DCM} samples discussed above was s
 For pairs of samples that did not yield mutual encounters (47 pairs, all including at least one \ac{AABW} sample; see Results), this was set to the maximum run time of the simulation (100 years).
 Subsequent statistical tests were rerun with the \ac{DCM} and \ac{AABW} samples excluded to ensure these constraints were not unduly influencing the results (see ``Testing of advection effect'', below).
 
-%END PASTED SECTION
+\subsection{Ordination of distance matrices and comparison to water masses}
+
+Ordinations of the taxonomic, environmental and advection distance matrices were produced by \ac{nMDS} in \softwarename{PRIMER 6}.
+\ac{ANOSIM} was also performed in \softwarename{PRIMER 6} to test for statistically significant differences between water masses in each of these three factors.
+Right-tailed p-values for each test were computed using 999 random label permutations of one of the test matrices.
 
 \section{Results}
 
