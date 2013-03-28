@@ -175,8 +175,6 @@ Ordinations of the taxonomic, environmental and advection distance matrices were
 \ac{ANOSIM} was also performed in \softwarename{PRIMER 6} to test for statistically significant differences between water masses in each of these three factors.
 Right-tailed p-values for each test were computed using 999 random label permutations of one of the test matrices.
 
-%BEGIN PASTED SECTION
-
 \subsection{Testing of advection effect}
 
 Mantel tests were performed using \ac{PASSaGE 2} \cite{Rosenberg:2011uz}.
@@ -190,8 +188,32 @@ To confirm that the advection effect was directional, i.e.\ that ``upstream'' si
 Each sample was sequentially designated a sink, with the remaining samples as potential sources, and the most probable proportion of \acp{OTU} originating from each potential source determined over 100 randomised trials per sample.
 Spearman's rank correlation was then calculated between the \softwarename{SourceTracker} predicted source proportions and particle encounter source proportions for each sample pairwise, with right-tailed p-value determined by permutation.
 
-%END PASTED SECTION
-
 \section{Results}
+
+\subsection{Sequencing and taxonomic assignment}
+
+%BEGIN PASTED SECTION
+
+Sequencing and taxonomic assignment.
+After trimming, denoising and chimera removal, the 25 samples (each with three separately sequenced size fractions) yielded 1,008,963 pyrosequencing reads of length 251--561 bp (mean 426 bp).
+Individual fractions yielded 3,687--52,192 reads (mean 13,453).
+After clustering against the SILVA database, 2,295--30,760 (mean 9,618) reads per fraction were retained for taxonomic assignment.
+
+1417 unique \acp{OTU} were identified across all fractions of all samples.
+The Chao 1 statistic was calculated, and estimated \ac{OTU} were under-sequenced by 0--50\% across all samples (mean 26\%) (TODO REF TO TABLE OF SAMPLE PROPERTIES).
+In all water masses, decreasing numbers of reads yielded \ac{OTU} assignments as size fraction increased (TODO TAXONOMIC BAR PLOT).
+This probably reflects an increasing number of eukaryotic cells (which were excluded from \ac{OTU} assignment) on the higher fractions.
+
+\ac{nMDS} ordination showed that the sampled water masses could be distinguished on the basis of taxonomic distance (TODO REF nMDS PANEL C).
+This was supported by \ac{ANOSIM} analysis (R = 0.77, p = 0.001).
+While each water mass had a distinct taxonomic profile, some broad differences between surface and deep masses were observed (TODO REF TAXONOMIC BAR PLOT).
+Surface waters (\ac{AZ}, \ac{PFZ}, \ac{SAMW}) were dominated by representatives of the Alphaproteobacteria, Bacteroidetes and Gammaproteobacteria.
+The high abundance of Bacteroidetes at the surface reflects their association with phytoplankton, as many species in this lineage specialise in the degradation of high molecular weight products of primary production \cite{Williams:2012gs}.
+Alphaproteobacteria were represented primarily by the SAR11 clade, abundant in ocean surface communities \cite{Morris:2002bn} including the \ac{SO} \cite{Brown:2012gn}, and Roseobacter clades, which have also been associated with degradation of phytoplankton products \cite{Williams:2012gs, Giebel:2009hr}.
+The dominant Gammaproteobacterial orders were the Alteromonadales and Oceanospirillales, typical of \ac{SO} surface waters \cite{Wilkins:2012ii}.
+Few archaeal \acp{OTU} were detected, consistent with their well-described decline in abundance during summer \cite{Murray:1998wy, Grzymski:2012ej}.
+The deep water masses (\ac{CDW}, \ac{AAIW}, \ac{AABW}) were dominated by Crenarchaeota, Euryarchaeota and Gammaproteobacteria, again consistent with previous findings \cite{LopezGarcia:2001vp}.
+
+%END PASTED SECTION
 
 \section{Discussion}
