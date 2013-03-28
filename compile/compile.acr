@@ -6,7 +6,9 @@
 		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{59}}}%
 \glossaryentryfield{MEGAN}{\glsnamefont{\softwarename {megan}}}{Metagenome Analyzer}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
+\glossaryentryfield{QIIME}{\glsnamefont{\softwarename {qiime}}}{Quantitative Insights Into Microbial Ecology}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{44}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{vi\delimN vii}\delimN 
@@ -177,6 +179,7 @@
 		\setentrycounter[]{page}\glsnumberformat{23\delimR 29}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{34\delimR 36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{44}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{59}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{61}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
