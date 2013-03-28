@@ -175,6 +175,23 @@ Ordinations of the taxonomic, environmental and advection distance matrices were
 \ac{ANOSIM} was also performed in \softwarename{PRIMER 6} to test for statistically significant differences between water masses in each of these three factors.
 Right-tailed p-values for each test were computed using 999 random label permutations of one of the test matrices.
 
+%BEGIN PASTED SECTION
+
+\subsection{Testing of advection effect}
+
+Mantel tests were performed using \ac{PASSaGE 2} \cite{Rosenberg:2011uz}.
+To test for and quantify distance and environment effects, partial Mantel tests were performed comparing the taxonomic matrix to the spatial then environmental matrices, with the remaining matrix held constant.
+To test the hypothesis that advection shapes \ac{SO} microbial assemblages independent of distance and environment effects, a partial Mantel test was performed comparing the taxonomic and advection matrices, with both the spatial and environmental matrices held constant.
+Right-tailed p-values for all tests were calculated using 999 random label permutations of one the test matrices.
+
+To ensure that the result was not unduly influenced by the samples to which the 100 year ceiling was applied (all \ac{AABW}, see Results) and those for which particle releases were not simulated (samples 11, 13, 17 and 22), the test was repeated with these samples removed.
+
+To confirm that the advection effect was directional, i.e.\ that ``upstream'' sites were acting as sources of diversity to ``downstream'' sites, \softwarename{SourceTracker} \cite{Knights:2011in} was used to identify sources of \acp{OTU} in each sample.
+Each sample was sequentially designated a sink, with the remaining samples as potential sources, and the most probable proportion of \acp{OTU} originating from each potential source determined over 100 randomised trials per sample.
+Spearman's rank correlation was then calculated between the \softwarename{SourceTracker} predicted source proportions and particle encounter source proportions for each sample pairwise, with right-tailed p-value determined by permutation.
+
+%END PASTED SECTION
+
 \section{Results}
 
 \section{Discussion}

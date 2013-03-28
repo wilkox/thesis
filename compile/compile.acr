@@ -1,6 +1,8 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
 \glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossaryentryfield{PASSaGE 2}{\glsnamefont{\softwarename {PASSaGE 2}}}{Pattern Analysis, Spatial Statistics and Geographic Exegesis version 2}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{46}}}%
 \glossaryentryfield{GAAS}{\glsnamefont{\softwarename {gaas}}}{Genome relative Abundance and Average Size}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13\delimN 14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
@@ -195,6 +197,7 @@
 		\setentrycounter[]{page}\glsnumberformat{34\delimR 36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{44}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{61}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{63}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
@@ -258,7 +261,7 @@
 		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{42\delimN 43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{45}}}%
+		\setentrycounter[]{page}\glsnumberformat{45\delimN 46}}}%
 \glossaryentryfield{SOSE}{\glsnamefont{SOSE}}{Southern Ocean State Estimate}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{45}}}%
 \glossaryentryfield{SSU}{\glsnamefont{SSU}}{Small Subunit}{\relax }{\glossaryentrynumbers{\relax 
