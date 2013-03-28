@@ -137,10 +137,40 @@ The exceptions were samples 32 and 33 (49.5\textdegree{} S, 115\textdegree{} E),
 In these cases, a reading from the appropriate depth was substituted from the nearest available cast (50.0\textdegree{} S, 115\textdegree{} E for samples 32 and 33; 53.8\textdegree{} S, 115\textdegree{} E for sample 29).
 Pressure values were $log(x+1)$ transformed to reduce right-skew \cite{Clarke:2011tn} and the combined instrument and hydrochemical data were used to create environmental profiles for each sample.
 The variables were normalised and a Euclidean distance matrix generated in \softwarename{PRIMER 6}.
+
 \ac{distLM} multivariate analysis \cite{Legendre:1999tj} was performed to confirm the selection of physicochemical variables and explore their relationship with taxonomic composition.
 In \softwarename{PRIMER 6}, all possible combinations of variables (``BEST selection'') were explored by \ac{distLM}, and the models (sets of variables) that best fit the taxonomic dissimilarity matrix (adjusted R\textsuperscript{2} as the fitness measure) were selected.
 The relationship between the resulting model and the taxonomic dissimilarity between samples was visualised by \ac{dbRDA} ordination.
+
 To generate a spatial distance matrix, pairwise ellipsoidal distances between samples (including difference in depth) were calculated using \softwarename{INVERS3D} (National Oceanic and Atmospheric Administration, Silver Springs, USA).
+
+\subsection{Generation of advection distance matrix}
+
+%BEGIN PASTED SECTION
+\previouslypublished{Erik van Sebille contributed to writing the following paragraph.}\smallskip\\
+Advection distances between the sites were computed using three-dimensional velocity data from a hydrodynamic numerical ocean model in combination with a Lagrangian trajectory toolset\footnote{Modelling was performed by Erik van Sebille.}.
+The ocean model used was the \ac{SOSE} \cite{Mazloff:2010et}, a numerical model of the \ac{SO} based on the \ac{ECCO} machinery \cite{Wunsch:2007iq} and constrained by a large set of in situ and remote-sensed observations.
+\ac{SOSE} has been validated in the \ac{SO} \cite{Cerovecki:hu, Firing:2011dp}. 
+Here, the five-day averaged three-dimensional velocity fields for the period January 2005--December 2007 were used, on a \nicefrac{1}{6}\textdegree{} horizontal resolution and with 42 vertical levels.
+The \ac{CMS} \cite{Paris:2013fs} 1.1 was used to integrate virtual Lagrangian particles within the \ac{SOSE} velocity fields.
+For each site, 100 particles were released every 5 days (total of 2.2 \texttimes{} 10\textsuperscript{4} per site).
+The particles were released at the latitude and depth of the site, evenly spaced in a 1\textdegree{} longitudinal line centred at the site longitudes.
+The particles were then advected for 100 years, looping through the 3 years of available velocity fields as described in \citet{vanSebille:2012hh}.
+Three-dimensional locations of the particles were saved every 5 days.
+
+The trajectory of each particle was analysed to detect encounters between particles and sample sites.
+An encounter was defined as the vector between any two consecutive 5 day particle locations intersecting a box bounded by \textpm0.2\textdegree{} of latitude, \textpm0.5\textdegree{} of longitude and \textpm50 m of depth from a sample site.
+Only the first encounter between any particle and sample was counted. Four pairs of samples (10/11; 12/13; 16/17; 21/22), where a \ac{DCM} sample was taken directly below a surface sample within the mixed layer, were too close to act as separate particle release sites.
+For these samples, simulated particle releases were performed for only one of the pair, and the generated encounters were attributed to both. 
+For all samples, the mean time in seconds between a particle being released from one sample and encountering another was calculated.
+Pairwise advective distance between samples was defined as the mean of the two directional mean times between each sample in the pair.
+This metric was selected to ensure advective flows which may be of high biological relevance, such as a small number of particles quickly transported between sites, were appropriately weighted when paired with flows of lower biological relevance, such as a large number of particles transported between sites over decades.
+To ensure the results were robust to the choice of metric, subsequent statistical tests were repeated with pairwise advective distance redefined as the mean time for all pairwise encounters.
+The pairwise distance between the surface/\ac{DCM} samples discussed above was set to zero.
+For pairs of samples that did not yield mutual encounters (47 pairs, all including at least one \ac{AABW} sample; see Results), this was set to the maximum run time of the simulation (100 years).
+Subsequent statistical tests were rerun with the \ac{DCM} and \ac{AABW} samples excluded to ensure these constraints were not unduly influencing the results (see ``Testing of advection effect'', below).
+
+%END PASTED SECTION
 
 \section{Results}
 
