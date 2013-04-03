@@ -192,7 +192,7 @@ Spearman's rank correlation was then calculated between the \softwarename{Source
 
 \subsection{Sequencing and taxonomic assignment}
 
-%BEGIN PASTED SECTION
+%TODO BEGIN PASTED SECTION
 
 Sequencing and taxonomic assignment.
 After trimming, denoising and chimera removal, the 25 samples (each with three separately sequenced size fractions) yielded 1,008,963 pyrosequencing reads of length 251--561 bp (mean 426 bp).
@@ -201,14 +201,15 @@ After clustering against the SILVA database, 2,295--30,760 (mean 9,618) reads pe
 
 1417 unique \acp{OTU} were identified across all fractions of all samples.
 The Chao 1 statistic was calculated, and estimated \ac{OTU} were under-sequenced by 0--50\% across all samples (mean 26\%) \tabref{tab:advectionfullsampledata}.
-In all water masses, decreasing numbers of reads yielded \ac{OTU} assignments as size fraction increased (TODO TAXONOMIC BAR PLOT).
+In all water masses, decreasing numbers of reads yielded \ac{OTU} assignments as size fraction increased \figref{fig:taxonomicbarplot}.
 This probably reflects an increasing number of eukaryotic cells (which were excluded from \ac{OTU} assignment) on the higher fractions.
 
 \input{../advection/advectionfullsampledata.tex}
+\input{../advection/taxonomicbarplot.tex}
 
 \ac{nMDS} ordination showed that the sampled water masses could be distinguished on the basis of taxonomic distance (TODO REF nMDS PANEL C).
 This was supported by \ac{ANOSIM} analysis (R = 0.77, p = 0.001).
-While each water mass had a distinct taxonomic profile, some broad differences between surface and deep masses were observed (TODO REF TAXONOMIC BAR PLOT).
+While each water mass had a distinct taxonomic profile, some broad differences between surface and deep masses were observed \figref{fig:taxonomicbarplot}.
 Surface waters (\ac{AZ}, \ac{PFZ}, \ac{SAMW}) were dominated by representatives of the Alphaproteobacteria, Bacteroidetes and Gammaproteobacteria.
 The high abundance of Bacteroidetes at the surface reflects their association with phytoplankton, as many species in this lineage specialise in the degradation of high molecular weight products of primary production \cite{Williams:2012gs}.
 Alphaproteobacteria were represented primarily by the SAR11 clade, abundant in ocean surface communities \cite{Morris:2002bn} including the \ac{SO} \cite{Brown:2012gn}, and Roseobacter clades, which have also been associated with degradation of phytoplankton products \cite{Williams:2012gs, Giebel:2009hr}.
@@ -216,6 +217,6 @@ The dominant Gammaproteobacterial orders were the Alteromonadales and Oceanospir
 Few archaeal \acp{OTU} were detected, consistent with their well-described decline in abundance during summer \cite{Murray:1998wy, Grzymski:2012ej}.
 The deep water masses (\ac{CDW}, \ac{AAIW}, \ac{AABW}) were dominated by Crenarchaeota, Euryarchaeota and Gammaproteobacteria, again consistent with previous findings \cite{LopezGarcia:2001vp}.
 
-%END PASTED SECTION
+%TODO END PASTED SECTION
 
 \section{Discussion}
