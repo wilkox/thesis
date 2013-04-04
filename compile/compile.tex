@@ -104,7 +104,6 @@
 %allow figures
 \usepackage{graphicx}
 \usepackage[font=sf,labelfont=bf]{caption}
-\usepackage{subcaption}
 
 %for nucleotide sequences
 \newcommand{\nsequence}[1]{\mbox{#1}}
@@ -114,11 +113,12 @@
 
 %clever references for figures and tables
 \usepackage{hyperref}
-\newcommand{\figref}[1]{(\autoref{#1})}
-\newcommand{\figreft}[1]{\autoref{#1}}
-\newcommand{\tabref}[1]{(\autoref{#1})}
-\newcommand{\tabreft}[1]{\autoref{#1}}
-\newcommand{\secreft}[1]{``\textit{\nameref{#1}}''}
+\usepackage{cleveref}
+\newcommand{\figref}[1]{(\cref{#1})}
+\newcommand{\figreft}[1]{\cref{#1}}
+\newcommand{\tabref}[1]{(\cref{#1})}
+\newcommand{\tabreft}[1]{\cref{#1}}
+\newcommand{\secreft}[1]{``\textit{\namecref{#1}}''}
 
 %support acronyms
 \usepackage[acronym,nonumberlist]{glossaries}
