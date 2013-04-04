@@ -103,7 +103,9 @@
 
 %allow figures
 \usepackage{graphicx}
-\usepackage[font=sf,labelfont=bf]{caption}
+
+%support customised captions and subfigures
+\usepackage[font=sf,labelfont=bf]{caption,subfig}
 
 %for nucleotide sequences
 \newcommand{\nsequence}[1]{\mbox{#1}}
@@ -134,9 +136,6 @@
 \newcommand{\tabref}[1]{(\Cref{#1})}
 \newcommand{\tabreft}[1]{\Cref{#1}}
 \newcommand{\secreft}[1]{``\textit{\namecref{#1}}''}
-
-%support subfigures
-\usepackage{subfig}
 
 \begin{document}
 
