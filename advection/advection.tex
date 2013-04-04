@@ -216,8 +216,6 @@ The deep water masses (\ac{CDW}, \ac{AAIW}, \ac{AABW}) were dominated by Crenarc
 
 \input{../advection/nMDStaxonomic.tex}
 
-%TODO BEGIN PASTED BLOCK
-
 \subsection{Environment and distance effects}
 \ac{nMDS} ordination showed that the sampled water masses clustered well on the basis of environmental distance \figref{fig:nMDSenvironmental}.
 This was supported by \ac{ANOSIM} (R = 0.84, p = 0.001). 
@@ -245,7 +243,31 @@ This suggests that these two masses had similar physicochemical properties, and 
 A distance effect was detected by comparing the taxonomic and spatial matrices with the environmental matrix held constant (partial Mantel; r = 0.38, p = 0.003).
 This indicated that a process other than contemporary environmental selection was appreciably affecting variation in microbial community composition.
 
+%TODO BEGIN PASTED BLOCK
+
+\subsection{Testing the advection effect}
+
+244,000 encounters were recorded between particles and sample sites during the 100 year advection simulation.
+Encounter times spanned the full range of the simulation (5 days--100 years), with a median of 30 days and mean of 3018 days.
+47 pairs of samples did not yield mutual encounters (i.e.\ at least one particle from one sample encountering the other).
+Of these, every pair included at least one AABW sample.
+
+\ac{nMDS} ordination showed that the sampled water masses could be broadly distinguished on the basis of their mutual advection distances \figref{fig:nMDSadvection}.
+This was supported by \ac{ANOSIM} (R = 0.41, p = 0.002).
+
 \input{../advection/nMDSadvection.tex}
+
+A partial Mantel test, comparing the taxonomic and advection matrices with the spatial and environmental matrices held constant, showed that advection has a moderate (r = 0.28) and significant (p = 0.010) correlation with taxonomic composition independent of spatial and environmental factors.
+To ensure this result was not unduly influenced by the samples on which the 100 year ceiling was imposed (\ac{AABW}) and those for which particle releases were not simulated (samples 11, 13, 17 and 22), the test was repeated with these samples removed.
+The correlation was stronger and remained significant despite the smaller sample size (r = 0.36, p = 0.025).
+To ensure the result was robust to the choice of advection distance metric, correlations were recalculated for both the full set of samples and the subset (excluding \ac{AABW} and samples 11, 13, 17 and 22) with pairwise advection distance defined as the mean time for all particle encounters between samples.
+The observed correlation was higher using this metric for both the full set (r = 0.40, p = 0.0090) and subset (r = 0.52, p = 0.0070).
+\softwarename{SourceTracker} analysis confirmed that the effect was moderately directional, with the proportion of \acp{OTU} contributed from a given ``source'' sample to a ``sink'' sample correlated with the proportion of particle encounters it generates (Spearman's \textrho{} = 0.15, p = 0.0015). 
+
+To explore the role of taxonomic resolution in the detection of an advection effect, partial Mantel tests were repeated as above with \acp{OTU} aggregated to each of the seven standard taxonomic ranks.
+Aggregation to genus resulted in a higher correlation (r = 0.29, p = 0.02) than to species, but with this exception a pattern of decreasing correlation with coarser rank was observed \figref{fig:taxonomicresolution}.
+
+\input{../advection/taxonomicresolution.tex}
 
 %TODO END PASTED BLOCK
 
