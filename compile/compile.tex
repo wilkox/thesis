@@ -20,26 +20,6 @@
 %for sideways tables
 \usepackage{rotating}
 
-%Tables and figure captions set in sans-serif
-\makeatletter
-\renewenvironment{table}%
-  {\renewcommand{\familydefault}{\sfdefault}\selectfont
-  \@float{table}}
-  {\end@float}
-\makeatother
-\makeatletter
-\renewenvironment{caption}%
-  {\renewcommand{\familydefault}{\sfdefault}\selectfont
-  \@float{caption}}
-  {\end@float}
-\makeatother
-\makeatletter
-\renewenvironment{figure}%
-  {\renewcommand{\familydefault}{\sfdefault}\selectfont
-  \@float{figure}}
-  {\end@float}
-\makeatother
-
 %Ornaments
 \usepackage{adforn}
 
@@ -123,7 +103,7 @@
 
 %allow figures
 \usepackage{graphicx}
-\usepackage[labelfont=bf,sf]{caption}
+\usepackage[font=sf,labelfont=bf]{caption}
 \usepackage{subcaption}
 
 %for nucleotide sequences
