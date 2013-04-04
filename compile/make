@@ -7,7 +7,7 @@ mv TMPBIB thesis.bib;
 #spellcheck
 for i in $(find ../ | grep .tex | grep -v .swp | grep -v .bak | grep -v biological_names); do
   echo "Running aspell on $i"
-  aspell --mode=tex --personal=./dictionary --add-tex-command="nsequence p" --add-tex-command="adef p" --add-tex-command="autoref p" --add-tex-command="color p" --add-tex-command="lstset p" --add-tex-command="definecolor ppp" --add-tex-command="nameref p" --add-tex-command="secreft p" --add-tex-command="frac p" --add-tex-command="tabreft p" --add-tex-command="figreft p" --add-tex-command="suppfile p" --add-tex-command="bibentry p" --add-tex-command="begin ppp" --add-tex-command="softwarename p" --add-tex-command="citep p" --add-tex-command="citet p" --add-tex-command="ac p" --add-tex-command="ce p" --add-tex-command="bibliographystyle p" --add-tex-command="textsuperscript p" --add-tex-command="figref p" --add-tex-command="tabref p" check $i;
+  aspell --mode=tex --personal=./dictionary --add-tex-command"cref p" --add-tex-command="nsequence p" --add-tex-command="adef p" --add-tex-command="autoref p" --add-tex-command="color p" --add-tex-command="lstset p" --add-tex-command="definecolor ppp" --add-tex-command="nameref p" --add-tex-command="secreft p" --add-tex-command="frac p" --add-tex-command="tabreft p" --add-tex-command="figreft p" --add-tex-command="suppfile p" --add-tex-command="bibentry p" --add-tex-command="begin ppp" --add-tex-command="softwarename p" --add-tex-command="citep p" --add-tex-command="citet p" --add-tex-command="ac p" --add-tex-command="ce p" --add-tex-command="bibliographystyle p" --add-tex-command="textsuperscript p" --add-tex-command="figref p" --add-tex-command="tabref p" check $i;
 done
 
 #tell pdflatex not to be paranoid about /includes
