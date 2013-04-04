@@ -192,8 +192,6 @@ Spearman's rank correlation was then calculated between the \softwarename{Source
 
 \subsection{Sequencing and taxonomic assignment}
 
-%TODO BEGIN PASTED SECTION
-
 After trimming, denoising and chimera removal, the 25 samples (each with three separately sequenced size fractions) yielded 1,008,963 pyrosequencing reads of length 251--561 bp (mean 426 bp).
 Individual fractions yielded 3,687--52,192 reads (mean 13,453).
 After clustering against the SILVA database, 2,295--30,760 (mean 9,618) reads per fraction were retained for taxonomic assignment.
@@ -218,6 +216,32 @@ The deep water masses (\ac{CDW}, \ac{AAIW}, \ac{AABW}) were dominated by Crenarc
 
 \input{../advection/nMDStaxonomic.tex}
 
-%TODO END PASTED SECTION
+%TODO BEGIN PASTED BLOCK
+
+\subsection{Environment and distance effects}
+\ac{nMDS} ordination showed that the sampled water masses clustered well on the basis of environmental distance \figref{fig:nMDSenvironmental}.
+This was supported by \ac{ANOSIM} (R = 0.84, p = 0.001). 
+A partial Mantel test, comparing the taxonomic to environmental matrices with the spatial matrix held constant, found a correlation of r = 0.48 (p = 0.001), indicating a strong environment effect.
+
+\input{../advection/nMDSenvironmental.tex}
+
+\ac{distLM} analysis of the individual physicochemical variables found that considered separately, each of phosphate, silicate, nitrate, oxygen, salinity and pressure explained 17--35\% of the taxonomic variance between samples (p = 0.001).
+Temperature had no significant effect on taxonomic composition when considered separately (p \textgreater{} 0.05).
+When all combinations of variables were considered (BEST modelling), the best model consisted of all variables with the exception of phosphate (adjusted R\textsuperscript{2} = 0.44), with the full set of variables only marginally worse (adjusted R\textsuperscript{2} = 0.43).
+The rejection of phosphate may reflect a redundancy in the measurement of both phosphate and nitrate; these are often held to be constant throughout the ocean at the Redfield ratio of N:P \textapprox{}16:1 \cite{Anderson:1994vb}.
+However, deviation from this ratio has been observed in the \ac{SO} and related to iron concentration (which was not measured in this study) and to phytoplankton abundance \cite{Weber:2010fi}.
+For these reasons, and because of the marginal effect of discarding phosphate from the variable selection, it was retained when generating the environmental distance matrix.
+
+The \ac{dbRDA} plot showed the six variables retained by the \ac{distLM} model (i.e.\ all except phosphate) structured the samples first along an axis separating surface and deep samples (dbRDA1), strongly related to dissolved oxygen (r = 0.79) (TODO insert and ref to dbRDA plot).
+The second axis was best correlated with temperature (r = \textminus{}0.75).
+All six retained variables had a moderate correlation with at least one of the first two axes (TODO insert and ref to table of dbRDA values).
+As with the \ac{nMDS} ordinations (TODO ref to all nMDS figures), the water masses were generally well separated by the first two \ac{dbRDA} axes.
+Samples from the \ac{AABW} and \ac{AAIW}, which were not separated by the first two axes, were clearly separated along the third (TODO ref to dbRDA values table), which was best correlated with pressure (r = \textminus{}0.79).
+This suggests that these two masses had similar physicochemical properties, and were mainly distinguished by depth, consistent with their common origin in sinking Antarctic Surface Waters \cite{Foldvik:1988gp}.
+
+A distance effect was detected by comparing the taxonomic and spatial matrices with the environmental matrix held constant (partial Mantel; r = 0.38, p = 0.003).
+This indicated that a process other than contemporary environmental selection was appreciably affecting variation in microbial community composition.
+
+%TODO END PASTED BLOCK
 
 \section{Discussion}

@@ -1,4 +1,4 @@
-personal_ws-1.1 en 602 
+personal_ws-1.1 en 604 
 AOA
 Oceanospirillales
 AOB
@@ -147,6 +147,7 @@ SACCF
 Phaeocystis
 Lauro
 isoamyl
+Redfield
 photosystems
 GSO
 Gammaproteobacteria
@@ -411,6 +412,7 @@ psychrerythraea
 glutamate
 isoprenoid
 specialise
+dbRDA
 polynya
 DMSP
 Bathymetry

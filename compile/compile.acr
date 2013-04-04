@@ -13,10 +13,12 @@
 		\setentrycounter[]{page}\glsnumberformat{41}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{49}}}%
+		\setentrycounter[]{page}\glsnumberformat{49}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}%
 \glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{49}}}%
+		\setentrycounter[]{page}\glsnumberformat{49}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}%
 \glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{49}}}%
@@ -33,12 +35,15 @@
 		\setentrycounter[]{page}\glsnumberformat{43\delimR 45}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{dbRDA}{\glsnamefont{dbRDA}}{Distance-based Redundancy Analysis}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{45}}}%
+		\setentrycounter[]{page}\glsnumberformat{45}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}%
 \glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{45\delimN 46}}}%
 \glossaryentryfield{distLM}{\glsnamefont{distLM}}{Distance-based Linear Models}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{45}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{45}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{49}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glossaryentryfield{ECCO}{\glsnamefont{ECCO}}{Estimating the Circulation and Climate of the Ocean}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{45}}}\glsgroupskip
@@ -52,7 +57,8 @@
 \glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{49}}}%
+		\setentrycounter[]{page}\glsnumberformat{49}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}%
 \glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{ix}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
@@ -79,7 +85,8 @@
 \glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42\delimN 43}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{45\delimN 46}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{49}}}%
+		\setentrycounter[]{page}\glsnumberformat{49}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}}}%
 \glossaryentryfield{SOSE}{\glsnamefont{SOSE}}{Southern Ocean State Estimate}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{45}}}%
 \glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }{\glossaryentrynumbers{\relax 
