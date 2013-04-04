@@ -243,8 +243,6 @@ This suggests that these two masses had similar physicochemical properties, and 
 A distance effect was detected by comparing the taxonomic and spatial matrices with the environmental matrix held constant (partial Mantel; r = 0.38, p = 0.003).
 This indicated that a process other than contemporary environmental selection was appreciably affecting variation in microbial community composition.
 
-%TODO BEGIN PASTED BLOCK
-
 \subsection{Testing the advection effect}
 
 244,000 encounters were recorded between particles and sample sites during the 100 year advection simulation.
@@ -268,6 +266,25 @@ To explore the role of taxonomic resolution in the detection of an advection eff
 Aggregation to genus resulted in a higher correlation (r = 0.29, p = 0.02) than to species, but with this exception a pattern of decreasing correlation with coarser rank was observed \figref{fig:taxonomicresolution}.
 
 \input{../advection/taxonomicresolution.tex}
+
+%TODO BEGIN PASTED BLOCK
+
+\subsection{Testing advection effect mechanisms}
+
+Two explanations can be proposed for the relationship between advection and community composition.
+The first is that advection increases microbial dispersal by increasing the probability that \acp{OTU} from one site will encounter and colonise another (the ``dispersal mechanism'').
+This assumes microbial dispersal is less than perfect; i.e.\ that ``everything is not everywhere''.
+The second is that advection transports a large numbers of cells at a rate measurably outpacing environmental selection, regardless of whether or not those cells are able to successfully colonise (i.e.\ grow and reproduce in) downstream sites: that ``the environment selects, but not fast enough'' (the ``bulk transport mechanism'').
+Considering the long advection times between sites in this study, the relatively rapid growth of marine microorganisms, and the ability of small numbers of cells to rapidly reduce \textbeta{}-diversity between isolated marine sites \cite{Declerck:2013cz}, the dispersal mechanism seems the more plausible.
+
+Two tests were performed to distinguish between these hypotheses.
+Firstly, the advection distance matrix was reconstructed using the absolute pairwise number of particle encounters as the distance metric between samples (distance metric for given sample pair = maximum number of encounters across all sample pairs \textminus{} encounters for given pair + 1).
+There was no significant correlation between this matrix and the taxonomic distance matrix when the environmental and spatial matrices were held constant (p \textgreater{} 0.05).
+This suggests that advection time, not the absolute number of transported cells, is the relevant factor, supporting the dispersal mechanism.
+
+Secondly, it was reasoned that under the dispersal mechanism, advection would have a large effect on the presence and diversity of taxa and a smaller effect on their abundances; while if the bulk transport hypothesis held, the effect would largely be on the relative abundances.
+To test this, the taxonomic profiles were transformed to a presence/absence measure (\ac{OTU} present = 1, absent = 0), and a matrix of S\o{}rensen dissimilarities generated.
+The advection effect was stronger (r = 0.33, p = 0.004) than when abundances were considered, again supporting the dispersal hypothesis. 
 
 %TODO END PASTED BLOCK
 
