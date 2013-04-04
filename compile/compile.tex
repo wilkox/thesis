@@ -1,6 +1,6 @@
 \documentclass[a4paper]{book}
 
-\includeonly{../advection/advection}
+\includeonly{../minspec/minspec}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -111,15 +111,6 @@
 %for nice fractions with \nicefrac{}{}
 \usepackage{units}
 
-%clever references for figures and tables
-\usepackage{hyperref}
-\usepackage{cleveref}
-\newcommand{\figref}[1]{(\Cref{#1})}
-\newcommand{\figreft}[1]{\Cref{#1}}
-\newcommand{\tabref}[1]{(\Cref{#1})}
-\newcommand{\tabreft}[1]{\Cref{#1}}
-\newcommand{\secreft}[1]{``\textit{\namecref{#1}}''}
-
 %support acronyms
 \usepackage[acronym,nonumberlist]{glossaries}
 \makeglossaries
@@ -133,7 +124,19 @@
 \usepackage{tabularx}
 
 %to wrap long urls
+\usepackage{hyperref}
 \usepackage[vertfit]{breakurl}
+
+%clever references for figures and tables
+\usepackage{cleveref}
+\newcommand{\figref}[1]{(\Cref{#1})}
+\newcommand{\figreft}[1]{\Cref{#1}}
+\newcommand{\tabref}[1]{(\Cref{#1})}
+\newcommand{\tabreft}[1]{\Cref{#1}}
+\newcommand{\secreft}[1]{``\textit{\namecref{#1}}''}
+
+%support subfigures
+\usepackage{subfig}
 
 \begin{document}
 
