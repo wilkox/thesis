@@ -267,8 +267,6 @@ Aggregation to genus resulted in a higher correlation (r = 0.29, p = 0.02) than 
 
 \input{../advection/taxonomicresolution.tex}
 
-%TODO BEGIN PASTED BLOCK
-
 \subsection{Testing advection effect mechanisms}
 
 Two explanations can be proposed for the relationship between advection and community composition.
@@ -286,6 +284,35 @@ Secondly, it was reasoned that under the dispersal mechanism, advection would ha
 To test this, the taxonomic profiles were transformed to a presence/absence measure (\ac{OTU} present = 1, absent = 0), and a matrix of S\o{}rensen dissimilarities generated.
 The advection effect was stronger (r = 0.33, p = 0.004) than when abundances were considered, again supporting the dispersal hypothesis. 
 
-%TODO END PASTED BLOCK
-
 \section{Discussion}
+
+%TODO BEGIN PASTED BLOCK
+
+This study found good support for the hypothesis that advection shapes microbial assemblages independent of an environment or distance effect.
+Communities that are more closely connected by advection are more similar, and this effect exists even when environment and distance effects are controlled for.
+The results also indicate that advection primarily shapes microbial community structure by increasing opportunities for colonisation, rather than transporting large numbers of cells to downstream sites. 
+
+The major alternative hypothesis for the observed correlation is that there exists an unmeasured environmental variable (e.g.\ iron concentration, pH) which correlates well with both advection and community composition.
+As in all studies of historical TODO UP TO HERE
+
+The amount of variance in taxonomic composition explained by the advection effect can be estimated as the square of the correlation coefficient (r\textsuperscript{2}).
+This value, 7\%, is likely to be a conservative estimate, as this study only captured advective pathways from one sample to another; it is possible that some samples with a large mutual advective distance shared a common advective source outside the study area.
+A recent review of studies partitioning variance in microbial community composition found that the mean reported variance explained by a distance effect was 10\%, and by an environment effect 27\% \cite{Hanson:2012cb}.
+The estimated proportions of variance in this study, 14\% (p = 0.001) for distance and 23\% (p = 0.001) for environment, were close to these values.
+While there are no comparative data for the advection effect in other systems, the value of at least 7\% for the \ac{SO} indicates that advection is important relative to both distance and environment effects. 
+
+Taxonomic resolution (i.e.\ the level of genetic difference at which \acp{OTU} are discriminated) often determines whether or not a pattern is detected in studies of microbial distance effects, with finer resolutions generally leading to an increased likelihood of detecting a significant effect \cite{Hanson:2012cb}.
+Surprisingly, aggregation to genus resulted in a higher correlation than to species \figref{fig:taxonomicresolution}.
+This may be because of the selection of the V6--V8 hypervariable regions as the sequencing target.
+Amplification of the V6 region alone has been shown to underestimate species richness, while targeting the V7--V8 region overestimates it \cite{Youssef:2009un}.
+It is possible that due to this choice of target, the ``species''-level aggregation represents a much finer taxonomic resolution at which intra-species variability begins to overwhelm the advection effect.
+With this exception, the pattern of a decreasing effect with coarser taxonomic resolution was confirmed, with no statistically significant effect for aggregation to phylum or domain.
+
+\subsection{Future work}
+
+To obtain a better understanding of the advection effect, it would be useful to determine whether particular taxonomic or physiological groups are more amenable to dispersal by advection; e.g.\ through the formation of dormant spores \cite{Sul:2013in, Bissett:2010wj}.
+As it is possible that an unmeasured environmental variable (e.g.\ iron concentration) also correlates with both advection and community composition, future studies should address this. Mesocosm experiments{Declerck:2013cz} may also help to address the effects of small-scale exchanges of cells on community structure.
+While future work will help to clarify the nature of the advection effect, our data indicate that advection should be considered along-side distance and environment effects in studies addressing factors that shape marine microbial assemblages.
+)
+
+%TODO END PASTED BLOCK
