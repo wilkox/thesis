@@ -1,6 +1,6 @@
 \documentclass[a4paper]{book}
 
-\includeonly{../minspec/minspec}
+\includeonly{../deepwaterformation/deepwaterformation}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -138,7 +138,10 @@
 \newcommand{\figreft}[1]{\cref{#1}}
 \newcommand{\tabref}[1]{(\cref{#1})}
 \newcommand{\tabreft}[1]{\cref{#1}}
-\newcommand{\secreft}[1]{``\textit{\namecref{#1}}''}
+
+%named references for chapters, sections
+\usepackage{nameref}
+\newcommand{\secreft}[1]{``\textit{\nameref{#1}}''}
 
 \begin{document}
 
@@ -212,6 +215,10 @@
 
 %reset acronyms
 \glsresetall
+\include{../deepwaterformation/deepwaterformation}
+
+%reset acronyms
+\glsresetall
 \include{../advection/advection}
 
 %bibliography
@@ -219,13 +226,5 @@
 \addcontentsline{toc}{chapter}{References}
 \bibliographystyle{mybibstyle}
 \bibliography{thesis}
-
-%Appendices
-\glsresetall
-\setcounter{secnumdepth}{1}
-\begin{appendices}
-  \include{../minspec/fullsourcecode}
-  \include{../advection/deepappendix}
-\end{appendices}
 
 \end{document}
