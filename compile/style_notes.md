@@ -85,3 +85,10 @@
 
 #Counting numbers
 - Counts less than or equal to twenty should be written out in full. However, any number used to quantify a unit should be written in numerals. So, "We used eleven ships and 45 helicopters to take 189 2.5 mg samples."
+
+#Significant figures
+- In cases where a variable measured by an instrument is reported (e.g. temperature, salinity), assume that the instrument is reporting an accurate result to the level of significance given, and thus include all figures. Figures can be shortened if excessive prcision is unnecessary for the purpose (see e.g. latitudes and longitudes below). 
+- For estimates of relative abundance of an OTU derived from metagenomic data, the maximum number of significant figures to report is round(log10(number of reads)).
+  - For the Polar Front study, most samples had reads in the 10^6 magnitude, so 4 significant figures is a good conservative limit.
+  - For the Advection study, 5 figures are appropriate.
+- Latitudes and longitudes of samples taken at sea should be reported to 2 decimal places (i.e. ~1.1 km precision), which is appropriate given how much the ship drifted at each station.
