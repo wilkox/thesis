@@ -75,9 +75,10 @@
 - Sentences in footnotes should end with a period.
 
 #Dates
-- Dates should be written in the order month, day (ordinal), year, with no commas: so "January 5th 2008"; "March 2012".
+- In text, dates should be written in the order month, day (ordinal), year, with no commas: so "January 5th 2008"; "March 2012".
 - The ordinal indicators (st, nd, th) should not be set as superscripts.
 - Date ranges should be indicated by en dashes with no spaces: so "January 5th--March 1st 2010"; "December 1986--April 1987". The month or year can be omitted from the start of the range if it is the same as the end: so "2nd--15th May 2013"; "August--November 1987".
+- In tables, dates should be represented in the standard Australian format: DD/MM/YYYY.
 
 #"Biogeographic" vs "Biogeographical"
 - Prefer "Biogeographic".
