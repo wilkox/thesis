@@ -48,7 +48,7 @@ This study will thus focus on the 0.1--20 \micron{} fraction of the sampled micr
 \section{Methods}
 \subsection{Sampling and metagenomic sequencing}
 
-Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from December 13th 2007--January 26th 2008. 
+Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from 13 December 2007--25 January 2008. 
 This cruise occupied the SR3 latitudinal transect from Hobart, Australia (44\textdegree{} S) to the Mertz Glacier, Antarctica (67\textdegree{} S) within a longitudinal range of 140--150\textdegree{} E.
 Sixteen samples were obtained along almost the entire latitudinal range \figref{fig:samplemap}.
 
@@ -72,7 +72,7 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsubsection{\softwarename{blast} comparison to RefSeq database}
 
-A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
+A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved 31 May 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
@@ -112,7 +112,7 @@ In the second test (``\ac{PF} hypothesis''), the additional samples were grouped
 
 \subsubsection{\softwarename{blast} comparison to \ac{KEGG} database}
 
-In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved July 2 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
+In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved 2 July 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
 
 \subsubsection{Analysis of functional potential}
 
