@@ -1,7 +1,5 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{vi}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{vi}
-\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{vi}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{vi}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{ix}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{ix}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{ix}
@@ -42,13 +40,13 @@
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{STF?\glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
@@ -68,11 +66,11 @@
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{UCDW?\glossaryentryfield{UCDW}{\glsnamefont{UCDW}}{Upper Circumpolar Deep Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{ASW?\glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{CDW?\glossaryentryfield{CDW}{\glsnamefont{CDW}}{Circumpolar Deep Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{ASW?\glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{ASW?\glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{CDW?\glossaryentryfield{CDW}{\glsnamefont{CDW}}{Circumpolar Deep Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{ASW?\glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{ASW?\glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{AAIW?\glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
@@ -117,7 +115,7 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
@@ -153,9 +151,9 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{RCA?\glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{RCA?\glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{RCA?\glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
+\glossaryentry{RCA?\glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{RCA?\glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{SSU?\glossaryentryfield{SSU}{\glsnamefont{SSU}}{Small Subunit}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{5}
@@ -209,7 +207,7 @@
 \glossaryentry{AP?\glossaryentryfield{AP}{\glsnamefont{AP}}{Antarctic Peninsula}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
@@ -232,10 +230,10 @@
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{DGGE?\glossaryentryfield{DGGE}{\glsnamefont{DGGE}}{Denaturing Gradient Gel Electrophoresis}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{FISH?\glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{CFB?\glossaryentryfield{CFB}{\glsnamefont{CFB}}{Cytophaga-Flavobacterium-Bacteroides}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
@@ -246,9 +244,9 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{HMW?\glossaryentryfield{HMW}{\glsnamefont{HMW}}{High Molecular Weight}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{anammox?\glossaryentryfield{anammox}{\glsnamefont{anammox}}{Anaerobic Ammonium Oxidation}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{AOB?\glossaryentryfield{AOB}{\glsnamefont{AOB}}{Ammonia-Oxidizing Bacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{anammox?\glossaryentryfield{anammox}{\glsnamefont{anammox}}{Anaerobic Ammonium Oxidation}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{AOA?\glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{AOB?\glossaryentryfield{AOB}{\glsnamefont{AOB}}{Ammonia-Oxidizing Bacteria}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{MGII?\glossaryentryfield{MGII}{\glsnamefont{MGII}}{Marine Group II Euryarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{MGI?\glossaryentryfield{MGI}{\glsnamefont{MGI}}{Marine Group I Crenarchaeota}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
@@ -327,8 +325,6 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
@@ -363,6 +359,8 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
@@ -414,15 +412,15 @@
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{STF?\glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{SAZ?\glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{STF?\glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{ACC?\glossaryentryfield{ACC}{\glsnamefont{ACC}}{Antarctic Circumpolar Current}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
@@ -443,7 +441,6 @@
 \glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
@@ -482,7 +479,6 @@
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
@@ -495,10 +491,10 @@
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{ANOSIM?\glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
@@ -511,14 +507,14 @@
 \glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{SIMPER?\glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
@@ -615,7 +611,7 @@
 \glossaryentry{DOM?\glossaryentryfield{DOM}{\glsnamefont{DOM}}{Dissolved Organic Matter}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
@@ -635,7 +631,7 @@
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
@@ -655,9 +651,9 @@
 \glossaryentry{KEGG?\glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{DMSP?\glossaryentryfield{DMSP}{\glsnamefont{DMSP}}{dimethylsulfoniopropionate}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
 \glossaryentry{NZ?\glossaryentryfield{NZ}{\glsnamefont{NZ}}{North Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{SZ?\glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
@@ -743,18 +739,18 @@
 \glossaryentry{PF?\glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{SAMW?\glossaryentryfield{SAMW}{\glsnamefont{SAMW}}{Subantarctic Mode Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{AAIW?\glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{SAMW?\glossaryentryfield{SAMW}{\glsnamefont{SAMW}}{Subantarctic Mode Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{AAIW?\glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{CDW?\glossaryentryfield{CDW}{\glsnamefont{CDW}}{Circumpolar Deep Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{AAIW?\glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{SAF?\glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{AZ?\glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{PFZ?\glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{SAMW?\glossaryentryfield{SAMW}{\glsnamefont{SAMW}}{Subantarctic Mode Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{AAIW?\glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{CDW?\glossaryentryfield{CDW}{\glsnamefont{CDW}}{Circumpolar Deep Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{47}
 \glossaryentry{\softwarename {qiime}?\glossaryentryfield{QIIME}{\glsnamefont{\softwarename {qiime}}}{Quantitative Insights Into Microbial Ecology}{\relax }|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{\softwarename {qiime}?\glossaryentryfield{QIIME}{\glsnamefont{\softwarename {qiime}}}{Quantitative Insights Into Microbial Ecology}{\relax }|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{48}
+\glossaryentry{\softwarename {qiime}?\glossaryentryfield{QIIME}{\glsnamefont{\softwarename {qiime}}}{Quantitative Insights Into Microbial Ecology}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{CTD?\glossaryentryfield{CTD}{\glsnamefont{CTD}}{Conductivity, Temperature and Depth}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
@@ -768,7 +764,7 @@
 \glossaryentry{SO?\glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{CMS?\glossaryentryfield{CMS}{\glsnamefont{CMS}}{Connectivity Modeling System}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{SOSE?\glossaryentryfield{SOSE}{\glsnamefont{SOSE}}{Southern Ocean State Estimate}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{DCM?\glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
@@ -780,9 +776,9 @@
 \glossaryentry{AABW?\glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{OTU?\glossaryentryfield{OTU}{\glsnamefont{OTU}}{Operational Taxonomic Unit}{\relax }|setentrycounter[]{page}\glsnumberformat}{54}
 \glossaryentry{nMDS?\glossaryentryfield{nMDS}{\glsnamefont{nMDS}}{Non-Metric Multidimensional Scaling}{\relax }|setentrycounter[]{page}\glsnumberformat}{54}

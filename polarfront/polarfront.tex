@@ -1,4 +1,4 @@
-\chapter[Polar Front]{The Polar Front as a major biogeographic boundary in the Southern Ocean} 
+\chapter[The Polar Front]{The Polar Front as a major biogeographic boundary in the Southern Ocean} 
 \label{ch:polarfront}
 
 \previouslypublished{Sections of this chapter have been previously published in \bibentry{Wilkins:2012wg}.}
@@ -78,7 +78,7 @@ Because this database was not expected to contain representative genomes for eve
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
 The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal \ac{OTU} sets were removed.
 
-\subsubsection{\ac{OTU} abundances and variance between zones}
+\subsubsection{OTU abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
 Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
@@ -110,7 +110,7 @@ In the second test (``\ac{PF} hypothesis''), the additional samples were grouped
 
 \subsection{Functional analysis of metagenomic data}
 
-\subsubsection{\softwarename{blast} comparison to \ac{KEGG} database}
+\subsubsection{\softwarename{blast} comparison to KEGG database}
 
 In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved 2 July 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
 

@@ -10,7 +10,7 @@
 \glossaryentryfield{MEGAN}{\glsnamefont{\softwarename {megan}}}{Metagenome Analyzer}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{14}}}%
 \glossaryentryfield{QIIME}{\glsnamefont{\softwarename {qiime}}}{Quantitative Insights Into Microbial Ecology}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{48}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{48\delimN 49}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{AABW}{\glsnamefont{AABW}}{Antarctic Bottom Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
@@ -18,7 +18,7 @@
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{41\delimR 44}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56}}}%
@@ -27,7 +27,7 @@
 		\setentrycounter[]{page}\glsnumberformat{26}}}%
 \glossaryentryfield{AAIW}{\glsnamefont{AAIW}}{Antarctic Intermediate Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56}}}%
 \glossaryentryfield{AAP}{\glsnamefont{AAP}}{Aerobic Anoxygenic Phototrophic}{\relax }{\glossaryentrynumbers{\relax 
@@ -41,32 +41,33 @@
 		\setentrycounter[]{page}\glsnumberformat{36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossaryentryfield{anammox}{\glsnamefont{anammox}}{Anaerobic Ammonium Oxidation}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}}}%
+		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossaryentryfield{ANOSIM}{\glsnamefont{ANOSIM}}{Analysis of Similarities}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25\delimR 27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{25\delimN 26}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56}}}%
 \glossaryentryfield{AOA}{\glsnamefont{AOA}}{Ammonia-Oxidizing Archaea}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35}}}%
 \glossaryentryfield{AOB}{\glsnamefont{AOB}}{Ammonia-Oxidizing Bacteria}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{9}}}%
+		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossaryentryfield{AP}{\glsnamefont{AP}}{Antarctic Peninsula}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5\delimR 7}}}%
 \glossaryentryfield{ASW}{\glsnamefont{ASW}}{Antarctic Surface Water}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{2\delimN 3}}}%
+		\setentrycounter[]{page}\glsnumberformat{3}}}%
 \glossaryentryfield{AZ}{\glsnamefont{AZ}}{Antarctic Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4\delimN 5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7\delimR 11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossaryentryfield{BW}{\glsnamefont{BW}}{Bottom Water}{\relax }{\glossaryentrynumbers{\relax 
@@ -77,7 +78,7 @@
 \glossaryentryfield{CDW}{\glsnamefont{CDW}}{Circumpolar Deep Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1\delimR 4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}}}%
 \glossaryentryfield{CEAMARC}{\glsnamefont{CEAMARC}}{Collaborative East Antarctic Marine Census}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
@@ -97,7 +98,7 @@
 \glossaryentryfield{DCM}{\glsnamefont{DCM}}{Deep Chlorophyll Maximum}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{49\delimN 50}}}%
+		\setentrycounter[]{page}\glsnumberformat{50}}}%
 \glossaryentryfield{DFAA}{\glsnamefont{DFAA}}{Dissolved Free Amino Acids}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossaryentryfield{DGGE}{\glsnamefont{DGGE}}{Denaturing Gradient Gel Electrophoresis}{\relax }{\glossaryentrynumbers{\relax 
@@ -124,7 +125,7 @@
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossaryentryfield{FISH}{\glsnamefont{FISH}}{Fluorescence \emph {In Situ} Hybridization}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{36}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{GOS}{\glsnamefont{GOS}}{Global Ocean Sampling expedition}{\relax }{\glossaryentrynumbers{\relax 
@@ -152,7 +153,6 @@
 		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossaryentryfield{KEGG}{\glsnamefont{KEGG}}{Kyoto Encyclopedia of Genes and Genomes}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{vi}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{26}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31\delimR 33}\delimN 
@@ -203,14 +203,13 @@
 		\setentrycounter[]{page}\glsnumberformat{ix}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{xi}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13\delimR 18}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25\delimR 31}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35\delimR 37}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{39\delimN 40}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{49\delimR 51}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{57\delimR 59}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
@@ -225,10 +224,10 @@
 		\setentrycounter[]{page}\glsnumberformat{39\delimN 40}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{46}}}%
 \glossaryentryfield{PFZ}{\glsnamefont{PFZ}}{Polar Frontal Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{4\delimN 5}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}}}%
 \glossaryentryfield{POM}{\glsnamefont{POM}}{Particulate Organic Matter}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
@@ -236,35 +235,33 @@
 		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{4\delimN 5}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{SACCF}{\glsnamefont{SACCF}}{Southern Antarctic Circumpolar Current Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glossaryentryfield{SAF}{\glsnamefont{SAF}}{Subantarctic Front}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{1\delimR 3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}}}%
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}}}%
 \glossaryentryfield{SAM}{\glsnamefont{SAM}}{Southern Annular Mode}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}%
 \glossaryentryfield{SAMW}{\glsnamefont{SAMW}}{Subantarctic Mode Water}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}}}%
 \glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{1\delimR 3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{5\delimR 7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}}}%
 \glossaryentryfield{SB}{\glsnamefont{SB}}{Southern Boundary of the Antarctic Circumpolar Current}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glossaryentryfield{SIMPER}{\glsnamefont{SIMPER}}{Similarity Percentages}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25\delimR 27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{25\delimN 26}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{29\delimR 31}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{33}}}%
 \glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
@@ -284,7 +281,7 @@
 		\setentrycounter[]{page}\glsnumberformat{5}}}%
 \glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{35}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }{\glossaryentrynumbers{\relax 
