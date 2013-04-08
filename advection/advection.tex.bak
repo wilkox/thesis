@@ -195,37 +195,38 @@ To confirm that the advection effect was directional, i.e.\ that ``upstream'' si
 Each sample was sequentially designated a sink, with the remaining samples as potential sources, and the most probable proportion of \acp{OTU} originating from each potential source determined over 100 randomised trials per sample.
 Spearman's rank correlation was then calculated between the \softwarename{SourceTracker} predicted source proportions and particle encounter source proportions for each sample pairwise, with right-tailed p-value determined by permutation.
 
-\subsection{Differential influence of advection on different OTUs}
+\subsection{Differential influence of advection on OTU subsets}
 
 It was hypothesised that some \acp{OTU} may be more amenable than others to advective dispersal: for example, cells able to form dormant states \cite{Bissett:2010wj}.
 A modified form of the \softwarename{bvstep} algorithm \cite{Clarke:1998ki} was developed to investigate this.
 
-\softwarename{bvstep} seeks to find a subset from a community of \acp{OTU}, the inter-sample resemblence pattern of which best matches that of the entire community.
+\softwarename{bvstep} seeks to find a subset of a community of \acp{OTU}, the inter-sample resemblance pattern of which best matches that of the entire community.
 The quality of the match is defined as the rank correlation (typically Spearman's \textrho) between the Bray-Curtis similarity matrix for the \ac{OTU} subset and that of the full set.
 As the number of potential subsets grows exponentially with the number of \acp{OTU} ($2^{s}-1$ subsets for $s$ \acp{OTU} \cite{Clarke:1998ki}), it is computationally impractical to test each individually.
 Hence, \softwarename{bvstep} uses a stepwise approach to efficiently explore the space of possible subsets.
 
-The algorithm proceeds through successive rounds of forward and backward selection, beginning with a randomly selected subset of six \acp{OTU}. 
+The algorithm proceeds through successive rounds of forward and backward selection, beginning with a randomly selected subset of (typically six) \acp{OTU}.
 In the forward selection round, each \ac{OTU} not currently in the subset is tested as a potential addition to the subset.
 The \ac{OTU} that by its addition maximally increases the correlation of the subset to the full set is added to the subset, and forward selection is repeated.
 If no \ac{OTU} can improve the current subset, forward selection in terminated and backward selection begins.
 
-In the backward selection round, each \ac{OTU} currently in the subset is tested as a candiate for removal.
+In the backward selection round, each \ac{OTU} currently in the subset is tested as a candidate for removal.
 As with forward selection, the \ac{OTU} that by its removal maximally increases the correlation of the subset to the full set is removed, and backward selection is repeated.
 If no such \ac{OTU} exists, backward selection is terminated and a new round of forward selection begins.
 Successive rounds of forward and backward selection proceed until either the correlation exceeds 0.95, or no further increase in the correlation can be achieved by either forward or backward selection.
 
 Typically, the algorithm will be run with multiple restarts, each with a randomly selected starting subset, and the resulting subsets compared.
-This allows an estimation of the ``structual redunancy'' of the community: the number of potential subsets of \acp{OTU} which can be extracted from the total set without replacement.
+This allows an estimation of the ``structural redundancy'' of the community: the number of unique, high-correlation subsets of \acp{OTU} which can be extracted from the total set without replacement.
 
 The \softwarename{bvstep} implementation used in this study differs from the canonical version \cite{Clarke:1998ki} in two main ways.
 Most significantly, each potential \ac{OTU} subset is not compared to the full set of \acp{OTU} by Spearman's rank correlation.
-Instead, the Bray-Curtis resemblence matrix between samples is generated using this subset, and compared to the advection distance matrix using a partial Mantel test holding the spatial and environmental distances constant.
+Instead, the Bray-Curtis resemblance matrix between samples is generated for each tested subset, and compared to the advection distance matrix using a partial Mantel test holding the spatial and environmental distances constant.
 This modified form of the algorithm thus addressed the question of whether some subset of \acp{OTU} were as (or more) affected by advection as the entire set.
+Unlike the standard algorithm, where the best possible ``subset'' is simply the full set of samples (\textrho{} = 1), with this modified algorithm it is possible for a subset to yield a better correlation than the full set.
 
-Additionally, after the random selection of six \acp{OTU} to form the starting subset, only the single \ac{OTU} with the highest correlation was retained.
+Additionally, after the random selection of six \acp{OTU} to form the starting subset, only the single \ac{OTU} with the highest correlation is retained.
 This was because it was observed that the starting subset of \acp{OTU} were very rarely retained through the entire selection process, presumably because the total number of \acp{OTU} was high and the random selection of representative \acp{OTU} thus unlikely.
-Removing five of the starting \acp{OTU} immediately thus eliminated many unnecessary rounds of selection.
+Removing five of the starting \acp{OTU} immediately thus eliminates many unnecessary rounds of selection.
 
 \section{Results}
 
@@ -323,6 +324,14 @@ Secondly, it was reasoned that under the dispersal mechanism, advection would ha
 To test this, the taxonomic profiles were transformed to a presence/absence measure (\ac{OTU} present = 1, absent = 0), and a matrix of S\o{}rensen dissimilarities generated.
 The advection effect was stronger (r = 0.33, p = 0.004) than when abundances were considered, again supporting the dispersal hypothesis. 
 
+\subsection{Differential effect of advection on OTU subsets}
+
+Over five restarts of the modified \softwarename{bvstep} algorithm, three (2, 4 and 5) produced the sample subset of four \acp{OTU} with correlation of 0.54 to the advection resemblance matrix (partial Mantel, p < 0.05) \figref{tab:bvstep}.
+Restart 1 identified a different subset of 18 \acp{OTU}, also with a correlation of 0.54, while restart 3 identified a subset of 19 \acp{OTU} with a correlation of 0.44.
+There was little overlap between the subsets: \speciesfull{Stenotrophomonas maltophilia} (0.8 \micron{} fraction) appeared in all subsets, while the alphaproteobacterium ``MGP-80'' (0.1 \micron{} fraction) appeared in all but restart three.
+
+\input{../advection/bvstepresults.tex}
+
 \section{Discussion}
 
 This study found good support for the hypothesis that advection shapes microbial assemblages independent of an environment or distance effect.
@@ -331,7 +340,7 @@ The results also indicate that advection primarily shapes microbial community st
 
 The major alternative hypothesis for the observed correlation is that there exists an unmeasured environmental variable (e.g.\ iron concentration, pH) which correlates well with both advection and community composition.
 As in all studies of historical influences on microbial biogeography, it is impossible to eliminate all potential confounding variables.
-However, a rigourous confirmation of the advection effect will require future work to measure physicochemical paramaters as comprehensively as possible.
+However, a rigorous confirmation of the advection effect will require future work to measure physicochemical parameters as comprehensively as possible.
 
 The amount of variance in taxonomic composition explained by the advection effect can be estimated as the square of the correlation coefficient (r\textsuperscript{2}).
 This value, 7\%, is likely to be a conservative estimate, as this study only captured advective pathways from one sample to another; it is possible that some samples with a large mutual advective distance shared a common advective source outside the study area.
@@ -339,12 +348,25 @@ A recent review of studies partitioning variance in microbial community composit
 The estimated proportions of variance in this study, 14\% (p = 0.001) for distance and 23\% (p = 0.001) for environment, were close to these values.
 While there are no comparative data for the advection effect in other systems, the value of at least 7\% for the \ac{SO} indicates that advection is important relative to both distance and environment effects. 
 
+\subsection{Taxonomic resolution}
+
 Taxonomic resolution (i.e.\ the level of genetic difference at which \acp{OTU} are discriminated) often determines whether or not a pattern is detected in studies of microbial distance effects, with finer resolutions generally leading to an increased likelihood of detecting a significant effect \cite{Hanson:2012cb}.
 Surprisingly, aggregation to genus resulted in a higher correlation than to species \figref{fig:taxonomicresolution}.
 This may be because of the selection of the V6--V8 hypervariable regions as the sequencing target.
 Amplification of the V6 region alone has been shown to underestimate species richness, while targeting the V7--V8 region overestimates it \cite{Youssef:2009un}.
 It is possible that due to this choice of target, the ``species''-level aggregation represents a much finer taxonomic resolution at which intra-species variability begins to overwhelm the advection effect.
 With this exception, the pattern of a decreasing effect with coarser taxonomic resolution was confirmed, with no statistically significant effect for aggregation to phylum or domain.
+
+\subsection{Differential influence of advection on OTU subsets}
+
+The attempt to identify subsets of \acp{OTU} which were more amenable to advection produced inconclusive results.
+While three almost unique subsets were identified \tabref(tab:bvstep), all of which had a stronger correlation with advection distance than the complete set, there was no clear obvious pattern in the \acp{OTU} selected.
+For example, it was hypothesised that organisms capable of dormant states might be more amenable to advective transport as they would be more likely to survive over long distances and travel times.
+However, there was no obvious overrepresentation of such taxa in the results.
+Most selected \acp{OTU} were uncultured, and had very low estimated relative abundances, further complicating interpretation.
+
+It is possible that the very large number of \acp{OTU} identified in this study means that any that have a strong correlation to advection would be outnumbered by those correlating through random chance.
+These results illustrate the difficulties inherent in translating patterns on the ecosystem or biogeographic level into descriptions of indvidual species.
 
 \subsection{Future work}
 

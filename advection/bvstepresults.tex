@@ -1,6 +1,6 @@
 \begin{table}[!ht]
 \sffamily
-\caption[Results of \softwarename{bvstep}]{OTU subsets resulting from five restarts of the modified \softwarename{bvstep} algorithm.}
+\caption[Results of \softwarename{bvstep}]{OTU subsets resulting from five restarts of the modified \softwarename{bvstep} algorithm. OTUs common to more than one subset are indicated in {\color{red} red (all restarts)} or {\color{blue} blue (all restarts but 3)}.}
 \label{tab:bvstep}
 \begin{center}
 \begin{tabular}{lll}
@@ -8,8 +8,8 @@
 & \textbf{OTU} & \textbf{Fraction (\micron)}\\
 \midrule
 Restart 1 & \speciesfull{Micrococcus luteus} NCTC 2665 & 3.0\\
-& \speciesfull{Stenotrophomonas maltophilia} & 0.8\\
-& Rhodobacteraceae bacterium MGP-80 & 0.1\\
+&{\color{red} \speciesfull{Stenotrophomonas maltophilia}} & {\color{red}0.8}\\
+&{\color{blue} Rhodobacteraceae bacterium MGP-80} & {\color{blue}0.1}\\
 & \speciesfull{Cobetia marina} & 0.8\\
 & Uncultured bacterium UCT N117 & 3.0\\
 & Uncultured Marine Group II euryarchaeote DH148-W1 & 3.0\\
@@ -26,6 +26,11 @@ Restart 1 & \speciesfull{Micrococcus luteus} NCTC 2665 & 3.0\\
 & Uncultured \genus{Crocinitomix} sp.\ & 0.8\\
 & \genus{Serratia} sp.\ 8H1D & 0.1\\
 \midrule
+Restarts 2, 4 and 5 & Uncultured \genus{Rhodococcus} sp.\ & 0.1\\
+& \speciesfull{Leeuwenhoekiella blandensis} MED217 & 3.0\\
+& {\color{blue} Rhodobacteraceae bacterium MGP-80} & {\color{blue}0.1}\\
+& {\color{red} \speciesfull{Stenotrophomonas maltophilia}} & {\color{red}0.8}\\
+\midrule
 Restart 3 & Uncultured \genus{Singulisphaera} sp.\ & 3.0\\
 & \genus{Mariniflexile} sp.\ HWR-17 & 3.0\\
 & Uncultured \genus{Pelomonas} sp.\ & 0.8\\
@@ -35,7 +40,7 @@ Restart 3 & Uncultured \genus{Singulisphaera} sp.\ & 3.0\\
 & \genus{Marinobacter} sp.\ 114Z-23 & 0.8\\
 & Uncultured Bacteroidetes bacterium NS2b & 0.8\\
 & Uncultured \genus{Marinicella} sp.\ & 3.0\\
-& \genus{Stenotrophomonas maltophilia} & 0.8\\
+& {\color{red} \genus{Stenotrophomonas maltophilia}} & {\color{red}0.8}\\
 & Uncultured \genus{Hirschia} sp.\ & 3.0\\
 & BD2-11 terrestrial group uncultured bacterium AD254-A9 & 0.8\\
 & \speciesfull{Kocuria rhizophila} DC2201 & 0.8\\
@@ -45,11 +50,6 @@ Restart 3 & Uncultured \genus{Singulisphaera} sp.\ & 3.0\\
 & Uncultured marine group III euryarchaeote & 3.0\\
 & \genus{Halomonas} sp. HK31 & 0.8\\
 & Uncultured Acidobacterium sp.\ DA023 & 0.1\\
-\midrule
-Restarts 2, 4 and 5 & Uncultured \genus{Rhodococcus} sp.\ & 0.1\\
-& \speciesfull{Leeuwenhoekiella blandensis} MED217 & 3.0\\
-& Rhodobacteraceae bacterium MGP-80 & 0.1\\
-& \speciesfull{Stenotrophomonas maltophilia} & 0.8\\
 \bottomrule
 \end{tabular}
 \end{center}
