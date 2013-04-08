@@ -200,28 +200,29 @@ Spearman's rank correlation was then calculated between the \softwarename{Source
 It was hypothesised that some \acp{OTU} may be more amenable than others to advective dispersal: for example, cells able to form dormant states \cite{Bissett:2010wj}.
 A modified form of the \softwarename{bvstep} algorithm \cite{Clarke:1998ki} was developed to investigate this.
 
-\softwarename{bvstep} seeks to find a subset from a community of \acp{OTU}, the inter-sample resemblence pattern of which best matches that of the entire community.
+\softwarename{bvstep} seeks to find a subset of a community of \acp{OTU}, the inter-sample resemblance pattern of which best matches that of the entire community.
 The quality of the match is defined as the rank correlation (typically Spearman's \textrho) between the Bray-Curtis similarity matrix for the \ac{OTU} subset and that of the full set.
 As the number of potential subsets grows exponentially with the number of \acp{OTU} ($2^{s}-1$ subsets for $s$ \acp{OTU} \cite{Clarke:1998ki}), it is computationally impractical to test each individually.
 Hence, \softwarename{bvstep} uses a stepwise approach to efficiently explore the space of possible subsets.
 
-The algorithm proceeds through successive rounds of forward and backward selection, beginning with a randomly selected subset of six \acp{OTU}. 
+The algorithm proceeds through successive rounds of forward and backward selection, beginning with a randomly selected subset of (typically six) \acp{OTU}.
 In the forward selection round, each \ac{OTU} not currently in the subset is tested as a potential addition to the subset.
 The \ac{OTU} that by its addition maximally increases the correlation of the subset to the full set is added to the subset, and forward selection is repeated.
 If no \ac{OTU} can improve the current subset, forward selection in terminated and backward selection begins.
 
-In the backward selection round, each \ac{OTU} currently in the subset is tested as a candiate for removal.
+In the backward selection round, each \ac{OTU} currently in the subset is tested as a candidate for removal.
 As with forward selection, the \ac{OTU} that by its removal maximally increases the correlation of the subset to the full set is removed, and backward selection is repeated.
 If no such \ac{OTU} exists, backward selection is terminated and a new round of forward selection begins.
 Successive rounds of forward and backward selection proceed until either the correlation exceeds 0.95, or no further increase in the correlation can be achieved by either forward or backward selection.
 
 Typically, the algorithm will be run with multiple restarts, each with a randomly selected starting subset, and the resulting subsets compared.
-This allows an estimation of the ``structual redunancy'' of the community: the number of potential subsets of \acp{OTU} which can be extracted from the total set without replacement.
+This allows an estimation of the ``structural redundancy'' of the community: the number of unique, high-correlation subsets of \acp{OTU} which can be extracted from the total set without replacement.
 
 The \softwarename{bvstep} implementation used in this study differs from the canonical version \cite{Clarke:1998ki} in two main ways.
 Most significantly, each potential \ac{OTU} subset is not compared to the full set of \acp{OTU} by Spearman's rank correlation.
-Instead, the Bray-Curtis resemblence matrix between samples is generated using this subset, and compared to the advection distance matrix using a partial Mantel test holding the spatial and environmental distances constant.
+Instead, the Bray-Curtis resemblance matrix between samples is generated for each tested subset, and compared to the advection distance matrix using a partial Mantel test holding the spatial and environmental distances constant.
 This modified form of the algorithm thus addressed the question of whether some subset of \acp{OTU} were as (or more) affected by advection as the entire set.
+Unlike the standard algorithm, where the best possible ``subset'' is simply the full set of samples (\textrho{} = 1), with this modified algorithm it is possible for a subset to yield a better correlation than the full set.
 
 Additionally, after the random selection of six \acp{OTU} to form the starting subset, only the single \ac{OTU} with the highest correlation was retained.
 This was because it was observed that the starting subset of \acp{OTU} were very rarely retained through the entire selection process, presumably because the total number of \acp{OTU} was high and the random selection of representative \acp{OTU} thus unlikely.
@@ -331,7 +332,7 @@ The results also indicate that advection primarily shapes microbial community st
 
 The major alternative hypothesis for the observed correlation is that there exists an unmeasured environmental variable (e.g.\ iron concentration, pH) which correlates well with both advection and community composition.
 As in all studies of historical influences on microbial biogeography, it is impossible to eliminate all potential confounding variables.
-However, a rigourous confirmation of the advection effect will require future work to measure physicochemical paramaters as comprehensively as possible.
+However, a rigorous confirmation of the advection effect will require future work to measure physicochemical parameters as comprehensively as possible.
 
 The amount of variance in taxonomic composition explained by the advection effect can be estimated as the square of the correlation coefficient (r\textsuperscript{2}).
 This value, 7\%, is likely to be a conservative estimate, as this study only captured advective pathways from one sample to another; it is possible that some samples with a large mutual advective distance shared a common advective source outside the study area.

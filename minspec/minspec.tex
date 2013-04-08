@@ -6,10 +6,10 @@
 \section{Abstract}
 
 Incorrect assignment of taxonomic identity to sequencing reads is a source of error in microbial metagenomic studies.
-Microbial genomes naturally share large amounts of very similar or identical genomic sequence as a result of common ancestory, horizontal gene transfer or convergent evolution.
-Thus, when a read is similar to more than one \ac{OTU} in a reference database of microbial genomes, nucleotide identity alone is insufficient to determine the correct taxonimic assignment.
+Microbial genomes naturally share large amounts of very similar or identical genomic sequence as a result of common ancestry, horizontal gene transfer or convergent evolution.
+Thus, when a read is similar to more than one \ac{OTU} in a reference database of microbial genomes, nucleotide identity alone is insufficient to determine the correct taxonomic assignment.
 This chapter presents a simple algorithm and software tool, \softwarename{minspec}, which determines the smallest set of \acp{OTU} that explains a given set of matches between metagenomic reads and a reference database.
-By removing \acp{OTU} not in this ``maximum parsimony'' set, \softwarename{minspec} reduces spurious \ac{OTU} assignmnents (false positives) and thus increases the accuracy of relative abundance estimates.
+By removing \acp{OTU} not in this ``maximum parsimony'' set, \softwarename{minspec} reduces spurious \ac{OTU} assignments (false positives) and thus increases the accuracy of relative abundance estimates.
 \softwarename{minspec} has been validated against simulated metagenomic experiments.
 
 %reset acronyms

@@ -1,9 +1,21 @@
-\chapter{The Polar Front as a major biogeographic boundary in the Southern Ocean} 
+\chapter[The Polar Front]{The Polar Front as a major biogeographic boundary in the Southern Ocean} 
 \label{ch:polarfront}
 
-\previouslypublished{Sections of this chapter have been previously published in \bibentry{Wilkins:2012td}.}
+\previouslypublished{Sections of this chapter have been previously published in \bibentry{Wilkins:2012wg}.}
 
-\section{Summary}
+\section{Abstract}
+
+The \ac{PF} is a major oceanographic feature of the \ac{SO}, dividing surface water masses with distinct physicochemial characteristics.
+To confirm and characterise the \ac{PF}'s role as a biogeographic barrier in the \ac{SO}, sixteen metagenomic samples were collected on a latitudinal transect from waters near Hobart, Australia (44\textdegree{} S) to near the Mertz Glacier, Antarctica (67\textdegree{} S).
+The samples were shotgun sequenced, and the community composition and functional potential of the captured microorganisms were analysed.
+The SAR11 and SAR116 clades and the cyanobacterial genera \genus{Prochlorococcus} and \genus{Synechococcus} were strongly overrepresented north of the \ac{PF}.
+Conversely, the \ac{GSO-EOSA-1} complex, the phyla Bacteroidetes and Verrucomicrobia and order Rhodobacterales were overrepresented in waters south of the \ac{PF}. 
+Functions enriched south of the \ac{PF} included a range of transporters, sulphur reduction and histidine degradation to glutamate, while branched-chain amino acid transport, nucleic acid biosynthesis and methionine salvage were overrepresented north of the \ac{PF}.
+The taxonomic and functional characteristics suggested a shift of primary production from cyanobacteria in the north to eukaryotic phytoplankton in the south, and reflected the different trophic states of the two regions. 
+Overall, this study supported the \ac{PF} as a defining biogeographic feature of the \ac{SO}.
+
+%reset acronyms
+\glsresetall
 
 \section{Introduction}
 
@@ -36,7 +48,7 @@ This study will thus focus on the 0.1--20 \micron{} fraction of the sampled micr
 \section{Methods}
 \subsection{Sampling and metagenomic sequencing}
 
-Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from December 13th 2007--January 26th 2008. 
+Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from 13 December 2007--25 January 2008. 
 This cruise occupied the SR3 latitudinal transect from Hobart, Australia (44\textdegree{} S) to the Mertz Glacier, Antarctica (67\textdegree{} S) within a longitudinal range of 140--150\textdegree{} E.
 Sixteen samples were obtained along almost the entire latitudinal range \figref{fig:samplemap}.
 
@@ -60,13 +72,13 @@ Duplicate reads and reads with many pyrosequencing errors were removed as descri
 
 \subsubsection{\softwarename{blast} comparison to RefSeq database}
 
-A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved May 31 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
+A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved 31 May 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
 Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
 The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal \ac{OTU} sets were removed.
 
-\subsubsection{\ac{OTU} abundances and variance between zones}
+\subsubsection{OTU abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
 Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
@@ -80,8 +92,8 @@ All statistical procedures were performed in \softwarename{PRIMER 6} as describe
 
 \subsubsection{Fragment recruitment to verify \ac{OTU} identification}
 To confirm that identified \acp{OTU} were truly present, and not resulting from hits to small regions of genomic identity, plots of read recruitment and coverage to reference genomes were generated using \softwarename{r} and \softwarename{perl}.
-Six samples, three from the \ac{SZ} and three from the \ac{NZ}, were randomly selected as sources of recruited reads.
-As shotgun sequenincing of a metagenome should be essentially random, it was predicted that these plots would show fairly even coverage of the reference genomes.
+Six samples, three from the \ac{SZ} and three from the \ac{NZ}, were randomly selected and their 0.1 \micron{} fractions used as sources of recruited reads.
+As shotgun sequencing of a metagenome should be essentially random, it was predicted that these plots would show fairly even coverage of the reference genomes.
 Genomes where all recruited reads were concentrated in a few small regions would be likely candidates for \acp{OTU} which were not present, but shared a small genomic region with an \ac{OTU} which was present.
 
 \subsubsection{Additional samples to test ``polynya hypothesis''}
@@ -98,9 +110,9 @@ In the second test (``\ac{PF} hypothesis''), the additional samples were grouped
 
 \subsection{Functional analysis of metagenomic data}
 
-\subsubsection{\softwarename{blast} comparison to \ac{KEGG} database}
+\subsubsection{\softwarename{blast} comparison to KEGG database}
 
-In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved July 2 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
+In order to identify functional differences between the zones, the set of metagenomic reads from each sample was compared against the \ac{KEGG} GENES database (retrieved 2 July 2010 from \url{ftp://ftp.genome.jp/pub/kegg/genes/fasta/genes.pep}) with \softwarename{blastx}, with default parameters except for: maximum number of database sequence alignments 10; E-value threshold $1.0\times10^{-3}$; gap opening penalty 11; gap extension penalty 1; masking of query sequence by \softwarename{SEG} masking for lookup table only.
 
 \subsubsection{Analysis of functional potential}
 
@@ -153,7 +165,7 @@ Notably, \acp{OTU} within several taxonomic groups that had high contribution to
 For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} species, SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
 Some groups, such as the Alteromonadales, had variable relative representation depending on size fraction.
 
-\subsubsection{Fragment recruitment to verify \ac{OTU} identification}
+\subsection{Fragment recruitment to verify \ac{OTU} identification}
 
 As predicted, read recruitment to reference genomes produced fairly even coverage, especially in the high-abundance \acp{OTU}.
 This indicates that \ac{OTU} identification was accurate and unlikely to be confounded by small regions of genomic identity.
