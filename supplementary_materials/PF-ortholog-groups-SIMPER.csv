@@ -1,4 +1,3 @@
-Table S4:  Contributions of KEGG ortholog groups to variance between the North and South zones.,,,
 Ortholog group,Average abundance South (standardised and log transformed),Average abundance North (standardised and log transformed),Contribution to variance (%)
 hypothetical protein-30,0.11,0.24,0.26
 hypothetical protein-08,0.68,0.57,0.24
