@@ -153,19 +153,21 @@ To generate a spatial distance matrix, pairwise ellipsoidal distances between sa
 
 \subsection{Generation of advection distance matrix}
 
-\previouslypublished{Erik van Sebille contributed to writing the following paragraph.}\smallskip\\
-Advection distances between the sites were computed using three-dimensional velocity data from a hydrodynamic numerical ocean model in combination with a Lagrangian trajectory toolset\footnote{Modelling was performed by Erik van Sebille.}.
-The ocean model used was the \ac{SOSE} \cite{Mazloff:2010et}, a numerical model of the \ac{SO} based on the \ac{ECCO} machinery \cite{Wunsch:2007iq} and constrained by a large set of in situ and remote-sensed observations.
-\ac{SOSE} has been validated in the \ac{SO} \cite{Cerovecki:hu, Firing:2011dp}. 
-Here, the five-day averaged three-dimensional velocity fields for the period January 2005--December 2007 were used, on a \nicefrac{1}{6}\textdegree{} horizontal resolution and with 42 vertical levels.
-The \ac{CMS} \cite{Paris:2013fs} 1.1 was used to integrate virtual Lagrangian particles within the \ac{SOSE} velocity fields.
-For each site, 100 particles were released every 5 days (total of 2.2 \texttimes{} 10\textsuperscript{4} per site).
-The particles were released at the latitude and depth of the site, evenly spaced in a 1\textdegree{} longitudinal line centred at the site longitudes.
-The particles were then advected for 100 years, looping through the 3 years of available velocity fields as described in \citet{vanSebille:2012hh}.
-Three-dimensional locations of the particles were saved every 5 days.
+In order to calculate advection distances between the sample sites, the release and advection of inertial particles was simulated using a computational model of \ac{SO} circulation\footnote{Modelling was performed by Erik van Sebille.}.
+The circulation model used was the \ac{SOSE} \cite{Mazloff:2010et}, an eddy-permitting circulation model constrained by \textit{in situ} and satellite observations of the \ac{SO} during 2005-2006.
+The \ac{CMS} \cite{Paris:2013fs} version 1.1 was used to calculate the three-dimensional trajectories of inertial particles in the \ac{SOSE} velocity fields using a Lagrangian toolset.
+Three-dimensional velocity fields for the \ac{SO} from January 2005--December 2007 were simulated, and looped for 100 years as described in \citet{vanSebille:2012hh}.
+The simulation had a temporal resolution of five days, and a spatial resolution of \nicefrac{1}{6}\textdegree{} of latitude and longitude and 42 levels of depth.
+For each site, 100 particles were released every 5 days through the first loop of the simulation (total of 22,000 particles per site) at the latitude and depth of the site, evenly spaced along a 1\textdegree{} longitudinal line centred on the site longitudes.
 
 The trajectory of each particle was analysed to detect encounters between particles and sample sites.
 An encounter was defined as the vector between any two consecutive 5 day particle locations intersecting a box bounded by \textpm0.2\textdegree{} of latitude, \textpm0.5\textdegree{} of longitude and \textpm50 m of depth from a sample site.
+A two-stage algorithm was designed to reduce the computational complexity of this analysis.
+For each pair of consecutive (i.e.\ five-day) positions of each particle, the latitude, longitude and depth of each plane of each bounding box of each sample site was compared to the equivalent properties of the two positions.
+For an intersection between the five-day vector of a particle and a sample bounding box to have occurred, at least one bounding box plane in at least one dimension must lie between the particle start and end position in that dimension.
+This allowed five-day vectors which could not possibly have resulted in a collision to be quickly excluded.
+The remaining vectors were then individually tested for intersections with the planes defining the bounding boxes for each sample using the \softwarename{perl} package \softwarename{math::zap}\footnote{Retrieved from \url{http://search.cpan.org/~prbrenan/Math-Zap-1.07/}.}.
+
 Only the first encounter between any particle and sample was counted. Four pairs of samples (10/11; 12/13; 16/17; 21/22), where a \ac{DCM} sample was taken directly below a surface sample within the mixed layer, were too close to act as separate particle release sites.
 For these samples, simulated particle releases were performed for only one of the pair, and the generated encounters were attributed to both. 
 For all samples, the mean time in seconds between a particle being released from one sample and encountering another was calculated.
