@@ -286,9 +286,13 @@ This indicated that a process other than contemporary environmental selection wa
 \subsection{Testing the advection effect}
 
 244,000 encounters were recorded between particles and sample sites during the 100 year advection simulation.
-Encounter times spanned the full range of the simulation (5 days--100 years), with a median of 30 days and mean of 3018 days.
+Encounter times spanned the full range of the simulation (5 days--100 years), with a median of 30 days and mean of 3018 days (TODO ref to histograms).
 47 pairs of samples did not yield mutual encounters (i.e.\ at least one particle from one sample encountering the other).
 Of these, every pair included at least one AABW sample.
+TEST this is a test ref to the first encounter histograp \figref{fig:encounterhistograms}
+TEST this is a test ref to the second encounter histogram \figref{fig:encounterhistogramsanother}
+
+\input{../advection/encounterhistograms.tex}
 
 \ac{nMDS} ordination showed that the sampled water masses could be broadly distinguished on the basis of their mutual advection distances \figref{fig:nMDSadvection}.
 This was supported by \ac{ANOSIM} (R = 0.41, p = 0.002).
@@ -328,7 +332,7 @@ The advection effect was stronger (r = 0.33, p = 0.004) than when abundances wer
 
 Over five restarts of the modified \softwarename{bvstep} algorithm, three (2, 4 and 5) produced the sample subset of four \acp{OTU} with correlation of 0.54 to the advection resemblance matrix (partial Mantel, p < 0.05) \figref{tab:bvstep}.
 Restart 1 identified a different subset of 18 \acp{OTU}, also with a correlation of 0.54, while restart 3 identified a subset of 19 \acp{OTU} with a correlation of 0.44.
-There was little overlap between the subsets: \speciesfull{Stenotrophomonas maltophilia} (0.8 \micron{} fraction) appeared in all subsets, while the alphaproteobacterium ``MGP-80'' (0.1 \micron{} fraction) appeared in all but restart three.
+There was little overlap between the subsets: \speciesfull{Stenotrophomonas maltophilia} (0.8 \micron{} fraction) appeared in all subsets, while the alphaproteobacterium ``MGP-80'' (0.1 \micron{} fraction) appeared in all but restart 3.
 
 \input{../advection/bvstepresults.tex}
 
@@ -360,13 +364,13 @@ With this exception, the pattern of a decreasing effect with coarser taxonomic r
 \subsection{Differential influence of advection on OTU subsets}
 
 The attempt to identify subsets of \acp{OTU} which were more amenable to advection produced inconclusive results.
-While three almost unique subsets were identified \tabref(tab:bvstep), all of which had a stronger correlation with advection distance than the complete set, there was no clear obvious pattern in the \acp{OTU} selected.
-For example, it was hypothesised that organisms capable of dormant states might be more amenable to advective transport as they would be more likely to survive over long distances and travel times.
+While three almost unique subsets were identified \tabref{tab:bvstep}, all of which had a stronger correlation with advection distance than the complete set, there was no clear pattern in the \acp{OTU} selected.
+For example, it was hypothesised that organisms capable of dormancy (e.g.\ spore formation) might be more amenable to advective transport as they would be more likely to survive over long distances and travel times.
 However, there was no obvious overrepresentation of such taxa in the results.
 Most selected \acp{OTU} were uncultured, and had very low estimated relative abundances, further complicating interpretation.
 
-It is possible that the very large number of \acp{OTU} identified in this study means that any that have a strong correlation to advection would be outnumbered by those correlating through random chance.
-These results illustrate the difficulties inherent in translating patterns on the ecosystem or biogeographic level into descriptions of indvidual species.
+It is possible that the very large number of \acp{OTU} identified in this study means that any with a strong correlation to advection were outnumbered by those correlating through random chance.
+These results illustrate the difficulty of translating patterns on the ecosystem or biogeographic level into descriptions of individual species.
 
 \subsection{Future work}
 
