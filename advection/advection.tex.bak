@@ -7,27 +7,46 @@
 
 The distribution and abundance of marine microbes are shaped by environmental factors and spatial separation.
 The physical transport of cells by ocean currents (advection) is also frequently invoked when describing marine microbial biogeography, but the role of advection has never been directly confirmed or measured.
-In this study, the microbial communities at 25 sites in the Southern Ocean were sampled and compared to a model of particle advection between the sites.
-Even when environmental factors and spatial separation were controlled for, the ``advection effect'' explained 7\% of variation in community composition.
+This chapter describes a study in which the microbial communities at 25 sites in the Southern Ocean were sampled and compared to a model of particle advection between the sites, as well as their spatial and environmental distances, in order to test for the existence of an ``advection effect''.
+An advection effect was confirmed, and found to explain at least 7\% of variation in community composition.
 Further investigation confirmed that this effect was directional, and likely represented an increase in the colonisation of distant sites by small numbers of cells.
-This study provides further evidence that microbial dispersal potential is far from total, and supports the role of ocean currents in shaping marine microbial ecosystems.
+This study contributes a novel and replicable method for examining the effect of advection on marine microbes.
+By demonstrating the existence of an advection effect, it also provides further evidence that microbial dispersal potential is far from total, and supports the role of ocean currents in shaping marine microbial ecosystems.
 
 \section{Introduction}
 
+\subsection{Distance and environment effects in microbial biogeography}
+
 The central goal of microbial biogeography is to understand how the distribution and abundance of microorganisms are shaped by their physical context.
 The Baas Becking hypothesis --- that ``\textit{everything is everywhere}, but, \textit{the environment selects} \cite{Becking:1934um, deWit:2006de}'' --- posits that the rapid dispersal of microorganisms means microbial community structure is determined entirely by environmental selection.
+The assumption that microorganisms are effectively free from barriers to dispersal (``everything is everywhere''), while not universally agreed upon, has been maintained into the 21st century \citep[e.g.][]{Finlay:2002er}.
 This stands in contrast to macroorganism biogeography, which has long been recognised as being under the control of historical (in addition to contemporary environmental) factors, particularly spatial influences such as barriers to dispersal.
-Microbial biogeography studies have begun to show that historical factors may also shape the distribution of microorganisms \cite{Martiny:2006jy}, e.g.\ a correlation between spatial and genetic distance (a ``distance effect'') in fluorescent \genus{Pseudomonas} strains in soils \cite{Cho:2000tn}.
-This study, among others \cite{Ramette:2007bb,Storch:2008tq}, also demonstrated the importance of taxonomic resolution in describing such biogeographic patterns.
-Other studies have found that dispersal potential varies between microbial species, leading to different or absent distance effects \cite{Bissett:2010wj}.
+
+In recent years, however, studies of microbial biogeography have begun to show that historical factors may also shape the distribution of microorganisms \cite{Martiny:2006jy}. 
+One of the first and best known reports of microbes exhibiting a non-random spatial distribution was the finding by \citet{Cho:2000tn} that the genetic distance between fluorescent \genus{Pseudomonas} strains in soils was correlated to the spatial distance (a ``distance effect'').
+(This study, among others \cite{Ramette:2007bb,Storch:2008tq}, also demonstrated the importance of taxonomic resolution in describing such biogeographic patterns.)
+Futher examples were soon discovered; \citet{Martiny:2006jy} found 23 studies published between 2000--2006 that described microbial distance effects, on spatial ranges from 2 m to 20,000 km.
+Moreover, in some cases a distance effect could be identified even when contemporary environmental selection (``environment effect'') did not have a statistically significant effect on community composition.
+
 When combined with contemporary environmental selection (``environment effect''), distance effects explain some but not all variation between microbial communities, and the mechanism(s) by which a distance effect arises are not always clear \cite{Hanson:2012cb}.
+Allopatric speciation (i.e.\ the divergent evolution of geographically isolated populations) is a likely mechanism in at least some cases.
+\citet{Whitaker:2003dz} elegantly demonstrated this in a study on the hyperthermophilic archaeon \genus{Sulfolobus}, finding that isolates from geothermal springs across the Northern Hemisphere exhibited genomic differentiation strongly correlated to geographic distance.
+Their results suggest that \genus{Sulfolobus}' highly specialised hyperthermophilic and acidophilic adaptations mean that the geographic distance between hot springs is a strong barrier to dispersal.
+
+Other potential factors leading to incomplete dispersal of microorganisms include differences in cell size and population density \cite{Martiny:2006jy}.
+A common argument for the universal dispersal of microbes is that their large population sizes and fast growth rates mean that individually unlikely dispersal events become more probable when large populations are considered \cite{Finlay:2002er}.
+However, the underlying assumption --- that all microbial species have large population densities and rapid growth --- is undermined by the ``rare biosphere'' of low-abundance microbial taxa \cite{Sogin:2006er}.
+Moreover, different microbial species may have different dispersal potentials.
+For example, bacteria able to sporulate or otherwise enter dormant, stress-resistant phases were found to exhibit a stronger distance effect in Australian soils \cite{Bissett:2010wj}.
+
+\subsection{Water mass endemicity and advection of marine microorganisms}
 
 In the ocean, several recent studies have found that microbial communities can be endemic to hydrographically distinct water masses.
 Surveys in the Arctic \cite{Galand:2009hy} and North Atlantic \cite{Agogue:2011fm} oceans have found that bacterial assemblages within the same water mass can be similar across a range of thousands of kilometres, but assemblages can differ between water masses across a range of hundreds of meters.
 Water masses are defined by their distinct physicochemical properties, so such patterns do not directly imply the existence of factors beyond environmental selection.
 However, in some cases a water mass-community relationship has been shown to persist even when environment effects are statistically controlled for \cite{Hamilton:2008tp, Hamdan:2013ko}.
 
-During the study on the biogeographic effect of the \ac{PF} described earlier in this volume, it was found that microbial communities in surface waters of the Mertz Glacier region, a site of deep water formation, were very similar to those at the bottom of the water column, despite the very different environmental conditions (see \secreft{ch:deepwaterformation}).
+During the study on the biogeographic effect of the \ac{PF} described earlier in this thesis, it was found that microbial communities in surface waters of the Mertz Glacier region, a site of deep water formation, were very similar to those at the bottom of the water column, despite the very different environmental conditions (see \secreft{ch:deepwaterformation}).
 One hypothesis explaining both this observation and water mass endemicity is that microbial assemblages are influenced by the advection (physical transport) of cells by ocean currents. 
 Higher dispersal rates cause the microbial community composition at a given site to increasingly resemble the dispersed colonisers, and less reflect local environmental selection and stochastic effects such as genetic drift \cite{Hanson:2012cb}.
 Hence, it would be expected that locations that are closely connected by advection (e.g.\ those within the same water mass, or different levels of the water column at a site of deep water formation) would have more similar compositions than those that are not, even when the environment effect is accounted for.
@@ -36,9 +55,18 @@ The exchange of very small volumes of water between marine microbial mesocosms h
 This suggests that advection of even small numbers of cells could have a large homogenizing effect independent of environmental selection.
 However, the existence of a relationship between advection and community composition that is independent of environment and distance effects has not been directly tested.
 
+\subsection{Aims of this study and advective distance}
+
 The \ac{SO} is composed of several water masses, which are physicochemically distinct but linked by circulation (see \secreft{ch:intro} for a full description; see also \figreft{fig:advectionsamplemap}).
-This study aimed to determine whether advection shapes the community structure of bacteria and archaea, independent of environment and distance effects.
-By sampling each of the \ac{SO} water masses (depths from surface to \textapprox{}6 km), dissimilarity between microbial communities over a large spatial distance (\textapprox{}3000 km) and range of environments could be determined, in order to test whether advection played a role in shaping their composition.
+This study aimed to determine whether advection shapes the community structure of bacteria and archaea, independent of environment and distance effects, i.e.\ to test for the existence of an ``advection effect'' comparable to the established distance and environment effects.
+
+Previous studies on the interaction between advection and microbial community composition \cite{Hamilton:2008tp,Hamdan:2013ko} examined the water mass endemicity of microorganisms and compared it to the circulatory history of the water masses.
+While such approaches are able to test for water mass endemicity, they do not conclusively demonstrate that advection is responsible for the observed distribution of microbes.
+Moreover, this approach is unable to produce accurate estimations of the effect size, such as are well established for the distance and environment effects \cite{Martiny:2006jy,Hanson:2012cb}.
+Quantitative measurements of the environment effect (in both microbial biogeography and ecology in general) are typically obtained from the correlation coefficient between matrices representing the taxonomic (typically Bray-Curtis) and environmental (typically Euclidean) distances/dissimilarities between samples.
+Likewise, the size of a distance effect is easily calculated from the correlation between taxonomic and spatial distance.
+In order to test the existence of an advection effect, it was necessary to develop a method of determining the ``advective distance'' between a set of samples.
+This chapter thus describes both a novel and replicable method for measuring the advection effect in marine environments, and its application to microbial communities in the \ac{SO}.
 
 \section{Methods}
 
@@ -153,20 +181,20 @@ To generate a spatial distance matrix, pairwise ellipsoidal distances between sa
 
 \subsection{Generation of advection distance matrix}
 
-In order to calculate advection distances between the sample sites, the release and advection of inertial particles was simulated in a computational model of \ac{SO} circulation \footnote{Modelling was performed by Erik van Sebille.}.
+In order to calculate advection distances between the sample sites, the release and advection of inertial particles was simulated using a computational model of \ac{SO} circulation\footnote{Modelling was performed by Erik van Sebille.}.
 The circulation model used was the \ac{SOSE} \cite{Mazloff:2010et}, an eddy-permitting circulation model constrained by \textit{in situ} and satellite observations of the \ac{SO} during 2005-2006.
-The \ac{CMS} \cite{Paris:2013fs} version 1.1 was used to simulate the three-dimensional trajectories of inertial particles the \ac{SOSE} velocity fields using a Lagrangian toolset.
-Three-dimensional velocity fields for the \ac{SO} from January 2005--December 2007 were simulated with a resolution in time of five days and in space of \nicefrac{1}{6}\textdegree{} of latitude/longitude and 42 vertical levels.
-For each site, 100 particles were released every 5 days (total of 2.2 \texttimes{} 10\textsuperscript{4} per site) at the latitude and depth of the site, evenly spaced along a 1\textdegree{} longitudinal line centred on the site longitudes.
-The particles were then advected for 100 years, looping over the 3 years of available velocity fields as described in \citet{vanSebille:2012hh}.
+The \ac{CMS} \cite{Paris:2013fs} version 1.1 was used to calculate the three-dimensional trajectories of inertial particles in the \ac{SOSE} velocity fields using a Lagrangian toolset.
+Three-dimensional velocity fields for the \ac{SO} from January 2005--December 2007 were simulated, and looped for 100 years as described in \citet{vanSebille:2012hh}.
+The simulation had a temporal resolution of five days, and a spatial resolution of \nicefrac{1}{6}\textdegree{} of latitude and longitude and 42 levels of depth.
+For each site, 100 particles were released every 5 days through the first loop of the simulation (total of 22,000 particles per site) at the latitude and depth of the site, evenly spaced along a 1\textdegree{} longitudinal line centred on the site longitudes.
 
 The trajectory of each particle was analysed to detect encounters between particles and sample sites.
 An encounter was defined as the vector between any two consecutive 5 day particle locations intersecting a box bounded by \textpm0.2\textdegree{} of latitude, \textpm0.5\textdegree{} of longitude and \textpm50 m of depth from a sample site.
 A two-stage algorithm was designed to reduce the computational complexity of this analysis.
-For each pair of consequative (i.e.\ five-day) positions of each particle, the latitude, longitude and depth of each plane of each bounding box of each sample site was compared to the equivilant properties of the two positions.
-For an intersection between the five-day vector to have occured, at least one bounding box plane in at least one dimension must lie between the start and end position in that dimension.
+For each pair of consecutive (i.e.\ five-day) positions of each particle, the latitude, longitude and depth of each plane of each bounding box of each sample site was compared to the equivalent properties of the two positions.
+For an intersection between the five-day vector of a particle and a sample bounding box to have occurred, at least one bounding box plane in at least one dimension must lie between the particle start and end position in that dimension.
 This allowed five-day vectors which could not possibly have resulted in a collision to be quickly excluded.
-The remaining vectors were then individually tested for intersections with the planes defining the bounding boxes for each sample using the \softwarename{perl} package \softwarename{MATH::ZAP}\footnote{Retrieved from \url{http://search.cpan.org/~prbrenan/Math-Zap-1.05/}.}.
+The remaining vectors were then individually tested for intersections with the planes defining the bounding boxes for each sample using the \softwarename{perl} package \softwarename{math::zap}\footnote{Retrieved from \url{http://search.cpan.org/~prbrenan/Math-Zap-1.07/}.}.
 
 Only the first encounter between any particle and sample was counted. Four pairs of samples (10/11; 12/13; 16/17; 21/22), where a \ac{DCM} sample was taken directly below a surface sample within the mixed layer, were too close to act as separate particle release sites.
 For these samples, simulated particle releases were performed for only one of the pair, and the generated encounters were attributed to both. 
