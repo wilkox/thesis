@@ -1,16 +1,28 @@
-\chapter[Deep water formation]{Preliminary analysis of \ac{AABW} samples suggests advective transport of microbial cells}
+\chapter[Deep water formation]{Transport of microbial cells during deep water formation}
 \label{ch:deepwaterformation}
 
 \section{Abstract}
 
-During sampling for the study presented in \secreft{ch:polarfront}, additional samples were collected of \ac{AABW} on the Antartic continental shelf and from the sea floor in the vicinity of the mid-ocean ridge.
+During sampling for the study presented in \secreft{ch:polarfront}, additional samples were collected of \ac{AABW} on the Antarctic continental shelf and from the sea floor in the vicinity of the mid-ocean ridge.
 Metagenomic analysis found that the community composition of the continental shelf samples was surprisingly similar to that of surface samples in the same area, despite the significant differences in environmental factors such as pressure and light availability.
 This may have resulted from the rapid advection of cells in the sinking of surface waters to form \ac{AABW} (deep water formation; see \secreft{ch:intro}).
 These results led to the study described in \secreft{ch:advection}.
 
+\section{Introduction}
+
+The Mertz Glacier polyna is a region of open ocean (bound by the Antarctic coast, sea ice) and the Mertz glacier tongue) west of the Mertz Glacier tongue (approx. 67\textdegree{} S, 145\textdegree{} E).
+The polynya has historically been a major site for the formation of \ac{AABW} in the \ac{SO}, although its role in this process has become less clear following the calving of a large section of the glacier tongue in February 2010 \cite{Tamura:2012da}.
+Evapourative cooling of the sea surface by katabatic winds from the Antarctic continent, combined with the exclusion of salt from forming sea ice (``brine exclusion'' or ``brine rejection''), results in the rapid formation and sinking of cold, dense water \cite{Williams:2008iu}.
+This water forms a abyssal layer in the Ad\^{e}lie depression (a bathymetric feature underlying the polyna), eventually outflowing northwards over the continental sill as part of the \ac{AABW}.
+
+This brief chapter presents an exploratory analysis of two abyssal samples of \ac{AABW} from within the Ad\^{e}lie depression, and one from the South Australian basin further north.
+The results from this study led to the investigation of advective transport of microorganisms described in \secreft{ch:advection}.
+
 \section{Methods}
+
 \input{../deepwaterformation/deepsamples}
 \input{../deepwaterformation/deepsamplemap}
+
 Three samples of \ac{AABW} were opportunistically obtained and analysed during the project described in \secreft{ch:polarfront} \figref{fig:deepsamplemap}.
 Two of these samples (356 and 361) were of newly formed \ac{AABW} waters on the Antarctic continental shelf, while one (365) was of abyssal \ac{AABW} from the South Australian basin \tabref{tab:deepsamples}.
 DNA extraction, sequencing and construction of a taxonomic profile by \softwarename{blast} comparison to the RefSeq database and processing with \ac{GAAS} were performed using the methods described in \secreft{ch:polarfront}.
