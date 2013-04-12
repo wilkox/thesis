@@ -7,11 +7,12 @@ d <- data.frame(effect=c("Advection", "Distance", "Environment"), size=c(7, 10, 
 #the plot
 p <- ggplot(d, aes(x=effect, y=size))
 p <- p + geom_bar(stat="identity", fill=c("lightgray"))
-p <- p + geom_errorbar(aes(ymin=errormin, ymax=errormax), size = 0.3, width = 0.2)
+p <- p + geom_errorbar(aes(ymin=errormin, ymax=errormax), size = 0.3, width = 0.1)
 p <- p + theme(panel.grid.major=element_blank(), panel.grid.minor = element_blank(), panel.background=element_blank())
 p <- p + theme(panel.border=element_rect(fill=NA))
 p <- p + theme(axis.title.x=element_blank())
 p <- p + theme(axis.text.x = element_text(color="black"))
+p <- p + theme(axis.ticks.x = element_blank())
 p <- p + ylab("Variance explained (%)")
 p <- p + scale_fill_brewer(palette = "Set1")
 
