@@ -69,7 +69,17 @@ This thesis thus also contributes a replicable method for future studies to eval
 
 TODO expand on advection effect
 
-TODO mention minspec (may belong in the polar front section?)
+\subsection{\softwarename{minspec}}
+
+This thesis also presents a novel software tool, \softwarename{minspec}, which contributes to improving the accuracy of \ac{OTU} assignment and calculation of relative abundances in metagenomic studies.
+
+The number of publicly available full genome sequences for microbial species is growing exponentially: over the course of this project, the number of microbial genomes in the RefSeq database increased from 5,500 (May 2010) to 15,000 (March 2013) (\url{http://www.ncbi.nlm.nih.gov/refseq/statistics/}, accessed 12 April 2013).
+As more genomes become available, the number of potential high-quality matches to a given metagenomic read will increase as a natural result of genomic identity between related organisms.
+\softwarename{minspec} reduces the need to rely on nucleotide identity as the sole objective standard for assigning metagenomic reads to \acp{OTU}, making use of the contextual information provided by the full set of reads to inform the assignment of each individual read.
+While assembly of metagenomic reads can to some extent perform the same function \cite{Temperton:2012fj}, \softwarename{minspec} does not require long or overlapping reads, making it well-suited to the short read lengths of current next-generation sequencing methods and to environments such as the open ocean that have a long tail of low-abundance taxa.
+
+In the long term, single-cell genomic sequencing is the most promising approach for accurate and reliable environmental genomics \cite{Blainey:2013dp}.
+Until then, \softwarename{minspec} may be of use in improving the quality of metagenomic results.
 
 \section{Levels of description in microbial ecology and biogeography}
 
