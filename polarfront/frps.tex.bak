@@ -1,8 +1,8 @@
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{../polarfront/frps.png}
+  \includegraphics[height=\textheight]{../polarfront/frps.png}
   \caption[Read recruitment to reference genomes]{\sffamily{}Examples of read recruitment (fragment recruitment) plots of metagenomic reads to reference genomes.
-  Coloured regions indicate coverage for each of six example samples: pink sample 346; orange 347; red 358; green 361; blue 362.
+  Coloured regions indicate coverage for each of six example samples: pink sample 346; orance 347; red 358; green 361; blue 362.
   The even distribution of recruitment sites across the genome suggests that \acp{OTU} identifications are relatively accurate; an \ac{OTU} identification resulting from a small region of genomic identity would generate a plot with read recruitment concentrated in small islands.
   }
   \label{fig:frps}
