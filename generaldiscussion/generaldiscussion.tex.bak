@@ -32,7 +32,7 @@ It is likely that three main forces are at work.
 
 The first is the role of the \ac{PF} as a ``biogeographic barrier'' in the classical sense in which the term is applied to macroorganisms.
 In other words, it physically prevents or slows the migration of cells between the regions it divides, leading if not to allopatric speciation, at least to some degree of genetic divergence, which is amplified by the differences in environmental properties.
-\citet{Selje:2004ka}, who first reported that \ac{RCA} phylotypes differed across the \ac{PF}, offered this mechanism as a likely explanation, an idea corroberated by further reports on RCA \cite{Giebel:2009hr} and Flavobacteria \cite{Abell:2005ji}.
+\citet{Selje:2004ka}, who first reported that \ac{RCA} phylotypes differed across the \ac{PF}, offered this mechanism as a likely explanation, an idea corroborated by further reports on RCA \cite{Giebel:2009hr} and Flavobacteria \cite{Abell:2005ji}.
 The advection effect (\secreft{ch:advection}) supports such a mechanism, by showing that oceanic regions poorly connected by advection (i.e.\ poorly mixed) have less similar microbial communities.
 
 The second mechanism, complementary to the first, is the difference in physicochemical properties resulting from the same oceanographic forces that create the \ac{PF}: in particular, the advective distribution of nutrients.
@@ -90,8 +90,6 @@ Future work on the advection effect will be valuable not only in confirming its 
 
 \input{../generaldiscussion/biogeographybarchart.tex}
 
-TODO talk about biogeography as an "emerging cornerstone" re. Ramette and Tiedje
-
 \subsection{\softwarename{minspec}}
 
 This thesis also presents a novel software tool, \softwarename{minspec}, which contributes to improving the accuracy of \ac{OTU} assignment and calculation of relative abundances in metagenomic studies.
@@ -104,16 +102,34 @@ While assembly of metagenomic reads can to some extent perform the same function
 In the long term, single-cell genomic sequencing is the most promising approach for accurate and reliable environmental genomics \cite{Blainey:2013dp}.
 Until then, \softwarename{minspec} may be of use in improving the quality of metagenomic results.
 
-\section{Levels of description in microbial ecology and biogeography}
+\section{Units of study in microbial ecology}
 
-"Top down" vs "bottom up": medicine started "top down"; economics started "bottom up"; microbial ecology would like to have started "top down", but methodologically was forced to proceed "bottom up".
+In some fortunate disciplines, the natural ontologies by which humans ``carve up'' the observed world into conceptual units map well onto the underlying phenomena.
+In medicine, for example, the object of study (the human body) is physically divided into easily reconised and discrete units (organs) which have likewise discrete and well-defined functions.
+A physician's mental model of the human body has familiar and tangible components, and allows them to understand diseases as systematic divergences from the body's normal form and function.
+In physics, on the other hand, such intuitive ontologies rapidly dissolve and even become misleading.
+The vision of electrons as discrete spheres orbiting a nucleus like planets around a star holds a strong intuitive appeal, but is contradicted by wave-particle duality, and any physicist who failed to resist this tempting but incorrect view would be at an enormous disadvantage.
+Phyicists, unlike physicians, must either work in new and unfamiliar modes of thinking, or abandon a conceptual grasp of their objects of study altogether and instead investigate them indirectly through mathematical surrogates.
 
-'omics finally allows microbial ecology to become a "top down" discipline. But as this perspective is almost brand new, we're struggling with how to meaningfully carve up and interpret what we see. The species concepts seems natural and easily measured on the cells-and-petri-dishes level, but seems to become almost meaningless when examining a whole community. Moreover, the tiny size, incredible diversity and adaptiveness of microbes means enormous amounts of data must be collected and carefully processed to identify even the simplest of biogeographic patterns (e.g. distance effect).
+In microbiology, the natural unit of study is the cell, and the natural unit by which cells are categorised is the species.
+Although defining microbial species is not quite as straightforward as for sexually reproducing macroorganisms, the usual standards of 16S and genomic similarity are sufficient for laboratory experiments involving clonal or simple mixed populations in culture.
+Environmental microbiologists, in need of a similar unit of categorisation but faced with the diversity and depth of environmental populations, frequently use the \ac{OTU} as a practical method of categorising types of cells with properties similar enough for the purposes of the scientific question at hand.
 
-climate change needs a mention here somewhere
+The rapidly emerging ``omics'' approachs to environmental microbiology have begun to strain the limits of this ontology.
+Enormous population sizes, short generation times and high rate of horizontal gene transfer between bacterial cells mean that rather than descrete numbers of distinct \acp{OTU}, environmental assemblages may be better described as ``a continuum of genomic possibilities'' \cite{Goldenfeld:2007im}.
+Just as a physicist may know that electrons are not infinitisimal billiard balls, but still struggle to conceptualise the wave function of a fundemental particle as anything other than a mathematical abstraction, attempting to describe the ecological and biogeographic patterns of environmental microbes with the familar vocabulary of species (or \acp{OTU}) and cells can be challenging.
+This has been illustrated many times during the course of this thesis.
+In the study of the \ac{PF} (\secreft{ch:polarfront}), a large and statistically significant difference between the communities to the north and south of the front was found to be driven by a long and flat distribution of \acp{OTU}, each of which individually contributed only a small amount of variance \tabref{tab:otussimper}.
+Likewise, the differences in functional potential between the zones were spread thin over a large number of functional gene categories \tabref{tab:modulessimper,tab:orthologsimper} which nevertheless represented a real and important distinction \textit{in toto}.
+In \secreft{ch:advection}, the attempt to identify \acp{OTU} which differentially contributed to the statistically well-supported advection effect yielded results in the form of subsets of \acp{OTU} that were best correlated with the effect.
+However, the biological relevence of these subsets was not clear.
+It may be simply unfruitful to try to conceptualise such patterns on the level of individual \acp{OTU}.
 
-Nevertheless, progress is being made: environment effect, distance effect, and now advection effect. The challenge is linking the top to the bottom. It's very hard to disentangle the effects of individual OTUs — give as examples surface vs. DCM; BVSTEP of advection results. Just as it might be misguided for a physician to try to conceptualise a disease in terms of the elemental ratios of diseased vs healthy tissue, it may not even be a fruitful approach to try and think of ecological patterns in terms of their constituent species.
+The recent renewal of activity in microbial biogeography \cite{Ramette:2006jo}, the pressure of climate change and other ecological problems and the improvement in technologies for interrogating environmental assemblages all create a need to develop ways of meaninfully describing, categorising and drawing conclusions from environmental data \cite{Goldenfeld:2007im}.
+As in physics, this may require the reluctant abandonment of intuitive and straightfoward conceptual models for a less familiar but more accurate ontology.
 
+\subsection{Future work}
+TODO
 Future work
 
 SO microbial ecology
