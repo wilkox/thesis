@@ -28,7 +28,7 @@
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PF}{\glsnamefont{PF}}{Polar Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{83\delimR 85}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{88}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{88\delimN 89}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{RCA}{\glsnamefont{RCA}}{Roseobacter Clade Affiliated}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{84}}}\glsgroupskip
@@ -40,7 +40,8 @@
 \glossaryentryfield{SAZ}{\glsnamefont{SAZ}}{Subantarctic Zone}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{83\delimR 85}}}%
 \glossaryentryfield{SO}{\glsnamefont{SO}}{Southern Ocean}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{83\delimR 86}}}%
+		\setentrycounter[]{page}\glsnumberformat{83\delimR 86}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89}}}%
 \glossaryentryfield{STF}{\glsnamefont{STF}}{Subtropical Front}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{83}}}%
 \glossaryentryfield{SZ}{\glsnamefont{SZ}}{South Zone}{\relax }{\glossaryentrynumbers{\relax 
