@@ -31,8 +31,8 @@ Having shown that the \ac{PF} is a major biogeographic barrier, and in light of 
 It is likely that three main forces are at work.
 
 The first is the role of the \ac{PF} as a ``biogeographic barrier'' in the classical sense in which the term is applied to macroorganisms.
-In other words, it physically prevents or slows the migration of cells between the regions it divides, leading if not to allopatric speciation, at least to some degree of genomic divergence, which is amplified by the differences in environmental properties.
-\citet{Selje:2004ka}, who first reported that \ac{RCA} phylotypes differed across the \ac{PF}, offered this mechanism as a likely explanation, and they have been echoed by further reports on RCA \cite{Giebel:2009hr} and Flavobacteria \cite{Abell:2005ji}.
+In other words, it physically prevents or slows the migration of cells between the regions it divides, leading if not to allopatric speciation, at least to some degree of genetic divergence, which is amplified by the differences in environmental properties.
+\citet{Selje:2004ka}, who first reported that \ac{RCA} phylotypes differed across the \ac{PF}, offered this mechanism as a likely explanation, an idea corroberated by further reports on RCA \cite{Giebel:2009hr} and Flavobacteria \cite{Abell:2005ji}.
 The advection effect (\secreft{ch:advection}) supports such a mechanism, by showing that oceanic regions poorly connected by advection (i.e.\ poorly mixed) have less similar microbial communities.
 
 The second mechanism, complementary to the first, is the difference in physicochemical properties resulting from the same oceanographic forces that create the \ac{PF}: in particular, the advective distribution of nutrients.
@@ -42,7 +42,7 @@ This directly contradicts the standard assumption that \ce{PO4^3-} is exported t
 The distribution of diatoms in the \ac{SO} is in turn controlled by the concentration of silicic acid \cite{MFranck:2000kt}, which supplied in abundance south of the \ac{PF} by upwelling \ac{CDW} but is limiting further north \citep[widely held, but well summarised by][]{Coale:2004to}, explaining the observed difference in N/P\textsubscript{exp}.
 Further, \citet{Weber:2010fi} showed that advective mixing of organic N and P exported to the deep ocean by sinking organic matter and remineralised in the aphotic zone was sufficient to counterbalance the differential export of N and P by diatoms and other plankton, leading to an equilibrium approximately equivalent to the Redfield ratio of 16:1 N:P.
 Advective transport of nutrients and the distribution of plankton are thus intimately connected in the \ac{SO}, with the \ac{PF} acting as a key barrier between the nutrient-rich \ac{AZ} upwelling and the comparatively oligotrophic \ac{SAZ}.
-As well as the distribution of major nutrients (N, P and Si), the waters to the north and south of the \ac{PF} differ in temperature and salinity due to their different circulatory origins \cite{Foldvik:1988gp}.
+As well as the distribution of these major nutrients (N, P and Si), the waters to the north and south of the \ac{PF} differ in temperature and salinity due to their different circulatory origins \cite{Foldvik:1988gp}.
 
 The third mechanism by which the \ac{PF} may act as a biogeographic boundary is more mundane.
 Being a polar ocean, the \ac{SO} is subject to strong latitudinal gradients in air temperature and sunlight unrelated to its oceanographic structure.
@@ -51,27 +51,60 @@ However, the existence of large environmental gradients means that longitudinal 
 In the case of the \ac{PF} and its role in the distribution of marine bacteria and archaea, the possibility that this was the only significance of the \ac{PF} was explicitly tested for and discounted in this study: other arbitrary latitudinal lines do not structure the biological observations as well as the \ac{PF} (see \secreft{ch:polarfront}).
 Nevertheless, it is likely that latitudinal gradients not directly related to the \ac{PF} (particularly sunlight) do make some contribution to the biogeographic pattern.
 
+\subsubsection{The Polar Front and climate change}
+
+Global climate change is already having a large effect on the \ac{SO}.
+The \ac{ACC} is largely driven by the strong westerly winds that are characteristic of sub-polar Ferrel cells in atmospheric circulation.
+The \ac{SAM} (also known as the Antarctic Oscillation) is a complex, low-frequency oscillation in the latitude and speed of this westerly wind belt between ``positive'' (further south, stronger flow) and ''negative'' (further north, weaker flow) phases.
+As a result of climate change, the long-term trend of the \ac{SAM} may be towards the positive phase \cite{Thompson:2002ic}.
+Along with an increase in the temperature of \ac{ACC} waters (also due to climate change \cite{Aoki:2003fo,Boning:2008il}), this may be responsible for the observed southward migration of the mean position of the \ac{ACC} by \textapprox{}50 km since the 1950s \cite{Gille:2002fr}.
+Even with optimistic assumptions about future anthropogenic greenhouse gas emissions, it has been predicted to move a further \textapprox{}1.4\textdegree{} south (\textapprox{}150 km) by the year 2100 \cite{Fyfe:2005vp}.
+
+The effects of climate change on marine ecology are often thought of in terms of changes in physicochemical properties such as temperature, salinity, pH, and atmospheric \ce{CO_{2}}.
+However, changes to the location of biogeographic barriers such as the \ac{PF} may also be significant.
+Southward migration of the \ac{PF} will displace a large surface area of \ac{AZ} waters enriched by upwelling nutrients, increasing the relative area of the comparatively oligotrophic \ac{SAZ}.
+This may result in a net decrease in primary production, although concurrent changes in temperature and other physicochemical properties make this difficult to predict.
+As the \ac{SO} is a major site for sequestration of anthropogenic \ce{CO_2} through the biological pump \cite{Thomalla:2011hi}, this raises the possibility of creating a negative feedback loop \cite{Cox:2000ko} which would further accelerate global climate change.
+Future metagenomic surveys of the \ac{SO} with a broader taxonomic scope and increased sampling resolution will be valuable in better predicting such effects.
+
 \subsection{The advection effect}
 
 The second major focus of this thesis was the role of advection in shaping the biogeography of microorganisms in the \ac{SO}, and by extension the ocean in general.
 This question is highly topical, given the recent discovery that geographic distance often controls microbial biogeography in contradiction with the Baas Becking hypothesis (key studies: \citet{Cho:2000tn,Whitaker:2003dz}; reviews: \citet{Martiny:2006jy,Hanson:2012cb}), and the frequent invocation of circulation to explain observed distributions of marine microbes \citep[e.g.][]{Lauro:2007bf,Giebel:2009hr,Ghiglione:2012ei,Sul:2013in}.
 
-Previous work attempting to address this question has focussed on water mass endemicity and qualitative describtions of circulation.
-\citet{Galand:2009hy} and \citet{Agogue:2011fm} presented evidence of the specficity of microbial communities to water masses in the Arctic and North Atlantic oceans, even across small geographic distances, suggesting boundaries between water masses act as biogeographic barriers, although these observations do not exclude simple environmental selection.
-\citet{Hamilton:2008tp}, also describing the Arctic and North Atlantic oceans, found picoeukaryotic communities clustered by circulatory origin as determined by qualtiative analysis of hydrographic properties.
+Previous work addressing this question has focused on water mass endemicity and qualitative descriptions of circulation.
+\citet{Galand:2009hy} and \citet{Agogue:2011fm} presented evidence of the specificity of microbial communities to water masses in the Arctic and North Atlantic oceans, even across small geographic distances, suggesting boundaries between water masses act as biogeographic barriers, although these observations do not exclude simple environmental selection.
+\citet{Hamilton:2008tp}, also describing the Arctic and North Atlantic oceans, found picoeukaryotic communities clustered by circulatory origin as determined by qualitative analysis of hydrographic properties.
 The authors noted that quantitative modelling of circulation would be necessary to directly test the role of circulation.
 Recently, \citet{Hamdan:2013ko} demonstrated a similar clustering of prokaryotes Arctic marine sediments with their circulatory origins.
 Both studies controlled for environmental factors to various degrees.
 
-This thesis (and the associated publications) present the first quantitative test of the effect of advection on microbial biogeography.
-By employing a high-resolution computational model of \ac{SO} circulation to determine advective distances between samples, the standard ecological tools of distance matrices and partitioning of variance by partial Mantel test could be used to isolate the effect of advection from environmental selection and spatial separation.
-This thesis thus also contributes a replicable method for future studies to evaluate the advection effect in other marine environments and compare it against other biogeographic forces.
+This thesis (and the associated publication) present the first quantitative test of the effect of advection on microbial biogeography.
+By employing a high-resolution computational model of \ac{SO} circulation to determine advective distances between samples, the standard ecological tools of distance matrices and partitioning of variance with the partial Mantel test could be used to isolate the effect of advection from environmental selection and spatial separation.
+This thesis thus also contributes a replicable method for future studies to evaluate the advection effect in other marine environments and directly compare it to other biogeographic forces.
 
+Together, contemporary environmental selection and geographic distance explain \textapprox{} 50\% of variation in microbial community composition \cite{Hanson:2012cb}.
+In this study, advection was estimated to explain 7\% of variation \figref{fig:biogeographybarchart}.
+This is a conservative estimate, as higher values were found when alternative distance metrics were considered and problematic samples excluded, and samples which shared a common advective origin but had a large mutual advective distance were not considered.
+Future work on the advection effect will be valuable not only in confirming its role but in obtaining an accurate measure of its magnitude.
 
+\input{../generaldiscussion/biogeographybarchart.tex}
 
-\subsection{Other contributions of this thesis}
+TODO talk about biogeography as an "emerging cornerstone" re. Ramette and Tiedje
 
-Levels of description in microbial ecology and biogeography
+\subsection{\softwarename{minspec}}
+
+This thesis also presents a novel software tool, \softwarename{minspec}, which contributes to improving the accuracy of \ac{OTU} assignment and calculation of relative abundances in metagenomic studies.
+
+The number of publicly available full genome sequences for microbial species is growing exponentially: over the course of this project, the number of microbial genomes in the RefSeq database increased from 5,500 (May 2010) to 15,000 (March 2013) (\url{http://www.ncbi.nlm.nih.gov/refseq/statistics/}, accessed 12 April 2013).
+As more genomes become available, the number of potential high-quality matches to a given metagenomic read will increase as a natural result of genomic identity between related organisms.
+\softwarename{minspec} reduces the need to rely on nucleotide identity as the sole objective standard for assigning metagenomic reads to \acp{OTU}, making use of the contextual information provided by the full set of reads to inform the assignment of each individual read.
+While assembly of metagenomic reads can to some extent perform the same function \cite{Temperton:2012fj}, \softwarename{minspec} does not require long or overlapping reads, making it well-suited to the short read lengths of current next-generation sequencing methods and to environments such as the open ocean that have a long tail of low-abundance taxa.
+
+In the long term, single-cell genomic sequencing is the most promising approach for accurate and reliable environmental genomics \cite{Blainey:2013dp}.
+Until then, \softwarename{minspec} may be of use in improving the quality of metagenomic results.
+
+\section{Levels of description in microbial ecology and biogeography}
 
 "Top down" vs "bottom up": medicine started "top down"; economics started "bottom up"; microbial ecology would like to have started "top down", but methodologically was forced to proceed "bottom up".
 
@@ -81,14 +114,9 @@ climate change needs a mention here somewhere
 
 Nevertheless, progress is being made: environment effect, distance effect, and now advection effect. The challenge is linking the top to the bottom. It's very hard to disentangle the effects of individual OTUs — give as examples surface vs. DCM; BVSTEP of advection results. Just as it might be misguided for a physician to try to conceptualise a disease in terms of the elemental ratios of diseased vs healthy tissue, it may not even be a fruitful approach to try and think of ecological patterns in terms of their constituent species.
 
-Original contributions of this thesis
-
-This thesis presents novel work which contributes to bridging the gap between the cellular and ecological levels. (minspec, polar front, advection effect). The methods and software which have been developed are also of general application.
-
 Future work
 
 SO microbial ecology
 Current metagenomic methods require only looking at a small part of the community at a time (constrained by primer selection, size fractionation) - would be great to see the whole thing - single cell?
-
 
 Future studies should seek to confirm the advection results, particularly the advection effect, in other regions.
