@@ -80,11 +80,11 @@ These platforms aim to replicate the enormous success of the global Argo network
 \textit{In situ} community analysis, for example with onboard microfluidics and a DNA microarray system such as PhyloChip (Berkeley Lab, Berkeley, USA) are also under consideration \cite{CSIRO:2012uw}.
 A network of even a small number of these probes could quickly exceed shipboard sampling efforts at a lower cost, and provide better coverage of logistically difficult regions and times of year in the \ac{SO}.
 
-An advantage of the shotgun metagenomic approach as employed in the \ac{PF} study is the ability to identify the functional potential of sampled microorganisms, as revealed by their encoded genes.
+An advantage of the shotgun metageonomic approch as employed in the \ac{PF} study is the ability to identify the functional potential of sampled microorganisms, as revealed by their encoded genes.
 However, genomic potential is only a window into the actual ecological function of microbes: it does not take into account levels of transcription and translation, nor differences in these levels between cells in a clonal population.
-Recent work on biofilms has clearly demonstrated that even genomically identical bacteria can ``differentiate'' in a way analogous to cells in a multicellular organism when those bacteria form environmental consortia \cite{Sauer:2002ux}.
+Recent work on biofilms has clearly demonstrated that even genomically identical bacteria can ``differentiate'' in a way analagous to cells in a multicellular organism when those bacteria form environmental consortia \cite{Sauer:2002ux}.
 The size fractionation approach provides an excellent opportunity to compare the expression profiles of planktonic and particle-attached \citep[i.e.\ potentially biofilm-forming; see][]{Grossart:2003uv} phases in the marine context.
-Future work integrating metagenomic and metaproteomic analyses with size fractionation would be of great value in expanding our understanding of the ecosystem processes performed by \ac{SO} microorganisms.
+Future work integrating metagenomic and metaproteomic analysis with size fractionation would be of great value in expanding our understanding of the ecosystem processes performed by \ac{SO} microorganisms.
 
 \subsection{The advection effect}
 
