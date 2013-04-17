@@ -5,7 +5,7 @@ library(ggplot2)
 df <- data.frame(fraction = factor(c("0.1 µm", "0.1 µm", "0.8 µm", "0.8 µm", "3.0 µm", "3.0 µm")),
                 levels = c("0.1 µm", "0.8 µm", "3.0 µm"),
                 OTU = factor(c("OTU 1", "OTU 2", "OTU 1", "OTU 2", "OTU 1", "OTU 2")),
-                abundance = c(1, 49, 3, 71, 8, 10)
+                abundance = c(1, 49, 3, 71, 8, 2)
                 )
 
 #plot
@@ -27,7 +27,7 @@ ggsave("fractionabundances1.png", p, width=3, height=3, dpi=1200)
 df <- data.frame(fraction = factor(c("0.1 µm", "0.1 µm", "0.8 µm", "0.8 µm", "3.0 µm", "3.0 µm")),
                 levels = c("0.1 µm", "0.8 µm", "3.0 µm"),
                 OTU = factor(c("OTU 1", "OTU 2", "OTU 1", "OTU 2", "OTU 1", "OTU 2")),
-                abundance = c(2, 98, 4, 96, 44, 56)
+                abundance = c(2, 98, 4, 96, 80, 20)
                 )
 
 #plot
@@ -46,7 +46,7 @@ p <- p + theme(legend.position="none")
 ggsave("fractionabundances2.png", p, width=3, height=3, dpi=1200)
 
 #values
-df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c(50, 50), sample=factor(c("Combined", "Combined")), levels=c("Combined"))
+df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c(50, 250), sample=factor(c("Combined", "Combined")), levels=c("Combined"))
 
 #plot
 p <- ggplot(data=df, aes(y=abundance, fill=OTU, x=sample))

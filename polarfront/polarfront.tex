@@ -89,8 +89,11 @@ To normalise for reads which did not yield acceptable hits, the relative abundan
 
 A difficulty with the size fractionation approach is that relative abundances cannot be summed across fractions.
 This is because each fraction almost certainly represents a different absolute number of cells.
-Thus, 
-An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
+If the relative abundances are summed, the apparent abundance of some \acp{OTU} could be distorted \figref{fig:fractionabundances}.
+Thus, an \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
+This allows samples to be compared on the basis of community composition without introducing systematic biases.
+
+\input{../polarfront/fractionabundances.tex}
 
 To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles.
 \ac{SIMPER} analysis was performed to identify the contribution of individual \acp{OTU} to differences between the zones. 
