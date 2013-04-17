@@ -65,7 +65,7 @@ At each station, \textapprox{}250--560 L of seawater was pumped from \textapprox
 Seawater samples were prefiltered through a 20 \micron{} plankton net, then biomass was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at \textminus{}20 \textdegree{}C \cite{Rusch:2007ez,Ng:2010cd}.
 
 DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J.\ Craig Venter Institute.} was performed at the J.\ Craig Venter Institute (Rockville, USA) using a modified phenol-chloroform method as described in \citet{Rusch:2007ez}.
-Pyrosequencing was performed on a GS20 FLX Titanium platform (Roche, Branford, USA) also at the J.\ Craig Venter Institute as described in \citet{Lauro:2010jna}.
+Shotgun sequencing was performed on a GS20 FLX Titanium platform (Roche, Branford, USA) also at the J.\ Craig Venter Institute as described in \citet{Lauro:2010jna}.
 Perfect duplicate reads were removed using sffToCa (Celera Corporation, Alameda, USA),  read ends were trimmed with \softwarename{Lucy} \cite{Chou:2001ck}, and the bottom 8\% and top 3\% of reads ordered by length were removed as described in \citet{Lauro:2010jna}\footnote{Read quality filtering was performed by Federico M.\ Lauro and Matthew Z.\ DeMaere.}.
 
 \subsection{Phylogenetic analysis of metagenomic data}
@@ -100,22 +100,25 @@ To test the hypothesis that the oceanic zones harbour significantly different co
 All statistical procedures were performed in \softwarename{PRIMER 6} as described by \citet{Clarke:2001ut}.
 
 \subsubsection{Fragment recruitment to verify \ac{OTU} identification}
-To confirm that identified \acp{OTU} were truly present, and not resulting from hits to small regions of genomic identity, plots of read recruitment and coverage to reference genomes were generated using \softwarename{r} and \softwarename{perl}.
-Six samples, three from the \ac{SZ} and three from the \ac{NZ}, were randomly selected and their 0.1 \micron{} fractions used as sources of recruited reads.
+Fragment recruitment to reference genomes was visualised as a precaution against unintended sequencing bias and to ensure the \ac{OTU} annotation pipeline was functioning as intended.
+Plots of read recruitment depth on reference genomes were generated using a custom script in \softwarename{r} and \softwarename{perl}\footnote{This script, along with other accessory scripts used in this project, is open source and available at \url{https://github.com/wilkox/blast-tools}.}.
+Samples from both the \ac{SZ} and \ac{NZ} were randomly selected and their 0.1 \micron{} fractions used as sources of recruited reads.
+Three high-abundance and three low-abundance \acp{OTU} were randomly selected as the reference genomes.
 As shotgun sequencing of a metagenome should be essentially random, it was predicted that these plots would show fairly even coverage of the reference genomes.
-Genomes where all recruited reads were concentrated in a few small regions would be likely candidates for \acp{OTU} which were not present, but shared a small genomic region with an \ac{OTU} which was present.
+Genomes where all recruited reads were concentrated in a few small regions would be likely candidates for \acp{OTU} which were not present, but shared a small genomic region with an \ac{OTU} which was present, or possibly indicative of non-random priming during shotgun sequencing.
 
 \subsubsection{Additional samples to test ``polynya hypothesis''}
 Because many samples from the \ac{SZ} were taken in the region of the Mertz Glacier polynya, an alternative hypothesis for any difference observed between the \ac{SZ} and \ac{NZ} would be that the difference represented the effect of the polynya, rather than the \ac{PF}.
-A set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown. TODO who else was on these voyages?} from waters south of the \ac{PF} on different voyages and in a different longitudinal range were used to test this hypothesis.
-Sampling, DNA extraction and sequencing were performed as described above, although only the 0.1--0.8 \micron{} size fraction was processed.
+To test this, metagenomes from an additional set of samples collected\footnote{Collection was performed by Ricardo Cavicchioli, Federico M.\ Lauro and Mark V.\ Brown.} in a different project were obtained.
+These samples were obtained in waters south of the \ac{PF} on different voyages and in a different longitudinal range \figref{fig:additionalsamples}, where the influence of the Mertz Glacier polynya could not account for any observed difference between the zones.
+Sampling, DNA extraction and sequencing were\footnote{TODO who did this?} performed as described above, although only metagenomes from the 0.1--0.8 \micron{} size fraction were available.
 The resulting metagenomic reads were compared to RefSeq and weighted relative abundances calculated with \ac{GAAS} as described above.
 
 \input{../polarfront/additionalsamples.tex}
 
 Two \ac{ANOSIM} tests were performed on the standardised and log-transformed Bray-Curtis resemblance matrices of the samples' \ac{OTU} abundance profiles and similarly prepared matrices representing only the 0.1 \micron{} fractions of the \ac{SZ} and \ac{NZ} samples.
-In the first \ac{ANOSIM} test (``polynya hypothesis''), all samples from the Mertz Glacier polynya region (i.e.\ all \ac{SZ} samples apart from 358) were grouped together, while the samples from the open ocean were placed in a separate group.
-In the second test (``\ac{PF} hypothesis''), the additional samples were grouped with all the \ac{SZ} samples.
+In the first \ac{ANOSIM} test (``polynya hypothesis''), all samples from the Mertz Glacier polynya region (i.e.\ all \ac{SZ} samples except 358) were grouped together, while the samples from the open ocean were placed in a separate group.
+In the second test (``\ac{PF} hypothesis''), the samples were grouped by their location relative to the \ac{PF}.
 
 \subsection{Functional analysis of metagenomic data}
 
@@ -135,40 +138,40 @@ Because many ortholog groups are members of more than one module, the abundance 
 a_{m}=\sum_{K=1}^{n}\frac{C_{K}}{M_K}
 \]
 where $n$ is the number of ortholog groups $K$ belonging to module $m$, $C_{K}$ is the number of hits to ortholog group $K$, and $M_{K}$ is the total number of modules to which $K$ belongs.
-To account for differences in sequencing depth between samples, module abundances were scaled to 500,000 reads per sample. 
-To test the hypothesis that the \ac{NZ} and \ac{SZ} harbour significantly different functional potential, one-way \ac{ANOSIM} with 999 permutations was performed as above on a standardised, log-transformed Bray-Curtis distance resemblance matrix of the module and ortholog group profiles. 
-A functional profile was generated for each sample by summing the scaled abundances of each module from all size fractions, and \ac{SIMPER} performed as above to identify modules which contributed highly to the variation in functional potential between the two zones. 
+To account for differences in sequencing depth between samples, module abundances were scaled to 500,000 reads per sample.
+To test the hypothesis that the \ac{NZ} and \ac{SZ} harbour significantly different functional potential, one-way \ac{ANOSIM} with 999 permutations was performed as above on a standardised, log-transformed Bray-Curtis distance resemblance matrices of the module and ortholog group profiles.
+\ac{SIMPER} was performed as above to identify modules which contributed highly to the variation in functional potential between the two zones.
 
 \subsubsection{Taxonomic decomposition}
 
-To link modules with a high contribution to variance or otherwise of interest to specific \acp{OTU} (``taxonomic decomposition''), a script was written which decomposed each module to its constituent ortholog groups, then each ortholog group to each representative gene sequence in the \ac{KEGG} database.
-Because each \ac{KEGG} sequence is associated with a particular organism, this allowed the abundance of each module to be decomposed into the relative contribution from each of these organisms.
-This allowed functional contributions to be putatively assigned to genera which were not identified in our taxonomic analysis, as the database included gene sequences for organisms for which a full genome was not available.
+To link modules with a high contribution to variance or otherwise of interest to specific \acp{OTU} (``taxonomic decomposition''), a script was written in \softwarename{perl} to decompose each module to its constituent ortholog groups, then each ortholog group to each representative gene sequence in the \ac{KEGG} GENES database.
+Because each \ac{KEGG} GENES sequence is associated with a particular organism, this allowed the abundance of each module to be decomposed into the relative contribution from each of these organisms.
+Functional contributions could then be putatively assigned to \acp{OTU}, including those which were not identified in the taxonomic analysis, as the database included gene sequences for organisms for which a full genome was not available.
 To aid interpretation of these results, the taxonomic decompositions for some modules were aggregated to higher taxonomic ranks, such as class or family.
 
 \section{Results}
 
 \subsection{Metagenomic sequencing}
-6.6 Gbp of 454 sequence data representing microorganisms in the size range 0.1--3.0 \micron{} was obtained from 16 samples. 
-After removal of low-quality reads, 454 sequencing yielded 157,507--597,689 reads per sample (mean 354,399) of lengths ranging from 100 to 606 bp (mean 378).
+6.6 Gbp of sequence data representing microorganisms in the size range 0.1--3.0 \micron{} was obtained from 16 samples. 
+After removing low-quality reads, 157,507--597,689 reads remained per sample (mean 354,399) with lengths ranging from 100 to 606 bp (mean 378 bp).
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
-The proportion of reads in each sample which yielded hits to RefSeq ranged from 25--85\% (mean 62\%).
+The proportion of reads in each sample that yielded hits to RefSeq ranged from 25--85\% (mean 62\%).
 The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.csv}.
 All samples and size fractions exhibited very low \ac{OTU} evenness \figref{fig:rankabundance}.
 
 \input{../polarfront/topotus.tex}
 \input{../polarfront/rankabundance.tex}
 
-\ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.451, p = 0.004). 
+\ac{ANOSIM} analysis showed that the zones harbor significantly different microbial communities (R = 0.45, p = 0.004). 
 \ac{SIMPER} was performed in order to identify the contribution of individual \acp{OTU} to the difference between the \ac{NZ} and \ac{SZ}. 
 The results for the highest contributors are provided in \tabreft{tab:otussimper}, and are graphically summarised for all \acp{OTU} in \figreft{fig:taxotreemap}.
 
 \input{../polarfront/otussimper.tex}
 \input{../polarfront/taxotreemap.tex}
 
-The \ac{SIMPER} analysis found that no single \ac{OTU} contributed more than 2.9\% of variance and 74\% of variance was contributed by \acp{OTU} with a contribution less than 1\%. 
+\ac{SIMPER} analysis found that no single \ac{OTU} contributed more than 2.9\% of variance, and 74\% of variance was contributed by \acp{OTU} with a contribution less than 1\%.
 There was also a large difference in the contribution to variance of the three size fractions, with approximately 52\% of all variance contributed by \acp{OTU} from the 3.0 \micron{} fraction, 37\% by the 0.8 \micron{} fraction, and 9\% by the 0.1 \micron{} fraction.
 Notably, \acp{OTU} within several taxonomic groups that had high contribution to variance covaried in their relative representation in the \ac{NZ} and \ac{SZ}.
 For example, Bacteroidetes and GSO-EOSA-1 representatives were on average more abundant in the \ac{SZ}; while \genus{Prochlorococcus} and \genus{Synechococcus} species, SAR11 and SAR116 were on average more abundant in the \ac{NZ} \figref{fig:taxotreemap}.
@@ -178,21 +181,21 @@ Some groups, such as the Alteromonadales, had variable relative representation d
 
 As predicted, read recruitment to reference genomes produced fairly even coverage, especially in the high-abundance \acp{OTU}.
 This indicates that \ac{OTU} identification was accurate and unlikely to be confounded by small regions of genomic identity.
-\figreft{fig:frps} gives examples of read recruitment plots to three high-abundance and three  low-abundance \acp{OTU}.
+\figreft{fig:frps} gives examples of read recruitment plots to three high-abundance and three low-abundance \acp{OTU}.
 
 \input{../polarfront/frps.tex}
 
 \subsection{Additional samples to test alternative ``polynya hypothesis''}
-The \ac{ANOSIM} analysis strongly supported the ``\ac{PF} hypothesis'' (R = 0.435, p = 0.002), i.e.\ that the \ac{PF} was primarily responsible for the difference observed between the \ac{NZ} and \ac{SZ}, over the ``polynya hypothesis'' (R = 0.29, p = 0.005) that the influence of the Mertz Glacier polynya was responsible.
+The \ac{ANOSIM} analysis strongly supported the ``\ac{PF} hypothesis'' (R = 0.44, p = 0.002), i.e.\ that the \ac{PF} was primarily responsible for the difference observed between the \ac{NZ} and \ac{SZ}, over the ``polynya hypothesis'' (R = 0.29, p = 0.005) that the influence of the Mertz Glacier polynya was responsible.
 This also provides evidence that the \ac{PF} effect is robust over a longitudinal range and over time.
 
 \subsection{Functional analysis of metagenomic data}
 
-\ac{ANOSIM} analysis of the samples' \ac{KEGG} ortholog group and module profiles revealed that the zones had significantly different functional potential (ortholog group: R = 0.642, p = 0.001; module: R = 0.871, p = 0.001). 
+\ac{ANOSIM} analysis of the samples' \ac{KEGG} ortholog group and module profiles revealed that the zones had significantly different functional potential (ortholog group: R = 0.64, p = 0.001; module: R = 0.87, p = 0.001). 
 \ac{SIMPER} was performed on the profiles in order to identify the specific functional differences between the zones. 
 The highest-contributing modules are given in \tabreft{tab:modulessimper}, and a complete list in the supplementary material \suppfile{PF-modules-SIMPER.csv}.
 The highest-contributing ortholog groups are given in \tabreft{tab:orthologsimper}, and a complete list in the supplementary material \suppfile{PF-ortholog-groups-SIMPER.csv}.
-No single ortholog group or module contributed more than 2.2\% of the variance, indicating a complex and diverse pattern of functional differences. 
+No single ortholog group or module contributed more than 2.2\% of the variance. 
 There was a strong trend for ortholog groups and modules with higher contributions to variance to be overrepresented in the \ac{NZ} in the 3.0 \micron{} fraction but the \ac{SZ} in the smaller fractions, indicating that the functional diversity of each zone was strongly segregated by size fraction.
 
 \input{../polarfront/modulessimper.tex}
