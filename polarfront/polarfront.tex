@@ -19,15 +19,15 @@ Overall, this study supported the \ac{PF} as a defining biogeographic feature of
 
 \section{Introduction}
 
-The \ac{SO} consists of zones separated by circumpolar fronts, the locations of which vary with time and longitude \cite{Whitworth:1980wo,Orsi:1995va,Sokolov:2002tc}.
+The surface waters of the \ac{SO} consist of zones separated by circumpolar fronts, the locations of which vary with time and longitude \cite{Whitworth:1980wo,Orsi:1995va,Sokolov:2002tc}.
 From north to south, the major fronts are the \ac{STF}, the \ac{SAF} and the \ac{PF} \figref{fig:oceanographymap}.
 The \ac{SAF} and \ac{PF} are associated with the \ac{ACC}, the world's largest ocean current and a defining oceanographic feature of the \ac{SO}.
 Anthropogenic climate change may be driving the warming and freshening of the \ac{ACC} \cite{Boning:2008il}.
 It may also be shifting the \ac{ACC} and associated fronts poleward; the mean path of the current has moved \textapprox{}50 km south since the 1950s \cite{Gille:2002fr}.
 If this migration continues, by 2100 it will have displaced a volume of water south of the \ac{ACC} approximately equivalent to the Arctic Ocean \cite{Fyfe:2005vp}.
 
-Climate change may also be affecting the zones separated by these fronts.
-The major zones of the \ac{SO} are the \ac{SAZ}, between the \ac{STF} and \ac{SAF}; the \ac{PFZ}, between the \ac{SAF} and the \ac{PF}; and the \ac{AZ}, between the \ac{PF} and the Antarctic continent \figref{fig:oceanographymap}.
+Climate change may also be affecting the surface regions defined by these fronts.
+The major surface zones of the \ac{SO} are the \ac{SAZ}, between the \ac{STF} and \ac{SAF}; the \ac{PFZ}, between the \ac{SAF} and the \ac{PF}; and the \ac{AZ}, between the \ac{PF} and the Antarctic continent \figref{fig:oceanographymap}.
 These zones have different physicochemical properties, such as density, salinity, temperature and nutrient concentrations \cite{Sokolov:2002tc}, and the fronts represent stepwise transitions in these properties \cite{WhitworthIII:1987ky}.
 However, as a consequence of climate change, waters on the poleward side of the \ac{ACC} have become warmer and more saline, while those to the north cooler and fresher \cite{Boning:2008il}.
 
@@ -49,12 +49,12 @@ This study will thus focus on the 0.1--20 \micron{} fraction of the sampled micr
 \subsection{Sampling and metagenomic sequencing}
 
 Sampling\footnote{Sampling was performed by Jeffrey M. Hoffman and Jeffrey B. McQuaid.} was conducted on board the RSV \emph{Aurora Australis} during \ac{AAD} cruise V3 \ac{CEAMARC} / \ac{CASO} from 13 December 2007--25 January 2008. 
-This cruise occupied the SR3 latitudinal transect from Hobart, Australia (44\textdegree{} S) to the Mertz Glacier, Antarctica (67\textdegree{} S) within a longitudinal range of 140--150\textdegree{} E.
-Sixteen samples were obtained along almost the entire latitudinal range \figref{fig:samplemap}.
+This cruise occupied the SR3 latitudinal transect from waters near Hobart, Australia (\textapprox{}44\textdegree{} S) to the Mertz Glacier polynya, Antarctica (\textapprox{}67\textdegree{} S) within a longitudinal range of \textapprox{}140--150\textdegree{} E.
+Sixteen samples were obtained within this range \figref{fig:samplemap}.
 
 \input{../polarfront/samplemap.tex}
 
-A range of physicochemical data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including location, water column depth, water temperature, salinity, fluorescence and meteorological conditions \tabref{tab:samplelist}.
+A range of physicochemical data were recorded by integrated instruments on the RSV \emph{Aurora Australis} including water column depth, water temperature, salinity, fluorescence and meteorological conditions \tabref{tab:samplelist}.
 These data were used to locate the \ac{PFZ} based on a surface temperature gradient of \textapprox{}1.35 \textdegree{}C across a distance of 45--65 km, placing the \ac{PF} at approximately 59.70\textdegree{} S, consistent with previous descriptions \cite{Moore:1999to,Sokolov:2002tc}.
 Samples were accordingly grouped into ``North'' and ``South'' zones \tabref{tab:samplelist}.
 The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} regions, while the \ac{SZ} represents the \ac{AZ}.
@@ -62,28 +62,34 @@ The \ac{NZ} represents waters from the Subtropical, Subantarctic and \ac{PFZ} re
 \input{../polarfront/samplelist.tex}
 
 At each station, \textapprox{}250--560 L of seawater was pumped from \textapprox{}1.5--2.5 m below the sea surface into drums stored at ambient temperature on deck. 
-Seawater samples were prefiltered through a 20 \micron{} plankton net, then filtrand was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at $-20$ $^\circ$C \cite{Rusch:2007ez,Ng:2010cd}.
+Seawater samples were prefiltered through a 20 \micron{} plankton net, then biomass was captured on sequential 3.0 \micron{} 0.8 \micron{} and 0.1 \micron{} 293 mm polyethersulfone membrane filters (Pall, Port Washington, USA), and immediately stored at \textminus{}20 \textdegree{}C \cite{Rusch:2007ez,Ng:2010cd}.
 
-DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J. Craig Venter Institute.} was performed at the J. Craig Venter Institute (Rockville, USA) as described in \citet{Rusch:2007ez}.
-Pyrosequencing was performed on a GS20 FLX Titanium instrument (Roche, Branford, USA) also at the J. Craig Venter Institute as described in \citet{Lauro:2010jna}.
-Duplicate reads and reads with many pyrosequencing errors were removed as described in \citet{Lauro:2010jna}.
+DNA extraction\footnote{DNA extraction was performed by Cynthia Andrews-Pfannkoch and others at the J.\ Craig Venter Institute.} was performed at the J.\ Craig Venter Institute (Rockville, USA) using a modified phenol-chloroform method as described in \citet{Rusch:2007ez}.
+Pyrosequencing was performed on a GS20 FLX Titanium platform (Roche, Branford, USA) also at the J.\ Craig Venter Institute as described in \citet{Lauro:2010jna}.
+Perfect duplicate reads were removed using sffToCa (Celera Corporation, Alameda, USA),  read ends were trimmed with \softwarename{Lucy} \cite{Chou:2001ck}, and the bottom 8\% and top 3\% of reads ordered by length were removed as described in \citet{Lauro:2010jna}\footnote{Read quality filtering was performed by Federico M.\ Lauro and Matthew Z.\ DeMaere.}.
 
 \subsection{Phylogenetic analysis of metagenomic data}
 
 \subsubsection{\softwarename{blast} comparison to RefSeq database}
 
-A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved 31 May 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers \citep[following][]{Angly:2009ip}.
-Because this database was not expected to contain representative genomes for every species present, \acp{OTU} in this study are defined by the best species match to this database, and may for example represent congeners.
+A subset of the RefSeq microbial (bacterial and archaeal) genome database (release 41, retrieved 31 May 2010 from \url{ftp://ftp.ncbi.nih.gov/refseq/release/}) was prepared by excluding sequences with the words ``shotgun'', ``contig'', ``partial'', ``end'' or ``part'' in their headers.
+This is necessary to ensure only full and complete genomes yielded matches, as the \ac{GAAS} software tool used for later processing uses this assumption to estimate environmental genome sizes \citep[following][]{Angly:2009ip}.
 
 The metagenomic reads from each sample were compared against this database using \softwarename{tblastx}, with default parameters except for: E-value threshold $1.0\times{}10^{-3}$, cost to open gap 11, cost to extend gap 1, masking of query sequence by \softwarename{SEG} masking with lookup table only.
+\acp{OTU} in this study are thus defined as the best species match in RefSeq by these parameters.
 The outputs of all \softwarename{tblastx} searches against RefSeq were processed by \softwarename{minspec}, and hits not belonging to the minimal \ac{OTU} sets were removed.
 
 \subsubsection{OTU abundances and variance between zones}
 
 The relative \ac{OTU} abundances for each sample were determined using the \softwarename{perl} script \ac{GAAS} \cite{Angly:2009ip}.
-Briefly, \ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
+\ac{GAAS} estimates the relative abundance of \acp{OTU} from the number and quality of \softwarename{blast} matches (``hits'') to each \ac{OTU}, taking into account differences in genome size. 
+This approach takes advantage of all sequencing reads in a shotgun metagenome, in contrast with marker-gene bases approaches (e.g.\ 16S), and allows relative abundances to be estimated on a ``one genome per cell'' basis, increasing the accuracy of these estimates.
 \ac{GAAS} was run with the default settings. 
-To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate. 
+To normalise for reads which did not yield acceptable hits, the relative abundances for each sample were scaled by that sample's effective \softwarename{blast} hit rate.
+
+A difficulty with the size fractionation approach is that relative abundances cannot be summed across fractions.
+This is because each fraction almost certainly represents a different absolute number of cells.
+Thus, 
 An \ac{OTU} profile was generated for each sample by encoding the scaled relative abundance of each \ac{OTU} from each size fraction as a separate variable.
 
 To test the hypothesis that the oceanic zones harbour significantly different communities, \ac{ANOSIM} with 999 permutations was performed on a standardised, log-transformed Bray-Curtis resemblance matrix of \ac{OTU} profiles.
