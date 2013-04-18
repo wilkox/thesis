@@ -158,7 +158,7 @@ After removing low-quality reads, 157,507--597,689 reads remained per sample (me
 \subsection{Phylogenetic analysis of metagenomic data}
 
 The proportion of reads in each sample that yielded hits to RefSeq ranged from 25--85\% (mean 62\%).
-The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.csv}.
+The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.txt}.
 All samples and size fractions exhibited very low \ac{OTU} evenness \figref{fig:rankabundance}.
 
 \input{../polarfront/topotus.tex}
@@ -220,17 +220,19 @@ The \ac{GSO-EOSA-1} 16S rRNA gene-affiliated metagenome reads were then placed i
 The majority of 16S rRNA genes from all samples and size fractions clustered with ARTIC96BD-19 \figref{fig:GSO-EOSA-1tree}, indicating this is the dominant GSO-EOSA-1 representative. 
 
 \input{../polarfront/GSO-EOSA-1tree.tex}
+
 Single-cell genomic analysis of ARCTIC96BD-19 from global mesopelagic waters indicates the lineage is probably mixotrophic, able to couple carbon fixation to oxidation of reduced sulphur compounds as well as assimilate organic carbon \cite{Swan:2011hb}.
-GSO-EOSA-1 cytochrome C oxidase (CoxII) has been identified in a winter metaproteome of Antarctic Peninsula coastal waters, suggesting the capacity for aerobic respiration \cite{Williams:2012bs}.
-Taken together, this evidence suggests the GSO-EOSA-1 representative in Antarctic coastal waters is a versatile chemolithoautotroph capable of aerobic respiration.
+\ac{GSO-EOSA-1} cytochrome C oxidase (CoxII) has been identified in a winter metaproteome of Antarctic Peninsula coastal waters, suggesting the capacity for aerobic respiration \cite{Williams:2012bs}.
+Taken together, this evidence suggests the \ac{GSO-EOSA-1} representative in Antarctic coastal waters is a versatile chemolithoautotroph capable of aerobic respiration.
 
 It has been proposed that during the winter months, chemolithoautotrophy is dominant over photoautotrophy as the major carbon fixation process in \ac{AZ} waters due to the lack of available light, both from seasonal darkness and ice shading \cite{Grzymski:2012ej}.
-The high relative abundance of GSO-EOSA-1 in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
+The high relative abundance of \ac{GSO-EOSA-1} in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
 
 \subsubsection{Ammonia-oxidizing Crenarchaeota}
 
-\species{Nitrosopumilus maritimus} SCM1 and \species{Cenarchaeum symbiosum} are chemolithoautotrophic, nitrifying members of the \ac{MGI} \cite{Preston:1996vi,Walker:2010ww} and are the only representatives in the reference database of the \ac{AOA}.
-The contribution of \acp{OTU} of \species{Cenarchaeum symbiosum} to the \ac{AOA} signature was low.
+\species{Nitrosopumilus maritimus} SCM1 and \species{Cenarchaeum symbiosum} are chemolithoautotrophic, nitrifying members of the \ac{MGI} \cite{Preston:1996vi,Walker:2010ww}.
+These species were the only representatives in the reference database used in this study of the \ac{AOA}.
+The contribution of \species{Cenarchaeum symbiosum} to total \ac{AOA} abundance was low (0--0.015\% across all fractions and zones, \suppfile{PF-all-OTUs.txt}).
 As \species{Cenarchaeum symbiosum} is a sponge symbiont \cite{Preston:1996vi} and given the poor representation of \ac{AOA} in RefSeq, it is likely this \ac{OTU} has attracted sequences originating from planktonic \ac{AOA} and \species{Cenarchaeum symbiosum} itself is not present.
 \ac{AOA} were moderate contributors to variance between the \ac{NZ} and \ac{SZ}, and were overrepresented in the \ac{SZ} in all size fractions \figref{fig:taxotreemap}.
 As with the GSO-EOSA-1 cluster, \ac{MGI} have been proposed to be abundant chemolithoautotrophs and therefore major drivers of winter carbon fixation in Antarctic coastal waters \cite{Grzymski:2012ej,Williams:2012bs}.
@@ -242,20 +244,18 @@ Breakdown of water column stratification has been previously suggested as a caus
 
 \subsubsection{Cyanobacteria}
 
-\acp{OTU} of the cyanobacterial genera \genus{Prochlorococcus} and \genus{Synechococcus} were overrepresented in the \ac{NZ} in all size fractions \figref{fig:taxotreemap}.
+\acp{OTU} assigned to the cyanobacterial genera \genus{Prochlorococcus} and \genus{Synechococcus} were overrepresented in the \ac{NZ} in all size fractions \figref{fig:taxotreemap}.
 The mean relative abundance of cyanobacteria in samples 367 and 368, the two northernmost samples, was strikingly higher than the mean abundance across all other samples in the \ac{NZ}.
-\genus{Synechococcus} sp. CC9902 alone composed greater than 22\% of the 0.8 \micron{} fraction in these samples, consistent with \genus{Synechococcus} species' average cell diameter of approximately 0.9 \micron.
+\genus{Synechococcus} sp. CC9902 alone composed greater than 22\% of the 0.8 \micron{} fraction in these samples, consistent with \genus{Synechococcus} species' cell diameters of up to 0.9 \micron \cite{Waterbury:1985js}.
 The high abundance of both cyanobacterial genera on the 3.0 \micron{} fraction has previously been reported \cite{Lauro:2010jna} and may be attributable to aggregation \cite{Lomas:2011bp}.
 
 Samples 367 and 368 were separated from the other samples north of the \ac{PF} by the \ac{STF}.
-While the \ac{STF} was not a significant boundary on the assemblage level, it may mark a significant biogeographic boundary for these cyanobacteria.
+While the \ac{STF} was not a significant boundary on the assemblage level (ANOSIM, p > 0.05), it may mark a significant biogeographic boundary for these cyanobacteria.
 \genus{Synechococcus} and \genus{Prochlorococcus} together represent a large proportion of both phytoplankton abundance and carbon fixation in temperate and tropical waters, in many regions contributing more than half of total primary production \cite{Liu:1997ub,Liu:1998tk,Andre:1999uh}.
-The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under changing climactic conditions, and warrants further investigation.
+The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under climate change, and warrants further investigation.
 Despite the high abundance of cyanobacteria north of the \ac{STF}, they were also a significant feature of the \ac{SAZ}; for example, \genus{Synechococcus} sp. CC9902 composed 3--5\% of the 0.8 \micron{} fraction in \ac{SAZ} samples.
 
-These results extend the latitudinal distribution of both \genus{Prochlorococcus} and \genus{Synechococcus} to include presence at very low abundance as far south as the Antarctic coast.
-\genus{Prochlorococcus} have been reported to be restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}, and to be a negligible \cite{Ghiglione:2011ee} or undetectable \cite{Grzymski:2012ej} component of marine microorganisms in Antarctic waters.
-However, these findings are consistent with findings of a logarithmic relationship of cyanobacterial numbers with temperature, where cyanobacteria were found at concentrations of 103--104 cells per litre even in the coldest waters, approximately four orders of magnitude less than in waters around Tasmania \cite{Marchant:1987wv}.
+These results confirm previous reports \cite{Marchant:1987wv,Ghiglione:2011ee} that cyanobacteria occur as far south as the Antarctic coast, albeit at very low abundances (10\textsuperscript{3}--10\textsuperscript{4} cells/L \cite{Marchant:1987wv}), and contradicts the assumption that \genus{Prochlorococcus} is restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}.
 Cyanophage proteins have also been detected in a metaproteomic analysis of Antarctic Peninsula coastal surface waters \cite{Williams:2012bs}.
 
 \subsubsection{SAR11 and SAR116 clades}
