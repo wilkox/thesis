@@ -158,7 +158,7 @@ After removing low-quality reads, 157,507--597,689 reads remained per sample (me
 \subsection{Phylogenetic analysis of metagenomic data}
 
 The proportion of reads in each sample that yielded hits to RefSeq ranged from 25--85\% (mean 62\%).
-The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.csv}.
+The most abundant \acp{OTU} in each sample are given in \tabreft{tab:topotus} and a full list of \ac{OTU} abundances in the supplementary material \suppfile{PF-all-OTUs.txt}.
 All samples and size fractions exhibited very low \ac{OTU} evenness \figref{fig:rankabundance}.
 
 \input{../polarfront/topotus.tex}
@@ -215,22 +215,24 @@ This pattern most likely represents a small cell size and lack of association wi
 However, \ac{GSO-EOSA-1} representative ARCTIC96BD-19 has recently been reported at high abundance in Antarctic coastal waters \cite{Ghiglione:2011ee,Grzymski:2012ej}.
 To investigate the correct taxonomic placement of the \ac{GSO-EOSA-1} representative in this study, reads with identity to \candidatus{Ruthia magnifica} and \candidatus{Vesicomyosocius okutanii} were compared to the 16S rRNA gene of the SUP05 \ac{GSO-EOSA-1} isolate identified by \citet{Walsh:2009fja} (GenBank accession GQ351268.1) by \softwarename{blastn} with default settings and an E-value threshold of $10^{-3}$.
 16S rRNA sequences from a reference set of endosymbiotic (\candidatus{Ruthia magnifica}, \candidatus{Vesicomyosocius okutanii}, \species{Solemya reidi} gill symbiont (GenBank accession L25709.1), \species{Bathymodiolus septemdierum} thioautotrophic gill symbiont (GenBank accession AB036709.1), \species{Vesicomya gigas} gill symbiont (GenBank accession AF035726.1) and \species{Ridgeia piscesae} endosymbiont (GenBank accession JX570608.1)) and planktonic (SUP05, ARCTIC96BD-19 (GenBank accession AF354606.1)) \ac{GSO-EOSA-1} representatives were obtained.
-A neighbour-joining phylogenetic tree was construted using \softwarename{ARB} \cite{Ludwig:2004dg}, using \species{Escherichia coli} IHE3034 (GenBank accession CP001969.1) as a gammaproteobacterial outgroup to root the tree.
-The \ac{GSO-EOSA-1} 16S rRNA gene-affiliated metagenome reads were then placed in this tree by the ``ARB parsimony'' insertion method, with alignments manually verified.
+A neighbour-joining phylogenetic tree was constructed using \softwarename{ARB} \cite{Ludwig:2004dg}, using \species{Escherichia coli} IHE3034 (GenBank accession CP001969.1) as a gammaproteobacterial outgroup to root the tree.
+The \ac{GSO-EOSA-1} 16S rRNA gene-affiliated metagenome reads were then placed in this tree by the ``\softwarename{ARB} parsimony'' insertion method, with alignments manually verified.
 The majority of 16S rRNA genes from all samples and size fractions clustered with ARTIC96BD-19 \figref{fig:GSO-EOSA-1tree}, indicating this is the dominant GSO-EOSA-1 representative. 
 
 \input{../polarfront/GSO-EOSA-1tree.tex}
+
 Single-cell genomic analysis of ARCTIC96BD-19 from global mesopelagic waters indicates the lineage is probably mixotrophic, able to couple carbon fixation to oxidation of reduced sulphur compounds as well as assimilate organic carbon \cite{Swan:2011hb}.
-GSO-EOSA-1 cytochrome C oxidase (CoxII) has been identified in a winter metaproteome of Antarctic Peninsula coastal waters, suggesting the capacity for aerobic respiration \cite{Williams:2012bs}.
-Taken together, this evidence suggests the GSO-EOSA-1 representative in Antarctic coastal waters is a versatile chemolithoautotroph capable of aerobic respiration.
+\ac{GSO-EOSA-1} cytochrome C oxidase (CoxII) has been identified in a winter metaproteome of Antarctic Peninsula coastal waters, suggesting the capacity for aerobic respiration \cite{Williams:2012bs}.
+Taken together, this evidence suggests the \ac{GSO-EOSA-1} representative in Antarctic coastal waters is a versatile chemolithoautotroph capable of aerobic respiration.
 
 It has been proposed that during the winter months, chemolithoautotrophy is dominant over photoautotrophy as the major carbon fixation process in \ac{AZ} waters due to the lack of available light, both from seasonal darkness and ice shading \cite{Grzymski:2012ej}.
-The high relative abundance of GSO-EOSA-1 in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
+The high relative abundance of \ac{GSO-EOSA-1} in \ac{SZ} compared to \ac{NZ} waters may therefore represent the remnants of an annual winter increase in population in the marginal ice zone which does not occur in the open ocean.
 
 \subsubsection{Ammonia-oxidizing Crenarchaeota}
 
-\species{Nitrosopumilus maritimus} SCM1 and \species{Cenarchaeum symbiosum} are chemolithoautotrophic, nitrifying members of the \ac{MGI} \cite{Preston:1996vi,Walker:2010ww} and are the only representatives in the reference database of the \ac{AOA}.
-The contribution of \acp{OTU} of \species{Cenarchaeum symbiosum} to the \ac{AOA} signature was low.
+\species{Nitrosopumilus maritimus} SCM1 and \species{Cenarchaeum symbiosum} are chemolithoautotrophic, nitrifying members of the \ac{MGI} \cite{Preston:1996vi,Walker:2010ww}.
+These species were the only representatives in the reference database used in this study of the \ac{AOA}.
+The contribution of \species{Cenarchaeum symbiosum} to total \ac{AOA} abundance was low (0--0.015\% across all fractions and zones, \suppfile{PF-all-OTUs.txt}).
 As \species{Cenarchaeum symbiosum} is a sponge symbiont \cite{Preston:1996vi} and given the poor representation of \ac{AOA} in RefSeq, it is likely this \ac{OTU} has attracted sequences originating from planktonic \ac{AOA} and \species{Cenarchaeum symbiosum} itself is not present.
 \ac{AOA} were moderate contributors to variance between the \ac{NZ} and \ac{SZ}, and were overrepresented in the \ac{SZ} in all size fractions \figref{fig:taxotreemap}.
 As with the GSO-EOSA-1 cluster, \ac{MGI} have been proposed to be abundant chemolithoautotrophs and therefore major drivers of winter carbon fixation in Antarctic coastal waters \cite{Grzymski:2012ej,Williams:2012bs}.
@@ -242,45 +244,44 @@ Breakdown of water column stratification has been previously suggested as a caus
 
 \subsubsection{Cyanobacteria}
 
-\acp{OTU} of the cyanobacterial genera \genus{Prochlorococcus} and \genus{Synechococcus} were overrepresented in the \ac{NZ} in all size fractions \figref{fig:taxotreemap}.
+\acp{OTU} assigned to the cyanobacterial genera \genus{Prochlorococcus} and \genus{Synechococcus} were overrepresented in the \ac{NZ} in all size fractions \figref{fig:taxotreemap}.
 The mean relative abundance of cyanobacteria in samples 367 and 368, the two northernmost samples, was strikingly higher than the mean abundance across all other samples in the \ac{NZ}.
-\genus{Synechococcus} sp. CC9902 alone composed greater than 22\% of the 0.8 \micron{} fraction in these samples, consistent with \genus{Synechococcus} species' average cell diameter of approximately 0.9 \micron.
+\genus{Synechococcus} sp. CC9902 alone composed greater than 22\% of the 0.8 \micron{} fraction in these samples, consistent with \genus{Synechococcus} species' cell diameters of up to 0.9 \micron \cite{Waterbury:1985js}.
 The high abundance of both cyanobacterial genera on the 3.0 \micron{} fraction has previously been reported \cite{Lauro:2010jna} and may be attributable to aggregation \cite{Lomas:2011bp}.
 
 Samples 367 and 368 were separated from the other samples north of the \ac{PF} by the \ac{STF}.
-While the \ac{STF} was not a significant boundary on the assemblage level, it may mark a significant biogeographic boundary for these cyanobacteria.
+While the \ac{STF} was not a significant boundary on the assemblage level (ANOSIM, p > 0.05), it may mark a significant biogeographic boundary for these cyanobacteria.
 \genus{Synechococcus} and \genus{Prochlorococcus} together represent a large proportion of both phytoplankton abundance and carbon fixation in temperate and tropical waters, in many regions contributing more than half of total primary production \cite{Liu:1997ub,Liu:1998tk,Andre:1999uh}.
-The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under changing climactic conditions, and warrants further investigation.
+The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under climate change, and warrants further investigation.
 Despite the high abundance of cyanobacteria north of the \ac{STF}, they were also a significant feature of the \ac{SAZ}; for example, \genus{Synechococcus} sp. CC9902 composed 3--5\% of the 0.8 \micron{} fraction in \ac{SAZ} samples.
 
-These results extend the latitudinal distribution of both \genus{Prochlorococcus} and \genus{Synechococcus} to include presence at very low abundance as far south as the Antarctic coast.
-\genus{Prochlorococcus} have been reported to be restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}, and to be a negligible \cite{Ghiglione:2011ee} or undetectable \cite{Grzymski:2012ej} component of marine microorganisms in Antarctic waters.
-However, these findings are consistent with findings of a logarithmic relationship of cyanobacterial numbers with temperature, where cyanobacteria were found at concentrations of 103--104 cells per litre even in the coldest waters, approximately four orders of magnitude less than in waters around Tasmania \cite{Marchant:1987wv}.
+These results confirm previous reports \cite{Marchant:1987wv,Ghiglione:2011ee} that cyanobacteria occur as far south as the Antarctic coast, albeit at very low abundances (10\textsuperscript{3}--10\textsuperscript{4} cells/L \cite{Marchant:1987wv}), and contradicts the assumption that \genus{Prochlorococcus} is restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}.
 Cyanophage proteins have also been detected in a metaproteomic analysis of Antarctic Peninsula coastal surface waters \cite{Williams:2012bs}.
 
 \subsubsection{SAR11 and SAR116 clades}
 
-\candidatus{Pelagibacter ubique} HTCC1062 is a good representative of total SAR11 abundance in this study, as it is a member of the SAR11 phylotype which is most abundant in \ac{SO} waters \cite{Brown:2012gna}.
-\candidatus{Pelagibacter ubique} HTCC1062 was the most abundant \ac{OTU} across all samples and fractions (\ac{NZ} average: 62\%, 25\% and 24\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 59\%, 22\% and 18\%) and one of the most significant contributors to variance between the \ac{NZ} and \ac{SZ}.
+\candidatus{Pelagibacter ubique} HTCC1062 was the most abundant \ac{OTU} across all samples and fractions (\ac{NZ} average: 62\%, 25\% and 24\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 59\%, 22\% and 18\%) and one of the most significant contributors to variance between the \ac{NZ} and \ac{SZ} \figref{fig:taxotreemap}.
+\candidatus{Pelagibacter ubique} HTCC1062 is a good representative of total SAR11 abundance in this study, as it is a member of the SAR11 phylotype most abundant in \ac{SO} waters \cite{Brown:2012gna}.
 The high abundance of SAR11 in the 0.1 \micron{} fraction is consistent with the small size of SAR11 cells \cite{Rappe:2002wz}.
 The higher representation in the \ac{NZ} may reflect the competitiveness of SAR11 members in regions with low \ac{DOC} concentrations due to low primary productivity \cite{Giovannoni:2005ib,Alonso:2006dj}, such as the \ac{HNLC} \ac{SAZ}.
 Overall, these findings are consistent with reports that SAR11 is ubiquitous in the world's oceans \cite{Mary:2006wk,Carlson:2009cc} and more abundant north of the \ac{ACC} \cite{Giebel:2009hr}.
 
 \acp{OTU} of \candidatus{Puniceispirillum marinum} from the SAR116 clade were a moderate contributor to variance between the \ac{NZ} and \ac{SZ} with higher abundance in the \ac{NZ} \figref{fig:taxotreemap}.
 A genomic analysis reported \candidatus{Puniceispirillum marinum} IMCC1322 to be a metabolic generalist with genes for aerobic CO fixation, C1 metabolism and a \candidatus{Pelagibacter ubique}-like \ac{DMSP} demethylase, suggesting SAR116 and SAR11 occupy similar ecological niches \cite{Oh:2010di}.
-In the Scotia Sea, SAR116 abundance (determined using \ac{FISH}) was reported to be higher in more productive waters where SAR11 numbers were lower \cite{Topping:2006ul}.
+In the Scotia Sea, SAR116 abundance (as determined with \ac{FISH}) was reported to be higher in more productive waters where SAR11 numbers were lower \cite{Topping:2006ul}.
 However, this analysis across an extended latitudinal transect indicates that overall SAR11 and SAR116 have similar biogeographic distributions.
 
 \subsubsection{Bacteroidetes}
 
 \acp{OTU} of the phylum Bacteroidetes, in particular members of the class Flavobacteria, were found to be abundant (\ac{NZ} average: 1.2\%, 5.0\% and 6.9\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; SZ: 2.3\%, 9.8\% and 9.1\%) and significant contributors to variance between the \ac{NZ} and \ac{SZ} \figref{fig:taxotreemap}.
 Flavobacteria have been previously reported to compose the majority of both Bacteroidetes \cite{Murray:2007db} and total planktonic biomass \cite{Abell:2005ji} in the \ac{SO}, as well as being abundant in sea ice \cite{Brown:2001hh}.
-As heterotrophic degraders of \ac{HMW} compounds in the form of both \ac{DOM} and \ac{POM} \cite{Kirchman:2002ub}, marine Flavobacteria are major components of marine aggregates \cite{Rath:1998wm,Crump:1999wo,Zhang:2007fb}.
-The higher abundance of Flavobacteria \acp{OTU} on the 0.8 \micron{} and 3.0 \micron{} fractions indicates their association with particulate matter.
+As heterotrophic degraders of \ac{HMW} compounds in the form of both \ac{DOM} and \ac{POM} \cite{Kirchman:2002ub}, marine Flavobacteria are major components of marine aggregates \cite{Rath:1998wm,Crump:1999wo,Zhang:2007fb} and are associated with blooming phytoplankton.
+This has been confirmed in Antarctic waters, with a positive relationship between Flavobacteria abundance and chl \textit{a} fluroesence \cite{Williams:2012gsa}.
+The higher abundance of Flavobacteria \acp{OTU} on the 0.8 \micron{} and 3.0 \micron{} fractions reflects their association with particulate matter.
 Similar size partitioning of \ac{SO} Flavobacteria has previously been reported \cite{Abell:2005ji}.
 
-The higher abundance of \acp{OTU} of Flavobacteria in the \ac{SZ} may reflect an input of cells from melting sea ice \cite{Brown:2001hh}, the higher rates of primary productivity in the south, and the role of the Flavobacteria as degraders of \ac{HMW} \ac{DOM}.
-Because deposition of marine snow is a major route for sequestration of fixed carbon in the ocean \citep[e.g.][]{Hessen:2004vq}, the Flavobacteria that associate with this particulate matter represent a remineralising shunt, which would decrease carbon sequestration by this route.
+The higher abundance of \acp{OTU} of Flavobacteria in the \ac{SZ} may reflect an input of cells from melting sea ice \cite{Brown:2001hh}, but is probably driven primarily by the higher rates of primary productivity in the south and the role of the Flavobacteria as degraders of \ac{HMW} \ac{DOM}.
+Because deposition of marine snow is a major route for sequestration of fixed carbon in the ocean \citep[e.g.][]{Hessen:2004vq}, the Flavobacteria that associate with this particulate matter represent a remineralising shunt, decreasing carbon export by this route.
 
 \subsubsection{Rhodobacterales}
 
