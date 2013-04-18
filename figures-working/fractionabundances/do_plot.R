@@ -16,7 +16,7 @@ p <- p + theme(panel.border=element_rect(fill=NA))
 p <- p + theme(axis.title.x=element_blank())
 p <- p + theme(axis.text.x = element_text(color="black"))
 p <- p + theme(axis.ticks.x = element_blank())
-p <- p + ylab("Number of cells")
+p <- p + ylab("Number of cells (million)")
 p <- p + xlab("Size fraction")
 p <- p + theme(legend.position="none")
 
@@ -46,7 +46,7 @@ p <- p + theme(legend.position="none")
 ggsave("fractionabundances2.png", p, width=3, height=3, dpi=1200)
 
 #values
-df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c((2+15+80)/3, (300-2-15-80)/3), sample=factor(c("Combined", "Combined")), levels=c("Combined"))
+df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c((2+15+80)/3, (300-2-15-80)/3), sample=factor(c("Summed", "Summed")), levels=c("Summed"))
 
 #plot
 p <- ggplot(data=df, aes(y=abundance, fill=OTU, x=sample))
