@@ -232,7 +232,7 @@ The high relative abundance of \ac{GSO-EOSA-1} in \ac{SZ} compared to \ac{NZ} wa
 
 \species{Nitrosopumilus maritimus} SCM1 and \species{Cenarchaeum symbiosum} are chemolithoautotrophic, nitrifying members of the \ac{MGI} \cite{Preston:1996vi,Walker:2010ww}.
 These species were the only representatives in the reference database used in this study of the \ac{AOA}.
-The contribution of \species{Cenarchaeum symbiosum} to total \ac{AOA} abundance was low (0--0.015\% across all fractions and zones, \suppfile{PF-all-OTUs.txt}).
+The contribution of \species{Cenarchaeum symbiosum} to total \ac{AOA} abundance was low (0--0.015\% across all fractions and zones, see supplementary material \suppfile{PF-all-OTUs.txt}).
 As \species{Cenarchaeum symbiosum} is a sponge symbiont \cite{Preston:1996vi} and given the poor representation of \ac{AOA} in RefSeq, it is likely this \ac{OTU} has attracted sequences originating from planktonic \ac{AOA} and \species{Cenarchaeum symbiosum} itself is not present.
 \ac{AOA} were moderate contributors to variance between the \ac{NZ} and \ac{SZ}, and were overrepresented in the \ac{SZ} in all size fractions \figref{fig:taxotreemap}.
 As with the GSO-EOSA-1 cluster, \ac{MGI} have been proposed to be abundant chemolithoautotrophs and therefore major drivers of winter carbon fixation in Antarctic coastal waters \cite{Grzymski:2012ej,Williams:2012bs}.
@@ -255,7 +255,7 @@ While the \ac{STF} was not a significant boundary on the assemblage level (ANOSI
 The role of the \ac{STF} in determining the latitudinal range of \genus{Synechococcus} and \genus{Prochlorococcus} is therefore important, as it will affect models of ocean productivity under climate change, and warrants further investigation.
 Despite the high abundance of cyanobacteria north of the \ac{STF}, they were also a significant feature of the \ac{SAZ}; for example, \genus{Synechococcus} sp. CC9902 composed 3--5\% of the 0.8 \micron{} fraction in \ac{SAZ} samples.
 
-These results confirm previous reports \cite{Marchant:1987wv,Ghiglione:2011ee} that cyanobacteria occur as far south as the Antarctic coast, albeit at very low abundances (10\textsuperscript{3}--10\textsuperscript{4} cells/L \cite{Marchant:1987wv}), and contradicts the assumption that \genus{Prochlorococcus} is restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}.
+These results confirm previous reports \cite{Marchant:1987wv,Ghiglione:2011ee} that cyanobacteria occur as far south as the Antarctic coast, albeit at very low abundances (10\textsuperscript{3}--10\textsuperscript{4} cells/L, \citet{Marchant:1987wv}), and contradicts the assumption that \genus{Prochlorococcus} is restricted to tropical and subtropical waters within 40\textdegree{} of latitude \cite{Partensky:1999uf}.
 Cyanophage proteins have also been detected in a metaproteomic analysis of Antarctic Peninsula coastal surface waters \cite{Williams:2012bs}.
 
 \subsubsection{SAR11 and SAR116 clades}
@@ -276,11 +276,11 @@ However, this analysis across an extended latitudinal transect indicates that ov
 \acp{OTU} of the phylum Bacteroidetes, in particular members of the class Flavobacteria, were found to be abundant (\ac{NZ} average: 1.2\%, 5.0\% and 6.9\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; SZ: 2.3\%, 9.8\% and 9.1\%) and significant contributors to variance between the \ac{NZ} and \ac{SZ} \figref{fig:taxotreemap}.
 Flavobacteria have been previously reported to compose the majority of both Bacteroidetes \cite{Murray:2007db} and total planktonic biomass \cite{Abell:2005ji} in the \ac{SO}, as well as being abundant in sea ice \cite{Brown:2001hh}.
 As heterotrophic degraders of \ac{HMW} compounds in the form of both \ac{DOM} and \ac{POM} \cite{Kirchman:2002ub}, marine Flavobacteria are major components of marine aggregates \cite{Rath:1998wm,Crump:1999wo,Zhang:2007fb} and are associated with blooming phytoplankton.
-This has been confirmed in Antarctic waters, with a positive relationship between Flavobacteria abundance and chl \textit{a} fluroesence \cite{Williams:2012gsa}.
+This has been confirmed in Antarctic waters, with a positive relationship between Flavobacteria abundance and chl \textit{a} fluorescence \cite{Williams:2012gsa}.
 The higher abundance of Flavobacteria \acp{OTU} on the 0.8 \micron{} and 3.0 \micron{} fractions reflects their association with particulate matter.
 Similar size partitioning of \ac{SO} Flavobacteria has previously been reported \cite{Abell:2005ji}.
 
-The higher abundance of \acp{OTU} of Flavobacteria in the \ac{SZ} may reflect an input of cells from melting sea ice \cite{Brown:2001hh}, but is probably driven primarily by the higher rates of primary productivity in the south and the role of the Flavobacteria as degraders of \ac{HMW} \ac{DOM}.
+The higher abundance of \acp{OTU} of Flavobacteria in the \ac{SZ} may reflect an input of cells from melting sea ice \cite{Brown:2001hh}, but is probably driven primarily by the higher rates of primary productivity in the south and the role of the Flavobacteria as degraders of \ac{HMW} \ac{DOM} and \ac{POM}.
 Because deposition of marine snow is a major route for sequestration of fixed carbon in the ocean \citep[e.g.][]{Hessen:2004vq}, the Flavobacteria that associate with this particulate matter represent a remineralising shunt, decreasing carbon export by this route.
 
 \subsubsection{Rhodobacterales}
@@ -288,18 +288,22 @@ Because deposition of marine snow is a major route for sequestration of fixed ca
 Members of the order Rhodobacterales were abundant (\ac{NZ} average: 1.2\%, 10\% and 5.5\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 1.6\%, 13\% and 7.9\%) and high contributors to variance, overrepresented in the \ac{SZ} on all size fractions.
 As several members of the Roseobacter clade have been shown to have symbiotic relationships with marine eukaryotic algae \cite{Buchan:2005hd,WagnerDobler:2006kb}, and their abundance in the \ac{SO} has previously been linked to phytoplankton blooms \cite{West:2008kc,Obernosterer:2011df}, it is likely that their overrepresentation in the \ac{SZ} is related to the higher density of phytoplankton in the \ac{AZ}.
 
-\acp{OTU} of \species{Roseobacter denitrificans} Och114 and \species{Silicibacter pomeroyi} DSS-3 were consistently the most abundant Roseobacter clade representatives.
+\acp{OTU} of \species{Roseobacter denitrificans} Och114 and \species{Silicibacter pomeroyi} DSS-3 were consistently the most abundant Roseobacter clade representatives, and indeed among the most abundant \acp{OTU} identified in the study \figref{fig:topotus}.
 \species{Roseobacter denitrificans} and \species{Silicibacter pomeroyi} fall within a subclade of \ac{AAP} members of the Roseobacter clade \cite{Swingley:2007dm}.
 These species have diverse mixotrophic metabolisms, with genomic and experimental evidence of photoheterotrophic respiration of organic carbon, fixation of \ce{CO_{2}}, oxidation of CO, oxidation of reduced sulfur compounds, and utilization of the abundant marine osmolyte \ac{DMSP} \cite{King:2003kc,Moran:2004ie,WagnerDobler:2006kb,Swingley:2007dm,Brinkhoff:2008do,Howard:2008hf}.
 This metabolic diversity suggests a complex ecological role, particularly with respect to the capture and release of climatically active gases (\ce{CO_{2}}, CO, dimethylsulfide) involved in carbon and sulfur cycling.
 
+\species{Roseobacter denitrificans} encodes transporters and metabolic genes for phosponate, as well as the more usual phosphate \cite{Swingley:2007dm}.
+The \ac{SO} south of the \ac{PF} is not phosphate-limited, but does have a much lower concentation of phosophate relative to nitrate when compared to the nitrate-limiting \ac{SAZ} \cite{Weber:2010fi}.
+Thus, the ability to utilise phosphonate as an alternative phosphorous source may give \species{Roseobacter denitrificans} a competitive advantage in the \ac{SZ} \cite{Huang:2005ve}.
+
 \subsubsection{Alteromonadales}
 
-Members of the gammaproteobacterial order Alteromonadales were large contributors to variance.
-Most \acp{OTU} were overrepresented in the \ac{SZ} but some were overrepresented in the \ac{NZ} on the 3.0 \micron{} fraction \figref{fig:taxotreemap}.
-\species{Colwellia psychrerythraea} 34H was one of the most abundant \acp{OTU} in the Alteromonadales that exhibited this distribution (\ac{NZ} average: 0.14\%, 2.2\% and 16\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 0.52\%, 5.1\% and 10\%).
+Members of the gammaproteobacterial order Alteromonadales were large contributors to variance across the \ac{PF}.
+Most Altermonadales were overrepresented in the \ac{SZ}, but some were overrepresented in the \ac{NZ} on the 3.0 \micron{} fraction \figref{fig:taxotreemap}.
+\species{Colwellia psychrerythraea} 34H was one of the most abundant \acp{OTU} in the Alteromonadales and exhibited this distribution (\ac{NZ} average: 0.14\%, 2.2\% and 16\% of the 0.1 \micron{}, 0.8 \micron{} and 3.0 \micron{} fractions respectively; \ac{SZ}: 0.52\%, 5.1\% and 10\%).
 \species{Colwellia psychrerythraea} 34H was isolated from Arctic sediment, grows well at low temperatures and secretes extracellular polysaccharides \cite{Huston:2000jr,Junge:2003kb,Methe:2005uf}.
-Similar to other \genus{Colwellia} species grown under laboratory conditions, cells have widths of 0.4--0.8 \micron{} and lengths of 1.5--4.5 \micron{} \cite{Jung:2006fh}.
+Similar to other \genus{Colwellia} species grown under laboratory conditions, \species{Colwellia psychrerythreae} cells have widths of 0.4--0.8 \micron{} and lengths of 1.5--4.5 \micron{} \cite{Jung:2006fh}.
 Growth temperature can have a major impact on cell morphology, enzyme secretion and global gene expression in psychrophiles \citep[e.g.][]{Feller:2003ir,Junge:2003kb,Williams:2011hy,Cavicchioli:2006bl,Campanaro:2011gj}.
 Moreover, marine bacteria can alter their cell dimensions in response to nutrient flux \citep[e.g.][]{Kjelleberg:1987wp}.
 It is therefore possible that the populations of Alteromonadales captured on the 3.0 \micron{} filters (overrepresented in the \ac{NZ}) had different physiological properties to those on the 0.1 and 0.8 \micron{} filters (overrepresented in the \ac{SZ}).
