@@ -43,10 +43,14 @@
 \usepackage{afterpage}
 \usepackage{capt-of}
 
-%minimise overruns into the margins
-%TODO on final compile, this should be removed and
-%overfull hboxs manually fixed
-\sloppy
+%better than \sloppy, apparently
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\vfuzz \hfuzz
+\raggedbottom
 
 %good chemical formulae with \ce
 \usepackage{mhchem}
