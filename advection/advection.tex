@@ -159,7 +159,8 @@ Denoising, chimera removal and trimming of poor quality read ends were performed
 \subsection{Taxonomic assignment}
 
 Using \ac{QIIME} 1.6.0 \cite{Caporaso:2010ts}, tag pyrosequencing reads were clustered at the 97\% sequence similarity level against the SILVA database of rRNA sequences (release 108, eukaryote and chloroplast sequences removed) \cite{Quast:2013hk}, with non-clustering reads discarded.
-\ac{QIIME} was used to assign to each \ac{OTU} cluster a description representing the most detailed lineage common to at least 90\% of the clustered reads, with ranks labelled ``uncultured'' or ``other'' ignored.
+\ac{QIIME} was used to assign to each \ac{OTU} cluster a description representing the most detailed lineage common to at least 90\% of the clustered reads.
+For ease of interpretation, full lineage descriptions were collapsed to the two most detailed ranks, with ranks labelled ``uncultured'' or ``other'' ignored.
 To generate a taxonomic profile for each sample, the relative abundances of reads assigned to each \ac{OTU} in each size fraction were encoded as variables.
 To account for the reads discarded during clustering, abundances in each size fraction were standardised by the proportion of reads retained from that fraction.
 The abundances were square root transformed and Bray-Curtis dissimilarity indices between samples calculated in \softwarename{PRIMER 6} (PRIMER-E, Lutton, UK).
@@ -272,6 +273,7 @@ After clustering against the SILVA database, 2,295--30,760 (mean 9,618) reads pe
 The Chao 1 statistic was calculated, and estimated \ac{OTU} were under-sequenced by 0--50\% across all samples (mean 26\%) \tabref{tab:advectionfullsampledata}.
 In all water masses, decreasing numbers of reads yielded \ac{OTU} assignments as size fraction increased \figref{fig:taxonomicbarplot}.
 This probably reflects an increasing number of eukaryotic cells (which were excluded from \ac{OTU} assignment) on the higher fractions.
+A full list of \ac{OTU} assigments and relative abundances is given in the supplementary material \suppfile{advection-all-OTUs.txt}.
 
 \input{../advection/advectionfullsampledata.tex}
 \input{../advection/taxonomicbarplot.tex}
