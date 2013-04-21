@@ -1,6 +1,6 @@
 \documentclass[a4paper]{book}
 
-%\includeonly{../advection/advection}
+\includeonly{../compile/abstract}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -185,11 +185,13 @@
 
 \pagenumbering{roman}
 
+\singlespacing
 \include{../compile/originalitystatement}
-
 \include{../compile/copyrightstatement}
 
+\onehalfspacing
 \include{../compile/abstract}
+\singlespacing
 
 \tableofcontents
 
@@ -199,11 +201,10 @@
 \listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
 
-\singlespacing
 \printglossary[type=\acronymtype]
 \addcontentsline{toc}{chapter}{List of Acronyms}
-\onehalfspacing
 
+\onehalfspacing
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 

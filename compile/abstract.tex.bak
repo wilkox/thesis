@@ -1,0 +1,13 @@
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+The biogeographic distribution of microorganisms is an important part of their ecology, as it is both a cause and a consequence of the interaction between microbes and their environment.
+In the Southern Ocean (SO), physical oceanographic features such as water masses and their circulation are closely associated with microbial biogeography, but this relationship has not been previously described on a large scale and at the whole-community level.
+As climate change continues to influence the physical structure of the SO, and as marine microorganisms are key drivers of many global ecosystem processes, the need to understand this system has become increasingly important.
+This study used shotgun metagenomic sequencing and bioinformatic analysis to describe the taxonomic composition and functional potential of surface microbial communities along a latitudinal transect of the SO from 45\textdegree{}--67\textdegree{} S at 140\textdegree{}--145\textdegree{} E, and to test the hypothesis that the Polar Front (PF), a major oceanographic feature of the SO, is a biogeographic barrier.
+This hypothesis was confirmed on both the taxonomic and functional levels.
+Confirming and extending previous findings, microbial communities south of the PF reflectd greater nutrient availabilty, particularly in the form of high molecular weight photosynthesis byporducts, while communities to the north suggested a more oligotrophic lifestyle.
+Opportunistic analysis of samples associated with this study suggested a role for advection (physical transport) of microbes by ocean circulation in shaping their biogeographic distribution, a frequently invoked to explain observations in microbial ecology but never directly tested.
+To test this hypothesis, microorganisms were sampled on a second latitudinal transect at 113\textdegree{}--115\textdegree{}E, from the surface to 5800 m depth, representing all major water masses of the SO.
+Tag pyrosequencing of 16S rRNA genes was used to construct taxonomic profiles for each sample, and these were compared to the computer-simulated advection of 462,000 particles using a partial Mantel test which accounted for the effects of environmental selection and spatial separation.
+Advection and taxonomic distance were well correlated (r = 0.28, p = 0.010), suggesting advection explains at least 7\% of variance between sites.
+This study provides the first direct and quantative support for an ``advection effect''.
