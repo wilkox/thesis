@@ -13,10 +13,12 @@
 \ExplSyntaxOn
 \cs_new_eq:NN \siunitx_table_collect_begin:Nn \__siunitx_table_collect_begin:Nn
 \ExplSyntaxOff
-\sisetup{detect-all,table-number-alignment=left}
+\sisetup{detect-all,table-number-alignment=left,group-four-digits=false}
 \usepackage{tabu}
-\newcolumntype Z{X[l]{S[group-four-digits=true,round-mode=places,round-precision=2,round-integer-to-decimal=true,per-mode=symbol]}}
+\newcolumntype Z{X[l]{S[per-mode=symbol]}}
 \tabucolumn Z
+\newcolumntype I{X[l]{S[table-format=4.0,table-number-alignment=left]}} %for integers
+\tabucolumn I
 
 %allow \inputting of figures and tables without extra space
 \newcommand{\inputy}[1]{\input{#1}\unskip}
