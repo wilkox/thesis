@@ -1,6 +1,6 @@
 \documentclass[a4paper]{book}
 
-\includeonly{../compile/abstract}
+\includeonly{../polarfront/polarfront}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -8,8 +8,15 @@
 %misc fixes
 \usepackage{fixltx2e}
 
-%allow aligning table cells on decimal place
+%allow aligning tabularx table cols on decimal place, with tabu type Z
 \usepackage{siunitx}
+\ExplSyntaxOn
+\cs_new_eq:NN \siunitx_table_collect_begin:Nn \__siunitx_table_collect_begin:Nn
+\ExplSyntaxOff
+\sisetup{detect-all,table-number-alignment=left}
+\usepackage{tabu}
+\newcolumntype Z{X[l]{S[group-four-digits=true,round-mode=places,round-precision=2,round-integer-to-decimal=true,per-mode=symbol]}}
+\tabucolumn Z
 
 %allow \inputting of figures and tables without extra space
 \newcommand{\inputy}[1]{\input{#1}\unskip}
