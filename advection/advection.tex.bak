@@ -212,7 +212,7 @@ Subsequent statistical tests were rerun with the \ac{DCM} and \ac{AABW} samples 
 Motility was assumed to have a negligible effect on the spatial distribution of cells.
 Even given an unusually rapid swimming speed (100 \micron{}/sec), no change in direction and an infinite lifespan, a determined bacterial cell could travel only 316 km during the 100 year course of the advection simulation, or approximately 3\textdegree{} of latitude.
 Likewise, transport of cells associated with sinking particles was not considered.
-Only paired surface/DCM samples were likely to be meaningfully connected by this route, and these sample pairs were treated as identical for the purposes of advective distance.
+Only paired surface/DCM samples were likely to be meaningfully connected by these route, and these sample pairs were treated as identical for the purposes of advective distance.
 
 \subsection{Ordination of distance matrices and comparison to water masses}
 
@@ -278,7 +278,7 @@ After clustering against the SILVA database, 2,295--30,760 (mean 9,618) reads pe
 The Chao 1 statistic was calculated, and estimated \ac{OTU} were under-sequenced by 0--50\% across all samples (mean 26\%) \tabref{tab:advectionfullsampledata}.
 In all water masses, decreasing numbers of reads yielded \ac{OTU} assignments as size fraction increased \figref{fig:taxonomicbarplot}.
 This probably reflects an increasing number of eukaryotic cells (which were excluded from \ac{OTU} assignment) on the higher fractions.
-A full list of \ac{OTU} assignments and relative abundances is given in the supplementary material \suppfile{advection-all-OTUs.txt}.
+A full list of \ac{OTU} assigments and relative abundances is given in the supplementary material \suppfile{advection-all-OTUs.txt}.
 
 \input{../advection/advectionfullsampledata.tex}
 \input{../advection/taxonomicbarplot.tex}
