@@ -1,9 +1,12 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper,twoside]{book}
 
-\includeonly{../compile/publications}
+%\includeonly{../compile/publications}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
+
+%prevent headers appearing on blank clearpages
+\usepackage{emptypage}
 
 %better to have it here for \bibentrys
 \bibliographystyle{mybibstyle}
@@ -162,38 +165,34 @@
 \newcommand{\secref}[1]{(\cref{#1})}
 \newcommand{\secreft}[1]{\cref{#1}}
 
-\begin{document}
-
 \date{}
 \title{
-  \bigskip
-  \Huge{Microbial Ecology and Biogeography}\\ \medskip \vspace{1 mm} \smallskip \smallskip \Large{\textsc{--- of the ---}}\\ \medskip \Huge{Southern Ocean}\\
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
+  \vspace{12 pt}
+  \Huge{Microbial Ecology and Biogeography}\\ 
+  \vspace{4pt}
+  \Large{\textsc{--- of the ---}}\\
+  \vspace{4pt}
+  \Huge{Southern Ocean}\\
+  \vspace{96pt}
   \huge{\textit{David Wilkins}}
   \vfill
   \small{
-    \smallskip
+    \vspace{3 pt}
     \textit{Submitted in fulfillment of the requirements for the Degree of Doctor of Philosophy.}\\
-    \medskip
+    \vspace{6 pt}
     \textsc{School of Biotechnology and Biomolecular Sciences\\
     University of New South Wales, Sydney}\\
-    \medskip
+    \vspace{6 pt}
     \large{\textbf{April 2013}}\\
-    \smallskip
+    \vspace{9 pt}
   }
-  \medskip
 }
 
-\maketitle
-
 \pagenumbering{roman}
+
+\begin{document}
+
+\maketitle
 
 \singlespacing
 \include{../compile/originalitystatement}
@@ -203,8 +202,10 @@
 \include{../compile/abstract}
 
 \onehalfspacing
-\chapter*{Acknowledgements}
-\addcontentsline{toc}{chapter}{Acknowledgements}
+\include{../compile/acknowledgements}
+
+\singlespacing
+\include{../compile/publications}
 
 \singlespacing
 \tableofcontents
@@ -218,11 +219,8 @@
 \printglossary[type=\acronymtype]
 \addcontentsline{toc}{chapter}{List of Acronyms}
 
-\singlespacing
-\include{../compile/publications}
-
+\cleardoublepage
 \onehalfspacing
-\clearpage
 \pagenumbering{arabic}
 
 %reset acronyms
