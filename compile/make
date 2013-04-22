@@ -17,5 +17,4 @@ pdflatex compile;
 makeglossaries compile;
 bibtex compile;
 pdflatex compile;
-pdflatex compile;
 open compile.pdf;
