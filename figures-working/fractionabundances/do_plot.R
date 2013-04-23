@@ -46,7 +46,7 @@ p <- p + theme(legend.position="none")
 ggsave("fractionabundances2.png", p, width=3, height=3, dpi=1200)
 
 #values
-df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c((2+15+80)/3, (300-2-15-80)/3), sample=factor(c("Summed", "Summed")), levels=c("Summed"))
+df <- data.frame(OTU = factor(c("OTU 1", "OTU 2")), abundance = c((2+4+80)/3, (98+96+20)/3), sample=factor(c("Summed", "Summed")), levels=c("Summed"))
 
 #plot
 p <- ggplot(data=df, aes(y=abundance, fill=OTU, x=sample))
