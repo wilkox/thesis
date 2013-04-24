@@ -1,6 +1,6 @@
 \documentclass[a4paper,twoside]{book}
 
-\includeonly{../compile/acknowledgements}
+\includeonly{../polarfront/polarfront}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -21,7 +21,7 @@
 \ExplSyntaxOff
 \sisetup{detect-all,table-number-alignment=left,group-four-digits=false}
 \usepackage{tabu}
-\newcolumntype Z{X[l]{S[per-mode=symbol]}}
+\newcolumntype Z{X[l]{S[per-mode=symbol,table-number-alignment=left]}}
 \tabucolumn Z
 \newcolumntype I{X[l]{S[table-format=4.0,table-number-alignment=left]}} %for integers
 \tabucolumn I
