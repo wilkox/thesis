@@ -1,6 +1,6 @@
 \documentclass[a4paper,twoside]{book}
 
-\includeonly{../minspec/minspec}
+%\includeonly{../minspec/minspec}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
@@ -133,6 +133,9 @@
 %support customised captions and subfigures
 \usepackage[textfont=sf,labelfont={sf,bf}]{subfig}
 \captionsetup{font=sf,labelfont=bf}
+
+%for captions beside figure
+\usepackage{sidecap}
 
 %for nucleotide sequences
 \newcommand{\nsequence}[1]{\mbox{#1}}
