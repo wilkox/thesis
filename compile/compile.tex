@@ -1,9 +1,12 @@
 \documentclass[a4paper,twoside]{book}
 
-%\includeonly{../compile/originalitystatement,../compile/copyrightstatement}
+%\includeonly{}
 % NOTE
 % THIS ALLOWS THE DOCUMENT TO BE COMPILED WITH
 % ONLY THE SPECIFIED CHAPTERS - VERY USEFUL
+
+%allow pdf insertion
+\usepackage{pdfpages}
 
 %prevent headers appearing on blank clearpages
 \usepackage{emptypage}
@@ -190,6 +193,8 @@
 \pagenumbering{roman}
 
 \begin{document}
+
+\includepdf[pages={1}]{../compile/thesisdissertation.pdf}
 
 \maketitle
 
